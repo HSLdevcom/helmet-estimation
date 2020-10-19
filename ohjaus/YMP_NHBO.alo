@@ -1,5 +1,5 @@
-$TITLE Ymparyskunnat ALO4 testi kiertomatkat koti-muu
-$SUBTITLE Pyorailydata ja kavelydata puuttuvat, OCardens virheellinen
+$TITLE Ymparyskunnat ALO4 kiertomatkat EKP
+$SUBTITLE 190924
 $PRINT iter = 2, mat.stat = 0
 $ESTIMATE 
 
@@ -457,7 +457,7 @@ $ARRAY downtownD(IZ), homeMunD(IZ), sameZoneD(IZ), areaIfSame(IZ),
 + TwTime(IZ), TcostOther(IZ), TcostOther(IZ), Ctime(IZ),
 + Ccost(IZ)
 
-FILE (name= C:\HELMET40\YMPARYS\FINAL1\YMP_11062019.txt,handle=YMP1106)
+FILE (name= C:\HELMET40\HS15_YMP\190924\YMP.txt,handle=YMP190924)
 d1 - d29
 downtownD homeMunD sameZoneD areaIfSame jobDens
 popDens singleHP carDens pop jobs
@@ -473,7 +473,7 @@ choice= d29+((ifeq(d28,1,2,3,4)+ifeq(d28,5)*4)-1)*Ndest
 
 paino=d3/d6*276/18435.08
 
-WEIGHT =d3/d6*276/18435.08
+WEIGHT =d3/d6*276/18435.08 
 
 $GEN.STATS 
 choice
