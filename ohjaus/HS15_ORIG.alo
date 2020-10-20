@@ -1,5 +1,5 @@
-$TITLE HS15 ALO4 ei kotiperaisten lahtopaikka
-$SUBTITLE ORIG
+$TITLE HS15 ALO4 EKP lahtopaikka
+$SUBTITLE 190924
 - tulostaa muunnokset
 - $PRINT transforms
 - tilastotietojen tulostus
@@ -268,8 +268,8 @@ $ARRAY downtownD(IZ),
 
  
 
-FILE(name= C:\HELMET40\HS15\FINAL1\HS15_CONST_11062019.txt,handle=CON1106)
-d1 - d30
+FILE(name= C:\HELMET40\HS15_YMP\190924\HCO.txt,handle=HCO190924)
+d1 - d32
 downtownD homeMunD sameZoneD areaIfSame jobDens popDens 
 singleHP carDens pop jobs service shops high universit 
 primary CparkWork CparkOther BsepLen BadjLen BmixLen
@@ -278,25 +278,31 @@ WTime
 
 
 Ndest= 1977
-- kertoimet lineaarisen mallin tiedostosta C:\HELMET40\HS15\FINAL1\HS15_logsum_for_orig.L12
-  B_const   =    0.889662516134     
-  B_Ln_Len  =   -1.29388166747     
-  W_const   =    3.26070051914     
-  W_rad_sq  =   -2.02031224887     
-   W_Len    =   -2.69233465003     
-  C_wpark   =   -0.377104898450     
-   C_time   =   -0.0244871693611 
-  T_const   =    0.323033049282       
- T_downtown =    0.508800730068           
-   T_time   =   -0.0155567001871
-  CT_cost   =   -0.0891103147887
+- kertoimet lineaarisen mallin tiedostosta HS15_logsum_for_orig.L12
+ 
+  
+
+  B_const   =    0.911203717268    
+  B_Ln_Len  =   -1.29277972084    
+  W_const   =    3.30972069551    
+  W_rad_sq  =   -2.15484968803    
+   W_Len    =   -2.70272317965    
+  C_wpark   =   -0.350581380275    
+   C_time   =   -0.0219016277258
+  T_const   =    0.437744246527    
+ T_downtown =    0.502605141659    
+   T_time   =   -0.0157048909174
+  CT_cost   =   -0.103787529911    
+
+
+	
   
 choice= d29+((ifeq(d28,1,2,3,4)+ifeq(d28,5)*4)-1)*Ndest
 - perustuu siihen että d28 asetettu constructed-aineistossa
 - aina arvoksi car driver
--  WEIGHT=1
 
-WEIGHT=D3/D6* 1494/ 204503.86
+
+WEIGHT=D3/D6* 1494/ 204503.86 * 1394/1327.76
 
  DO I = 1,1977
 	jobsoth(I)=0

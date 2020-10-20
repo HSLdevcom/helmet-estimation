@@ -1,5 +1,5 @@
-$TITLE HS15 ALO4 autoa per 1000 puuttuu, tarkista paino
-$SUBTITLE Kotiperainen koulu
+$TITLE HS15 ALO4 kiertomatkat koti - koulu
+$SUBTITLE 190924
 - tulostaa muunnokset
 - $PRINT transforms
 - tilastotietojen tulostus
@@ -893,8 +893,8 @@ $ARRAY downtownD(IZ),
 + WLen(IZ), 
 + WTime(IZ) 
 
-FILE (name= C:\HELMET40\HS15\final1\HS15_WSS_11062019.txt,handle=WSS1106)
-d1 - d30
+FILE (name= C:\HELMET40\HS15_YMP\190924\WSS.txt,handle=WSS190924)
+d1 - d32
 downtownD homeMunD sameZoneD areaIfSame jobDens popDens 
 singleHP carDens pop jobs service shops high universit 
 primary CparkWork CparkOther BsepLen BadjLen BmixLen

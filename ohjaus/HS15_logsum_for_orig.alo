@@ -1,5 +1,5 @@
-$TITLE HS15 ALO4 simppeli tyomatkojen logsum
-$SUBTITLE Kotiperaiset tyomatkat pohjana
+$TITLE HS15 ALO4 lahtopaikan mallin logsum
+$SUBTITLE 190924
 - tulostaa muunnokset
 - $PRINT transforms
 - tilastotietojen tulostus
@@ -885,8 +885,8 @@ $ARRAY downtownD(IZ),
 + WLen(IZ), 
 + WTime(IZ) 
 
-FILE (name= C:\HELMET40\HS15\FINAL1\HS15_WSS_11062019.txt,handle=WSS1106)
-d1 - d30
+FILE (name= C:\HELMET40\HS15_YMP\190924\WSS.txt,handle=WSS190924)
+d1 - d32
 downtownD homeMunD sameZoneD areaIfSame jobDens popDens 
 singleHP carDens pop jobs service shops high universit 
 primary CparkWork CparkOther BsepLen BadjLen BmixLen
@@ -900,7 +900,7 @@ choice= d29+((ifeq(d28,1,2,3,4)+ifeq(d28,5)*4)-1)*Ndest
 
 -  WEIGHT=1
 
-WEIGHT=D3/D6*4314/595789.77
+WEIGHT=D3/D6*4314/595789.77 *4216/4150.01
 
 
 $GEN.STATS 
