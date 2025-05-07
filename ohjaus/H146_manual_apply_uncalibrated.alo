@@ -1,0 +1,710 @@
+$TITLE HS15 ALO4 kotiperaisten kiertomatkojen tuotos
+$SUBTITLE 240627
+- tulostaa muunnokset
+- $PRINT transforms
+- tilastotietojen tulostus
+
+- $GEN.STATS utilities all
+$PRINT iter = 2, mat.stat = 0
+$estimate  model=H146_manual done
+-$ESTIMATE LIN.FIRST=FALSE
+
+- d6
+- none
+- 1	0
+- one
+- 2	T - työ
+- 3	K - koulu
+- 4	O - opiskelu?
+- 5	A - asiointi
+- 6	M - muu
+- two
+- 7	T - T
+- 8	T - O
+- 9	T - A
+- 10	T - M
+- 11	K - K
+- 12	K - A
+- 13	K - M
+- 14	O - A
+- 15	O - M
+- 16	A - A
+- 17	A - M
+- 18	M - M
+- three
+- 19	T - T - M
+- 20	T - A - A
+- 21	T - A - M
+- 22	T - M - M
+- 23	K - A - M
+- 24	K - M - M
+- 25	O - A - M
+- 26	O - M - M
+- 27	A - A - A
+- 28	A - A - M
+- 29	A - M - M
+- 30	M - M - M
+- 4_plus
+- 31	T - A - A - M+
+- 32	T - A - M - M+
+- 33	T - M - M - M+
+- 34	A - A - A - A+
+- 35	A - A - A - M+
+- 36	A - A - M - M+
+- 37	A - M - M - M+
+- 38	M - M - M - M+
+- 39 muu
+
+
+
+$ALGOR MAXIT = 60
+
+$nest root () none one two three 4_plus
+$nest none (ncoeff) 1
+$nest one (ncoeff) 2 3 4 5 6
+$nest two (ncoeff)  7 8 9 10 11 12
++ 13 14 15 16 17 18
+$nest three (ncoeff) 
++ 19 20 21 22 23 24
++ 25 26 27 28 29 30
+$nest 4_plus (ncoeff)
++ 31 32 33 34 35 36
++ 37 38     
+
+$row(1) 1
+$row(2) 2
+$row(3) 3
+$row(4) 4
+$row(5) 5
+$row(6) 6
+$row(7) 7
+$row(8) 8
+$row(9) 9
+$row(10) 10
+$row(11) 11
+$row(12) 12
+$row(13) 13
+$row(14) 14
+$row(15) 15
+$row(16) 16
+$row(17) 17
+$row(18) 18
+$row(19) 19
+$row(20) 20
+$row(21) 21
+$row(22) 22
+$row(23) 23
+$row(24) 24
+$row(25) 25
+$row(26) 26
+$row(27) 27
+$row(28) 28
+$row(29) 29
+$row(30) 30
+$row(31) 31
+$row(32) 32
+$row(33) 33
+$row(34) 34
+$row(35) 35
+$row(36) 36
+$row(37) 37
+$row(38) 38
+$row(39) 39
+$dimension age
+
+$coeff K_7_17
++ M_7_17
++ C2TXXX
++ C3KXXX
++ C4OXXX
++ C5AXXX
++ C6MXXX
++ C7TTXX
++ C8TOXX
++ C9TAXX
++ C10TMXX
++ C11KKXX
++ C12KAXX
++ C13KMXX
++ C14OAXX
++ C15OMXX
++ C16AAXX
++ C17AMXX
++ C18MMXX
++ C19TTMX
++ C20TAAX
++ C21TAMX
++ C22TMMX
++ C23KAMX
++ C24KMMX
++ C25OAMX
++ C26OMMX
++ C27AAAX
++ C28AAMX
++ C29AMMX
++ C30MMMX
++ C31TAAM
++ C32TAMM
++ C33TMMM
++ C34AAAA
++ C35AAAM
++ C36AAMM
++ C37AMMM
++ C38MMMM
++ H2HAP
++ H3HAP
++ H4HAP
++ I01_5064
++ I01_65
++ T1hw_t
++ H1erpi
++ T_18_29
++ T_30_49
++ T_50_64
++ T_65v
++ M1ho_w
++ O1hu_t
++ O_18_29
++ O_30_49
++ O_50_64
++ O_65v
++ A_18_29
++ A_30_49
++ A_50_64
++ A_65v
++ M_18_29
++ M_30_49
++ M_50_64
++ M_65v
++ T2hw_t
++ H2erpi
++ M2ho_w
++ T3hw_t
++ M3ho_w
++ M4ho_w
++ H4asti
++ H4erpi
++ H1kanta
++ O2hu_t
++ O3hu_t
++ T4hw_w
++ M0ho_w
+
+-vanhassa havainnot kansiossa olevassa puuttuu sarakkeita
+FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\havainnot23\\ACCM.txt)
+pid survey xfactor hb_tours hb_tourscl
+ttype cars_owned licence car_user employed
+is_child is_female age_7_17 age_18_29
+age_30_49 age_50_64 age_65 ageMissing
+rzone
+
+FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\zonedata_base_folded.csv,key=rzone)
+rzone zone pop age7to17 age18to29 age30to49 age50to64 age64to99 age7to99 age18to99
+female male popDens workplaces service shops logistics industry parkCostW parkCostE
+schoolL1 schoolL2 schoolL3 area detachS detachSqrt helsinki cbd lauttaS helsOther
+espooVantK surround shopsCbd shopsElse carDens carsPer1K 
+
+FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\accessibility_example_reduced.csv,key=rzone)
+rzone saav_hu_t saav_ho_w
+
+choice= ttype
+
+WEIGHT=xfactor/ 1341009.95*10728*10725/10725.46
+age=age_18_29+2*age_30_49+3*age_50_64+4*age_65
+$GEN.STATS
+choice
+WEIGHT
+xfactor
+ttype
+saav_hu_t
+
+- d3 laajennuskerroin
+- d4 kiertomatkan päätyyppi
+- d16 7-17 v.
+- d23 aluenumero mp
+- d26 valittu kulkutapa
+- d27 valittu alue
+- d28 autotih lp
+- d29 autotih mp
+
+
+
+avail(2)=ifne(age_7_17,1)
+avail(3)=ifeq(age_7_17,1)
+avail(4)=ifne(age_7_17,1)
+- 5	A
+- 6	M
+- two
+avail(7)=ifne(age_7_17,1)
+avail(8)=ifne(age_7_17,1)
+avail(9)=ifne(age_7_17,1)
+avail(10)=ifne(age_7_17,1)
+avail(11)=ifeq(age_7_17,1)
+avail(12)=ifeq(age_7_17,1)
+avail(13)=ifeq(age_7_17,1)
+avail(14)=ifne(age_7_17,1)
+avail(15)=ifne(age_7_17,1)
+- 16	A - A
+- 17	A - M
+- 18	M - M
+- three
+avail(19)=ifne(age_7_17,1)
+avail(20)=ifne(age_7_17,1)
+avail(21)=ifne(age_7_17,1)
+avail(22)=ifne(age_7_17,1)
+avail(23)=ifeq(age_7_17,1)
+avail(24)=ifeq(age_7_17,1)
+avail(25)=ifne(age_7_17,1)
+avail(26)=ifne(age_7_17,1)
+avail(27)=ifne(age_7_17,1)
+- edellinen 	A - A - A
+avail(28)=ifne(age_7_17,1)
+- edellinen 	A - A - M
+avail(29)=ifne(age_7_17,1)
+- edellinen 	A - M - M
+avail(30)=ifne(age_7_17,1)
+- edellinen 	M - M - M
+- 4_plus
+avail(31)=ifne(age_7_17,1)
+avail(32)=ifne(age_7_17,1)
+avail(33)=ifne(age_7_17,1)
+avail(34)=ifne(age_7_17,1)
+- edellinen 	A - A - A - A+
+avail(35)=ifne(age_7_17,1)
+- edellinen 	A - A - A - M+
+avail(36)=ifne(age_7_17,1)
+- edellinen 	A - A - M - M+
+avail(37)=ifne(age_7_17,1)
+- edellinen 	A - M - M - M+
+avail(38)=ifne(age_7_17,1)
+- edellinen 	M - M - M - M+
+
+
+- muu kiertomatka
+exclude(1)= ifeq(ttype,39)
+
+- ikätieto puuttuu
+exclude(2)= ifeq(ageMissing,9)
+
+- talouden autot
+exclude(3)= ifeq(cars_owned,9)
+
+- ajokortti
+exclude(4)= ifeq(licence,9)
+
+- HAP/EHAP
+exclude(5)= ifeq(car_user,9)
+
+- työssäkäynti
+exclude(6)= ifeq(employed,9)
+
+- alle 7
+exclude(7)= ifeq(is_child,9)
+
+- sukupuoli
+exclude(8)= ifeq(is_female,9)
+
+
+
+- d6
+
+- none
+- 1	0
+
+- one
+- 2	T
+- 3	K
+- 4	O
+- 5	A
+- 6	M
+
+- two
+- 7	T - T
+- 8	T - O
+- 9	T - A
+- 10	T - M
+- 11	K - K
+- 12	K - A
+- 13	K - M
+- 14	O - A
+- 15	O - M
+- 16	A - A
+- 17	A - M
+- 18	M - M
+
+- three
+- 19	T - T - M
+- 20	T - A - A
+- 21	T - A - M
+- 22	T - M - M
+- 23	K - A - M
+- 24	K - M - M
+- 25	O - A - M
+- 26	O - M - M
+- 27	A - A - A
+- 28	A - A - M
+- 29	A - M - M
+- 30	M - M - M
+
+- 4_plus
+- 31	T - A - A - M+
+- 32	T - A - M - M+
+- 33	T - M - M - M+
+- 34	A - A - A - A+
+- 35	A - A - A - M+
+- 36	A - A - M - M+
+- 37	A - M - M - M+
+- 38	M - M - M - M+
+- 39 muu
+    
+
+-100
+    
+
+Util(01)=0
+
++I01_5064*age_50_64
++I01_65*age_65
+
+
+Util(02)=0
+- +M1ho_w*saav_ho_w
++H1erpi*detachS
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+
+Util(03)=C3KXXX
+- +M1ho_w*saav_ho_w
++H1erpi*detachS
+
+Util(04)=0
++O1hu_t*saav_hu_t
+
++H1erpi*detachS
+
+
++O_30_49*age_30_49
++O_50_64*age_50_64
++O_65v*age_65
+Util(05)=0
+-C5AXXX
+- +M1ho_w*saav_ho_w
++H1erpi*detachS
+
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(06)=C6MXXX
+- +M1ho_w*saav_ho_w
++H1erpi*detachS
+
+
++M_65v*age_65
+Util(07)=C7TTXX
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+Util(08)=C8TOXX
++O2hu_t*saav_hu_t
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+
++O_30_49*age_30_49
++O_50_64*age_50_64
++O_65v*age_65
+Util(09)=C9TAXX
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(10)=C10TMXX
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+
++M_65v*age_65
+Util(11)=C11KKXX
++M2ho_w*saav_ho_w
+
+Util(12)=C12KAXX
++M2ho_w*saav_ho_w
+
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(13)=C13KMXX
++M2ho_w*saav_ho_w
+
+
++M_65v*age_65
+Util(14)=C14OAXX
++O2hu_t*saav_hu_t
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++O_30_49*age_30_49
++O_50_64*age_50_64
++O_65v*age_65
+Util(15)=C15OMXX
++O2hu_t*saav_hu_t
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
+
++M_65v*age_65
+
++O_30_49*age_30_49
++O_50_64*age_50_64
++O_65v*age_65
+Util(16)=C16AAXX
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(17)=C17AMXX
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(18)=C18MMXX
++M2ho_w*saav_ho_w
++H2HAP*car_user
+
+
++M_65v*age_65
+Util(19)=C19TTMX
+
++H3HAP*car_user
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+
++M_65v*age_65
+Util(20)=C20TAAX
+
++H3HAP*car_user
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(21)=C21TAMX
+
++H3HAP*car_user
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(22)=C22TMMX
+
++H3HAP*car_user
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+
++M_65v*age_65
+Util(23)=C23KAMX
++M3ho_w*saav_ho_w
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(24)=0
+- C24KMMX
++M3ho_w*saav_ho_w
+
++M_65v*age_65
+Util(25)=C25OAMX
++O3hu_t*saav_hu_t
++M3ho_w*saav_ho_w
++H3HAP*car_user
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+
++O_30_49*age_30_49
++O_50_64*age_50_64
++O_65v*age_65
+Util(26)=C26OMMX
++O3hu_t*saav_hu_t
++M3ho_w*saav_ho_w
++H3HAP*car_user
+
++M_65v*age_65
+
++O_30_49*age_30_49
++O_50_64*age_50_64
++O_65v*age_65
+Util(27)=C27AAAX
++M3ho_w*saav_ho_w
++H3HAP*car_user
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(28)=C28AAMX
++M3ho_w*saav_ho_w
++H3HAP*car_user
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(29)=C29AMMX
++M3ho_w*saav_ho_w
++H3HAP*car_user
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(30)=C30MMMX
++M3ho_w*saav_ho_w
++H3HAP*car_user
+
++M_65v*age_65
+Util(31)=C31TAAM
+
++H4HAP*car_user
+
++H4erpi*detachS
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(32)=C32TAMM
+
++H4HAP*car_user
+
++H4erpi*detachS
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(33)=C33TMMM
+
++H4HAP*car_user
+
++H4erpi*detachS
++T_18_29*age_18_29
++T_30_49*age_30_49
++T_50_64*age_50_64
++T_65v*age_65
+
++M_65v*age_65
+Util(34)=C34AAAA
+
++H4HAP*car_user
+
++H4erpi*detachS
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+Util(35)=C35AAAM
+
++H4HAP*car_user
+
++H4erpi*detachS
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(36)=C36AAMM
+
++H4HAP*car_user
+
++H4erpi*detachS
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(37)=C37AMMM
+
++H4HAP*car_user
+
++H4erpi*detachS
++A_18_29*age_18_29
++A_30_49*age_30_49
++A_50_64*age_50_64
++A_65v*age_65
+
++M_65v*age_65
+Util(38)=C38MMMM
+
++H4HAP*car_user
+
++H4erpi*detachS
+
++M_65v*age_65

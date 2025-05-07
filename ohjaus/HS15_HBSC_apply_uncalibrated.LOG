@@ -1,0 +1,2642 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+
+File not found: Alo45.EXE                                                       
+
+Run started at  9:37:11 on 21 Jan 25
+ 
+Allocating and deallocating memory
+ 
+INPUT allocating       36041.020 K bytes
+ 
+INFORMATION 352: reading coefficients from HS15_HBSC.F12
+C:..4\helmet_estimation\ohjaus\HS15_HBSC.F12   1929 b. Date: 17 Jan 25 at  9:07
+ 
+WARNING 335: Dcoeff     is already unconstrained
+ 
+WARNING 335: S_High     is already unconstrained
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..ineisto\\uudet2023\\havainnot23\\WSS.txt 254207 b. Date: 23 Sep 24 at 15:03
+ 
+INFORMATION 253:   FILE  2 : keyed file
+C:..sto\\uudet2023\\zonedata_base_folded.csv 344221 b. Date: 21 Aug 24 at  8:30
+ 
+INFORMATION 253:   FILE  3 : keyed file
+C:..to\\uudet2023\\zonedata_municipality.csv  16401 b. Date: 15 Jan 25 at 13:56
+ 
+INFORMATION 253:   FILE  4 : common data
+C:..flatfiles\\folded_zones_municipality.csv   4947 b. Date: 15 Jan 25 at 13:59
+ 
+INFORMATION 253:   FILE  5 : keyed file
+C:..t2023\\vastukset\\new_hc_bike_dist.csv   35.256 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE  6 : keyed file
+C:..t2023\\vastukset\\new_hc_bike_time.csv   35.992 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE  7 : keyed file
+C:..et2023\\vastukset\\new_hc_car_dist.csv   35.925 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE  8 : keyed file
+C:..et2023\\vastukset\\new_hc_car_time.csv   35.771 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE  9 : keyed file
+C:..et2023\\vastukset\\new_hc_car_cost.csv   36.103 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE 10 : keyed file
+C:..23\\vastukset\\new_hc_transit_dist.csv   36.060 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE 11 : keyed file
+C:..23\\vastukset\\new_hc_transit_time.csv   36.055 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE 12 : keyed file
+C:..23\\vastukset\\new_hc_transit_cost.csv   36.469 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE 13 : keyed file
+C:..t2023\\vastukset\\new_hc_walk_dist.csv   35.018 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE 14 : keyed file
+C:..t2023\\vastukset\\new_hc_walk_time.csv   26.540 Mb Date:  8 Jan 25 at 18:19
+ 
+INFORMATION 253:   FILE 15 : common data
+C:..\flatfiles\\folded_zones_car_density.csv  12200 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 16 : common data
+C:..det2023\\flatfiles\\folded_zones_cbd.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 17 : common data
+C:..et2023\\flatfiles\\folded_zones_high.csv   4406 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 18 : common data
+C:..\flatfiles\\folded_zones_job_density.csv  32301 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 19 : common data
+C:..et2023\\flatfiles\\folded_zones_jobs.csv   7096 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 20 : common data
+C:..tfiles\\folded_zones_cost_park_other.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 21 : common data
+C:..atfiles\\folded_zones_cost_park_work.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 22 : common data
+C:..det2023\\flatfiles\\folded_zones_pop.csv   8424 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 23 : common data
+C:..\flatfiles\\folded_zones_pop_density.csv  19566 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 24 : common data
+C:..023\\flatfiles\\folded_zones_primary.csv   5108 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 25 : common data
+C:..023\\flatfiles\\folded_zones_service.csv  14549 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 26 : common data
+C:..t2023\\flatfiles\\folded_zones_shops.csv  11470 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 27 : common data
+C:..23\\flatfiles\\folded_zones_singleHP.csv   7963 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 28 : common data
+C:..\\flatfiles\\folded_zones_university.csv   4269 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 29 : common data
+C:..et2023\\flatfiles\\folded_zones_area.csv  13941 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 30 : output
+ 
+INFORMATION 125: control file completed:   94201 lines
+C:..hjaus\HS15_HBSC_apply_uncalibrated.alo    2.353 Mb Date: 21 Jan 25 at  9:23
+ 
+Function defined in control file: APPLY
+ 
+TEMP - ALTSRT allocating          60.000 K bytes
+ 
+Free   TEMP - ALTSRT          60.000 K bytes
+ 
+TEMP - COESRT allocating          39.996 K bytes
+ 
+WARNING 178: coefficient L_S_M      not used in model
+ 
+WARNING 178: coefficient CT_costPO  not used in model
+ 
+WARNING 178: coefficient T_Opopdns  not used in model
+ 
+WARNING 178: coefficient T_Dpopdns  not used in model
+ 
+WARNING 178: coefficient T_radius   not used in model
+ 
+WARNING 178: coefficient T_downtown not used in model
+ 
+WARNING 178: coefficient T_rad_sq   not used in model
+ 
+WARNING 178: coefficient C_wpark    not used in model
+ 
+WARNING 178: coefficient C_Dpopdns  not used in model
+ 
+WARNING 178: coefficient C_radius   not used in model
+ 
+WARNING 178: coefficient C_rad_sq   not used in model
+ 
+WARNING 178: coefficient C_sameZone not used in model
+ 
+WARNING 178: coefficient W_rad_sq   not used in model
+ 
+WARNING 178: coefficient W_singleHP not used in model
+ 
+WARNING 178: coefficient W_lgOpopd  not used in model
+ 
+WARNING 178: coefficient B_Ln_Len   not used in model
+ 
+WARNING 178: coefficient B_Badjmix  not used in model
+ 
+WARNING 178: coefficient B_Opopdns  not used in model
+ 
+WARNING 178: coefficient B_BadjLen  not used in model
+ 
+WARNING 178: coefficient B_BmixLen  not used in model
+ 
+WARNING 178: coefficient B_BsepLen  not used in model
+ 
+WARNING 178: coefficient B_radius   not used in model
+ 
+WARNING 178: coefficient S_OMJ      not used in model
+ 
+WARNING 178: coefficient S_SamePri  not used in model
+ 
+WARNING 178: coefficient S_area     not used in model
+ 
+Free   TEMP - COESRT          39.996 K bytes
+ 
+ARRAYs increase data requirement    287920    352993
+Distinct data item names     17098
+ 
+INFORMATION 113: Log size multiplier is L_S_M
+ 
+INFORMATION 115: maximum number of table rows  24
+ 
+$PRINT controls
+ Matrix statistics print      =   2
+ Iteration print              =   2
+ Number of rej. obs. output   =  25
+ Transformations print        =   F
+ Probability test level       =   .000000
+ Reject observation is ERROR  =   F
+ Accepted range for choice    =   .100000
+ Out-of-range prints made     =     3
+ Print only chosen alts.      =   F
+ 
+$GEN.STATS controls
+  2105 total items selected
+ 
+$ESTIMATE controls
+ Control present = T
+ Estimation done = T
+ Linear first    = T
+ Estimate later  = F
+ Accept error    = F
+ Error print     = 1
+ 
+ 
+$ALGOR controls
+ Maximum iterations          =  60
+ Convergence level           =   .1000E-01
+ 1st derivative perp. test   =   .1000E-05
+ Function rate of increase   =  -999.9
+ Matrix inversion tolerance  =   .1000E-05
+ Step reduction factor       =   .1500
+ Cubic step adjustment will be used
+ Convergence option          =   3
+ Maximum step-reducing loops =   4
+ 
+$DIMENSION specification
+ origin
+ 
+$KEEP (and protected FILE) items
+ IZ        =   .210E+04; jMun      ; JCarDens  ; JCbd
+ JHigh     ; JJobDens  ; JJobs     ; JPCosOther; JPCosWork
+ JPop      ; JPopDens  ; JPrimary  ; JService  ; JShops
+ JSingleHP ; JUni      ; JArea     ; zone      ; pop
+ age7to17  ; age18to29 ; age30to49 ; age50to64 ; age64to99
+ age7to99  ; age18to99 ; female    ; male      ; popDens
+ workplaces; service   ; shops     ; logistics ; industry
+ parkCostW ; parkCostE ; schoolL1  ; schoolL2  ; schoolL3
+ area      ; detachS   ; detachSqrt; helsinki  ; cbd
+ lauttaS   ; helsOther ; espooVantK; surround  ; shopsCbd
+ shopsElse ; carDens   ; carsPer1K ; iMun
+ 
+$ARRAY items
+ impedance( 2098)   bikeDist( 2098)   bikeTime( 2098)   walkDist( 2098)
+ walkTime( 2098)   ptCost( 2098)   ptDist( 2098)   ptTime( 2098)
+ carCost( 2098)   carDist( 2098)   carTime( 2098)   jMun( 2098)
+ JCarDens( 2098)   JCbd( 2098)   JHigh( 2098)   JJobDens( 2098)
+ JJobs( 2098)   JPCosOther( 2098)   JPCosWork( 2098)   JPop( 2098)
+ JPopDens( 2098)   JPrimary( 2098)   JService( 2098)   JShops( 2098)
+ JSingleHP( 2098)   JUni( 2098)   JArea( 2098)
+ 
+ 
+REPORT OF COEFFICIENTS
+ 
+Label      Con   Value      Type
+-------    ---   -----      -----
+CT_lnCosPO  T   -2.091      Utility
+T_time      T   -.2253E-01  Utility
+T_const     T    6.069      Utility
+C_time      T   -.3546E-01  Utility
+C_Ocardns   T    .6114E-02  Utility
+W_time      T   -.1218      Utility
+W_const     T    7.708      Utility
+B_time      T   -.9897E-01  Utility
+B_const     T    4.413      Utility
+W_logtime   T    .3232      Utility
+B_logtime   T    .5668      Utility
+L_S_M       T    1.000      Log Size
+S_primary   T   -2.015      Size
+S_High      F   -.5000      Size
+Dcoeff      F    1.000      Tree
+ 
+Free     alpha array        4000.000 K bytes
+ 
+Report of main memory usage
+Storage ndata:     352.993 mdata:    1000.000
+Storage    np:        .015    mp:      10.000
+Storage    na:       8.396  malt:      15.000
+Storage   nut:      50.352   mut:     200.000
+Storage ntran:     565.194 mtran:    2000.000
+ 
+TREE allocating          67.176 K bytes
+ 
+INFORMATION 001: control file processing time    34.54 secs.
+ 
+DATA allocating         938.236 K bytes
+ 
+INFORMATION 534: reached end of file   4 after        1 records
+ 
+INFORMATION 534: reached end of file  15 after        1 records
+ 
+INFORMATION 534: reached end of file  16 after        1 records
+ 
+INFORMATION 534: reached end of file  17 after        1 records
+ 
+INFORMATION 534: reached end of file  18 after        1 records
+ 
+INFORMATION 534: reached end of file  19 after        1 records
+ 
+INFORMATION 534: reached end of file  20 after        1 records
+ 
+INFORMATION 534: reached end of file  21 after        1 records
+ 
+INFORMATION 534: reached end of file  22 after        1 records
+ 
+INFORMATION 534: reached end of file  23 after        1 records
+ 
+INFORMATION 534: reached end of file  24 after        1 records
+ 
+INFORMATION 534: reached end of file  25 after        1 records
+ 
+INFORMATION 534: reached end of file  26 after        1 records
+ 
+INFORMATION 534: reached end of file  27 after        1 records
+ 
+INFORMATION 534: reached end of file  28 after        1 records
+ 
+INFORMATION 534: reached end of file  29 after        1 records
+ 
+OBSERVATION REJECTED 542: obs.         61 size zero for chosen Alt.000017
+ 
+OBSERVATION REJECTED 542: obs.         79 size zero for chosen Alt.000040
+ 
+OBSERVATION REJECTED 542: obs.         81 size zero for chosen Alt.000040
+ 
+OBSERVATION REJECTED 542: obs.         85 size zero for chosen Alt.000040
+ 
+OBSERVATION REJECTED 542: obs.         86 size zero for chosen Alt.004549
+ 
+OBSERVATION REJECTED 542: obs.        138 size zero for chosen Alt.004308
+ 
+OBSERVATION REJECTED 542: obs.        143 size zero for chosen Alt.006363
+ 
+OBSERVATION REJECTED 542: obs.        155 size zero for chosen Alt.000068
+ 
+OBSERVATION REJECTED 542: obs.        191 size zero for chosen Alt.000082
+ 
+OBSERVATION REJECTED 542: obs.        192 size zero for chosen Alt.000082
+ 
+OBSERVATION REJECTED 542: obs.        247 size zero for chosen Alt.000112
+ 
+OBSERVATION REJECTED 542: obs.        289 size zero for chosen Alt.004213
+ 
+OBSERVATION REJECTED 542: obs.        376 size zero for chosen Alt.004337
+ 
+OBSERVATION REJECTED 542: obs.        379 size zero for chosen Alt.004920
+ 
+OBSERVATION REJECTED 542: obs.        388 size zero for chosen Alt.004290
+ 
+OBSERVATION REJECTED 542: obs.        393 size zero for chosen Alt.000196
+ 
+OBSERVATION REJECTED 542: obs.        429 size zero for chosen Alt.004266
+ 
+OBSERVATION REJECTED 542: obs.        457 size zero for chosen Alt.002361
+ 
+OBSERVATION REJECTED 542: obs.        463 size zero for chosen Alt.002350
+ 
+OBSERVATION REJECTED 542: obs.        512 size zero for chosen Alt.004501
+ 
+OBSERVATION REJECTED 542: obs.        539 size zero for chosen Alt.004282
+ 
+OBSERVATION REJECTED 542: obs.        579 size zero for chosen Alt.000346
+ 
+OBSERVATION REJECTED 518:        588: choice Alt.000029 unavailable
+ 
+OBSERVATION REJECTED 542: obs.        596 size zero for chosen Alt.004290
+ 
+OBSERVATION REJECTED 517:        603: choice indicator -1821 not an alternative
+ 
+INFORMATION 534: reached end of file   5 after     1771 records
+ 
+INFORMATION 534: reached end of file   6 after     1771 records
+ 
+INFORMATION 534: reached end of file   7 after     1771 records
+ 
+INFORMATION 534: reached end of file   8 after     1771 records
+ 
+INFORMATION 534: reached end of file   9 after     1771 records
+ 
+INFORMATION 534: reached end of file  10 after     1771 records
+ 
+INFORMATION 534: reached end of file  11 after     1771 records
+ 
+INFORMATION 534: reached end of file  12 after     1771 records
+ 
+INFORMATION 534: reached end of file  13 after     1771 records
+ 
+INFORMATION 534: reached end of file  14 after     1771 records
+ 
+INFORMATION 534: reached end of file   1 after     3954 records
+ 
+Data input completed after    3954 records
+ 
+Rejected    11 observations with unacceptable choices
+ 
+Rejected   135 observations with errors in size variables etc.
+ 
+Rejected on EXCLUDE(   1):  2964 observations
+ 
+PRVEST allocating           8.420 K bytes
+ 
+ 
+SELECTED STATISTICS
+ 
+Total weight of data is     1263.77
+ 
+Data Item  % Non-Zero  Minimum  Maximum  Average  Std. Dev.
+---------  ----------  -------  -------  -------  ---------
+CHOICE         100.00     9.00  8369.00  2997.15    2305.80
+WEIGHT         100.00      .07     8.43     3.41       2.62
+xfactor        100.00    15.00   976.60   403.69     307.44
+ttype          100.00     2.00     2.00
+mode           100.00     1.00     5.00     2.28       1.32
+jzone          100.00     4.00  2087.00   607.05     459.76
+iMun           100.00     1.00    20.00     3.65       3.41
+jMun  0001     100.00     1.00     1.00
+jMun  0002     100.00     1.00     1.00
+jMun  0003     100.00     1.00     1.00
+jMun  0004     100.00     1.00     1.00
+jMun  0005     100.00     1.00     1.00
+jMun  0006     100.00     1.00     1.00
+jMun  0007     100.00     1.00     1.00
+jMun  0008     100.00     1.00     1.00
+jMun  0009     100.00     1.00     1.00
+jMun  0010     100.00     1.00     1.00
+jMun  0011     100.00     1.00     1.00
+jMun  0012     100.00     1.00     1.00
+jMun  0013     100.00     1.00     1.00
+jMun  0014     100.00     1.00     1.00
+jMun  0015     100.00     1.00     1.00
+jMun  0016     100.00     1.00     1.00
+jMun  0017     100.00     1.00     1.00
+jMun  0018     100.00     1.00     1.00
+jMun  0019     100.00     1.00     1.00
+jMun  0020     100.00     1.00     1.00
+jMun  0021     100.00     1.00     1.00
+jMun  0022     100.00     1.00     1.00
+jMun  0023     100.00     1.00     1.00
+jMun  0024     100.00     1.00     1.00
+jMun  0025     100.00     1.00     1.00
+jMun  0026     100.00     1.00     1.00
+jMun  0027     100.00     1.00     1.00
+jMun  0028     100.00     1.00     1.00
+jMun  0029     100.00     1.00     1.00
+jMun  0030     100.00     1.00     1.00
+jMun  0031     100.00     1.00     1.00
+jMun  0032     100.00     1.00     1.00
+jMun  0033     100.00     1.00     1.00
+jMun  0034     100.00     1.00     1.00
+jMun  0035     100.00     1.00     1.00
+jMun  0036     100.00     1.00     1.00
+jMun  0037     100.00     1.00     1.00
+jMun  0038     100.00     1.00     1.00
+jMun  0039     100.00     1.00     1.00
+jMun  0040     100.00     1.00     1.00
+jMun  0041     100.00     1.00     1.00
+jMun  0042     100.00     1.00     1.00
+jMun  0043     100.00     1.00     1.00
+jMun  0044     100.00     1.00     1.00
+jMun  0045     100.00     1.00     1.00
+jMun  0046     100.00     1.00     1.00
+jMun  0047     100.00     1.00     1.00
+jMun  0048     100.00     1.00     1.00
+jMun  0049     100.00     1.00     1.00
+jMun  0050     100.00     1.00     1.00
+jMun  0051     100.00     1.00     1.00
+jMun  0052     100.00     1.00     1.00
+jMun  0053     100.00     1.00     1.00
+jMun  0054     100.00     1.00     1.00
+jMun  0055     100.00     1.00     1.00
+jMun  0056     100.00     1.00     1.00
+jMun  0057     100.00     1.00     1.00
+jMun  0058     100.00     1.00     1.00
+jMun  0059     100.00     1.00     1.00
+jMun  0060     100.00     1.00     1.00
+jMun  0061     100.00     1.00     1.00
+jMun  0062     100.00     1.00     1.00
+jMun  0063     100.00     1.00     1.00
+jMun  0064     100.00     1.00     1.00
+jMun  0065     100.00     1.00     1.00
+jMun  0066     100.00     1.00     1.00
+jMun  0067     100.00     1.00     1.00
+jMun  0068     100.00     1.00     1.00
+jMun  0069     100.00     1.00     1.00
+jMun  0070     100.00     1.00     1.00
+jMun  0071     100.00     1.00     1.00
+jMun  0072     100.00     1.00     1.00
+jMun  0073     100.00     1.00     1.00
+jMun  0074     100.00     1.00     1.00
+jMun  0075     100.00     1.00     1.00
+jMun  0076     100.00     1.00     1.00
+jMun  0077     100.00     1.00     1.00
+jMun  0078     100.00     1.00     1.00
+jMun  0079     100.00     1.00     1.00
+jMun  0080     100.00     1.00     1.00
+jMun  0081     100.00     1.00     1.00
+jMun  0082     100.00     1.00     1.00
+jMun  0083     100.00     1.00     1.00
+jMun  0084     100.00     1.00     1.00
+jMun  0085     100.00     1.00     1.00
+jMun  0086     100.00     1.00     1.00
+jMun  0087     100.00     1.00     1.00
+jMun  0088     100.00     1.00     1.00
+jMun  0089     100.00     1.00     1.00
+jMun  0090     100.00     1.00     1.00
+jMun  0091     100.00     1.00     1.00
+jMun  0092     100.00     1.00     1.00
+jMun  0093     100.00     1.00     1.00
+jMun  0094     100.00     1.00     1.00
+jMun  0095     100.00     1.00     1.00
+jMun  0096     100.00     1.00     1.00
+jMun  0097     100.00     1.00     1.00
+jMun  0098     100.00     1.00     1.00
+jMun  0099     100.00     1.00     1.00
+jMun  0100     100.00     1.00     1.00
+jMun  0101     100.00     1.00     1.00
+jMun  0102     100.00     1.00     1.00
+jMun  0103     100.00     1.00     1.00
+jMun  0104     100.00     1.00     1.00
+jMun  0105     100.00     1.00     1.00
+jMun  0106     100.00     1.00     1.00
+jMun  0107     100.00     1.00     1.00
+jMun  0108     100.00     1.00     1.00
+jMun  0109     100.00     1.00     1.00
+jMun  0110     100.00     1.00     1.00
+jMun  0111     100.00     1.00     1.00
+jMun  0112     100.00     1.00     1.00
+jMun  0113     100.00     1.00     1.00
+jMun  0114     100.00     1.00     1.00
+jMun  0115     100.00     1.00     1.00
+jMun  0116     100.00     1.00     1.00
+jMun  0117     100.00     1.00     1.00
+jMun  0118     100.00     1.00     1.00
+jMun  0119     100.00     1.00     1.00
+jMun  0120     100.00     1.00     1.00
+jMun  0121     100.00     1.00     1.00
+jMun  0122     100.00     1.00     1.00
+jMun  0123     100.00     1.00     1.00
+jMun  0124     100.00     1.00     1.00
+jMun  0125     100.00     1.00     1.00
+jMun  0126     100.00     1.00     1.00
+jMun  0127     100.00     1.00     1.00
+jMun  0128     100.00     1.00     1.00
+jMun  0129     100.00     1.00     1.00
+jMun  0130     100.00     1.00     1.00
+jMun  0131     100.00     1.00     1.00
+jMun  0132     100.00     1.00     1.00
+jMun  0133     100.00     1.00     1.00
+jMun  0134     100.00     1.00     1.00
+jMun  0135     100.00     1.00     1.00
+jMun  0136     100.00     1.00     1.00
+jMun  0137     100.00     1.00     1.00
+jMun  0138     100.00     1.00     1.00
+jMun  0139     100.00     1.00     1.00
+jMun  0140     100.00     1.00     1.00
+jMun  0141     100.00     1.00     1.00
+jMun  0142     100.00     1.00     1.00
+jMun  0143     100.00     1.00     1.00
+jMun  0144     100.00     1.00     1.00
+jMun  0145     100.00     1.00     1.00
+jMun  0146     100.00     1.00     1.00
+jMun  0147     100.00     1.00     1.00
+jMun  0148     100.00     1.00     1.00
+jMun  0149     100.00     1.00     1.00
+jMun  0150     100.00     1.00     1.00
+jMun  0151     100.00     1.00     1.00
+jMun  0152     100.00     1.00     1.00
+jMun  0153     100.00     1.00     1.00
+jMun  0154     100.00     1.00     1.00
+jMun  0155     100.00     1.00     1.00
+jMun  0156     100.00     1.00     1.00
+jMun  0157     100.00     1.00     1.00
+jMun  0158     100.00     1.00     1.00
+jMun  0159     100.00     1.00     1.00
+jMun  0160     100.00     1.00     1.00
+jMun  0161     100.00     1.00     1.00
+jMun  0162     100.00     1.00     1.00
+jMun  0163     100.00     1.00     1.00
+jMun  0164     100.00     1.00     1.00
+jMun  0165     100.00     1.00     1.00
+jMun  0166     100.00     1.00     1.00
+jMun  0167     100.00     1.00     1.00
+jMun  0168     100.00     1.00     1.00
+jMun  0169     100.00     1.00     1.00
+jMun  0170     100.00     1.00     1.00
+jMun  0171     100.00     1.00     1.00
+jMun  0172     100.00     1.00     1.00
+jMun  0173     100.00     1.00     1.00
+jMun  0174     100.00     1.00     1.00
+jMun  0175     100.00     1.00     1.00
+jMun  0176     100.00     1.00     1.00
+jMun  0177     100.00     1.00     1.00
+jMun  0178     100.00     1.00     1.00
+jMun  0179     100.00     1.00     1.00
+jMun  0180     100.00     1.00     1.00
+jMun  0181     100.00     1.00     1.00
+jMun  0182     100.00     1.00     1.00
+jMun  0183     100.00     1.00     1.00
+jMun  0184     100.00     1.00     1.00
+jMun  0185     100.00     1.00     1.00
+jMun  0186     100.00     1.00     1.00
+jMun  0187     100.00     1.00     1.00
+jMun  0188     100.00     1.00     1.00
+jMun  0189     100.00     1.00     1.00
+jMun  0190     100.00     1.00     1.00
+jMun  0191     100.00     1.00     1.00
+jMun  0192     100.00     1.00     1.00
+jMun  0193     100.00     1.00     1.00
+jMun  0194     100.00     1.00     1.00
+jMun  0195     100.00     1.00     1.00
+jMun  0196     100.00     1.00     1.00
+jMun  0197     100.00     1.00     1.00
+jMun  0198     100.00     1.00     1.00
+jMun  0199     100.00     1.00     1.00
+jMun  0200     100.00     1.00     1.00
+jMun  0201     100.00     1.00     1.00
+jMun  0202     100.00     1.00     1.00
+jMun  0203     100.00     1.00     1.00
+jMun  0204     100.00     1.00     1.00
+jMun  0205     100.00     1.00     1.00
+jMun  0206     100.00     1.00     1.00
+jMun  0207     100.00     1.00     1.00
+jMun  0208     100.00     1.00     1.00
+jMun  0209     100.00     1.00     1.00
+jMun  0210     100.00     1.00     1.00
+jMun  0211     100.00     1.00     1.00
+jMun  0212     100.00     1.00     1.00
+jMun  0213     100.00     1.00     1.00
+jMun  0214     100.00     1.00     1.00
+jMun  0215     100.00     1.00     1.00
+jMun  0216     100.00     1.00     1.00
+jMun  0217     100.00     1.00     1.00
+jMun  0218     100.00     1.00     1.00
+jMun  0219     100.00     1.00     1.00
+jMun  0220     100.00     1.00     1.00
+jMun  0221     100.00     1.00     1.00
+jMun  0222     100.00     1.00     1.00
+jMun  0223     100.00     1.00     1.00
+jMun  0224     100.00     1.00     1.00
+jMun  0225     100.00     1.00     1.00
+jMun  0226     100.00     1.00     1.00
+jMun  0227     100.00     1.00     1.00
+jMun  0228     100.00     1.00     1.00
+jMun  0229     100.00     1.00     1.00
+jMun  0230     100.00     1.00     1.00
+jMun  0231     100.00     1.00     1.00
+jMun  0232     100.00     1.00     1.00
+jMun  0233     100.00     1.00     1.00
+jMun  0234     100.00     1.00     1.00
+jMun  0235     100.00     1.00     1.00
+jMun  0236     100.00     1.00     1.00
+jMun  0237     100.00     1.00     1.00
+jMun  0238     100.00     1.00     1.00
+jMun  0239     100.00     1.00     1.00
+jMun  0240     100.00     1.00     1.00
+jMun  0241     100.00     1.00     1.00
+jMun  0242     100.00     1.00     1.00
+jMun  0243     100.00     1.00     1.00
+jMun  0244     100.00     1.00     1.00
+jMun  0245     100.00     1.00     1.00
+jMun  0246     100.00     1.00     1.00
+jMun  0247     100.00     1.00     1.00
+jMun  0248     100.00     1.00     1.00
+jMun  0249     100.00     1.00     1.00
+jMun  0250     100.00     1.00     1.00
+jMun  0251     100.00     1.00     1.00
+jMun  0252     100.00     1.00     1.00
+jMun  0253     100.00     1.00     1.00
+jMun  0254     100.00     1.00     1.00
+jMun  0255     100.00     1.00     1.00
+jMun  0256     100.00     1.00     1.00
+jMun  0257     100.00     1.00     1.00
+jMun  0258     100.00     1.00     1.00
+jMun  0259     100.00     1.00     1.00
+jMun  0260     100.00     1.00     1.00
+jMun  0261     100.00     1.00     1.00
+jMun  0262     100.00     1.00     1.00
+jMun  0263     100.00     1.00     1.00
+jMun  0264     100.00     1.00     1.00
+jMun  0265     100.00     1.00     1.00
+jMun  0266     100.00     1.00     1.00
+jMun  0267     100.00     1.00     1.00
+jMun  0268     100.00     1.00     1.00
+jMun  0269     100.00     1.00     1.00
+jMun  0270     100.00     1.00     1.00
+jMun  0271     100.00     1.00     1.00
+jMun  0272     100.00     1.00     1.00
+jMun  0273     100.00     1.00     1.00
+jMun  0274     100.00     1.00     1.00
+jMun  0275     100.00     1.00     1.00
+jMun  0276     100.00     1.00     1.00
+jMun  0277     100.00     1.00     1.00
+jMun  0278     100.00     1.00     1.00
+jMun  0279     100.00     1.00     1.00
+jMun  0280     100.00     1.00     1.00
+jMun  0281     100.00     1.00     1.00
+jMun  0282     100.00     1.00     1.00
+jMun  0283     100.00     1.00     1.00
+jMun  0284     100.00     1.00     1.00
+jMun  0285     100.00     1.00     1.00
+jMun  0286     100.00     1.00     1.00
+jMun  0287     100.00     1.00     1.00
+jMun  0288     100.00     1.00     1.00
+jMun  0289     100.00     1.00     1.00
+jMun  0290     100.00     1.00     1.00
+jMun  0291     100.00     1.00     1.00
+jMun  0292     100.00     1.00     1.00
+jMun  0293     100.00     1.00     1.00
+jMun  0294     100.00     1.00     1.00
+jMun  0295     100.00     1.00     1.00
+jMun  0296     100.00     1.00     1.00
+jMun  0297     100.00     1.00     1.00
+jMun  0298     100.00     1.00     1.00
+jMun  0299     100.00     1.00     1.00
+jMun  0300     100.00     1.00     1.00
+jMun  0301     100.00     1.00     1.00
+jMun  0302     100.00     1.00     1.00
+jMun  0303     100.00     1.00     1.00
+jMun  0304     100.00     1.00     1.00
+jMun  0305     100.00     1.00     1.00
+jMun  0306     100.00     1.00     1.00
+jMun  0307     100.00     1.00     1.00
+jMun  0308     100.00     1.00     1.00
+jMun  0309     100.00     1.00     1.00
+jMun  0310     100.00     1.00     1.00
+jMun  0311     100.00     1.00     1.00
+jMun  0312     100.00     1.00     1.00
+jMun  0313     100.00     1.00     1.00
+jMun  0314     100.00     1.00     1.00
+jMun  0315     100.00     1.00     1.00
+jMun  0316     100.00     1.00     1.00
+jMun  0317     100.00     1.00     1.00
+jMun  0318     100.00     1.00     1.00
+jMun  0319     100.00     1.00     1.00
+jMun  0320     100.00     1.00     1.00
+jMun  0321     100.00     1.00     1.00
+jMun  0322     100.00     1.00     1.00
+jMun  0323     100.00     1.00     1.00
+jMun  0324     100.00     1.00     1.00
+jMun  0325     100.00     1.00     1.00
+jMun  0326     100.00     1.00     1.00
+jMun  0327     100.00     1.00     1.00
+jMun  0328     100.00     1.00     1.00
+jMun  0329     100.00     1.00     1.00
+jMun  0330     100.00     1.00     1.00
+jMun  0331     100.00     1.00     1.00
+jMun  0332     100.00     1.00     1.00
+jMun  0333     100.00     1.00     1.00
+jMun  0334     100.00     1.00     1.00
+jMun  0335     100.00     1.00     1.00
+jMun  0336     100.00     1.00     1.00
+jMun  0337     100.00     1.00     1.00
+jMun  0338     100.00     1.00     1.00
+jMun  0339     100.00     1.00     1.00
+jMun  0340     100.00     1.00     1.00
+jMun  0341     100.00     1.00     1.00
+jMun  0342     100.00     1.00     1.00
+jMun  0343     100.00     1.00     1.00
+jMun  0344     100.00     1.00     1.00
+jMun  0345     100.00     1.00     1.00
+jMun  0346     100.00     1.00     1.00
+jMun  0347     100.00     1.00     1.00
+jMun  0348     100.00     1.00     1.00
+jMun  0349     100.00     1.00     1.00
+jMun  0350     100.00     1.00     1.00
+jMun  0351     100.00     1.00     1.00
+jMun  0352     100.00     1.00     1.00
+jMun  0353     100.00     1.00     1.00
+jMun  0354     100.00     1.00     1.00
+jMun  0355     100.00     1.00     1.00
+jMun  0356     100.00     1.00     1.00
+jMun  0357     100.00     1.00     1.00
+jMun  0358     100.00     1.00     1.00
+jMun  0359     100.00     1.00     1.00
+jMun  0360     100.00     1.00     1.00
+jMun  0361     100.00     1.00     1.00
+jMun  0362     100.00     1.00     1.00
+jMun  0363     100.00     1.00     1.00
+jMun  0364     100.00     1.00     1.00
+jMun  0365     100.00     1.00     1.00
+jMun  0366     100.00     1.00     1.00
+jMun  0367     100.00     1.00     1.00
+jMun  0368     100.00     1.00     1.00
+jMun  0369     100.00     1.00     1.00
+jMun  0370     100.00     1.00     1.00
+jMun  0371     100.00     1.00     1.00
+jMun  0372     100.00     1.00     1.00
+jMun  0373     100.00     1.00     1.00
+jMun  0374     100.00     1.00     1.00
+jMun  0375     100.00     1.00     1.00
+jMun  0376     100.00     1.00     1.00
+jMun  0377     100.00     1.00     1.00
+jMun  0378     100.00     1.00     1.00
+jMun  0379     100.00     1.00     1.00
+jMun  0380     100.00     1.00     1.00
+jMun  0381     100.00     1.00     1.00
+jMun  0382     100.00     2.00     2.00
+jMun  0383     100.00     2.00     2.00
+jMun  0384     100.00     2.00     2.00
+jMun  0385     100.00     2.00     2.00
+jMun  0386     100.00     2.00     2.00
+jMun  0387     100.00     2.00     2.00
+jMun  0388     100.00     2.00     2.00
+jMun  0389     100.00     2.00     2.00
+jMun  0390     100.00     2.00     2.00
+jMun  0391     100.00     2.00     2.00
+jMun  0392     100.00     2.00     2.00
+jMun  0393     100.00     2.00     2.00
+jMun  0394     100.00     2.00     2.00
+jMun  0395     100.00     2.00     2.00
+jMun  0396     100.00     2.00     2.00
+jMun  0397     100.00     2.00     2.00
+jMun  0398     100.00     2.00     2.00
+jMun  0399     100.00     2.00     2.00
+jMun  0400     100.00     2.00     2.00
+jMun  0401     100.00     2.00     2.00
+jMun  0402     100.00     2.00     2.00
+jMun  0403     100.00     2.00     2.00
+jMun  0404     100.00     2.00     2.00
+jMun  0405     100.00     2.00     2.00
+jMun  0406     100.00     2.00     2.00
+jMun  0407     100.00     2.00     2.00
+jMun  0408     100.00     2.00     2.00
+jMun  0409     100.00     2.00     2.00
+jMun  0410     100.00     2.00     2.00
+jMun  0411     100.00     2.00     2.00
+jMun  0412     100.00     2.00     2.00
+jMun  0413     100.00     2.00     2.00
+jMun  0414     100.00     2.00     2.00
+jMun  0415     100.00     2.00     2.00
+jMun  0416     100.00     2.00     2.00
+jMun  0417     100.00     2.00     2.00
+jMun  0418     100.00     2.00     2.00
+jMun  0419     100.00     2.00     2.00
+jMun  0420     100.00     2.00     2.00
+jMun  0421     100.00     2.00     2.00
+jMun  0422     100.00     2.00     2.00
+jMun  0423     100.00     2.00     2.00
+jMun  0424     100.00     2.00     2.00
+jMun  0425     100.00     2.00     2.00
+jMun  0426     100.00     2.00     2.00
+jMun  0427     100.00     2.00     2.00
+jMun  0428     100.00     2.00     2.00
+jMun  0429     100.00     2.00     2.00
+jMun  0430     100.00     2.00     2.00
+jMun  0431     100.00     2.00     2.00
+jMun  0432     100.00     2.00     2.00
+jMun  0433     100.00     2.00     2.00
+jMun  0434     100.00     2.00     2.00
+jMun  0435     100.00     2.00     2.00
+jMun  0436     100.00     2.00     2.00
+jMun  0437     100.00     2.00     2.00
+jMun  0438     100.00     2.00     2.00
+jMun  0439     100.00     2.00     2.00
+jMun  0440     100.00     2.00     2.00
+jMun  0441     100.00     2.00     2.00
+jMun  0442     100.00     2.00     2.00
+jMun  0443     100.00     2.00     2.00
+jMun  0444     100.00     2.00     2.00
+jMun  0445     100.00     2.00     2.00
+jMun  0446     100.00     2.00     2.00
+jMun  0447     100.00     2.00     2.00
+jMun  0448     100.00     2.00     2.00
+jMun  0449     100.00     2.00     2.00
+jMun  0450     100.00     2.00     2.00
+jMun  0451     100.00     2.00     2.00
+jMun  0452     100.00     2.00     2.00
+jMun  0453     100.00     2.00     2.00
+jMun  0454     100.00     2.00     2.00
+jMun  0455     100.00     2.00     2.00
+jMun  0456     100.00     2.00     2.00
+jMun  0457     100.00     2.00     2.00
+jMun  0458     100.00     2.00     2.00
+jMun  0459     100.00     2.00     2.00
+jMun  0460     100.00     2.00     2.00
+jMun  0461     100.00     2.00     2.00
+jMun  0462     100.00     2.00     2.00
+jMun  0463     100.00     2.00     2.00
+jMun  0464     100.00     2.00     2.00
+jMun  0465     100.00     2.00     2.00
+jMun  0466     100.00     2.00     2.00
+jMun  0467     100.00     2.00     2.00
+jMun  0468     100.00     2.00     2.00
+jMun  0469     100.00     2.00     2.00
+jMun  0470     100.00     2.00     2.00
+jMun  0471     100.00     2.00     2.00
+jMun  0472     100.00     2.00     2.00
+jMun  0473     100.00     2.00     2.00
+jMun  0474     100.00     2.00     2.00
+jMun  0475     100.00     2.00     2.00
+jMun  0476     100.00     2.00     2.00
+jMun  0477     100.00     2.00     2.00
+jMun  0478     100.00     2.00     2.00
+jMun  0479     100.00     2.00     2.00
+jMun  0480     100.00     2.00     2.00
+jMun  0481     100.00     2.00     2.00
+jMun  0482     100.00     2.00     2.00
+jMun  0483     100.00     2.00     2.00
+jMun  0484     100.00     2.00     2.00
+jMun  0485     100.00     2.00     2.00
+jMun  0486     100.00     2.00     2.00
+jMun  0487     100.00     2.00     2.00
+jMun  0488     100.00     2.00     2.00
+jMun  0489     100.00     2.00     2.00
+jMun  0490     100.00     2.00     2.00
+jMun  0491     100.00     2.00     2.00
+jMun  0492     100.00     2.00     2.00
+jMun  0493     100.00     2.00     2.00
+jMun  0494     100.00     2.00     2.00
+jMun  0495     100.00     2.00     2.00
+jMun  0496     100.00     2.00     2.00
+jMun  0497     100.00     2.00     2.00
+jMun  0498     100.00     2.00     2.00
+jMun  0499     100.00     2.00     2.00
+jMun  0500     100.00     2.00     2.00
+jMun  0501     100.00     2.00     2.00
+jMun  0502     100.00     2.00     2.00
+jMun  0503     100.00     2.00     2.00
+jMun  0504     100.00     2.00     2.00
+jMun  0505     100.00     2.00     2.00
+jMun  0506     100.00     2.00     2.00
+jMun  0507     100.00     2.00     2.00
+jMun  0508     100.00     2.00     2.00
+jMun  0509     100.00     2.00     2.00
+jMun  0510     100.00     2.00     2.00
+jMun  0511     100.00     2.00     2.00
+jMun  0512     100.00     2.00     2.00
+jMun  0513     100.00     2.00     2.00
+jMun  0514     100.00     2.00     2.00
+jMun  0515     100.00     2.00     2.00
+jMun  0516     100.00     2.00     2.00
+jMun  0517     100.00     2.00     2.00
+jMun  0518     100.00     2.00     2.00
+jMun  0519     100.00     2.00     2.00
+jMun  0520     100.00     2.00     2.00
+jMun  0521     100.00     2.00     2.00
+jMun  0522     100.00     2.00     2.00
+jMun  0523     100.00     2.00     2.00
+jMun  0524     100.00     2.00     2.00
+jMun  0525     100.00     2.00     2.00
+jMun  0526     100.00     2.00     2.00
+jMun  0527     100.00     2.00     2.00
+jMun  0528     100.00     2.00     2.00
+jMun  0529     100.00     2.00     2.00
+jMun  0530     100.00     2.00     2.00
+jMun  0531     100.00     2.00     2.00
+jMun  0532     100.00     2.00     2.00
+jMun  0533     100.00     2.00     2.00
+jMun  0534     100.00     2.00     2.00
+jMun  0535     100.00     2.00     2.00
+jMun  0536     100.00     2.00     2.00
+jMun  0537     100.00     2.00     2.00
+jMun  0538     100.00     2.00     2.00
+jMun  0539     100.00     2.00     2.00
+jMun  0540     100.00     2.00     2.00
+jMun  0541     100.00     2.00     2.00
+jMun  0542     100.00     2.00     2.00
+jMun  0543     100.00     2.00     2.00
+jMun  0544     100.00     2.00     2.00
+jMun  0545     100.00     2.00     2.00
+jMun  0546     100.00     2.00     2.00
+jMun  0547     100.00     2.00     2.00
+jMun  0548     100.00     2.00     2.00
+jMun  0549     100.00     2.00     2.00
+jMun  0550     100.00     2.00     2.00
+jMun  0551     100.00     2.00     2.00
+jMun  0552     100.00     2.00     2.00
+jMun  0553     100.00     2.00     2.00
+jMun  0554     100.00     2.00     2.00
+jMun  0555     100.00     2.00     2.00
+jMun  0556     100.00     2.00     2.00
+jMun  0557     100.00     2.00     2.00
+jMun  0558     100.00     2.00     2.00
+jMun  0559     100.00     2.00     2.00
+jMun  0560     100.00     2.00     2.00
+jMun  0561     100.00     2.00     2.00
+jMun  0562     100.00     2.00     2.00
+jMun  0563     100.00     2.00     2.00
+jMun  0564     100.00     2.00     2.00
+jMun  0565     100.00     2.00     2.00
+jMun  0566     100.00     2.00     2.00
+jMun  0567     100.00     2.00     2.00
+jMun  0568     100.00     2.00     2.00
+jMun  0569     100.00     2.00     2.00
+jMun  0570     100.00     2.00     2.00
+jMun  0571     100.00     2.00     2.00
+jMun  0572     100.00     2.00     2.00
+jMun  0573     100.00     2.00     2.00
+jMun  0574     100.00     2.00     2.00
+jMun  0575     100.00     2.00     2.00
+jMun  0576     100.00     2.00     2.00
+jMun  0577     100.00     2.00     2.00
+jMun  0578     100.00     2.00     2.00
+jMun  0579     100.00     2.00     2.00
+jMun  0580     100.00     2.00     2.00
+jMun  0581     100.00     2.00     2.00
+jMun  0582     100.00     2.00     2.00
+jMun  0583     100.00     2.00     2.00
+jMun  0584     100.00     2.00     2.00
+jMun  0585     100.00     2.00     2.00
+jMun  0586     100.00     2.00     2.00
+jMun  0587     100.00     2.00     2.00
+jMun  0588     100.00     2.00     2.00
+jMun  0589     100.00     2.00     2.00
+jMun  0590     100.00     2.00     2.00
+jMun  0591     100.00     2.00     2.00
+jMun  0592     100.00     2.00     2.00
+jMun  0593     100.00     2.00     2.00
+jMun  0594     100.00     2.00     2.00
+jMun  0595     100.00     2.00     2.00
+jMun  0596     100.00     2.00     2.00
+jMun  0597     100.00     2.00     2.00
+jMun  0598     100.00     2.00     2.00
+jMun  0599     100.00     2.00     2.00
+jMun  0600     100.00     2.00     2.00
+jMun  0601     100.00     2.00     2.00
+jMun  0602     100.00     2.00     2.00
+jMun  0603     100.00     2.00     2.00
+jMun  0604     100.00     2.00     2.00
+jMun  0605     100.00     2.00     2.00
+jMun  0606     100.00     2.00     2.00
+jMun  0607     100.00     2.00     2.00
+jMun  0608     100.00     2.00     2.00
+jMun  0609     100.00     2.00     2.00
+jMun  0610     100.00     2.00     2.00
+jMun  0611     100.00     2.00     2.00
+jMun  0612     100.00     2.00     2.00
+jMun  0613     100.00     2.00     2.00
+jMun  0614     100.00     2.00     2.00
+jMun  0615     100.00     2.00     2.00
+jMun  0616     100.00     2.00     2.00
+jMun  0617     100.00     2.00     2.00
+jMun  0618     100.00     2.00     2.00
+jMun  0619     100.00     2.00     2.00
+jMun  0620     100.00     2.00     2.00
+jMun  0621     100.00     2.00     2.00
+jMun  0622     100.00     2.00     2.00
+jMun  0623     100.00     2.00     2.00
+jMun  0624     100.00     2.00     2.00
+jMun  0625     100.00     2.00     2.00
+jMun  0626     100.00     2.00     2.00
+jMun  0627     100.00     2.00     2.00
+jMun  0628     100.00     2.00     2.00
+jMun  0629     100.00     2.00     2.00
+jMun  0630     100.00     2.00     2.00
+jMun  0631     100.00     2.00     2.00
+jMun  0632     100.00     2.00     2.00
+jMun  0633     100.00     2.00     2.00
+jMun  0634     100.00     2.00     2.00
+jMun  0635     100.00     3.00     3.00
+jMun  0636     100.00     3.00     3.00
+jMun  0637     100.00     3.00     3.00
+jMun  0638     100.00     3.00     3.00
+jMun  0639     100.00     3.00     3.00
+jMun  0640     100.00     3.00     3.00
+jMun  0641     100.00     3.00     3.00
+jMun  0642     100.00     3.00     3.00
+jMun  0643     100.00     3.00     3.00
+jMun  0644     100.00     4.00     4.00
+jMun  0645     100.00     4.00     4.00
+jMun  0646     100.00     4.00     4.00
+jMun  0647     100.00     4.00     4.00
+jMun  0648     100.00     4.00     4.00
+jMun  0649     100.00     4.00     4.00
+jMun  0650     100.00     4.00     4.00
+jMun  0651     100.00     4.00     4.00
+jMun  0652     100.00     4.00     4.00
+jMun  0653     100.00     4.00     4.00
+jMun  0654     100.00     4.00     4.00
+jMun  0655     100.00     4.00     4.00
+jMun  0656     100.00     4.00     4.00
+jMun  0657     100.00     4.00     4.00
+jMun  0658     100.00     4.00     4.00
+jMun  0659     100.00     4.00     4.00
+jMun  0660     100.00     4.00     4.00
+jMun  0661     100.00     4.00     4.00
+jMun  0662     100.00     4.00     4.00
+jMun  0663     100.00     4.00     4.00
+jMun  0664     100.00     4.00     4.00
+jMun  0665     100.00     4.00     4.00
+jMun  0666     100.00     4.00     4.00
+jMun  0667     100.00     4.00     4.00
+jMun  0668     100.00     4.00     4.00
+jMun  0669     100.00     4.00     4.00
+jMun  0670     100.00     4.00     4.00
+jMun  0671     100.00     4.00     4.00
+jMun  0672     100.00     4.00     4.00
+jMun  0673     100.00     4.00     4.00
+jMun  0674     100.00     4.00     4.00
+jMun  0675     100.00     4.00     4.00
+jMun  0676     100.00     4.00     4.00
+jMun  0677     100.00     4.00     4.00
+jMun  0678     100.00     4.00     4.00
+jMun  0679     100.00     4.00     4.00
+jMun  0680     100.00     4.00     4.00
+jMun  0681     100.00     4.00     4.00
+jMun  0682     100.00     4.00     4.00
+jMun  0683     100.00     4.00     4.00
+jMun  0684     100.00     4.00     4.00
+jMun  0685     100.00     4.00     4.00
+jMun  0686     100.00     4.00     4.00
+jMun  0687     100.00     4.00     4.00
+jMun  0688     100.00     4.00     4.00
+jMun  0689     100.00     4.00     4.00
+jMun  0690     100.00     4.00     4.00
+jMun  0691     100.00     4.00     4.00
+jMun  0692     100.00     4.00     4.00
+jMun  0693     100.00     4.00     4.00
+jMun  0694     100.00     4.00     4.00
+jMun  0695     100.00     4.00     4.00
+jMun  0696     100.00     4.00     4.00
+jMun  0697     100.00     4.00     4.00
+jMun  0698     100.00     4.00     4.00
+jMun  0699     100.00     4.00     4.00
+jMun  0700     100.00     4.00     4.00
+jMun  0701     100.00     4.00     4.00
+jMun  0702     100.00     4.00     4.00
+jMun  0703     100.00     4.00     4.00
+jMun  0704     100.00     4.00     4.00
+jMun  0705     100.00     4.00     4.00
+jMun  0706     100.00     4.00     4.00
+jMun  0707     100.00     4.00     4.00
+jMun  0708     100.00     4.00     4.00
+jMun  0709     100.00     4.00     4.00
+jMun  0710     100.00     4.00     4.00
+jMun  0711     100.00     4.00     4.00
+jMun  0712     100.00     4.00     4.00
+jMun  0713     100.00     4.00     4.00
+jMun  0714     100.00     4.00     4.00
+jMun  0715     100.00     4.00     4.00
+jMun  0716     100.00     4.00     4.00
+jMun  0717     100.00     4.00     4.00
+jMun  0718     100.00     4.00     4.00
+jMun  0719     100.00     4.00     4.00
+jMun  0720     100.00     4.00     4.00
+jMun  0721     100.00     4.00     4.00
+jMun  0722     100.00     4.00     4.00
+jMun  0723     100.00     4.00     4.00
+jMun  0724     100.00     4.00     4.00
+jMun  0725     100.00     4.00     4.00
+jMun  0726     100.00     4.00     4.00
+jMun  0727     100.00     4.00     4.00
+jMun  0728     100.00     4.00     4.00
+jMun  0729     100.00     4.00     4.00
+jMun  0730     100.00     4.00     4.00
+jMun  0731     100.00     4.00     4.00
+jMun  0732     100.00     4.00     4.00
+jMun  0733     100.00     4.00     4.00
+jMun  0734     100.00     4.00     4.00
+jMun  0735     100.00     4.00     4.00
+jMun  0736     100.00     4.00     4.00
+jMun  0737     100.00     4.00     4.00
+jMun  0738     100.00     4.00     4.00
+jMun  0739     100.00     4.00     4.00
+jMun  0740     100.00     4.00     4.00
+jMun  0741     100.00     4.00     4.00
+jMun  0742     100.00     4.00     4.00
+jMun  0743     100.00     4.00     4.00
+jMun  0744     100.00     4.00     4.00
+jMun  0745     100.00     4.00     4.00
+jMun  0746     100.00     4.00     4.00
+jMun  0747     100.00     4.00     4.00
+jMun  0748     100.00     4.00     4.00
+jMun  0749     100.00     4.00     4.00
+jMun  0750     100.00     4.00     4.00
+jMun  0751     100.00     4.00     4.00
+jMun  0752     100.00     4.00     4.00
+jMun  0753     100.00     4.00     4.00
+jMun  0754     100.00     4.00     4.00
+jMun  0755     100.00     4.00     4.00
+jMun  0756     100.00     4.00     4.00
+jMun  0757     100.00     4.00     4.00
+jMun  0758     100.00     4.00     4.00
+jMun  0759     100.00     4.00     4.00
+jMun  0760     100.00     4.00     4.00
+jMun  0761     100.00     4.00     4.00
+jMun  0762     100.00     4.00     4.00
+jMun  0763     100.00     4.00     4.00
+jMun  0764     100.00     4.00     4.00
+jMun  0765     100.00     4.00     4.00
+jMun  0766     100.00     4.00     4.00
+jMun  0767     100.00     4.00     4.00
+jMun  0768     100.00     4.00     4.00
+jMun  0769     100.00     4.00     4.00
+jMun  0770     100.00     4.00     4.00
+jMun  0771     100.00     4.00     4.00
+jMun  0772     100.00     4.00     4.00
+jMun  0773     100.00     4.00     4.00
+jMun  0774     100.00     4.00     4.00
+jMun  0775     100.00     4.00     4.00
+jMun  0776     100.00     4.00     4.00
+jMun  0777     100.00     4.00     4.00
+jMun  0778     100.00     4.00     4.00
+jMun  0779     100.00     4.00     4.00
+jMun  0780     100.00     4.00     4.00
+jMun  0781     100.00     4.00     4.00
+jMun  0782     100.00     4.00     4.00
+jMun  0783     100.00     4.00     4.00
+jMun  0784     100.00     4.00     4.00
+jMun  0785     100.00     4.00     4.00
+jMun  0786     100.00     4.00     4.00
+jMun  0787     100.00     4.00     4.00
+jMun  0788     100.00     4.00     4.00
+jMun  0789     100.00     4.00     4.00
+jMun  0790     100.00     4.00     4.00
+jMun  0791     100.00     4.00     4.00
+jMun  0792     100.00     4.00     4.00
+jMun  0793     100.00     4.00     4.00
+jMun  0794     100.00     4.00     4.00
+jMun  0795     100.00     4.00     4.00
+jMun  0796     100.00     4.00     4.00
+jMun  0797     100.00     4.00     4.00
+jMun  0798     100.00     4.00     4.00
+jMun  0799     100.00     4.00     4.00
+jMun  0800     100.00     4.00     4.00
+jMun  0801     100.00     4.00     4.00
+jMun  0802     100.00     4.00     4.00
+jMun  0803     100.00     4.00     4.00
+jMun  0804     100.00     4.00     4.00
+jMun  0805     100.00     4.00     4.00
+jMun  0806     100.00     4.00     4.00
+jMun  0807     100.00     4.00     4.00
+jMun  0808     100.00     4.00     4.00
+jMun  0809     100.00     4.00     4.00
+jMun  0810     100.00     4.00     4.00
+jMun  0811     100.00     4.00     4.00
+jMun  0812     100.00     4.00     4.00
+jMun  0813     100.00     4.00     4.00
+jMun  0814     100.00     4.00     4.00
+jMun  0815     100.00     4.00     4.00
+jMun  0816     100.00     4.00     4.00
+jMun  0817     100.00     4.00     4.00
+jMun  0818     100.00     4.00     4.00
+jMun  0819     100.00     4.00     4.00
+jMun  0820     100.00     4.00     4.00
+jMun  0821     100.00     4.00     4.00
+jMun  0822     100.00     4.00     4.00
+jMun  0823     100.00     4.00     4.00
+jMun  0824     100.00     4.00     4.00
+jMun  0825     100.00     4.00     4.00
+jMun  0826     100.00     4.00     4.00
+jMun  0827     100.00     4.00     4.00
+jMun  0828     100.00     4.00     4.00
+jMun  0829     100.00     4.00     4.00
+jMun  0830     100.00     4.00     4.00
+jMun  0831     100.00     4.00     4.00
+jMun  0832     100.00     4.00     4.00
+jMun  0833     100.00     4.00     4.00
+jMun  0834     100.00     4.00     4.00
+jMun  0835     100.00     4.00     4.00
+jMun  0836     100.00     4.00     4.00
+jMun  0837     100.00     4.00     4.00
+jMun  0838     100.00     4.00     4.00
+jMun  0839     100.00     4.00     4.00
+jMun  0840     100.00     4.00     4.00
+jMun  0841     100.00     4.00     4.00
+jMun  0842     100.00     4.00     4.00
+jMun  0843     100.00     4.00     4.00
+jMun  0844     100.00     4.00     4.00
+jMun  0845     100.00     4.00     4.00
+jMun  0846     100.00     4.00     4.00
+jMun  0847     100.00     4.00     4.00
+jMun  0848     100.00     4.00     4.00
+jMun  0849     100.00     4.00     4.00
+jMun  0850     100.00     4.00     4.00
+jMun  0851     100.00     4.00     4.00
+jMun  0852     100.00     4.00     4.00
+jMun  0853     100.00     4.00     4.00
+jMun  0854     100.00     4.00     4.00
+jMun  0855     100.00     4.00     4.00
+jMun  0856     100.00     4.00     4.00
+jMun  0857     100.00     4.00     4.00
+jMun  0858     100.00     4.00     4.00
+jMun  0859     100.00     4.00     4.00
+jMun  0860     100.00     4.00     4.00
+jMun  0861     100.00     4.00     4.00
+jMun  0862     100.00     4.00     4.00
+jMun  0863     100.00     4.00     4.00
+jMun  0864     100.00     4.00     4.00
+jMun  0865     100.00     4.00     4.00
+jMun  0866     100.00     4.00     4.00
+jMun  0867     100.00     4.00     4.00
+jMun  0868     100.00     4.00     4.00
+jMun  0869     100.00     4.00     4.00
+jMun  0870     100.00     4.00     4.00
+jMun  0871     100.00     4.00     4.00
+jMun  0872     100.00     4.00     4.00
+jMun  0873     100.00     4.00     4.00
+jMun  0874     100.00     4.00     4.00
+jMun  0875     100.00     4.00     4.00
+jMun  0876     100.00     4.00     4.00
+jMun  0877     100.00     4.00     4.00
+jMun  0878     100.00     4.00     4.00
+jMun  0879     100.00     4.00     4.00
+jMun  0880     100.00     4.00     4.00
+jMun  0881     100.00     4.00     4.00
+jMun  0882     100.00     4.00     4.00
+jMun  0883     100.00     4.00     4.00
+jMun  0884     100.00     4.00     4.00
+jMun  0885     100.00     4.00     4.00
+jMun  0886     100.00     4.00     4.00
+jMun  0887     100.00     4.00     4.00
+jMun  0888     100.00     4.00     4.00
+jMun  0889     100.00     4.00     4.00
+jMun  0890     100.00     4.00     4.00
+jMun  0891     100.00     4.00     4.00
+jMun  0892     100.00     4.00     4.00
+jMun  0893     100.00     4.00     4.00
+jMun  0894     100.00     4.00     4.00
+jMun  0895     100.00     4.00     4.00
+jMun  0896     100.00     4.00     4.00
+jMun  0897     100.00     4.00     4.00
+jMun  0898     100.00     4.00     4.00
+jMun  0899     100.00     4.00     4.00
+jMun  0900     100.00     4.00     4.00
+jMun  0901     100.00     4.00     4.00
+jMun  0902     100.00     5.00     5.00
+jMun  0903     100.00     5.00     5.00
+jMun  0904     100.00     5.00     5.00
+jMun  0905     100.00     5.00     5.00
+jMun  0906     100.00     5.00     5.00
+jMun  0907     100.00     5.00     5.00
+jMun  0908     100.00     5.00     5.00
+jMun  0909     100.00     5.00     5.00
+jMun  0910     100.00     5.00     5.00
+jMun  0911     100.00     5.00     5.00
+jMun  0912     100.00     5.00     5.00
+jMun  0913     100.00     5.00     5.00
+jMun  0914     100.00     5.00     5.00
+jMun  0915     100.00     5.00     5.00
+jMun  0916     100.00     5.00     5.00
+jMun  0917     100.00     5.00     5.00
+jMun  0918     100.00     5.00     5.00
+jMun  0919     100.00     5.00     5.00
+jMun  0920     100.00     5.00     5.00
+jMun  0921     100.00     5.00     5.00
+jMun  0922     100.00     5.00     5.00
+jMun  0923     100.00     5.00     5.00
+jMun  0924     100.00     5.00     5.00
+jMun  0925     100.00     5.00     5.00
+jMun  0926     100.00     5.00     5.00
+jMun  0927     100.00     5.00     5.00
+jMun  0928     100.00     5.00     5.00
+jMun  0929     100.00     5.00     5.00
+jMun  0930     100.00     5.00     5.00
+jMun  0931     100.00     5.00     5.00
+jMun  0932     100.00     5.00     5.00
+jMun  0933     100.00     5.00     5.00
+jMun  0934     100.00     5.00     5.00
+jMun  0935     100.00     5.00     5.00
+jMun  0936     100.00     5.00     5.00
+jMun  0937     100.00     5.00     5.00
+jMun  0938     100.00     5.00     5.00
+jMun  0939     100.00     5.00     5.00
+jMun  0940     100.00     5.00     5.00
+jMun  0941     100.00     5.00     5.00
+jMun  0942     100.00     5.00     5.00
+jMun  0943     100.00     5.00     5.00
+jMun  0944     100.00     5.00     5.00
+jMun  0945     100.00     5.00     5.00
+jMun  0946     100.00     5.00     5.00
+jMun  0947     100.00     5.00     5.00
+jMun  0948     100.00     5.00     5.00
+jMun  0949     100.00     5.00     5.00
+jMun  0950     100.00     5.00     5.00
+jMun  0951     100.00     5.00     5.00
+jMun  0952     100.00     5.00     5.00
+jMun  0953     100.00     5.00     5.00
+jMun  0954     100.00     5.00     5.00
+jMun  0955     100.00     5.00     5.00
+jMun  0956     100.00     5.00     5.00
+jMun  0957     100.00     5.00     5.00
+jMun  0958     100.00     5.00     5.00
+jMun  0959     100.00     5.00     5.00
+jMun  0960     100.00     5.00     5.00
+jMun  0961     100.00     5.00     5.00
+jMun  0962     100.00     5.00     5.00
+jMun  0963     100.00     5.00     5.00
+jMun  0964     100.00     5.00     5.00
+jMun  0965     100.00     5.00     5.00
+jMun  0966     100.00     5.00     5.00
+jMun  0967     100.00     5.00     5.00
+jMun  0968     100.00     5.00     5.00
+jMun  0969     100.00     5.00     5.00
+jMun  0970     100.00     6.00     6.00
+jMun  0971     100.00     6.00     6.00
+jMun  0972     100.00     6.00     6.00
+jMun  0973     100.00     6.00     6.00
+jMun  0974     100.00     6.00     6.00
+jMun  0975     100.00     6.00     6.00
+jMun  0976     100.00     6.00     6.00
+jMun  0977     100.00     6.00     6.00
+jMun  0978     100.00     6.00     6.00
+jMun  0979     100.00     6.00     6.00
+jMun  0980     100.00     6.00     6.00
+jMun  0981     100.00     6.00     6.00
+jMun  0982     100.00     6.00     6.00
+jMun  0983     100.00     6.00     6.00
+jMun  0984     100.00     6.00     6.00
+jMun  0985     100.00     6.00     6.00
+jMun  0986     100.00     6.00     6.00
+jMun  0987     100.00     6.00     6.00
+jMun  0988     100.00     6.00     6.00
+jMun  0989     100.00     6.00     6.00
+jMun  0990     100.00     6.00     6.00
+jMun  0991     100.00     6.00     6.00
+jMun  0992     100.00     6.00     6.00
+jMun  0993     100.00     6.00     6.00
+jMun  0994     100.00     6.00     6.00
+jMun  0995     100.00     6.00     6.00
+jMun  0996     100.00     6.00     6.00
+jMun  0997     100.00     6.00     6.00
+jMun  0998     100.00     6.00     6.00
+jMun  0999     100.00     6.00     6.00
+jMun  1000     100.00     6.00     6.00
+jMun  1001     100.00     6.00     6.00
+jMun  1002     100.00     6.00     6.00
+jMun  1003     100.00     6.00     6.00
+jMun  1004     100.00     6.00     6.00
+jMun  1005     100.00     6.00     6.00
+jMun  1006     100.00     6.00     6.00
+jMun  1007     100.00     6.00     6.00
+jMun  1008     100.00     6.00     6.00
+jMun  1009     100.00     6.00     6.00
+jMun  1010     100.00     6.00     6.00
+jMun  1011     100.00     6.00     6.00
+jMun  1012     100.00     6.00     6.00
+jMun  1013     100.00     6.00     6.00
+jMun  1014     100.00     6.00     6.00
+jMun  1015     100.00     6.00     6.00
+jMun  1016     100.00     6.00     6.00
+jMun  1017     100.00     6.00     6.00
+jMun  1018     100.00     6.00     6.00
+jMun  1019     100.00     6.00     6.00
+jMun  1020     100.00     6.00     6.00
+jMun  1021     100.00     6.00     6.00
+jMun  1022     100.00     6.00     6.00
+jMun  1023     100.00     6.00     6.00
+jMun  1024     100.00     6.00     6.00
+jMun  1025     100.00     6.00     6.00
+jMun  1026     100.00     6.00     6.00
+jMun  1027     100.00     6.00     6.00
+jMun  1028     100.00     6.00     6.00
+jMun  1029     100.00     6.00     6.00
+jMun  1030     100.00     6.00     6.00
+jMun  1031     100.00     6.00     6.00
+jMun  1032     100.00     6.00     6.00
+jMun  1033     100.00     6.00     6.00
+jMun  1034     100.00     6.00     6.00
+jMun  1035     100.00     6.00     6.00
+jMun  1036     100.00     6.00     6.00
+jMun  1037     100.00     6.00     6.00
+jMun  1038     100.00     6.00     6.00
+jMun  1039     100.00     6.00     6.00
+jMun  1040     100.00     6.00     6.00
+jMun  1041     100.00     6.00     6.00
+jMun  1042     100.00     6.00     6.00
+jMun  1043     100.00     6.00     6.00
+jMun  1044     100.00     6.00     6.00
+jMun  1045     100.00     6.00     6.00
+jMun  1046     100.00     6.00     6.00
+jMun  1047     100.00     6.00     6.00
+jMun  1048     100.00     6.00     6.00
+jMun  1049     100.00     6.00     6.00
+jMun  1050     100.00     6.00     6.00
+jMun  1051     100.00     6.00     6.00
+jMun  1052     100.00     6.00     6.00
+jMun  1053     100.00     6.00     6.00
+jMun  1054     100.00     6.00     6.00
+jMun  1055     100.00     6.00     6.00
+jMun  1056     100.00     6.00     6.00
+jMun  1057     100.00     6.00     6.00
+jMun  1058     100.00     6.00     6.00
+jMun  1059     100.00     6.00     6.00
+jMun  1060     100.00     6.00     6.00
+jMun  1061     100.00     7.00     7.00
+jMun  1062     100.00     7.00     7.00
+jMun  1063     100.00     7.00     7.00
+jMun  1064     100.00     7.00     7.00
+jMun  1065     100.00     7.00     7.00
+jMun  1066     100.00     7.00     7.00
+jMun  1067     100.00     7.00     7.00
+jMun  1068     100.00     7.00     7.00
+jMun  1069     100.00     7.00     7.00
+jMun  1070     100.00     7.00     7.00
+jMun  1071     100.00     7.00     7.00
+jMun  1072     100.00     7.00     7.00
+jMun  1073     100.00     7.00     7.00
+jMun  1074     100.00     7.00     7.00
+jMun  1075     100.00     7.00     7.00
+jMun  1076     100.00     7.00     7.00
+jMun  1077     100.00     7.00     7.00
+jMun  1078     100.00     7.00     7.00
+jMun  1079     100.00     7.00     7.00
+jMun  1080     100.00     7.00     7.00
+jMun  1081     100.00     7.00     7.00
+jMun  1082     100.00     7.00     7.00
+jMun  1083     100.00     7.00     7.00
+jMun  1084     100.00     7.00     7.00
+jMun  1085     100.00     7.00     7.00
+jMun  1086     100.00     7.00     7.00
+jMun  1087     100.00     7.00     7.00
+jMun  1088     100.00     7.00     7.00
+jMun  1089     100.00     7.00     7.00
+jMun  1090     100.00     7.00     7.00
+jMun  1091     100.00     7.00     7.00
+jMun  1092     100.00     7.00     7.00
+jMun  1093     100.00     7.00     7.00
+jMun  1094     100.00     7.00     7.00
+jMun  1095     100.00     7.00     7.00
+jMun  1096     100.00     7.00     7.00
+jMun  1097     100.00     7.00     7.00
+jMun  1098     100.00     7.00     7.00
+jMun  1099     100.00     7.00     7.00
+jMun  1100     100.00     7.00     7.00
+jMun  1101     100.00     7.00     7.00
+jMun  1102     100.00     7.00     7.00
+jMun  1103     100.00     7.00     7.00
+jMun  1104     100.00     7.00     7.00
+jMun  1105     100.00     7.00     7.00
+jMun  1106     100.00     7.00     7.00
+jMun  1107     100.00     7.00     7.00
+jMun  1108     100.00     7.00     7.00
+jMun  1109     100.00     7.00     7.00
+jMun  1110     100.00     7.00     7.00
+jMun  1111     100.00     7.00     7.00
+jMun  1112     100.00     7.00     7.00
+jMun  1113     100.00     7.00     7.00
+jMun  1114     100.00     7.00     7.00
+jMun  1115     100.00     7.00     7.00
+jMun  1116     100.00     7.00     7.00
+jMun  1117     100.00     7.00     7.00
+jMun  1118     100.00     7.00     7.00
+jMun  1119     100.00     7.00     7.00
+jMun  1120     100.00     7.00     7.00
+jMun  1121     100.00     7.00     7.00
+jMun  1122     100.00     7.00     7.00
+jMun  1123     100.00     7.00     7.00
+jMun  1124     100.00     7.00     7.00
+jMun  1125     100.00     7.00     7.00
+jMun  1126     100.00     7.00     7.00
+jMun  1127     100.00     7.00     7.00
+jMun  1128     100.00     7.00     7.00
+jMun  1129     100.00     7.00     7.00
+jMun  1130     100.00     7.00     7.00
+jMun  1131     100.00     7.00     7.00
+jMun  1132     100.00     7.00     7.00
+jMun  1133     100.00     7.00     7.00
+jMun  1134     100.00     7.00     7.00
+jMun  1135     100.00     7.00     7.00
+jMun  1136     100.00     7.00     7.00
+jMun  1137     100.00     7.00     7.00
+jMun  1138     100.00     7.00     7.00
+jMun  1139     100.00     7.00     7.00
+jMun  1140     100.00     7.00     7.00
+jMun  1141     100.00     7.00     7.00
+jMun  1142     100.00     7.00     7.00
+jMun  1143     100.00     7.00     7.00
+jMun  1144     100.00     7.00     7.00
+jMun  1145     100.00     7.00     7.00
+jMun  1146     100.00     7.00     7.00
+jMun  1147     100.00     7.00     7.00
+jMun  1148     100.00     7.00     7.00
+jMun  1149     100.00     7.00     7.00
+jMun  1150     100.00     7.00     7.00
+jMun  1151     100.00     7.00     7.00
+jMun  1152     100.00     7.00     7.00
+jMun  1153     100.00     7.00     7.00
+jMun  1154     100.00     7.00     7.00
+jMun  1155     100.00     7.00     7.00
+jMun  1156     100.00     7.00     7.00
+jMun  1157     100.00     7.00     7.00
+jMun  1158     100.00     7.00     7.00
+jMun  1159     100.00     7.00     7.00
+jMun  1160     100.00     7.00     7.00
+jMun  1161     100.00     7.00     7.00
+jMun  1162     100.00     7.00     7.00
+jMun  1163     100.00     7.00     7.00
+jMun  1164     100.00     7.00     7.00
+jMun  1165     100.00     7.00     7.00
+jMun  1166     100.00     7.00     7.00
+jMun  1167     100.00     7.00     7.00
+jMun  1168     100.00     7.00     7.00
+jMun  1169     100.00     7.00     7.00
+jMun  1170     100.00     7.00     7.00
+jMun  1171     100.00     7.00     7.00
+jMun  1172     100.00     7.00     7.00
+jMun  1173     100.00     7.00     7.00
+jMun  1174     100.00     7.00     7.00
+jMun  1175     100.00     7.00     7.00
+jMun  1176     100.00     7.00     7.00
+jMun  1177     100.00     7.00     7.00
+jMun  1178     100.00     7.00     7.00
+jMun  1179     100.00     7.00     7.00
+jMun  1180     100.00     7.00     7.00
+jMun  1181     100.00     7.00     7.00
+jMun  1182     100.00     7.00     7.00
+jMun  1183     100.00     7.00     7.00
+jMun  1184     100.00     7.00     7.00
+jMun  1185     100.00     7.00     7.00
+jMun  1186     100.00     7.00     7.00
+jMun  1187     100.00     7.00     7.00
+jMun  1188     100.00     7.00     7.00
+jMun  1189     100.00     7.00     7.00
+jMun  1190     100.00     7.00     7.00
+jMun  1191     100.00     7.00     7.00
+jMun  1192     100.00     7.00     7.00
+jMun  1193     100.00     7.00     7.00
+jMun  1194     100.00     7.00     7.00
+jMun  1195     100.00     7.00     7.00
+jMun  1196     100.00     7.00     7.00
+jMun  1197     100.00     7.00     7.00
+jMun  1198     100.00     7.00     7.00
+jMun  1199     100.00     7.00     7.00
+jMun  1200     100.00     7.00     7.00
+jMun  1201     100.00     7.00     7.00
+jMun  1202     100.00     7.00     7.00
+jMun  1203     100.00     7.00     7.00
+jMun  1204     100.00     7.00     7.00
+jMun  1205     100.00     8.00     8.00
+jMun  1206     100.00     8.00     8.00
+jMun  1207     100.00     8.00     8.00
+jMun  1208     100.00     8.00     8.00
+jMun  1209     100.00     8.00     8.00
+jMun  1210     100.00     8.00     8.00
+jMun  1211     100.00     8.00     8.00
+jMun  1212     100.00     8.00     8.00
+jMun  1213     100.00     8.00     8.00
+jMun  1214     100.00     8.00     8.00
+jMun  1215     100.00     8.00     8.00
+jMun  1216     100.00     8.00     8.00
+jMun  1217     100.00     8.00     8.00
+jMun  1218     100.00     8.00     8.00
+jMun  1219     100.00     8.00     8.00
+jMun  1220     100.00     8.00     8.00
+jMun  1221     100.00     8.00     8.00
+jMun  1222     100.00     8.00     8.00
+jMun  1223     100.00     8.00     8.00
+jMun  1224     100.00     8.00     8.00
+jMun  1225     100.00     8.00     8.00
+jMun  1226     100.00     8.00     8.00
+jMun  1227     100.00     8.00     8.00
+jMun  1228     100.00     8.00     8.00
+jMun  1229     100.00     8.00     8.00
+jMun  1230     100.00     8.00     8.00
+jMun  1231     100.00     8.00     8.00
+jMun  1232     100.00     8.00     8.00
+jMun  1233     100.00     8.00     8.00
+jMun  1234     100.00     8.00     8.00
+jMun  1235     100.00     8.00     8.00
+jMun  1236     100.00     8.00     8.00
+jMun  1237     100.00     8.00     8.00
+jMun  1238     100.00     8.00     8.00
+jMun  1239     100.00     8.00     8.00
+jMun  1240     100.00     8.00     8.00
+jMun  1241     100.00     8.00     8.00
+jMun  1242     100.00     8.00     8.00
+jMun  1243     100.00     8.00     8.00
+jMun  1244     100.00     8.00     8.00
+jMun  1245     100.00     8.00     8.00
+jMun  1246     100.00     8.00     8.00
+jMun  1247     100.00     8.00     8.00
+jMun  1248     100.00     8.00     8.00
+jMun  1249     100.00     8.00     8.00
+jMun  1250     100.00     8.00     8.00
+jMun  1251     100.00     8.00     8.00
+jMun  1252     100.00     8.00     8.00
+jMun  1253     100.00     8.00     8.00
+jMun  1254     100.00     8.00     8.00
+jMun  1255     100.00     8.00     8.00
+jMun  1256     100.00     8.00     8.00
+jMun  1257     100.00     8.00     8.00
+jMun  1258     100.00     8.00     8.00
+jMun  1259     100.00     8.00     8.00
+jMun  1260     100.00     8.00     8.00
+jMun  1261     100.00     8.00     8.00
+jMun  1262     100.00     8.00     8.00
+jMun  1263     100.00     8.00     8.00
+jMun  1264     100.00     8.00     8.00
+jMun  1265     100.00     8.00     8.00
+jMun  1266     100.00     8.00     8.00
+jMun  1267     100.00     8.00     8.00
+jMun  1268     100.00     8.00     8.00
+jMun  1269     100.00     8.00     8.00
+jMun  1270     100.00     8.00     8.00
+jMun  1271     100.00     8.00     8.00
+jMun  1272     100.00     8.00     8.00
+jMun  1273     100.00     8.00     8.00
+jMun  1274     100.00     8.00     8.00
+jMun  1275     100.00     8.00     8.00
+jMun  1276     100.00     8.00     8.00
+jMun  1277     100.00     8.00     8.00
+jMun  1278     100.00     8.00     8.00
+jMun  1279     100.00     8.00     8.00
+jMun  1280     100.00     8.00     8.00
+jMun  1281     100.00     8.00     8.00
+jMun  1282     100.00     8.00     8.00
+jMun  1283     100.00     8.00     8.00
+jMun  1284     100.00     8.00     8.00
+jMun  1285     100.00     8.00     8.00
+jMun  1286     100.00     8.00     8.00
+jMun  1287     100.00     8.00     8.00
+jMun  1288     100.00     8.00     8.00
+jMun  1289     100.00     8.00     8.00
+jMun  1290     100.00     8.00     8.00
+jMun  1291     100.00     8.00     8.00
+jMun  1292     100.00     8.00     8.00
+jMun  1293     100.00     8.00     8.00
+jMun  1294     100.00     8.00     8.00
+jMun  1295     100.00     8.00     8.00
+jMun  1296     100.00     8.00     8.00
+jMun  1297     100.00     8.00     8.00
+jMun  1298     100.00     8.00     8.00
+jMun  1299     100.00     8.00     8.00
+jMun  1300     100.00     8.00     8.00
+jMun  1301     100.00     8.00     8.00
+jMun  1302     100.00     8.00     8.00
+jMun  1303     100.00     8.00     8.00
+jMun  1304     100.00     8.00     8.00
+jMun  1305     100.00     8.00     8.00
+jMun  1306     100.00     8.00     8.00
+jMun  1307     100.00     8.00     8.00
+jMun  1308     100.00     8.00     8.00
+jMun  1309     100.00     8.00     8.00
+jMun  1310     100.00     8.00     8.00
+jMun  1311     100.00     8.00     8.00
+jMun  1312     100.00     8.00     8.00
+jMun  1313     100.00     8.00     8.00
+jMun  1314     100.00     8.00     8.00
+jMun  1315     100.00     8.00     8.00
+jMun  1316     100.00     8.00     8.00
+jMun  1317     100.00     9.00     9.00
+jMun  1318     100.00     9.00     9.00
+jMun  1319     100.00     9.00     9.00
+jMun  1320     100.00     9.00     9.00
+jMun  1321     100.00     9.00     9.00
+jMun  1322     100.00     9.00     9.00
+jMun  1323     100.00     9.00     9.00
+jMun  1324     100.00     9.00     9.00
+jMun  1325     100.00     9.00     9.00
+jMun  1326     100.00     9.00     9.00
+jMun  1327     100.00     9.00     9.00
+jMun  1328     100.00     9.00     9.00
+jMun  1329     100.00     9.00     9.00
+jMun  1330     100.00     9.00     9.00
+jMun  1331     100.00     9.00     9.00
+jMun  1332     100.00     9.00     9.00
+jMun  1333     100.00     9.00     9.00
+jMun  1334     100.00     9.00     9.00
+jMun  1335     100.00     9.00     9.00
+jMun  1336     100.00     9.00     9.00
+jMun  1337     100.00     9.00     9.00
+jMun  1338     100.00     9.00     9.00
+jMun  1339     100.00     9.00     9.00
+jMun  1340     100.00     9.00     9.00
+jMun  1341     100.00     9.00     9.00
+jMun  1342     100.00     9.00     9.00
+jMun  1343     100.00     9.00     9.00
+jMun  1344     100.00     9.00     9.00
+jMun  1345     100.00     9.00     9.00
+jMun  1346     100.00     9.00     9.00
+jMun  1347     100.00     9.00     9.00
+jMun  1348     100.00     9.00     9.00
+jMun  1349     100.00     9.00     9.00
+jMun  1350     100.00     9.00     9.00
+jMun  1351     100.00     9.00     9.00
+jMun  1352     100.00     9.00     9.00
+jMun  1353     100.00     9.00     9.00
+jMun  1354     100.00     9.00     9.00
+jMun  1355     100.00     9.00     9.00
+jMun  1356     100.00     9.00     9.00
+jMun  1357     100.00     9.00     9.00
+jMun  1358     100.00     9.00     9.00
+jMun  1359     100.00     9.00     9.00
+jMun  1360     100.00     9.00     9.00
+jMun  1361     100.00     9.00     9.00
+jMun  1362     100.00     9.00     9.00
+jMun  1363     100.00     9.00     9.00
+jMun  1364     100.00     9.00     9.00
+jMun  1365     100.00     9.00     9.00
+jMun  1366     100.00     9.00     9.00
+jMun  1367     100.00     9.00     9.00
+jMun  1368     100.00     9.00     9.00
+jMun  1369     100.00     9.00     9.00
+jMun  1370     100.00     9.00     9.00
+jMun  1371     100.00     9.00     9.00
+jMun  1372     100.00     9.00     9.00
+jMun  1373     100.00     9.00     9.00
+jMun  1374     100.00     9.00     9.00
+jMun  1375     100.00    10.00    10.00
+jMun  1376     100.00    10.00    10.00
+jMun  1377     100.00    10.00    10.00
+jMun  1378     100.00    10.00    10.00
+jMun  1379     100.00    10.00    10.00
+jMun  1380     100.00    10.00    10.00
+jMun  1381     100.00    10.00    10.00
+jMun  1382     100.00    10.00    10.00
+jMun  1383     100.00    10.00    10.00
+jMun  1384     100.00    10.00    10.00
+jMun  1385     100.00    10.00    10.00
+jMun  1386     100.00    10.00    10.00
+jMun  1387     100.00    10.00    10.00
+jMun  1388     100.00    10.00    10.00
+jMun  1389     100.00    10.00    10.00
+jMun  1390     100.00    10.00    10.00
+jMun  1391     100.00    10.00    10.00
+jMun  1392     100.00    10.00    10.00
+jMun  1393     100.00    10.00    10.00
+jMun  1394     100.00    10.00    10.00
+jMun  1395     100.00    10.00    10.00
+jMun  1396     100.00    10.00    10.00
+jMun  1397     100.00    10.00    10.00
+jMun  1398     100.00    10.00    10.00
+jMun  1399     100.00    10.00    10.00
+jMun  1400     100.00    10.00    10.00
+jMun  1401     100.00    10.00    10.00
+jMun  1402     100.00    10.00    10.00
+jMun  1403     100.00    10.00    10.00
+jMun  1404     100.00    10.00    10.00
+jMun  1405     100.00    10.00    10.00
+jMun  1406     100.00    10.00    10.00
+jMun  1407     100.00    10.00    10.00
+jMun  1408     100.00    10.00    10.00
+jMun  1409     100.00    10.00    10.00
+jMun  1410     100.00    10.00    10.00
+jMun  1411     100.00    10.00    10.00
+jMun  1412     100.00    10.00    10.00
+jMun  1413     100.00    10.00    10.00
+jMun  1414     100.00    10.00    10.00
+jMun  1415     100.00    10.00    10.00
+jMun  1416     100.00    10.00    10.00
+jMun  1417     100.00    10.00    10.00
+jMun  1418     100.00    10.00    10.00
+jMun  1419     100.00    10.00    10.00
+jMun  1420     100.00    10.00    10.00
+jMun  1421     100.00    10.00    10.00
+jMun  1422     100.00    10.00    10.00
+jMun  1423     100.00    10.00    10.00
+jMun  1424     100.00    10.00    10.00
+jMun  1425     100.00    10.00    10.00
+jMun  1426     100.00    10.00    10.00
+jMun  1427     100.00    10.00    10.00
+jMun  1428     100.00    10.00    10.00
+jMun  1429     100.00    10.00    10.00
+jMun  1430     100.00    10.00    10.00
+jMun  1431     100.00    10.00    10.00
+jMun  1432     100.00    10.00    10.00
+jMun  1433     100.00    10.00    10.00
+jMun  1434     100.00    10.00    10.00
+jMun  1435     100.00    10.00    10.00
+jMun  1436     100.00    10.00    10.00
+jMun  1437     100.00    10.00    10.00
+jMun  1438     100.00    11.00    11.00
+jMun  1439     100.00    11.00    11.00
+jMun  1440     100.00    11.00    11.00
+jMun  1441     100.00    11.00    11.00
+jMun  1442     100.00    11.00    11.00
+jMun  1443     100.00    11.00    11.00
+jMun  1444     100.00    11.00    11.00
+jMun  1445     100.00    11.00    11.00
+jMun  1446     100.00    11.00    11.00
+jMun  1447     100.00    11.00    11.00
+jMun  1448     100.00    11.00    11.00
+jMun  1449     100.00    11.00    11.00
+jMun  1450     100.00    11.00    11.00
+jMun  1451     100.00    11.00    11.00
+jMun  1452     100.00    11.00    11.00
+jMun  1453     100.00    11.00    11.00
+jMun  1454     100.00    11.00    11.00
+jMun  1455     100.00    11.00    11.00
+jMun  1456     100.00    11.00    11.00
+jMun  1457     100.00    11.00    11.00
+jMun  1458     100.00    11.00    11.00
+jMun  1459     100.00    11.00    11.00
+jMun  1460     100.00    11.00    11.00
+jMun  1461     100.00    11.00    11.00
+jMun  1462     100.00    11.00    11.00
+jMun  1463     100.00    11.00    11.00
+jMun  1464     100.00    11.00    11.00
+jMun  1465     100.00    11.00    11.00
+jMun  1466     100.00    11.00    11.00
+jMun  1467     100.00    11.00    11.00
+jMun  1468     100.00    11.00    11.00
+jMun  1469     100.00    11.00    11.00
+jMun  1470     100.00    11.00    11.00
+jMun  1471     100.00    11.00    11.00
+jMun  1472     100.00    11.00    11.00
+jMun  1473     100.00    11.00    11.00
+jMun  1474     100.00    11.00    11.00
+jMun  1475     100.00    11.00    11.00
+jMun  1476     100.00    11.00    11.00
+jMun  1477     100.00    11.00    11.00
+jMun  1478     100.00    11.00    11.00
+jMun  1479     100.00    11.00    11.00
+jMun  1480     100.00    11.00    11.00
+jMun  1481     100.00    11.00    11.00
+jMun  1482     100.00    11.00    11.00
+jMun  1483     100.00    11.00    11.00
+jMun  1484     100.00    11.00    11.00
+jMun  1485     100.00    11.00    11.00
+jMun  1486     100.00    11.00    11.00
+jMun  1487     100.00    11.00    11.00
+jMun  1488     100.00    11.00    11.00
+jMun  1489     100.00    11.00    11.00
+jMun  1490     100.00    11.00    11.00
+jMun  1491     100.00    11.00    11.00
+jMun  1492     100.00    11.00    11.00
+jMun  1493     100.00    11.00    11.00
+jMun  1494     100.00    11.00    11.00
+jMun  1495     100.00    11.00    11.00
+jMun  1496     100.00    11.00    11.00
+jMun  1497     100.00    11.00    11.00
+jMun  1498     100.00    11.00    11.00
+jMun  1499     100.00    11.00    11.00
+jMun  1500     100.00    11.00    11.00
+jMun  1501     100.00    11.00    11.00
+jMun  1502     100.00    11.00    11.00
+jMun  1503     100.00    11.00    11.00
+jMun  1504     100.00    11.00    11.00
+jMun  1505     100.00    11.00    11.00
+jMun  1506     100.00    11.00    11.00
+jMun  1507     100.00    11.00    11.00
+jMun  1508     100.00    11.00    11.00
+jMun  1509     100.00    11.00    11.00
+jMun  1510     100.00    11.00    11.00
+jMun  1511     100.00    11.00    11.00
+jMun  1512     100.00    11.00    11.00
+jMun  1513     100.00    11.00    11.00
+jMun  1514     100.00    11.00    11.00
+jMun  1515     100.00    11.00    11.00
+jMun  1516     100.00    11.00    11.00
+jMun  1517     100.00    11.00    11.00
+jMun  1518     100.00    11.00    11.00
+jMun  1519     100.00    11.00    11.00
+jMun  1520     100.00    11.00    11.00
+jMun  1521     100.00    11.00    11.00
+jMun  1522     100.00    11.00    11.00
+jMun  1523     100.00    11.00    11.00
+jMun  1524     100.00    11.00    11.00
+jMun  1525     100.00    11.00    11.00
+jMun  1526     100.00    11.00    11.00
+jMun  1527     100.00    11.00    11.00
+jMun  1528     100.00    11.00    11.00
+jMun  1529     100.00    11.00    11.00
+jMun  1530     100.00    11.00    11.00
+jMun  1531     100.00    11.00    11.00
+jMun  1532     100.00    11.00    11.00
+jMun  1533     100.00    11.00    11.00
+jMun  1534     100.00    11.00    11.00
+jMun  1535     100.00    11.00    11.00
+jMun  1536     100.00    11.00    11.00
+jMun  1537     100.00    11.00    11.00
+jMun  1538     100.00    11.00    11.00
+jMun  1539     100.00    11.00    11.00
+jMun  1540     100.00    11.00    11.00
+jMun  1541     100.00    11.00    11.00
+jMun  1542     100.00    11.00    11.00
+jMun  1543     100.00    11.00    11.00
+jMun  1544     100.00    11.00    11.00
+jMun  1545     100.00    11.00    11.00
+jMun  1546     100.00    11.00    11.00
+jMun  1547     100.00    11.00    11.00
+jMun  1548     100.00    11.00    11.00
+jMun  1549     100.00    12.00    12.00
+jMun  1550     100.00    12.00    12.00
+jMun  1551     100.00    12.00    12.00
+jMun  1552     100.00    12.00    12.00
+jMun  1553     100.00    12.00    12.00
+jMun  1554     100.00    12.00    12.00
+jMun  1555     100.00    12.00    12.00
+jMun  1556     100.00    12.00    12.00
+jMun  1557     100.00    12.00    12.00
+jMun  1558     100.00    12.00    12.00
+jMun  1559     100.00    12.00    12.00
+jMun  1560     100.00    12.00    12.00
+jMun  1561     100.00    12.00    12.00
+jMun  1562     100.00    12.00    12.00
+jMun  1563     100.00    12.00    12.00
+jMun  1564     100.00    12.00    12.00
+jMun  1565     100.00    12.00    12.00
+jMun  1566     100.00    12.00    12.00
+jMun  1567     100.00    12.00    12.00
+jMun  1568     100.00    12.00    12.00
+jMun  1569     100.00    12.00    12.00
+jMun  1570     100.00    12.00    12.00
+jMun  1571     100.00    12.00    12.00
+jMun  1572     100.00    12.00    12.00
+jMun  1573     100.00    12.00    12.00
+jMun  1574     100.00    12.00    12.00
+jMun  1575     100.00    12.00    12.00
+jMun  1576     100.00    12.00    12.00
+jMun  1577     100.00    12.00    12.00
+jMun  1578     100.00    12.00    12.00
+jMun  1579     100.00    12.00    12.00
+jMun  1580     100.00    12.00    12.00
+jMun  1581     100.00    12.00    12.00
+jMun  1582     100.00    12.00    12.00
+jMun  1583     100.00    12.00    12.00
+jMun  1584     100.00    12.00    12.00
+jMun  1585     100.00    12.00    12.00
+jMun  1586     100.00    12.00    12.00
+jMun  1587     100.00    12.00    12.00
+jMun  1588     100.00    12.00    12.00
+jMun  1589     100.00    12.00    12.00
+jMun  1590     100.00    12.00    12.00
+jMun  1591     100.00    12.00    12.00
+jMun  1592     100.00    12.00    12.00
+jMun  1593     100.00    12.00    12.00
+jMun  1594     100.00    12.00    12.00
+jMun  1595     100.00    12.00    12.00
+jMun  1596     100.00    12.00    12.00
+jMun  1597     100.00    12.00    12.00
+jMun  1598     100.00    12.00    12.00
+jMun  1599     100.00    12.00    12.00
+jMun  1600     100.00    12.00    12.00
+jMun  1601     100.00    12.00    12.00
+jMun  1602     100.00    12.00    12.00
+jMun  1603     100.00    12.00    12.00
+jMun  1604     100.00    12.00    12.00
+jMun  1605     100.00    12.00    12.00
+jMun  1606     100.00    12.00    12.00
+jMun  1607     100.00    12.00    12.00
+jMun  1608     100.00    12.00    12.00
+jMun  1609     100.00    12.00    12.00
+jMun  1610     100.00    12.00    12.00
+jMun  1611     100.00    12.00    12.00
+jMun  1612     100.00    12.00    12.00
+jMun  1613     100.00    12.00    12.00
+jMun  1614     100.00    12.00    12.00
+jMun  1615     100.00    12.00    12.00
+jMun  1616     100.00    12.00    12.00
+jMun  1617     100.00    13.00    13.00
+jMun  1618     100.00    13.00    13.00
+jMun  1619     100.00    13.00    13.00
+jMun  1620     100.00    13.00    13.00
+jMun  1621     100.00    13.00    13.00
+jMun  1622     100.00    13.00    13.00
+jMun  1623     100.00    13.00    13.00
+jMun  1624     100.00    13.00    13.00
+jMun  1625     100.00    13.00    13.00
+jMun  1626     100.00    13.00    13.00
+jMun  1627     100.00    13.00    13.00
+jMun  1628     100.00    13.00    13.00
+jMun  1629     100.00    13.00    13.00
+jMun  1630     100.00    13.00    13.00
+jMun  1631     100.00    13.00    13.00
+jMun  1632     100.00    13.00    13.00
+jMun  1633     100.00    13.00    13.00
+jMun  1634     100.00    13.00    13.00
+jMun  1635     100.00    13.00    13.00
+jMun  1636     100.00    13.00    13.00
+jMun  1637     100.00    13.00    13.00
+jMun  1638     100.00    13.00    13.00
+jMun  1639     100.00    13.00    13.00
+jMun  1640     100.00    13.00    13.00
+jMun  1641     100.00    13.00    13.00
+jMun  1642     100.00    13.00    13.00
+jMun  1643     100.00    13.00    13.00
+jMun  1644     100.00    13.00    13.00
+jMun  1645     100.00    13.00    13.00
+jMun  1646     100.00    13.00    13.00
+jMun  1647     100.00    13.00    13.00
+jMun  1648     100.00    13.00    13.00
+jMun  1649     100.00    13.00    13.00
+jMun  1650     100.00    13.00    13.00
+jMun  1651     100.00    13.00    13.00
+jMun  1652     100.00    13.00    13.00
+jMun  1653     100.00    13.00    13.00
+jMun  1654     100.00    13.00    13.00
+jMun  1655     100.00    13.00    13.00
+jMun  1656     100.00    13.00    13.00
+jMun  1657     100.00    13.00    13.00
+jMun  1658     100.00    13.00    13.00
+jMun  1659     100.00    13.00    13.00
+jMun  1660     100.00    13.00    13.00
+jMun  1661     100.00    13.00    13.00
+jMun  1662     100.00    13.00    13.00
+jMun  1663     100.00    13.00    13.00
+jMun  1664     100.00    13.00    13.00
+jMun  1665     100.00    13.00    13.00
+jMun  1666     100.00    13.00    13.00
+jMun  1667     100.00    13.00    13.00
+jMun  1668     100.00    13.00    13.00
+jMun  1669     100.00    13.00    13.00
+jMun  1670     100.00    13.00    13.00
+jMun  1671     100.00    13.00    13.00
+jMun  1672     100.00    13.00    13.00
+jMun  1673     100.00    13.00    13.00
+jMun  1674     100.00    13.00    13.00
+jMun  1675     100.00    13.00    13.00
+jMun  1676     100.00    13.00    13.00
+jMun  1677     100.00    13.00    13.00
+jMun  1678     100.00    13.00    13.00
+jMun  1679     100.00    13.00    13.00
+jMun  1680     100.00    13.00    13.00
+jMun  1681     100.00    13.00    13.00
+jMun  1682     100.00    13.00    13.00
+jMun  1683     100.00    13.00    13.00
+jMun  1684     100.00    13.00    13.00
+jMun  1685     100.00    13.00    13.00
+jMun  1686     100.00    13.00    13.00
+jMun  1687     100.00    13.00    13.00
+jMun  1688     100.00    13.00    13.00
+jMun  1689     100.00    13.00    13.00
+jMun  1690     100.00    13.00    13.00
+jMun  1691     100.00    13.00    13.00
+jMun  1692     100.00    13.00    13.00
+jMun  1693     100.00    13.00    13.00
+jMun  1694     100.00    13.00    13.00
+jMun  1695     100.00    13.00    13.00
+jMun  1696     100.00    13.00    13.00
+jMun  1697     100.00    13.00    13.00
+jMun  1698     100.00    13.00    13.00
+jMun  1699     100.00    13.00    13.00
+jMun  1700     100.00    13.00    13.00
+jMun  1701     100.00    13.00    13.00
+jMun  1702     100.00    13.00    13.00
+jMun  1703     100.00    13.00    13.00
+jMun  1704     100.00    13.00    13.00
+jMun  1705     100.00    13.00    13.00
+jMun  1706     100.00    13.00    13.00
+jMun  1707     100.00    13.00    13.00
+jMun  1708     100.00    13.00    13.00
+jMun  1709     100.00    13.00    13.00
+jMun  1710     100.00    13.00    13.00
+jMun  1711     100.00    13.00    13.00
+jMun  1712     100.00    13.00    13.00
+jMun  1713     100.00    13.00    13.00
+jMun  1714     100.00    13.00    13.00
+jMun  1715     100.00    13.00    13.00
+jMun  1716     100.00    13.00    13.00
+jMun  1717     100.00    13.00    13.00
+jMun  1718     100.00    13.00    13.00
+jMun  1719     100.00    13.00    13.00
+jMun  1720     100.00    13.00    13.00
+jMun  1721     100.00    13.00    13.00
+jMun  1722     100.00    13.00    13.00
+jMun  1723     100.00    13.00    13.00
+jMun  1724     100.00    13.00    13.00
+jMun  1725     100.00    13.00    13.00
+jMun  1726     100.00    13.00    13.00
+jMun  1727     100.00    13.00    13.00
+jMun  1728     100.00    13.00    13.00
+jMun  1729     100.00    13.00    13.00
+jMun  1730     100.00    13.00    13.00
+jMun  1731     100.00    13.00    13.00
+jMun  1732     100.00    13.00    13.00
+jMun  1733     100.00    13.00    13.00
+jMun  1734     100.00    13.00    13.00
+jMun  1735     100.00    13.00    13.00
+jMun  1736     100.00    13.00    13.00
+jMun  1737     100.00    13.00    13.00
+jMun  1738     100.00    13.00    13.00
+jMun  1739     100.00    13.00    13.00
+jMun  1740     100.00    13.00    13.00
+jMun  1741     100.00    13.00    13.00
+jMun  1742     100.00    13.00    13.00
+jMun  1743     100.00    13.00    13.00
+jMun  1744     100.00    14.00    14.00
+jMun  1745     100.00    14.00    14.00
+jMun  1746     100.00    14.00    14.00
+jMun  1747     100.00    14.00    14.00
+jMun  1748     100.00    14.00    14.00
+jMun  1749     100.00    14.00    14.00
+jMun  1750     100.00    14.00    14.00
+jMun  1751     100.00    14.00    14.00
+jMun  1752     100.00    14.00    14.00
+jMun  1753     100.00    14.00    14.00
+jMun  1754     100.00    15.00    15.00
+jMun  1755     100.00    15.00    15.00
+jMun  1756     100.00    15.00    15.00
+jMun  1757     100.00    15.00    15.00
+jMun  1758     100.00    15.00    15.00
+jMun  1759     100.00    15.00    15.00
+jMun  1760     100.00    15.00    15.00
+jMun  1761     100.00    15.00    15.00
+jMun  1762     100.00    15.00    15.00
+jMun  1763     100.00    15.00    15.00
+jMun  1764     100.00    15.00    15.00
+jMun  1765     100.00    15.00    15.00
+jMun  1766     100.00    15.00    15.00
+jMun  1767     100.00    15.00    15.00
+jMun  1768     100.00    15.00    15.00
+jMun  1769     100.00    15.00    15.00
+jMun  1770     100.00    15.00    15.00
+jMun  1771     100.00    15.00    15.00
+jMun  1772     100.00    16.00    16.00
+jMun  1773     100.00    16.00    16.00
+jMun  1774     100.00    16.00    16.00
+jMun  1775     100.00    16.00    16.00
+jMun  1776     100.00    16.00    16.00
+jMun  1777     100.00    16.00    16.00
+jMun  1778     100.00    16.00    16.00
+jMun  1779     100.00    16.00    16.00
+jMun  1780     100.00    16.00    16.00
+jMun  1781     100.00    16.00    16.00
+jMun  1782     100.00    16.00    16.00
+jMun  1783     100.00    16.00    16.00
+jMun  1784     100.00    16.00    16.00
+jMun  1785     100.00    16.00    16.00
+jMun  1786     100.00    16.00    16.00
+jMun  1787     100.00    16.00    16.00
+jMun  1788     100.00    16.00    16.00
+jMun  1789     100.00    16.00    16.00
+jMun  1790     100.00    16.00    16.00
+jMun  1791     100.00    16.00    16.00
+jMun  1792     100.00    16.00    16.00
+jMun  1793     100.00    16.00    16.00
+jMun  1794     100.00    16.00    16.00
+jMun  1795     100.00    16.00    16.00
+jMun  1796     100.00    16.00    16.00
+jMun  1797     100.00    16.00    16.00
+jMun  1798     100.00    16.00    16.00
+jMun  1799     100.00    16.00    16.00
+jMun  1800     100.00    16.00    16.00
+jMun  1801     100.00    16.00    16.00
+jMun  1802     100.00    16.00    16.00
+jMun  1803     100.00    16.00    16.00
+jMun  1804     100.00    16.00    16.00
+jMun  1805     100.00    16.00    16.00
+jMun  1806     100.00    16.00    16.00
+jMun  1807     100.00    16.00    16.00
+jMun  1808     100.00    16.00    16.00
+jMun  1809     100.00    16.00    16.00
+jMun  1810     100.00    16.00    16.00
+jMun  1811     100.00    16.00    16.00
+jMun  1812     100.00    16.00    16.00
+jMun  1813     100.00    16.00    16.00
+jMun  1814     100.00    16.00    16.00
+jMun  1815     100.00    16.00    16.00
+jMun  1816     100.00    17.00    17.00
+jMun  1817     100.00    17.00    17.00
+jMun  1818     100.00    17.00    17.00
+jMun  1819     100.00    17.00    17.00
+jMun  1820     100.00    17.00    17.00
+jMun  1821     100.00    17.00    17.00
+jMun  1822     100.00    17.00    17.00
+jMun  1823     100.00    17.00    17.00
+jMun  1824     100.00    17.00    17.00
+jMun  1825     100.00    17.00    17.00
+jMun  1826     100.00    17.00    17.00
+jMun  1827     100.00    17.00    17.00
+jMun  1828     100.00    17.00    17.00
+jMun  1829     100.00    17.00    17.00
+jMun  1830     100.00    18.00    18.00
+jMun  1831     100.00    18.00    18.00
+jMun  1832     100.00    18.00    18.00
+jMun  1833     100.00    18.00    18.00
+jMun  1834     100.00    18.00    18.00
+jMun  1835     100.00    18.00    18.00
+jMun  1836     100.00    18.00    18.00
+jMun  1837     100.00    18.00    18.00
+jMun  1838     100.00    18.00    18.00
+jMun  1839     100.00    18.00    18.00
+jMun  1840     100.00    18.00    18.00
+jMun  1841     100.00    18.00    18.00
+jMun  1842     100.00    18.00    18.00
+jMun  1843     100.00    18.00    18.00
+jMun  1844     100.00    18.00    18.00
+jMun  1845     100.00    18.00    18.00
+jMun  1846     100.00    18.00    18.00
+jMun  1847     100.00    19.00    19.00
+jMun  1848     100.00    19.00    19.00
+jMun  1849     100.00    19.00    19.00
+jMun  1850     100.00    19.00    19.00
+jMun  1851     100.00    19.00    19.00
+jMun  1852     100.00    19.00    19.00
+jMun  1853     100.00    19.00    19.00
+jMun  1854     100.00    19.00    19.00
+jMun  1855     100.00    19.00    19.00
+jMun  1856     100.00    19.00    19.00
+jMun  1857     100.00    19.00    19.00
+jMun  1858     100.00    20.00    20.00
+jMun  1859     100.00    20.00    20.00
+jMun  1860     100.00    20.00    20.00
+jMun  1861     100.00    20.00    20.00
+jMun  1862     100.00    20.00    20.00
+jMun  1863     100.00    20.00    20.00
+jMun  1864     100.00    20.00    20.00
+jMun  1865     100.00    20.00    20.00
+jMun  1866     100.00    20.00    20.00
+jMun  1867     100.00    20.00    20.00
+jMun  1868     100.00    20.00    20.00
+jMun  1869     100.00    20.00    20.00
+jMun  1870     100.00    20.00    20.00
+jMun  1871     100.00    20.00    20.00
+jMun  1872     100.00    20.00    20.00
+jMun  1873     100.00    20.00    20.00
+jMun  1874     100.00    20.00    20.00
+jMun  1875     100.00    20.00    20.00
+jMun  1876     100.00    20.00    20.00
+jMun  1877     100.00    20.00    20.00
+jMun  1878     100.00    20.00    20.00
+jMun  1879     100.00    20.00    20.00
+jMun  1880     100.00    20.00    20.00
+jMun  1881     100.00    20.00    20.00
+jMun  1882     100.00    20.00    20.00
+jMun  1883     100.00    20.00    20.00
+jMun  1884     100.00    20.00    20.00
+jMun  1885     100.00    20.00    20.00
+jMun  1886     100.00    20.00    20.00
+jMun  1887     100.00    20.00    20.00
+jMun  1888     100.00    20.00    20.00
+jMun  1889     100.00    20.00    20.00
+jMun  1890     100.00    20.00    20.00
+jMun  1891     100.00    20.00    20.00
+jMun  1892     100.00    20.00    20.00
+jMun  1893     100.00    20.00    20.00
+jMun  1894     100.00    20.00    20.00
+jMun  1895     100.00    20.00    20.00
+jMun  1896     100.00    20.00    20.00
+jMun  1897     100.00    20.00    20.00
+jMun  1898     100.00    20.00    20.00
+jMun  1899     100.00    20.00    20.00
+jMun  1900     100.00    20.00    20.00
+jMun  1901     100.00    20.00    20.00
+jMun  1902     100.00    20.00    20.00
+jMun  1903     100.00    20.00    20.00
+jMun  1904     100.00    20.00    20.00
+jMun  1905     100.00    20.00    20.00
+jMun  1906     100.00    20.00    20.00
+jMun  1907     100.00    20.00    20.00
+jMun  1908     100.00    20.00    20.00
+jMun  1909     100.00    20.00    20.00
+jMun  1910     100.00    20.00    20.00
+jMun  1911     100.00    20.00    20.00
+jMun  1912     100.00    20.00    20.00
+jMun  1913     100.00    21.00    21.00
+jMun  1914     100.00    21.00    21.00
+jMun  1915     100.00    21.00    21.00
+jMun  1916     100.00    21.00    21.00
+jMun  1917     100.00    21.00    21.00
+jMun  1918     100.00    21.00    21.00
+jMun  1919     100.00    21.00    21.00
+jMun  1920     100.00    21.00    21.00
+jMun  1921     100.00    21.00    21.00
+jMun  1922     100.00    21.00    21.00
+jMun  1923     100.00    21.00    21.00
+jMun  1924     100.00    21.00    21.00
+jMun  1925     100.00    21.00    21.00
+jMun  1926     100.00    21.00    21.00
+jMun  1927     100.00    21.00    21.00
+jMun  1928     100.00    21.00    21.00
+jMun  1929     100.00    21.00    21.00
+jMun  1930     100.00    21.00    21.00
+jMun  1931     100.00    21.00    21.00
+jMun  1932     100.00    21.00    21.00
+jMun  1933     100.00    21.00    21.00
+jMun  1934     100.00    21.00    21.00
+jMun  1935     100.00    21.00    21.00
+jMun  1936     100.00    21.00    21.00
+jMun  1937     100.00    21.00    21.00
+jMun  1938     100.00    21.00    21.00
+jMun  1939     100.00    21.00    21.00
+jMun  1940     100.00    21.00    21.00
+jMun  1941     100.00    21.00    21.00
+jMun  1942     100.00    21.00    21.00
+jMun  1943     100.00    21.00    21.00
+jMun  1944     100.00    21.00    21.00
+jMun  1945     100.00    21.00    21.00
+jMun  1946     100.00    21.00    21.00
+jMun  1947     100.00    21.00    21.00
+jMun  1948     100.00    21.00    21.00
+jMun  1949     100.00    21.00    21.00
+jMun  1950     100.00    21.00    21.00
+jMun  1951     100.00    21.00    21.00
+jMun  1952     100.00    21.00    21.00
+jMun  1953     100.00    21.00    21.00
+jMun  1954     100.00    21.00    21.00
+jMun  1955     100.00    21.00    21.00
+jMun  1956     100.00    21.00    21.00
+jMun  1957     100.00    21.00    21.00
+jMun  1958     100.00    21.00    21.00
+jMun  1959     100.00    21.00    21.00
+jMun  1960     100.00    21.00    21.00
+jMun  1961     100.00    21.00    21.00
+jMun  1962     100.00    21.00    21.00
+jMun  1963     100.00    21.00    21.00
+jMun  1964     100.00    21.00    21.00
+jMun  1965     100.00    21.00    21.00
+jMun  1966     100.00    21.00    21.00
+jMun  1967     100.00    21.00    21.00
+jMun  1968     100.00    21.00    21.00
+jMun  1969     100.00    21.00    21.00
+jMun  1970     100.00    21.00    21.00
+jMun  1971     100.00    21.00    21.00
+jMun  1972     100.00    21.00    21.00
+jMun  1973     100.00    21.00    21.00
+jMun  1974     100.00    22.00    22.00
+jMun  1975     100.00    22.00    22.00
+jMun  1976     100.00    22.00    22.00
+jMun  1977     100.00    22.00    22.00
+jMun  1978     100.00    22.00    22.00
+jMun  1979     100.00    23.00    23.00
+jMun  1980     100.00    23.00    23.00
+jMun  1981     100.00    23.00    23.00
+jMun  1982     100.00    23.00    23.00
+jMun  1983     100.00    23.00    23.00
+jMun  1984     100.00    23.00    23.00
+jMun  1985     100.00    24.00    24.00
+jMun  1986     100.00    24.00    24.00
+jMun  1987     100.00    24.00    24.00
+jMun  1988     100.00    24.00    24.00
+jMun  1989     100.00    24.00    24.00
+jMun  1990     100.00    24.00    24.00
+jMun  1991     100.00    25.00    25.00
+jMun  1992     100.00    25.00    25.00
+jMun  1993     100.00    25.00    25.00
+jMun  1994     100.00    25.00    25.00
+jMun  1995     100.00    25.00    25.00
+jMun  1996     100.00    25.00    25.00
+jMun  1997     100.00    25.00    25.00
+jMun  1998     100.00    26.00    26.00
+jMun  1999     100.00    26.00    26.00
+jMun  2000     100.00    26.00    26.00
+jMun  2001     100.00    26.00    26.00
+jMun  2002     100.00    26.00    26.00
+jMun  2003     100.00    26.00    26.00
+jMun  2004     100.00    26.00    26.00
+jMun  2005     100.00    26.00    26.00
+jMun  2006     100.00    26.00    26.00
+jMun  2007     100.00    26.00    26.00
+jMun  2008     100.00    26.00    26.00
+jMun  2009     100.00    26.00    26.00
+jMun  2010     100.00    26.00    26.00
+jMun  2011     100.00    26.00    26.00
+jMun  2012     100.00    26.00    26.00
+jMun  2013     100.00    26.00    26.00
+jMun  2014     100.00    26.00    26.00
+jMun  2015     100.00    26.00    26.00
+jMun  2016     100.00    26.00    26.00
+jMun  2017     100.00    26.00    26.00
+jMun  2018     100.00    26.00    26.00
+jMun  2019     100.00    26.00    26.00
+jMun  2020     100.00    26.00    26.00
+jMun  2021     100.00    26.00    26.00
+jMun  2022     100.00    27.00    27.00
+jMun  2023     100.00    27.00    27.00
+jMun  2024     100.00    27.00    27.00
+jMun  2025     100.00    27.00    27.00
+jMun  2026     100.00    27.00    27.00
+jMun  2027     100.00    27.00    27.00
+jMun  2028     100.00    27.00    27.00
+jMun  2029     100.00    27.00    27.00
+jMun  2030     100.00    27.00    27.00
+jMun  2031     100.00    27.00    27.00
+jMun  2032     100.00    27.00    27.00
+jMun  2033     100.00    27.00    27.00
+jMun  2034     100.00    27.00    27.00
+jMun  2035     100.00    27.00    27.00
+jMun  2036     100.00    27.00    27.00
+jMun  2037     100.00    27.00    27.00
+jMun  2038     100.00    27.00    27.00
+jMun  2039     100.00    28.00    28.00
+jMun  2040     100.00    28.00    28.00
+jMun  2041     100.00    28.00    28.00
+jMun  2042     100.00    29.00    29.00
+jMun  2043     100.00    29.00    29.00
+jMun  2044     100.00    29.00    29.00
+jMun  2045     100.00    29.00    29.00
+jMun  2046     100.00    29.00    29.00
+jMun  2047     100.00    29.00    29.00
+jMun  2048     100.00    29.00    29.00
+jMun  2049     100.00    29.00    29.00
+jMun  2050     100.00    29.00    29.00
+jMun  2051     100.00    29.00    29.00
+jMun  2052     100.00    29.00    29.00
+jMun  2053     100.00    30.00    30.00
+jMun  2054     100.00    30.00    30.00
+jMun  2055     100.00    30.00    30.00
+jMun  2056     100.00    31.00    31.00
+jMun  2057     100.00    31.00    31.00
+jMun  2058     100.00    32.00    32.00
+jMun  2059     100.00    32.00    32.00
+jMun  2060     100.00    32.00    32.00
+jMun  2061     100.00    32.00    32.00
+jMun  2062     100.00    33.00    33.00
+jMun  2063     100.00    33.00    33.00
+jMun  2064     100.00    34.00    34.00
+jMun  2065     100.00    34.00    34.00
+jMun  2066     100.00    34.00    34.00
+jMun  2067     100.00    34.00    34.00
+jMun  2068     100.00    34.00    34.00
+jMun  2069     100.00    34.00    34.00
+jMun  2070     100.00    34.00    34.00
+jMun  2071     100.00    34.00    34.00
+jMun  2072     100.00    34.00    34.00
+jMun  2073     100.00    34.00    34.00
+jMun  2074     100.00    35.00    35.00
+jMun  2075     100.00    35.00    35.00
+jMun  2076     100.00    35.00    35.00
+jMun  2077     100.00    35.00    35.00
+jMun  2078     100.00    36.00    36.00
+jMun  2079     100.00    36.00    36.00
+jMun  2080     100.00    37.00    37.00
+jMun  2081     100.00    37.00    37.00
+jMun  2082     100.00    37.00    37.00
+jMun  2083     100.00    37.00    37.00
+jMun  2084     100.00    38.00    38.00
+jMun  2085     100.00    38.00    38.00
+jMun  2086     100.00    38.00    38.00
+jMun  2087     100.00    38.00    38.00
+jMun  2088     100.00    38.00    38.00
+jMun  2089     100.00    39.00    39.00
+jMun  2090     100.00    39.00    39.00
+jMun  2091     100.00    39.00    39.00
+jMun  2092     100.00    39.00    39.00
+jMun  2093     100.00    39.00    39.00
+jMun  2094     100.00    39.00    39.00
+jMun  2095     100.00    39.00    39.00
+jMun  2096     100.00    39.00    39.00
+jMun  2097     100.00    39.00    39.00
+jMun  2098     100.00    39.00    39.00
+ 
+Free    INPUT (only)           8.420 K bytes
+ 
+INFORMATION 567: weight of data in tables    1263.768
+ 
+WARNING 568: total log likelihood  -4836.6990  in estimation was  -4456.9956
+ 
+Table for origin
+ 
+-------------------------------------------
+Choice     |    1 |   2 |   3 |   4 | Total
+-----------+-------------------------------
+  No. Chsn |  52.4    .0    .0    .0  52.4
+  SD. Chsn |  11.6   3.0    .0    .0  12.0
+Row 000001 |    +     +                 +
+  No. Pred |  57.9   1.3    .0    .0  59.2
+-----------+-------------------------------
+  No. Chsn |    .0 163.9    .0    .0 163.9
+  SD. Chsn |   1.4  29.0   1.1    .0  29.1
+Row 000002 |    +    *+     +          *+
+  No. Pred |    .7 210.1    .5    .0 211.4
+-----------+-------------------------------
+  No. Chsn |    .0    .0 164.9    .0 164.9
+  SD. Chsn |    .0   2.6  20.5    .1  20.7
+Row 000003 |          +  ***+        ***+
+  No. Pred |    .0    .9 297.9    .0 298.9
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0  84.4  84.4
+  SD. Chsn |    .0    .0    .0   7.6   7.6
+Row 000004 |                   ***+  ***+
+  No. Pred |    .0    .0    .0 173.9 173.9
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .0    .0
+  SD. Chsn |    .0    .0    .0    .0    .0
+Row 000005 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn |   3.4    .0    .0    .0   3.4
+  SD. Chsn |   7.5   6.5    .7    .0   9.9
+Row 000006 |   *+     +     +         **+
+  No. Pred |  17.5   6.3    .2    .0  23.9
+-----------+-------------------------------
+  No. Chsn |   3.4  61.5   3.2    .0  68.1
+  SD. Chsn |   3.2  19.9   2.3    .1  20.3
+Row 000007 |    -     -     -           -
+  No. Pred |   3.1  57.1   2.3    .0  62.5
+-----------+-------------------------------
+  No. Chsn |    .0    .0 151.5    .0 151.5
+  SD. Chsn |    .2   5.1  16.4    .4  17.2
+Row 000008 |          +   **-     +   **-
+  No. Pred |    .0   3.7 107.6    .3 111.5
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0 102.3 102.3
+  SD. Chsn |    .0    .1    .5   6.4   6.4
+Row 000009 |                   ***-  ***-
+  No. Pred |    .0    .0    .1  55.9  56.0
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .0    .0
+  SD. Chsn |    .0    .0    .0    .0    .0
+Row 000010 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn |  19.4  14.1  12.8   4.3  50.6
+  SD. Chsn |   4.4  11.1   4.7   1.0  12.9
+Row 000011 |  **-     +     -  ***-    *-
+  No. Pred |   6.1  17.4   8.5   1.4  33.4
+-----------+-------------------------------
+  No. Chsn |   3.4  45.4  19.8    .8  69.3
+  SD. Chsn |   4.2  15.6   4.4    .8  16.8
+Row 000012 |    +     -   **-     +    *-
+  No. Pred |   5.5  33.7   7.7   1.1  48.0
+-----------+-------------------------------
+  No. Chsn |    .0   8.9 114.8   6.7 130.4
+  SD. Chsn |   1.5   5.8  15.1   1.5  16.3
+Row 000013 |    +     -   **-   **-   **-
+  No. Pred |    .7   4.6  83.7   2.7  91.8
+-----------+-------------------------------
+  No. Chsn |    .0    .0   2.5  43.1  45.6
+  SD. Chsn |    .3   1.3   1.6   4.5   4.9
+Row 000014 |          +     -  ***-  ***-
+  No. Pred |    .0    .2   1.1  27.4  28.8
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0   3.8   3.8
+  SD. Chsn |    .1    .3    .3    .7    .9
+Row 000015 |                    **-   **-
+  No. Pred |    .0    .0    .0   1.9   1.9
+-----------+-------------------------------
+  No. Chsn |   5.7   4.4   3.9    .7  14.7
+  SD. Chsn |    .5   1.3    .8    .4   1.7
+Row 000016 | ***-  ***-  ***-     -  ***-
+  No. Pred |    .1    .2    .2    .3    .9
+-----------+-------------------------------
+  No. Chsn |   4.2  39.8   7.8   1.1  52.8
+  SD. Chsn |    .7   4.4   1.4    .7   4.7
+Row 000017 | ***-  ***-  ***-     -  ***-
+  No. Pred |    .1   2.7    .7    .9   4.4
+-----------+-------------------------------
+  No. Chsn |    .0    .6  45.0  32.9  78.5
+  SD. Chsn |    .2   1.4   6.6   3.8   7.7
+Row 000018 |          -  ***-  ***-  ***-
+  No. Pred |    .0    .3  15.7  21.3  37.3
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0  24.7  24.7
+  SD. Chsn |    .0    .2    .4   3.0   3.1
+Row 000019 |                    **-   **-
+  No. Pred |    .0    .0    .1  17.2  17.3
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .9    .9
+  SD. Chsn |    .0    .1    .2    .7    .7
+Row 000020 |                      +     +
+  No. Pred |    .0    .0    .0   1.2   1.2
+-----------+-------------------------------
+  No. Chsn |  91.9 338.7 526.2 305.61262.4
+Total      |
+  No. Pred |  91.9 338.7 526.2 305.61262.4
+-------------------------------------------
+ 
+WARNING 570: table rows or columns omit   1.4 observations
+ 
+INFORMATION 571: Root-Mean-Square error is   10.804
+ 
+INFORMATION 572: number of **stars** in table is 89
+ 
+Distribution of Values of (Chosen-Pred.)/SD Chosen
+ .-----------------------------------------------.
+ | <-3 | <-2 | <-1 | < 0 | < 1 | < 2 | < 3 | > 3 |
+ |-----+-----+-----+-----+-----+-----+-----+-----|
+ |   2 |   0 |   2 |  41 |  17 |   0 |   7 |  11 |
+ .-----------------------------------------------.
+ 
+Chi-Squared value is        144.48
+Exceeds 99% confidence rejection value
+ 
+Free            DATA         478.408 K bytes
+ 
+INFORMATION 002: data processing time    35.75 secs.
+ 
+Overview of time used
+                         Seconds  (hr:min:sec)
+Control file time   :      34.54     0:00:35
+Data processing time:      35.77     0:00:36
+Estimation time     :        .00     0:00:00
+ 
+Total processing    :      70.31     0:01:10

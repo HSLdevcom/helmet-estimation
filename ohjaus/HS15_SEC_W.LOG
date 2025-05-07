@@ -1,0 +1,2544 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+
+File not found: Alo45.EXE                                                       
+
+Run started at 15:05:47 on  5 Feb 25
+ 
+Allocating and deallocating memory
+ 
+INPUT allocating       36041.020 K bytes
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..ineisto\\uudet2023\\havainnot23\\SEC.txt 173683 b. Date:  5 Feb 25 at 11:05
+ 
+INFORMATION 253:   FILE  2 : keyed file
+C:..et2023\\havainnot23\\SEC_vastukset.txt  567.442 Mb Date:  5 Feb 25 at 11:08
+ 
+INFORMATION 253:   FILE  3 : common data
+C:..\flatfiles\\folded_zones_car_density.csv  18359 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE  4 : common data
+C:..det2023\\flatfiles\\folded_zones_cbd.csv   4220 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE  5 : common data
+C:..et2023\\flatfiles\\folded_zones_high.csv   8762 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE  6 : common data
+C:..\flatfiles\\folded_zones_job_density.csv  32297 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE  7 : common data
+C:..et2023\\flatfiles\\folded_zones_jobs.csv   7096 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE  8 : common data
+C:..tfiles\\folded_zones_cost_park_other.csv   8439 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE  9 : common data
+C:..atfiles\\folded_zones_cost_park_work.csv   8439 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 10 : common data
+C:..det2023\\flatfiles\\folded_zones_pop.csv  12644 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 11 : common data
+C:..\flatfiles\\folded_zones_pop_density.csv  19814 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 12 : common data
+C:..023\\flatfiles\\folded_zones_primary.csv   9345 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 13 : common data
+C:..023\\flatfiles\\folded_zones_service.csv  15742 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 14 : common data
+C:..t2023\\flatfiles\\folded_zones_shops.csv  13314 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 15 : common data
+C:..23\\flatfiles\\folded_zones_singleHP.csv  11630 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 16 : common data
+C:..\\flatfiles\\folded_zones_university.csv   8538 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 17 : common data
+C:..et2023\\flatfiles\\folded_zones_area.csv  13928 b. Date:  5 Feb 25 at 13:57
+ 
+INFORMATION 253:   FILE 18 : output
+ 
+INFORMATION 125: control file completed:   17105 lines
+C:..\helmet_estimation\ohjaus\HS15_SEC_W.alo 334850 b. Date:  5 Feb 25 at 15:04
+ 
+Function defined in control file: PREP & ESTIM
+ 
+TEMP - ALTSRT allocating          60.000 K bytes
+ 
+Free   TEMP - ALTSRT          60.000 K bytes
+ 
+TEMP - COESRT allocating          39.996 K bytes
+ 
+WARNING 178: coefficient W_sameO    not used in model
+ 
+WARNING 178: coefficient W_sameD    not used in model
+ 
+WARNING 178: coefficient W_const    not used in model
+ 
+WARNING 178: coefficient B_sameO    not used in model
+ 
+WARNING 178: coefficient B_sameD    not used in model
+ 
+WARNING 178: coefficient Bd_Len     not used in model
+ 
+WARNING 178: coefficient Bd_const   not used in model
+ 
+WARNING 178: coefficient CTd_cost   not used in model
+ 
+WARNING 178: coefficient T_sameO    not used in model
+ 
+WARNING 178: coefficient T_sameD    not used in model
+ 
+WARNING 178: coefficient Td_time    not used in model
+ 
+WARNING 178: coefficient Td_const   not used in model
+ 
+WARNING 178: coefficient C_sameO    not used in model
+ 
+WARNING 178: coefficient C_sameD    not used in model
+ 
+WARNING 178: coefficient Cd_Time    not used in model
+ 
+WARNING 178: coefficient Cd_park    not used in model
+ 
+WARNING 178: coefficient Cd_carDns  not used in model
+ 
+WARNING 178: coefficient S_jobs     not used in model
+ 
+WARNING 178: coefficient S_downtwn  not used in model
+ 
+WARNING 178: coefficient S_pop      not used in model
+ 
+WARNING 178: coefficient S_area     not used in model
+ 
+Free   TEMP - COESRT          39.996 K bytes
+ 
+ARRAYs increase data requirement     86291    138759
+Distinct data item names      4409
+ 
+INFORMATION 113: Log size multiplier is L_S_M
+ 
+$PRINT controls
+ Matrix statistics print      =   2
+ Iteration print              =   2
+ Number of rej. obs. output   =  25
+ Transformations print        =   F
+ Probability test level       =   .000000
+ Reject observation is ERROR  =   F
+ Accepted range for choice    =   .100000
+ Out-of-range prints made     =     3
+ Print only chosen alts.      =   F
+ 
+$GEN.STATS controls
+     6 total items selected
+ 
+$ESTIMATE controls
+ Control present = T
+ Estimation done = F
+ Linear first    = F
+ Estimate later  = F
+ Accept error    = F
+ Error print     = 1
+ 
+ 
+$ALGOR controls
+ Maximum iterations          =  60
+ Convergence level           =   .1000E-01
+ 1st derivative perp. test   =   .1000E-05
+ Function rate of increase   =  -999.9
+ Matrix inversion tolerance  =   .1000E-05
+ Step reduction factor       =   .1500
+ Cubic step adjustment will be used
+ Convergence option          =   3
+ Maximum step-reducing loops =   4
+ 
+$KEEP (and protected FILE) items
+ IZ        =   .210E+04; JCarDens  ; JCbd      ; JHigh
+ JJobDens  ; JJobs     ; JPCosOther; JPCosWork ; JPop
+ JPopDens  ; JPrimary  ; JService  ; JShops    ; JSingleHP
+ JUni      ; JArea
+ 
+$ARRAY items
+ dwalkDist( 2098)   dwalkTime( 2098)   dbikeDist( 2098)   dbikeTime( 2098)
+ dcarCost( 2098)   dcarDist( 2098)   dcarTime( 2098)   dptCost( 2098)
+ dptDist( 2098)   dptTime( 2098)   JCarDens( 2098)   JCbd( 2098)
+ JHigh( 2098)   JJobDens( 2098)   JJobs( 2098)   JPCosOther( 2098)
+ JPCosWork( 2098)   JPop( 2098)   JPopDens( 2098)   JPrimary( 2098)
+ JService( 2098)   JShops( 2098)   JSingleHP( 2098)   JUni( 2098)
+ JArea( 2098)
+ 
+ 
+REPORT OF COEFFICIENTS
+ 
+Label      Con   Value      Type
+-------    ---   -----      -----
+Wd_Len      F    .0000      Utility
+L_S_M       T    1.000      Log Size
+S_shops     F    .0000      Size
+S_service   F    .0000      Size
+ 
+Free     alpha array        4000.000 K bytes
+ 
+Report of main memory usage
+Storage ndata:     138.759 mdata:    1000.000
+Storage    np:        .004    mp:      10.000
+Storage    na:       2.098  malt:      15.000
+Storage   nut:       8.392   mut:     200.000
+Storage ntran:      80.141 mtran:    2000.000
+ 
+TREE allocating          16.792 K bytes
+ 
+INFORMATION 001: control file processing time     7.14 secs.
+ 
+DATA allocating         252.612 K bytes
+ 
+OBSERVATION REJECTED 517:          1: choice indicator  4264 not an alternative
+ 
+INFORMATION 534: reached end of file   3 after        1 records
+ 
+INFORMATION 534: reached end of file   4 after        1 records
+ 
+INFORMATION 534: reached end of file   5 after        1 records
+ 
+INFORMATION 534: reached end of file   6 after        1 records
+ 
+INFORMATION 534: reached end of file   7 after        1 records
+ 
+INFORMATION 534: reached end of file   8 after        1 records
+ 
+INFORMATION 534: reached end of file   9 after        1 records
+ 
+INFORMATION 534: reached end of file  10 after        1 records
+ 
+INFORMATION 534: reached end of file  11 after        1 records
+ 
+INFORMATION 534: reached end of file  12 after        1 records
+ 
+INFORMATION 534: reached end of file  13 after        1 records
+ 
+INFORMATION 534: reached end of file  14 after        1 records
+ 
+INFORMATION 534: reached end of file  15 after        1 records
+ 
+INFORMATION 534: reached end of file  16 after        1 records
+ 
+INFORMATION 534: reached end of file  17 after        1 records
+ 
+OBSERVATION REJECTED 517:          2: choice indicator  7109 not an alternative
+ 
+OBSERVATION REJECTED 517:          3: choice indicator  4640 not an alternative
+ 
+OBSERVATION REJECTED 517:          4: choice indicator  7667 not an alternative
+ 
+OBSERVATION REJECTED 517:          5: choice indicator  7711 not an alternative
+ 
+OBSERVATION REJECTED 517:          6: choice indicator  6489 not an alternative
+ 
+OBSERVATION REJECTED 517:          7: choice indicator  7855 not an alternative
+ 
+OBSERVATION REJECTED 517:          8: choice indicator  6851 not an alternative
+ 
+OBSERVATION REJECTED 517:          9: choice indicator  8365 not an alternative
+ 
+OBSERVATION REJECTED 517:         10: choice indicator  7577 not an alternative
+ 
+OBSERVATION REJECTED 517:         11: choice indicator  6602 not an alternative
+ 
+OBSERVATION REJECTED 517:         12: choice indicator  7295 not an alternative
+ 
+OBSERVATION REJECTED 517:         13: choice indicator  7372 not an alternative
+ 
+OBSERVATION REJECTED 517:         14: choice indicator  6492 not an alternative
+ 
+OBSERVATION REJECTED 517:         15: choice indicator  4241 not an alternative
+ 
+OBSERVATION REJECTED 517:         16: choice indicator  7065 not an alternative
+ 
+OBSERVATION REJECTED 517:         17: choice indicator  -742 not an alternative
+ 
+OBSERVATION REJECTED 517:         18: choice indicator  7275 not an alternative
+ 
+OBSERVATION REJECTED 517:         19: choice indicator  5757 not an alternative
+ 
+OBSERVATION REJECTED 517:         21: choice indicator  7258 not an alternative
+ 
+OBSERVATION REJECTED 517:         22: choice indicator  4197 not an alternative
+ 
+OBSERVATION REJECTED 517:         23: choice indicator  5759 not an alternative
+ 
+OBSERVATION REJECTED 517:         24: choice indicator  7928 not an alternative
+ 
+OBSERVATION REJECTED 517:         25: choice indicator  8174 not an alternative
+ 
+OBSERVATION REJECTED 517:         27: choice indicator  6837 not an alternative
+ 
+INFORMATION 534: reached end of file   1 after     2869 records
+ 
+Data input completed after    2869 records
+ 
+Rejected  2534 observations with unacceptable choices
+ 
+Rejected     2 observations with errors in size variables etc.
+ 
+ 
+FREQUENCY DISTRIBUTION OF ALTERNATIVE AVAILABILITY
+(Total weight is     571.54 )
+ 
+Alternative    Chosen    Unchosen    Avail.    Unavail.
+-----------  ---------  ---------  ---------  ---------
+Alt.000001      13.94     557.61     571.54        .00
+Alt.000002       5.08     566.46     571.54        .00
+Alt.000003      11.26     560.29     571.54        .00
+Alt.000004       9.51     562.04     571.54        .00
+Alt.000005       5.03     566.52     571.54        .00
+Alt.000006       8.08     563.47     571.54        .00
+Alt.000007       4.09     567.45     571.54        .00
+Alt.000008      14.58     556.96     571.54        .00
+Alt.000009        .00     571.54     571.54        .00
+Alt.000010        .00     571.54     571.54        .00
+Alt.000011       2.49     569.05     571.54        .00
+Alt.000012        .00     571.54     571.54        .00
+Alt.000013        .00     571.54     571.54        .00
+Alt.000014       3.38     568.16     571.54        .00
+Alt.000015        .00     571.54     571.54        .00
+Alt.000016       3.14     568.40     571.54        .00
+Alt.000017       3.35     568.19     571.54        .00
+Alt.000018        .00     571.54     571.54        .00
+Alt.000019      18.25     553.29     571.54        .00
+Alt.000020        .55     571.00     571.54        .00
+Alt.000021       5.18     566.37     571.54        .00
+Alt.000022        .00     571.54     571.54        .00
+Alt.000023        .00     571.54     571.54        .00
+Alt.000024       2.49     569.05     571.54        .00
+Alt.000025        .00     571.54     571.54        .00
+Alt.000026        .00     571.54     571.54        .00
+Alt.000027        .00     571.54     571.54        .00
+Alt.000028        .00     571.54     571.54        .00
+Alt.000029       7.44     564.10     571.54        .00
+Alt.000030        .00     571.54     571.54        .00
+Alt.000031        .00     571.54     571.54        .00
+Alt.000032        .00     571.54     571.54        .00
+Alt.000033       3.38     568.16     571.54        .00
+Alt.000034        .00     571.54     571.54        .00
+Alt.000035        .00     571.54     571.54        .00
+Alt.000036        .00     571.54     571.54        .00
+Alt.000037        .00     571.54     571.54        .00
+Alt.000038        .00     571.54     571.54        .00
+Alt.000039       2.29     569.25     571.54        .00
+Alt.000040        .00     571.54     571.54        .00
+Alt.000041        .00     571.54     571.54        .00
+Alt.000042        .00     571.54     571.54        .00
+Alt.000043       5.54     566.01     571.54        .00
+Alt.000044        .00     571.54     571.54        .00
+Alt.000045       3.49     568.05     571.54        .00
+Alt.000046        .00     571.54     571.54        .00
+Alt.000047       2.49     569.05     571.54        .00
+Alt.000048       3.32     568.22     571.54        .00
+Alt.000049        .00     571.54     571.54        .00
+Alt.000050       6.71     564.84     571.54        .00
+Alt.000051       1.80     569.74     571.54        .00
+Alt.000052        .00     571.54     571.54        .00
+Alt.000053       8.43     563.11     571.54        .00
+Alt.000054        .00     571.54     571.54        .00
+Alt.000055        .00     571.54     571.54        .00
+Alt.000056        .00     571.54     571.54        .00
+Alt.000057       1.80     569.74     571.54        .00
+Alt.000058        .00     571.54     571.54        .00
+Alt.000059        .00     571.54     571.54        .00
+Alt.000060       5.67     565.87     571.54        .00
+Alt.000061        .00     571.54     571.54        .00
+Alt.000062        .00     571.54     571.54        .00
+Alt.000063        .00     571.54     571.54        .00
+Alt.000064       2.49     569.05     571.54        .00
+Alt.000065        .00     571.54     571.54        .00
+Alt.000066        .00     571.54     571.54        .00
+Alt.000067        .00     571.54     571.54        .00
+Alt.000068        .08     571.46     571.54        .00
+Alt.000069        .00     571.54     571.54        .00
+Alt.000070        .00     571.54     571.54        .00
+Alt.000071       1.80     569.74     571.54        .00
+Alt.000072       3.35     568.19     571.54        .00
+Alt.000073       1.87     569.68     571.54        .00
+Alt.000074        .00     571.54     571.54        .00
+Alt.000075       3.14     568.40     571.54        .00
+Alt.000076       2.49     569.05     571.54        .00
+Alt.000077       5.64     565.91     571.54        .00
+Alt.000078        .00        .00        .00     571.54
+Alt.000079        .00     571.54     571.54        .00
+Alt.000080        .00     571.54     571.54        .00
+Alt.000081        .00     571.54     571.54        .00
+Alt.000082       3.14     568.40     571.54        .00
+Alt.000083       3.14     568.40     571.54        .00
+Alt.000084        .00     571.54     571.54        .00
+Alt.000085        .00     571.54     571.54        .00
+Alt.000086        .00     571.54     571.54        .00
+Alt.000087        .00     571.54     571.54        .00
+Alt.000088       5.57     565.98     571.54        .00
+Alt.000089        .00     571.54     571.54        .00
+Alt.000090        .00     571.54     571.54        .00
+Alt.000091       5.16     566.39     571.54        .00
+Alt.000092        .34     571.20     571.54        .00
+Alt.000093        .00     571.54     571.54        .00
+Alt.000094       5.03     566.52     571.54        .00
+Alt.000095       3.14     568.40     571.54        .00
+Alt.000096        .00     571.54     571.54        .00
+Alt.000097        .00     571.54     571.54        .00
+Alt.000098        .00     571.54     571.54        .00
+Alt.000099        .00     571.54     571.54        .00
+Alt.000100        .00     571.54     571.54        .00
+Alt.000101        .00     571.54     571.54        .00
+Alt.000102        .00     571.54     571.54        .00
+Alt.000103        .00        .00        .00     571.54
+Alt.000104        .00     571.54     571.54        .00
+Alt.000105        .00     571.54     571.54        .00
+Alt.000106        .00     571.54     571.54        .00
+Alt.000107       1.57     569.97     571.54        .00
+Alt.000108        .00     571.54     571.54        .00
+Alt.000109       2.49     569.05     571.54        .00
+Alt.000110        .00     571.54     571.54        .00
+Alt.000111        .00        .00        .00     571.54
+Alt.000112        .00     571.54     571.54        .00
+Alt.000113        .00     571.54     571.54        .00
+Alt.000114       1.36     570.18     571.54        .00
+Alt.000115        .00     571.54     571.54        .00
+Alt.000116        .00     571.54     571.54        .00
+Alt.000117        .00     571.54     571.54        .00
+Alt.000118        .00     571.54     571.54        .00
+Alt.000119        .00     571.54     571.54        .00
+Alt.000120      10.29     561.26     571.54        .00
+Alt.000121        .00     571.54     571.54        .00
+Alt.000122      11.13     560.41     571.54        .00
+Alt.000123        .00     571.54     571.54        .00
+Alt.000124        .00     571.54     571.54        .00
+Alt.000125        .00     571.54     571.54        .00
+Alt.000126        .00     571.54     571.54        .00
+Alt.000127       7.64     563.90     571.54        .00
+Alt.000128        .00     571.54     571.54        .00
+Alt.000129        .00     571.54     571.54        .00
+Alt.000130        .00     571.54     571.54        .00
+Alt.000131        .00     571.54     571.54        .00
+Alt.000132        .00     571.54     571.54        .00
+Alt.000133       7.30     564.24     571.54        .00
+Alt.000134        .00     571.54     571.54        .00
+Alt.000135        .00     571.54     571.54        .00
+Alt.000136        .13     571.41     571.54        .00
+Alt.000137        .00     571.54     571.54        .00
+Alt.000138        .00     571.54     571.54        .00
+Alt.000139        .00     571.54     571.54        .00
+Alt.000140        .00     571.54     571.54        .00
+Alt.000141        .00     571.54     571.54        .00
+Alt.000142        .00     571.54     571.54        .00
+Alt.000143        .00     571.54     571.54        .00
+Alt.000144       1.98     569.56     571.54        .00
+Alt.000145        .00     571.54     571.54        .00
+Alt.000146        .00     571.54     571.54        .00
+Alt.000147        .00     571.54     571.54        .00
+Alt.000148        .00     571.54     571.54        .00
+Alt.000149        .00     571.54     571.54        .00
+Alt.000150        .00     571.54     571.54        .00
+Alt.000151        .00     571.54     571.54        .00
+Alt.000152        .00     571.54     571.54        .00
+Alt.000153        .00     571.54     571.54        .00
+Alt.000154        .00     571.54     571.54        .00
+Alt.000155        .00     571.54     571.54        .00
+Alt.000156       5.57     565.98     571.54        .00
+Alt.000157        .00     571.54     571.54        .00
+Alt.000158        .00     571.54     571.54        .00
+Alt.000159        .00     571.54     571.54        .00
+Alt.000160        .00     571.54     571.54        .00
+Alt.000161        .00     571.54     571.54        .00
+Alt.000162       7.22     564.33     571.54        .00
+Alt.000163        .00     571.54     571.54        .00
+Alt.000164        .00     571.54     571.54        .00
+Alt.000165        .00     571.54     571.54        .00
+Alt.000166        .00     571.54     571.54        .00
+Alt.000167        .00     571.54     571.54        .00
+Alt.000168        .00     571.54     571.54        .00
+Alt.000169        .00     571.54     571.54        .00
+Alt.000170        .00     571.54     571.54        .00
+Alt.000171        .00     571.54     571.54        .00
+Alt.000172        .00     571.54     571.54        .00
+Alt.000173        .00     571.54     571.54        .00
+Alt.000174        .00     571.54     571.54        .00
+Alt.000175        .00     571.54     571.54        .00
+Alt.000176        .00     571.54     571.54        .00
+Alt.000177        .00     571.54     571.54        .00
+Alt.000178        .00     571.54     571.54        .00
+Alt.000179        .00     571.54     571.54        .00
+Alt.000180        .00     571.54     571.54        .00
+Alt.000181        .00     571.54     571.54        .00
+Alt.000182        .00     571.54     571.54        .00
+Alt.000183       4.56     566.99     571.54        .00
+Alt.000184       3.32     568.22     571.54        .00
+Alt.000185        .00     571.54     571.54        .00
+Alt.000186        .00     571.54     571.54        .00
+Alt.000187        .00     571.54     571.54        .00
+Alt.000188        .00     571.54     571.54        .00
+Alt.000189        .00     571.54     571.54        .00
+Alt.000190        .00     571.54     571.54        .00
+Alt.000191       1.79     569.76     571.54        .00
+Alt.000192        .00     571.54     571.54        .00
+Alt.000193        .00     571.54     571.54        .00
+Alt.000194        .00     571.54     571.54        .00
+Alt.000195        .00     571.54     571.54        .00
+Alt.000196        .00     571.54     571.54        .00
+Alt.000197        .00     571.54     571.54        .00
+Alt.000198        .00     571.54     571.54        .00
+Alt.000199        .00     571.54     571.54        .00
+Alt.000200        .00     571.54     571.54        .00
+Alt.000201        .00     571.54     571.54        .00
+Alt.000202        .00     571.54     571.54        .00
+Alt.000203        .00     571.54     571.54        .00
+Alt.000204        .00     571.54     571.54        .00
+Alt.000205        .00     571.54     571.54        .00
+Alt.000206        .00     571.54     571.54        .00
+Alt.000207        .00     571.54     571.54        .00
+Alt.000208        .00     571.54     571.54        .00
+Alt.000209        .00     571.54     571.54        .00
+Alt.000210        .00     571.54     571.54        .00
+Alt.000211        .00     571.54     571.54        .00
+Alt.000212        .00     571.54     571.54        .00
+Alt.000213        .00     571.54     571.54        .00
+Alt.000214        .00     571.54     571.54        .00
+Alt.000215        .00     571.54     571.54        .00
+Alt.000216        .00     571.54     571.54        .00
+Alt.000217        .00     571.54     571.54        .00
+Alt.000218        .00     571.54     571.54        .00
+Alt.000219        .00     571.54     571.54        .00
+Alt.000220        .00     571.54     571.54        .00
+Alt.000221        .00     571.54     571.54        .00
+Alt.000222        .00     571.54     571.54        .00
+Alt.000223        .00     571.54     571.54        .00
+Alt.000224        .00     571.54     571.54        .00
+Alt.000225        .00     571.54     571.54        .00
+Alt.000226        .00     571.54     571.54        .00
+Alt.000227        .00     571.54     571.54        .00
+Alt.000228        .00     571.54     571.54        .00
+Alt.000229        .00     571.54     571.54        .00
+Alt.000230        .00     571.54     571.54        .00
+Alt.000231        .00     571.54     571.54        .00
+Alt.000232        .00     571.54     571.54        .00
+Alt.000233        .00     571.54     571.54        .00
+Alt.000234        .00     571.54     571.54        .00
+Alt.000235        .00     571.54     571.54        .00
+Alt.000236        .00     571.54     571.54        .00
+Alt.000237        .00        .00        .00     571.54
+Alt.000238        .00     571.54     571.54        .00
+Alt.000239        .00     571.54     571.54        .00
+Alt.000240        .00     571.54     571.54        .00
+Alt.000241        .00     571.54     571.54        .00
+Alt.000242        .00        .00        .00     571.54
+Alt.000243        .00     571.54     571.54        .00
+Alt.000244        .00     571.54     571.54        .00
+Alt.000245        .00     571.54     571.54        .00
+Alt.000246        .00     571.54     571.54        .00
+Alt.000247        .00     571.54     571.54        .00
+Alt.000248        .00     571.54     571.54        .00
+Alt.000249        .00     571.54     571.54        .00
+Alt.000250        .00     571.54     571.54        .00
+Alt.000251        .00     571.54     571.54        .00
+Alt.000252        .00     571.54     571.54        .00
+Alt.000253        .00     571.54     571.54        .00
+Alt.000254        .00     571.54     571.54        .00
+Alt.000255        .00     571.54     571.54        .00
+Alt.000256        .00     571.54     571.54        .00
+Alt.000257        .00     571.54     571.54        .00
+Alt.000258        .00     571.54     571.54        .00
+Alt.000259        .00     571.54     571.54        .00
+Alt.000260        .00     571.54     571.54        .00
+Alt.000261        .00     571.54     571.54        .00
+Alt.000262        .00     571.54     571.54        .00
+Alt.000263        .00     571.54     571.54        .00
+Alt.000264       2.44     569.11     571.54        .00
+Alt.000265        .00     571.54     571.54        .00
+Alt.000266        .00     571.54     571.54        .00
+Alt.000267        .00     571.54     571.54        .00
+Alt.000268        .00     571.54     571.54        .00
+Alt.000269        .00        .00        .00     571.54
+Alt.000270        .00     571.54     571.54        .00
+Alt.000271        .00     571.54     571.54        .00
+Alt.000272        .00     571.54     571.54        .00
+Alt.000273        .00     571.54     571.54        .00
+Alt.000274        .00     571.54     571.54        .00
+Alt.000275        .00     571.54     571.54        .00
+Alt.000276        .00     571.54     571.54        .00
+Alt.000277        .00     571.54     571.54        .00
+Alt.000278        .00     571.54     571.54        .00
+Alt.000279        .00        .00        .00     571.54
+Alt.000280        .00     571.54     571.54        .00
+Alt.000281        .00        .00        .00     571.54
+Alt.000282        .00        .00        .00     571.54
+Alt.000283        .00     571.54     571.54        .00
+Alt.000284        .00     571.54     571.54        .00
+Alt.000285        .00     571.54     571.54        .00
+Alt.000286        .00     571.54     571.54        .00
+Alt.000287        .00     571.54     571.54        .00
+Alt.000288       3.97     567.58     571.54        .00
+Alt.000289        .00     571.54     571.54        .00
+Alt.000290        .00     571.54     571.54        .00
+Alt.000291        .00     571.54     571.54        .00
+Alt.000292        .00     571.54     571.54        .00
+Alt.000293        .00     571.54     571.54        .00
+Alt.000294        .00     571.54     571.54        .00
+Alt.000295        .00     571.54     571.54        .00
+Alt.000296       5.57     565.98     571.54        .00
+Alt.000297        .00     571.54     571.54        .00
+Alt.000298       5.57     565.98     571.54        .00
+Alt.000299       3.97     567.58     571.54        .00
+Alt.000300        .00     571.54     571.54        .00
+Alt.000301        .00     571.54     571.54        .00
+Alt.000302        .00     571.54     571.54        .00
+Alt.000303       2.22     569.32     571.54        .00
+Alt.000304        .00     571.54     571.54        .00
+Alt.000305        .00     571.54     571.54        .00
+Alt.000306        .00     571.54     571.54        .00
+Alt.000307       3.97     567.58     571.54        .00
+Alt.000308        .00     571.54     571.54        .00
+Alt.000309        .00     571.54     571.54        .00
+Alt.000310        .00     571.54     571.54        .00
+Alt.000311      11.66     559.88     571.54        .00
+Alt.000312        .00     571.54     571.54        .00
+Alt.000313       7.64     563.90     571.54        .00
+Alt.000314        .00     571.54     571.54        .00
+Alt.000315        .00     571.54     571.54        .00
+Alt.000316       5.23     566.31     571.54        .00
+Alt.000317        .00     571.54     571.54        .00
+Alt.000318        .00     571.54     571.54        .00
+Alt.000319        .00     571.54     571.54        .00
+Alt.000320        .00     571.54     571.54        .00
+Alt.000321        .00     571.54     571.54        .00
+Alt.000322        .00     571.54     571.54        .00
+Alt.000323        .00     571.54     571.54        .00
+Alt.000324        .00     571.54     571.54        .00
+Alt.000325        .00     571.54     571.54        .00
+Alt.000326        .00     571.54     571.54        .00
+Alt.000327        .00     571.54     571.54        .00
+Alt.000328        .00     571.54     571.54        .00
+Alt.000329        .00     571.54     571.54        .00
+Alt.000330        .00     571.54     571.54        .00
+Alt.000331        .00     571.54     571.54        .00
+Alt.000332        .00     571.54     571.54        .00
+Alt.000333        .00     571.54     571.54        .00
+Alt.000334        .00     571.54     571.54        .00
+Alt.000335        .00     571.54     571.54        .00
+Alt.000336        .00     571.54     571.54        .00
+Alt.000337        .00     571.54     571.54        .00
+Alt.000338        .00     571.54     571.54        .00
+Alt.000339        .00     571.54     571.54        .00
+Alt.000340        .00     571.54     571.54        .00
+Alt.000341        .00     571.54     571.54        .00
+Alt.000342        .00        .00        .00     571.54
+Alt.000343        .00     571.54     571.54        .00
+Alt.000344        .00     571.54     571.54        .00
+Alt.000345       5.23     566.31     571.54        .00
+Alt.000346        .00     571.54     571.54        .00
+Alt.000347        .00     571.54     571.54        .00
+Alt.000348        .00     571.54     571.54        .00
+Alt.000349        .00     571.54     571.54        .00
+Alt.000350        .00     571.54     571.54        .00
+Alt.000351        .00     571.54     571.54        .00
+Alt.000352        .00     571.54     571.54        .00
+Alt.000353        .00     571.54     571.54        .00
+Alt.000354        .00     571.54     571.54        .00
+Alt.000355        .00     571.54     571.54        .00
+Alt.000356        .00     571.54     571.54        .00
+Alt.000357        .00     571.54     571.54        .00
+Alt.000358        .00     571.54     571.54        .00
+Alt.000359        .00     571.54     571.54        .00
+Alt.000360        .00     571.54     571.54        .00
+Alt.000361        .00     571.54     571.54        .00
+Alt.000362        .00     571.54     571.54        .00
+Alt.000363        .00     571.54     571.54        .00
+Alt.000364        .00     571.54     571.54        .00
+Alt.000365        .00     571.54     571.54        .00
+Alt.000366        .00     571.54     571.54        .00
+Alt.000367        .00     571.54     571.54        .00
+Alt.000368        .00     571.54     571.54        .00
+Alt.000369        .00     571.54     571.54        .00
+Alt.000370        .00     571.54     571.54        .00
+Alt.000371        .00     571.54     571.54        .00
+Alt.000372        .00     571.54     571.54        .00
+Alt.000373        .00     571.54     571.54        .00
+Alt.000374        .00     571.54     571.54        .00
+Alt.000375        .00     571.54     571.54        .00
+Alt.000376        .00     571.54     571.54        .00
+Alt.000377        .00     571.54     571.54        .00
+Alt.000378        .00     571.54     571.54        .00
+Alt.000379        .00     571.54     571.54        .00
+Alt.000380        .00     571.54     571.54        .00
+Alt.000381        .00     571.54     571.54        .00
+Alt.000382        .00     571.54     571.54        .00
+Alt.000383        .00     571.54     571.54        .00
+Alt.000384       3.22     568.33     571.54        .00
+Alt.000385        .00     571.54     571.54        .00
+Alt.000386        .00     571.54     571.54        .00
+Alt.000387        .00     571.54     571.54        .00
+Alt.000388        .00     571.54     571.54        .00
+Alt.000389        .13     571.41     571.54        .00
+Alt.000390        .00     571.54     571.54        .00
+Alt.000391       1.84     569.71     571.54        .00
+Alt.000392        .00     571.54     571.54        .00
+Alt.000393        .00     571.54     571.54        .00
+Alt.000394        .00     571.54     571.54        .00
+Alt.000395        .00     571.54     571.54        .00
+Alt.000396        .00     571.54     571.54        .00
+Alt.000397       2.36     569.18     571.54        .00
+Alt.000398        .00     571.54     571.54        .00
+Alt.000399        .00     571.54     571.54        .00
+Alt.000400       5.82     565.72     571.54        .00
+Alt.000401       1.38     570.17     571.54        .00
+Alt.000402       2.50     569.04     571.54        .00
+Alt.000403        .00     571.54     571.54        .00
+Alt.000404        .00     571.54     571.54        .00
+Alt.000405        .00     571.54     571.54        .00
+Alt.000406        .00     571.54     571.54        .00
+Alt.000407        .00     571.54     571.54        .00
+Alt.000408        .00     571.54     571.54        .00
+Alt.000409        .00     571.54     571.54        .00
+Alt.000410       2.50     569.04     571.54        .00
+Alt.000411       3.94     567.60     571.54        .00
+Alt.000412       3.32     568.22     571.54        .00
+Alt.000413        .00     571.54     571.54        .00
+Alt.000414        .00     571.54     571.54        .00
+Alt.000415        .00     571.54     571.54        .00
+Alt.000416        .00     571.54     571.54        .00
+Alt.000417        .00     571.54     571.54        .00
+Alt.000418        .00     571.54     571.54        .00
+Alt.000419        .00     571.54     571.54        .00
+Alt.000420        .00     571.54     571.54        .00
+Alt.000421        .00     571.54     571.54        .00
+Alt.000422        .00     571.54     571.54        .00
+Alt.000423        .00     571.54     571.54        .00
+Alt.000424        .00        .00        .00     571.54
+Alt.000425        .00     571.54     571.54        .00
+Alt.000426        .00     571.54     571.54        .00
+Alt.000427        .00     571.54     571.54        .00
+Alt.000428        .00     571.54     571.54        .00
+Alt.000429      15.24     556.30     571.54        .00
+Alt.000430       2.76     568.79     571.54        .00
+Alt.000431        .00     571.54     571.54        .00
+Alt.000432        .00     571.54     571.54        .00
+Alt.000433        .00     571.54     571.54        .00
+Alt.000434        .00     571.54     571.54        .00
+Alt.000435        .00     571.54     571.54        .00
+Alt.000436        .00     571.54     571.54        .00
+Alt.000437        .00     571.54     571.54        .00
+Alt.000438        .00     571.54     571.54        .00
+Alt.000439        .00     571.54     571.54        .00
+Alt.000440        .00     571.54     571.54        .00
+Alt.000441        .00     571.54     571.54        .00
+Alt.000442        .00     571.54     571.54        .00
+Alt.000443        .00     571.54     571.54        .00
+Alt.000444        .00     571.54     571.54        .00
+Alt.000445        .00     571.54     571.54        .00
+Alt.000446        .00     571.54     571.54        .00
+Alt.000447        .00     571.54     571.54        .00
+Alt.000448       1.98     569.56     571.54        .00
+Alt.000449        .00     571.54     571.54        .00
+Alt.000450       3.32     568.22     571.54        .00
+Alt.000451        .00     571.54     571.54        .00
+Alt.000452        .00     571.54     571.54        .00
+Alt.000453        .00     571.54     571.54        .00
+Alt.000454        .00     571.54     571.54        .00
+Alt.000455        .00     571.54     571.54        .00
+Alt.000456       6.65     564.90     571.54        .00
+Alt.000457       1.25     570.29     571.54        .00
+Alt.000458        .00     571.54     571.54        .00
+Alt.000459        .00     571.54     571.54        .00
+Alt.000460        .00     571.54     571.54        .00
+Alt.000461        .00     571.54     571.54        .00
+Alt.000462        .00     571.54     571.54        .00
+Alt.000463      11.61     559.93     571.54        .00
+Alt.000464        .00     571.54     571.54        .00
+Alt.000465        .00     571.54     571.54        .00
+Alt.000466        .00     571.54     571.54        .00
+Alt.000467        .00     571.54     571.54        .00
+Alt.000468        .00     571.54     571.54        .00
+Alt.000469        .00     571.54     571.54        .00
+Alt.000470        .00     571.54     571.54        .00
+Alt.000471        .00     571.54     571.54        .00
+Alt.000472        .00     571.54     571.54        .00
+Alt.000473        .00     571.54     571.54        .00
+Alt.000474        .00     571.54     571.54        .00
+Alt.000475        .00     571.54     571.54        .00
+Alt.000476        .00     571.54     571.54        .00
+Alt.000477       3.75     567.79     571.54        .00
+Alt.000478        .00     571.54     571.54        .00
+Alt.000479        .00     571.54     571.54        .00
+Alt.000480       1.36     570.18     571.54        .00
+Alt.000481        .00     571.54     571.54        .00
+Alt.000482        .00     571.54     571.54        .00
+Alt.000483        .00     571.54     571.54        .00
+Alt.000484        .00     571.54     571.54        .00
+Alt.000485        .00     571.54     571.54        .00
+Alt.000486        .00     571.54     571.54        .00
+Alt.000487        .00     571.54     571.54        .00
+Alt.000488        .00     571.54     571.54        .00
+Alt.000489        .00     571.54     571.54        .00
+Alt.000490        .00     571.54     571.54        .00
+Alt.000491        .66     570.88     571.54        .00
+Alt.000492        .00     571.54     571.54        .00
+Alt.000493        .00     571.54     571.54        .00
+Alt.000494        .00     571.54     571.54        .00
+Alt.000495        .00     571.54     571.54        .00
+Alt.000496        .00     571.54     571.54        .00
+Alt.000497        .00     571.54     571.54        .00
+Alt.000498        .00     571.54     571.54        .00
+Alt.000499        .00     571.54     571.54        .00
+Alt.000500       2.33     569.21     571.54        .00
+Alt.000501        .00     571.54     571.54        .00
+Alt.000502        .00     571.54     571.54        .00
+Alt.000503        .00     571.54     571.54        .00
+Alt.000504       1.36     570.18     571.54        .00
+Alt.000505        .00     571.54     571.54        .00
+Alt.000506        .00     571.54     571.54        .00
+Alt.000507       9.04     562.50     571.54        .00
+Alt.000508       5.04     566.50     571.54        .00
+Alt.000509       1.77     569.78     571.54        .00
+Alt.000510        .00     571.54     571.54        .00
+Alt.000511        .00     571.54     571.54        .00
+Alt.000512        .00     571.54     571.54        .00
+Alt.000513        .00     571.54     571.54        .00
+Alt.000514        .00     571.54     571.54        .00
+Alt.000515        .00     571.54     571.54        .00
+Alt.000516        .00     571.54     571.54        .00
+Alt.000517        .00     571.54     571.54        .00
+Alt.000518        .00     571.54     571.54        .00
+Alt.000519        .00     571.54     571.54        .00
+Alt.000520        .00     571.54     571.54        .00
+Alt.000521        .00     571.54     571.54        .00
+Alt.000522        .00     571.54     571.54        .00
+Alt.000523        .00     571.54     571.54        .00
+Alt.000524        .00     571.54     571.54        .00
+Alt.000525        .00     571.54     571.54        .00
+Alt.000526        .00     571.54     571.54        .00
+Alt.000527        .00     571.54     571.54        .00
+Alt.000528        .00     571.54     571.54        .00
+Alt.000529       1.84     569.71     571.54        .00
+Alt.000530        .00     571.54     571.54        .00
+Alt.000531       2.50     569.04     571.54        .00
+Alt.000532        .00     571.54     571.54        .00
+Alt.000533        .00     571.54     571.54        .00
+Alt.000534        .00     571.54     571.54        .00
+Alt.000535        .00     571.54     571.54        .00
+Alt.000536        .00     571.54     571.54        .00
+Alt.000537        .00     571.54     571.54        .00
+Alt.000538        .00     571.54     571.54        .00
+Alt.000539        .38     571.16     571.54        .00
+Alt.000540        .00     571.54     571.54        .00
+Alt.000541        .00     571.54     571.54        .00
+Alt.000542        .00     571.54     571.54        .00
+Alt.000543        .00     571.54     571.54        .00
+Alt.000544        .00     571.54     571.54        .00
+Alt.000545        .00     571.54     571.54        .00
+Alt.000546       5.00     566.54     571.54        .00
+Alt.000547        .00     571.54     571.54        .00
+Alt.000548        .00     571.54     571.54        .00
+Alt.000549        .00     571.54     571.54        .00
+Alt.000550        .00     571.54     571.54        .00
+Alt.000551        .00     571.54     571.54        .00
+Alt.000552        .00     571.54     571.54        .00
+Alt.000553        .00     571.54     571.54        .00
+Alt.000554        .00     571.54     571.54        .00
+Alt.000555        .00     571.54     571.54        .00
+Alt.000556        .00     571.54     571.54        .00
+Alt.000557        .00     571.54     571.54        .00
+Alt.000558        .00     571.54     571.54        .00
+Alt.000559        .00     571.54     571.54        .00
+Alt.000560        .00        .00        .00     571.54
+Alt.000561        .00     571.54     571.54        .00
+Alt.000562        .00     571.54     571.54        .00
+Alt.000563        .00     571.54     571.54        .00
+Alt.000564        .00     571.54     571.54        .00
+Alt.000565        .00     571.54     571.54        .00
+Alt.000566        .00     571.54     571.54        .00
+Alt.000567        .00     571.54     571.54        .00
+Alt.000568        .00     571.54     571.54        .00
+Alt.000569        .00     571.54     571.54        .00
+Alt.000570        .00     571.54     571.54        .00
+Alt.000571        .00     571.54     571.54        .00
+Alt.000572        .00     571.54     571.54        .00
+Alt.000573        .00        .00        .00     571.54
+Alt.000574        .00     571.54     571.54        .00
+Alt.000575        .00     571.54     571.54        .00
+Alt.000576        .00     571.54     571.54        .00
+Alt.000577        .00     571.54     571.54        .00
+Alt.000578        .00     571.54     571.54        .00
+Alt.000579        .00     571.54     571.54        .00
+Alt.000580        .00     571.54     571.54        .00
+Alt.000581        .00     571.54     571.54        .00
+Alt.000582        .00     571.54     571.54        .00
+Alt.000583        .00        .00        .00     571.54
+Alt.000584        .00     571.54     571.54        .00
+Alt.000585        .00     571.54     571.54        .00
+Alt.000586        .00     571.54     571.54        .00
+Alt.000587        .00     571.54     571.54        .00
+Alt.000588        .00        .00        .00     571.54
+Alt.000589        .00     571.54     571.54        .00
+Alt.000590        .00     571.54     571.54        .00
+Alt.000591        .00     571.54     571.54        .00
+Alt.000592        .00     571.54     571.54        .00
+Alt.000593        .00     571.54     571.54        .00
+Alt.000594        .00     571.54     571.54        .00
+Alt.000595        .00     571.54     571.54        .00
+Alt.000596        .00     571.54     571.54        .00
+Alt.000597        .00     571.54     571.54        .00
+Alt.000598        .00     571.54     571.54        .00
+Alt.000599        .00     571.54     571.54        .00
+Alt.000600        .00     571.54     571.54        .00
+Alt.000601        .00     571.54     571.54        .00
+Alt.000602        .00     571.54     571.54        .00
+Alt.000603        .00     571.54     571.54        .00
+Alt.000604        .00     571.54     571.54        .00
+Alt.000605        .00     571.54     571.54        .00
+Alt.000606        .00     571.54     571.54        .00
+Alt.000607        .00     571.54     571.54        .00
+Alt.000608        .00     571.54     571.54        .00
+Alt.000609        .00     571.54     571.54        .00
+Alt.000610        .00     571.54     571.54        .00
+Alt.000611        .00     571.54     571.54        .00
+Alt.000612        .00     571.54     571.54        .00
+Alt.000613        .00     571.54     571.54        .00
+Alt.000614        .00     571.54     571.54        .00
+Alt.000615        .00     571.54     571.54        .00
+Alt.000616       2.36     569.18     571.54        .00
+Alt.000617        .00     571.54     571.54        .00
+Alt.000618        .00     571.54     571.54        .00
+Alt.000619        .00     571.54     571.54        .00
+Alt.000620        .00     571.54     571.54        .00
+Alt.000621        .00     571.54     571.54        .00
+Alt.000622        .00     571.54     571.54        .00
+Alt.000623        .00     571.54     571.54        .00
+Alt.000624        .00     571.54     571.54        .00
+Alt.000625        .00     571.54     571.54        .00
+Alt.000626        .00     571.54     571.54        .00
+Alt.000627        .00     571.54     571.54        .00
+Alt.000628        .00     571.54     571.54        .00
+Alt.000629        .00     571.54     571.54        .00
+Alt.000630        .00     571.54     571.54        .00
+Alt.000631        .00     571.54     571.54        .00
+Alt.000632        .00     571.54     571.54        .00
+Alt.000633        .00     571.54     571.54        .00
+Alt.000634        .00     571.54     571.54        .00
+Alt.000635        .35     571.19     571.54        .00
+Alt.000636        .00     571.54     571.54        .00
+Alt.000637        .38     571.16     571.54        .00
+Alt.000638        .00     571.54     571.54        .00
+Alt.000639        .00     571.54     571.54        .00
+Alt.000640       1.76     569.78     571.54        .00
+Alt.000641        .00     571.54     571.54        .00
+Alt.000642        .00     571.54     571.54        .00
+Alt.000643        .00     571.54     571.54        .00
+Alt.000644        .00     571.54     571.54        .00
+Alt.000645        .00        .00        .00     571.54
+Alt.000646        .00     571.54     571.54        .00
+Alt.000647        .00     571.54     571.54        .00
+Alt.000648        .00     571.54     571.54        .00
+Alt.000649        .00     571.54     571.54        .00
+Alt.000650        .00     571.54     571.54        .00
+Alt.000651        .00     571.54     571.54        .00
+Alt.000652        .00     571.54     571.54        .00
+Alt.000653        .00     571.54     571.54        .00
+Alt.000654        .00     571.54     571.54        .00
+Alt.000655        .00     571.54     571.54        .00
+Alt.000656        .00     571.54     571.54        .00
+Alt.000657        .00     571.54     571.54        .00
+Alt.000658        .00     571.54     571.54        .00
+Alt.000659       1.37     570.17     571.54        .00
+Alt.000660        .00     571.54     571.54        .00
+Alt.000661        .00     571.54     571.54        .00
+Alt.000662       2.24     569.31     571.54        .00
+Alt.000663        .00     571.54     571.54        .00
+Alt.000664       1.92     569.63     571.54        .00
+Alt.000665        .84     570.70     571.54        .00
+Alt.000666       7.32     564.23     571.54        .00
+Alt.000667        .84     570.70     571.54        .00
+Alt.000668        .00     571.54     571.54        .00
+Alt.000669        .84     570.70     571.54        .00
+Alt.000670        .00     571.54     571.54        .00
+Alt.000671        .00     571.54     571.54        .00
+Alt.000672       1.92     569.63     571.54        .00
+Alt.000673        .00     571.54     571.54        .00
+Alt.000674       2.55     569.00     571.54        .00
+Alt.000675        .00     571.54     571.54        .00
+Alt.000676        .00     571.54     571.54        .00
+Alt.000677        .00     571.54     571.54        .00
+Alt.000678       1.69     569.85     571.54        .00
+Alt.000679        .00     571.54     571.54        .00
+Alt.000680        .00     571.54     571.54        .00
+Alt.000681        .00     571.54     571.54        .00
+Alt.000682        .00     571.54     571.54        .00
+Alt.000683        .00     571.54     571.54        .00
+Alt.000684       3.29     568.25     571.54        .00
+Alt.000685        .00     571.54     571.54        .00
+Alt.000686        .00     571.54     571.54        .00
+Alt.000687        .00     571.54     571.54        .00
+Alt.000688        .00     571.54     571.54        .00
+Alt.000689        .00     571.54     571.54        .00
+Alt.000690        .00     571.54     571.54        .00
+Alt.000691        .96     570.59     571.54        .00
+Alt.000692        .00        .00        .00     571.54
+Alt.000693        .00     571.54     571.54        .00
+Alt.000694        .00     571.54     571.54        .00
+Alt.000695        .00     571.54     571.54        .00
+Alt.000696        .00     571.54     571.54        .00
+Alt.000697        .00     571.54     571.54        .00
+Alt.000698        .00     571.54     571.54        .00
+Alt.000699        .00     571.54     571.54        .00
+Alt.000700        .00     571.54     571.54        .00
+Alt.000701        .00     571.54     571.54        .00
+Alt.000702       1.80     569.75     571.54        .00
+Alt.000703        .00     571.54     571.54        .00
+Alt.000704        .00     571.54     571.54        .00
+Alt.000705        .00     571.54     571.54        .00
+Alt.000706        .00     571.54     571.54        .00
+Alt.000707        .00     571.54     571.54        .00
+Alt.000708        .00     571.54     571.54        .00
+Alt.000709        .00     571.54     571.54        .00
+Alt.000710        .00     571.54     571.54        .00
+Alt.000711        .00     571.54     571.54        .00
+Alt.000712        .00     571.54     571.54        .00
+Alt.000713        .00     571.54     571.54        .00
+Alt.000714        .00     571.54     571.54        .00
+Alt.000715        .00     571.54     571.54        .00
+Alt.000716        .00     571.54     571.54        .00
+Alt.000717        .00     571.54     571.54        .00
+Alt.000718        .00     571.54     571.54        .00
+Alt.000719        .00     571.54     571.54        .00
+Alt.000720        .00     571.54     571.54        .00
+Alt.000721        .00     571.54     571.54        .00
+Alt.000722        .00     571.54     571.54        .00
+Alt.000723        .00     571.54     571.54        .00
+Alt.000724        .00     571.54     571.54        .00
+Alt.000725        .00     571.54     571.54        .00
+Alt.000726        .00     571.54     571.54        .00
+Alt.000727        .00     571.54     571.54        .00
+Alt.000728        .00     571.54     571.54        .00
+Alt.000729        .00     571.54     571.54        .00
+Alt.000730        .00     571.54     571.54        .00
+Alt.000731        .00     571.54     571.54        .00
+Alt.000732        .00     571.54     571.54        .00
+Alt.000733        .00     571.54     571.54        .00
+Alt.000734        .00     571.54     571.54        .00
+Alt.000735        .00     571.54     571.54        .00
+Alt.000736        .00        .00        .00     571.54
+Alt.000737        .00     571.54     571.54        .00
+Alt.000738        .00     571.54     571.54        .00
+Alt.000739        .00     571.54     571.54        .00
+Alt.000740        .00     571.54     571.54        .00
+Alt.000741        .00     571.54     571.54        .00
+Alt.000742        .00     571.54     571.54        .00
+Alt.000743        .00     571.54     571.54        .00
+Alt.000744        .00     571.54     571.54        .00
+Alt.000745        .00     571.54     571.54        .00
+Alt.000746        .00     571.54     571.54        .00
+Alt.000747        .00     571.54     571.54        .00
+Alt.000748        .00     571.54     571.54        .00
+Alt.000749        .00     571.54     571.54        .00
+Alt.000750        .00     571.54     571.54        .00
+Alt.000751        .00     571.54     571.54        .00
+Alt.000752        .00     571.54     571.54        .00
+Alt.000753        .00     571.54     571.54        .00
+Alt.000754       1.27     570.27     571.54        .00
+Alt.000755        .00     571.54     571.54        .00
+Alt.000756        .00     571.54     571.54        .00
+Alt.000757        .00     571.54     571.54        .00
+Alt.000758        .00     571.54     571.54        .00
+Alt.000759        .00     571.54     571.54        .00
+Alt.000760        .00     571.54     571.54        .00
+Alt.000761        .00     571.54     571.54        .00
+Alt.000762        .00     571.54     571.54        .00
+Alt.000763       1.92     569.63     571.54        .00
+Alt.000764        .00     571.54     571.54        .00
+Alt.000765        .00     571.54     571.54        .00
+Alt.000766        .00     571.54     571.54        .00
+Alt.000767        .00     571.54     571.54        .00
+Alt.000768        .00     571.54     571.54        .00
+Alt.000769        .00     571.54     571.54        .00
+Alt.000770        .00     571.54     571.54        .00
+Alt.000771        .00     571.54     571.54        .00
+Alt.000772        .00     571.54     571.54        .00
+Alt.000773        .00     571.54     571.54        .00
+Alt.000774        .00     571.54     571.54        .00
+Alt.000775        .00     571.54     571.54        .00
+Alt.000776       3.71     567.83     571.54        .00
+Alt.000777        .00     571.54     571.54        .00
+Alt.000778        .00     571.54     571.54        .00
+Alt.000779        .00     571.54     571.54        .00
+Alt.000780        .00     571.54     571.54        .00
+Alt.000781        .84     570.70     571.54        .00
+Alt.000782        .00     571.54     571.54        .00
+Alt.000783        .00     571.54     571.54        .00
+Alt.000784        .00     571.54     571.54        .00
+Alt.000785        .00     571.54     571.54        .00
+Alt.000786        .00     571.54     571.54        .00
+Alt.000787        .00     571.54     571.54        .00
+Alt.000788        .00     571.54     571.54        .00
+Alt.000789        .00     571.54     571.54        .00
+Alt.000790        .00     571.54     571.54        .00
+Alt.000791        .00     571.54     571.54        .00
+Alt.000792        .00     571.54     571.54        .00
+Alt.000793        .00     571.54     571.54        .00
+Alt.000794        .84     570.70     571.54        .00
+Alt.000795        .00     571.54     571.54        .00
+Alt.000796        .00     571.54     571.54        .00
+Alt.000797        .00     571.54     571.54        .00
+Alt.000798        .00     571.54     571.54        .00
+Alt.000799        .00     571.54     571.54        .00
+Alt.000800       4.36     567.18     571.54        .00
+Alt.000801        .00     571.54     571.54        .00
+Alt.000802        .00     571.54     571.54        .00
+Alt.000803        .00     571.54     571.54        .00
+Alt.000804        .00     571.54     571.54        .00
+Alt.000805        .00     571.54     571.54        .00
+Alt.000806        .00     571.54     571.54        .00
+Alt.000807        .00     571.54     571.54        .00
+Alt.000808        .00     571.54     571.54        .00
+Alt.000809        .00     571.54     571.54        .00
+Alt.000810        .00     571.54     571.54        .00
+Alt.000811        .00     571.54     571.54        .00
+Alt.000812        .00     571.54     571.54        .00
+Alt.000813        .00     571.54     571.54        .00
+Alt.000814        .00     571.54     571.54        .00
+Alt.000815        .84     570.70     571.54        .00
+Alt.000816        .00     571.54     571.54        .00
+Alt.000817        .00     571.54     571.54        .00
+Alt.000818        .00     571.54     571.54        .00
+Alt.000819        .00     571.54     571.54        .00
+Alt.000820        .00     571.54     571.54        .00
+Alt.000821        .00        .00        .00     571.54
+Alt.000822        .00     571.54     571.54        .00
+Alt.000823        .00     571.54     571.54        .00
+Alt.000824        .00     571.54     571.54        .00
+Alt.000825       1.69     569.85     571.54        .00
+Alt.000826       1.29     570.26     571.54        .00
+Alt.000827        .00     571.54     571.54        .00
+Alt.000828        .00     571.54     571.54        .00
+Alt.000829        .00     571.54     571.54        .00
+Alt.000830        .00     571.54     571.54        .00
+Alt.000831        .00     571.54     571.54        .00
+Alt.000832        .00     571.54     571.54        .00
+Alt.000833        .00     571.54     571.54        .00
+Alt.000834        .00     571.54     571.54        .00
+Alt.000835        .00     571.54     571.54        .00
+Alt.000836        .00        .00        .00     571.54
+Alt.000837        .00     571.54     571.54        .00
+Alt.000838        .00     571.54     571.54        .00
+Alt.000839        .00     571.54     571.54        .00
+Alt.000840        .00     571.54     571.54        .00
+Alt.000841        .00     571.54     571.54        .00
+Alt.000842        .00     571.54     571.54        .00
+Alt.000843        .00     571.54     571.54        .00
+Alt.000844       1.59     569.95     571.54        .00
+Alt.000845        .00     571.54     571.54        .00
+Alt.000846       2.21     569.33     571.54        .00
+Alt.000847       3.92     567.62     571.54        .00
+Alt.000848        .00     571.54     571.54        .00
+Alt.000849        .00     571.54     571.54        .00
+Alt.000850        .00     571.54     571.54        .00
+Alt.000851        .00     571.54     571.54        .00
+Alt.000852        .00     571.54     571.54        .00
+Alt.000853        .00     571.54     571.54        .00
+Alt.000854        .00     571.54     571.54        .00
+Alt.000855        .00     571.54     571.54        .00
+Alt.000856        .70     570.85     571.54        .00
+Alt.000857        .82     570.72     571.54        .00
+Alt.000858        .00     571.54     571.54        .00
+Alt.000859        .00     571.54     571.54        .00
+Alt.000860        .00     571.54     571.54        .00
+Alt.000861        .00     571.54     571.54        .00
+Alt.000862        .00     571.54     571.54        .00
+Alt.000863        .00     571.54     571.54        .00
+Alt.000864        .00     571.54     571.54        .00
+Alt.000865        .00     571.54     571.54        .00
+Alt.000866        .00     571.54     571.54        .00
+Alt.000867        .00     571.54     571.54        .00
+Alt.000868        .00     571.54     571.54        .00
+Alt.000869        .00     571.54     571.54        .00
+Alt.000870        .00     571.54     571.54        .00
+Alt.000871        .00     571.54     571.54        .00
+Alt.000872        .00     571.54     571.54        .00
+Alt.000873        .00     571.54     571.54        .00
+Alt.000874        .00     571.54     571.54        .00
+Alt.000875        .00     571.54     571.54        .00
+Alt.000876        .00     571.54     571.54        .00
+Alt.000877        .00     571.54     571.54        .00
+Alt.000878        .00     571.54     571.54        .00
+Alt.000879        .00     571.54     571.54        .00
+Alt.000880        .00     571.54     571.54        .00
+Alt.000881        .00     571.54     571.54        .00
+Alt.000882        .00     571.54     571.54        .00
+Alt.000883        .82     570.72     571.54        .00
+Alt.000884        .00     571.54     571.54        .00
+Alt.000885        .00     571.54     571.54        .00
+Alt.000886        .00     571.54     571.54        .00
+Alt.000887        .00     571.54     571.54        .00
+Alt.000888        .00     571.54     571.54        .00
+Alt.000889        .00     571.54     571.54        .00
+Alt.000890        .00     571.54     571.54        .00
+Alt.000891        .00        .00        .00     571.54
+Alt.000892        .00     571.54     571.54        .00
+Alt.000893        .00        .00        .00     571.54
+Alt.000894        .00     571.54     571.54        .00
+Alt.000895        .00     571.54     571.54        .00
+Alt.000896        .00     571.54     571.54        .00
+Alt.000897        .00     571.54     571.54        .00
+Alt.000898        .00     571.54     571.54        .00
+Alt.000899        .82     570.72     571.54        .00
+Alt.000900       1.40     570.15     571.54        .00
+Alt.000901        .00     571.54     571.54        .00
+Alt.000902        .00     571.54     571.54        .00
+Alt.000903        .00     571.54     571.54        .00
+Alt.000904        .00     571.54     571.54        .00
+Alt.000905        .00     571.54     571.54        .00
+Alt.000906        .52     571.02     571.54        .00
+Alt.000907        .00     571.54     571.54        .00
+Alt.000908        .00     571.54     571.54        .00
+Alt.000909        .00     571.54     571.54        .00
+Alt.000910        .84     570.70     571.54        .00
+Alt.000911        .00     571.54     571.54        .00
+Alt.000912        .00     571.54     571.54        .00
+Alt.000913        .52     571.02     571.54        .00
+Alt.000914       1.54     570.01     571.54        .00
+Alt.000915        .00     571.54     571.54        .00
+Alt.000916        .00     571.54     571.54        .00
+Alt.000917        .00     571.54     571.54        .00
+Alt.000918        .00     571.54     571.54        .00
+Alt.000919        .00     571.54     571.54        .00
+Alt.000920        .00     571.54     571.54        .00
+Alt.000921        .00     571.54     571.54        .00
+Alt.000922        .53     571.02     571.54        .00
+Alt.000923        .00     571.54     571.54        .00
+Alt.000924        .00     571.54     571.54        .00
+Alt.000925        .00     571.54     571.54        .00
+Alt.000926        .00     571.54     571.54        .00
+Alt.000927        .00     571.54     571.54        .00
+Alt.000928        .00     571.54     571.54        .00
+Alt.000929        .00     571.54     571.54        .00
+Alt.000930        .00     571.54     571.54        .00
+Alt.000931        .00     571.54     571.54        .00
+Alt.000932        .00     571.54     571.54        .00
+Alt.000933        .00     571.54     571.54        .00
+Alt.000934        .00     571.54     571.54        .00
+Alt.000935        .00     571.54     571.54        .00
+Alt.000936        .00     571.54     571.54        .00
+Alt.000937        .00     571.54     571.54        .00
+Alt.000938        .86     570.68     571.54        .00
+Alt.000939        .00     571.54     571.54        .00
+Alt.000940        .00     571.54     571.54        .00
+Alt.000941        .00     571.54     571.54        .00
+Alt.000942        .00     571.54     571.54        .00
+Alt.000943        .00     571.54     571.54        .00
+Alt.000944        .00     571.54     571.54        .00
+Alt.000945        .00     571.54     571.54        .00
+Alt.000946        .00     571.54     571.54        .00
+Alt.000947        .00     571.54     571.54        .00
+Alt.000948        .00     571.54     571.54        .00
+Alt.000949        .00     571.54     571.54        .00
+Alt.000950        .00     571.54     571.54        .00
+Alt.000951        .00     571.54     571.54        .00
+Alt.000952        .00     571.54     571.54        .00
+Alt.000953        .00     571.54     571.54        .00
+Alt.000954        .00     571.54     571.54        .00
+Alt.000955        .00     571.54     571.54        .00
+Alt.000956        .00     571.54     571.54        .00
+Alt.000957        .00     571.54     571.54        .00
+Alt.000958        .00     571.54     571.54        .00
+Alt.000959        .00     571.54     571.54        .00
+Alt.000960        .00     571.54     571.54        .00
+Alt.000961        .00     571.54     571.54        .00
+Alt.000962        .00     571.54     571.54        .00
+Alt.000963        .86     570.68     571.54        .00
+Alt.000964       1.48     570.06     571.54        .00
+Alt.000965        .00     571.54     571.54        .00
+Alt.000966        .86     570.68     571.54        .00
+Alt.000967        .00     571.54     571.54        .00
+Alt.000968        .00     571.54     571.54        .00
+Alt.000969        .00     571.54     571.54        .00
+Alt.000970        .00     571.54     571.54        .00
+Alt.000971        .00     571.54     571.54        .00
+Alt.000972        .00     571.54     571.54        .00
+Alt.000973        .00     571.54     571.54        .00
+Alt.000974        .00     571.54     571.54        .00
+Alt.000975        .00     571.54     571.54        .00
+Alt.000976        .00     571.54     571.54        .00
+Alt.000977        .00     571.54     571.54        .00
+Alt.000978        .00     571.54     571.54        .00
+Alt.000979        .00     571.54     571.54        .00
+Alt.000980        .00     571.54     571.54        .00
+Alt.000981        .00     571.54     571.54        .00
+Alt.000982       1.05     570.50     571.54        .00
+Alt.000983        .00     571.54     571.54        .00
+Alt.000984        .00     571.54     571.54        .00
+Alt.000985        .00     571.54     571.54        .00
+Alt.000986        .00     571.54     571.54        .00
+Alt.000987        .00     571.54     571.54        .00
+Alt.000988        .00     571.54     571.54        .00
+Alt.000989        .00     571.54     571.54        .00
+Alt.000990        .00     571.54     571.54        .00
+Alt.000991        .00     571.54     571.54        .00
+Alt.000992        .00     571.54     571.54        .00
+Alt.000993        .00     571.54     571.54        .00
+Alt.000994        .00     571.54     571.54        .00
+Alt.000995        .00     571.54     571.54        .00
+Alt.000996        .00     571.54     571.54        .00
+Alt.000997        .00     571.54     571.54        .00
+Alt.000998        .00     571.54     571.54        .00
+Alt.000999        .00     571.54     571.54        .00
+Alt.001000        .00     571.54     571.54        .00
+Alt.001001        .97     570.58     571.54        .00
+Alt.001002        .00     571.54     571.54        .00
+Alt.001003        .00     571.54     571.54        .00
+Alt.001004        .38     571.17     571.54        .00
+Alt.001005        .00     571.54     571.54        .00
+Alt.001006        .00     571.54     571.54        .00
+Alt.001007       1.27     570.27     571.54        .00
+Alt.001008        .00     571.54     571.54        .00
+Alt.001009        .00     571.54     571.54        .00
+Alt.001010        .00     571.54     571.54        .00
+Alt.001011        .00     571.54     571.54        .00
+Alt.001012       1.50     570.05     571.54        .00
+Alt.001013       1.04     570.50     571.54        .00
+Alt.001014        .00     571.54     571.54        .00
+Alt.001015        .00     571.54     571.54        .00
+Alt.001016        .00     571.54     571.54        .00
+Alt.001017        .00     571.54     571.54        .00
+Alt.001018        .00     571.54     571.54        .00
+Alt.001019        .00     571.54     571.54        .00
+Alt.001020        .00     571.54     571.54        .00
+Alt.001021        .00     571.54     571.54        .00
+Alt.001022        .00     571.54     571.54        .00
+Alt.001023        .00     571.54     571.54        .00
+Alt.001024        .00     571.54     571.54        .00
+Alt.001025        .00     571.54     571.54        .00
+Alt.001026        .00     571.54     571.54        .00
+Alt.001027        .00     571.54     571.54        .00
+Alt.001028        .28     571.26     571.54        .00
+Alt.001029        .00     571.54     571.54        .00
+Alt.001030        .00     571.54     571.54        .00
+Alt.001031        .00     571.54     571.54        .00
+Alt.001032        .00     571.54     571.54        .00
+Alt.001033        .00     571.54     571.54        .00
+Alt.001034        .00     571.54     571.54        .00
+Alt.001035        .00     571.54     571.54        .00
+Alt.001036        .00     571.54     571.54        .00
+Alt.001037        .00     571.54     571.54        .00
+Alt.001038        .00     571.54     571.54        .00
+Alt.001039        .00     571.54     571.54        .00
+Alt.001040        .00     571.54     571.54        .00
+Alt.001041        .00     571.54     571.54        .00
+Alt.001042        .00     571.54     571.54        .00
+Alt.001043        .00        .00        .00     571.54
+Alt.001044        .00     571.54     571.54        .00
+Alt.001045        .00     571.54     571.54        .00
+Alt.001046        .00     571.54     571.54        .00
+Alt.001047        .00     571.54     571.54        .00
+Alt.001048        .00     571.54     571.54        .00
+Alt.001049        .00     571.54     571.54        .00
+Alt.001050        .00     571.54     571.54        .00
+Alt.001051        .00     571.54     571.54        .00
+Alt.001052        .00     571.54     571.54        .00
+Alt.001053        .00     571.54     571.54        .00
+Alt.001054        .00     571.54     571.54        .00
+Alt.001055        .00     571.54     571.54        .00
+Alt.001056        .00     571.54     571.54        .00
+Alt.001057        .00     571.54     571.54        .00
+Alt.001058        .00     571.54     571.54        .00
+Alt.001059        .00     571.54     571.54        .00
+Alt.001060        .00     571.54     571.54        .00
+Alt.001061        .00     571.54     571.54        .00
+Alt.001062        .00     571.54     571.54        .00
+Alt.001063        .00        .00        .00     571.54
+Alt.001064        .00     571.54     571.54        .00
+Alt.001065        .00     571.54     571.54        .00
+Alt.001066        .00     571.54     571.54        .00
+Alt.001067        .00     571.54     571.54        .00
+Alt.001068        .00     571.54     571.54        .00
+Alt.001069        .00     571.54     571.54        .00
+Alt.001070        .00     571.54     571.54        .00
+Alt.001071        .00     571.54     571.54        .00
+Alt.001072        .00     571.54     571.54        .00
+Alt.001073        .00     571.54     571.54        .00
+Alt.001074        .00     571.54     571.54        .00
+Alt.001075        .00     571.54     571.54        .00
+Alt.001076        .00     571.54     571.54        .00
+Alt.001077        .00     571.54     571.54        .00
+Alt.001078        .00     571.54     571.54        .00
+Alt.001079        .00     571.54     571.54        .00
+Alt.001080        .00     571.54     571.54        .00
+Alt.001081        .00     571.54     571.54        .00
+Alt.001082        .00     571.54     571.54        .00
+Alt.001083        .83     570.71     571.54        .00
+Alt.001084        .00     571.54     571.54        .00
+Alt.001085        .00     571.54     571.54        .00
+Alt.001086        .00     571.54     571.54        .00
+Alt.001087        .00     571.54     571.54        .00
+Alt.001088        .00     571.54     571.54        .00
+Alt.001089        .00     571.54     571.54        .00
+Alt.001090        .00     571.54     571.54        .00
+Alt.001091        .00     571.54     571.54        .00
+Alt.001092        .00     571.54     571.54        .00
+Alt.001093        .00     571.54     571.54        .00
+Alt.001094        .00     571.54     571.54        .00
+Alt.001095        .00     571.54     571.54        .00
+Alt.001096        .00     571.54     571.54        .00
+Alt.001097        .00     571.54     571.54        .00
+Alt.001098        .00     571.54     571.54        .00
+Alt.001099        .83     570.71     571.54        .00
+Alt.001100        .00     571.54     571.54        .00
+Alt.001101        .00     571.54     571.54        .00
+Alt.001102        .00     571.54     571.54        .00
+Alt.001103        .00     571.54     571.54        .00
+Alt.001104        .00     571.54     571.54        .00
+Alt.001105        .00     571.54     571.54        .00
+Alt.001106        .00     571.54     571.54        .00
+Alt.001107        .00     571.54     571.54        .00
+Alt.001108        .00     571.54     571.54        .00
+Alt.001109        .00     571.54     571.54        .00
+Alt.001110        .00     571.54     571.54        .00
+Alt.001111        .00     571.54     571.54        .00
+Alt.001112        .00     571.54     571.54        .00
+Alt.001113        .00     571.54     571.54        .00
+Alt.001114        .00     571.54     571.54        .00
+Alt.001115        .00     571.54     571.54        .00
+Alt.001116        .64     570.90     571.54        .00
+Alt.001117        .00     571.54     571.54        .00
+Alt.001118        .00     571.54     571.54        .00
+Alt.001119        .00     571.54     571.54        .00
+Alt.001120        .00     571.54     571.54        .00
+Alt.001121        .00     571.54     571.54        .00
+Alt.001122        .00     571.54     571.54        .00
+Alt.001123        .00     571.54     571.54        .00
+Alt.001124        .00     571.54     571.54        .00
+Alt.001125        .00     571.54     571.54        .00
+Alt.001126        .00     571.54     571.54        .00
+Alt.001127        .00     571.54     571.54        .00
+Alt.001128        .00     571.54     571.54        .00
+Alt.001129        .00     571.54     571.54        .00
+Alt.001130        .00     571.54     571.54        .00
+Alt.001131        .00     571.54     571.54        .00
+Alt.001132        .00     571.54     571.54        .00
+Alt.001133        .00     571.54     571.54        .00
+Alt.001134        .00     571.54     571.54        .00
+Alt.001135        .00     571.54     571.54        .00
+Alt.001136        .00     571.54     571.54        .00
+Alt.001137        .00     571.54     571.54        .00
+Alt.001138        .00     571.54     571.54        .00
+Alt.001139        .00     571.54     571.54        .00
+Alt.001140        .00     571.54     571.54        .00
+Alt.001141        .00     571.54     571.54        .00
+Alt.001142        .00     571.54     571.54        .00
+Alt.001143        .00     571.54     571.54        .00
+Alt.001144        .00     571.54     571.54        .00
+Alt.001145        .00     571.54     571.54        .00
+Alt.001146        .00     571.54     571.54        .00
+Alt.001147        .00     571.54     571.54        .00
+Alt.001148        .00     571.54     571.54        .00
+Alt.001149       1.23     570.31     571.54        .00
+Alt.001150        .00     571.54     571.54        .00
+Alt.001151       2.23     569.31     571.54        .00
+Alt.001152        .00     571.54     571.54        .00
+Alt.001153       1.86     569.68     571.54        .00
+Alt.001154        .00     571.54     571.54        .00
+Alt.001155        .00     571.54     571.54        .00
+Alt.001156        .00     571.54     571.54        .00
+Alt.001157        .00     571.54     571.54        .00
+Alt.001158        .00     571.54     571.54        .00
+Alt.001159        .00     571.54     571.54        .00
+Alt.001160        .00     571.54     571.54        .00
+Alt.001161        .00     571.54     571.54        .00
+Alt.001162        .00     571.54     571.54        .00
+Alt.001163        .00     571.54     571.54        .00
+Alt.001164        .00     571.54     571.54        .00
+Alt.001165        .00     571.54     571.54        .00
+Alt.001166        .00     571.54     571.54        .00
+Alt.001167        .00     571.54     571.54        .00
+Alt.001168        .00     571.54     571.54        .00
+Alt.001169        .00     571.54     571.54        .00
+Alt.001170        .00     571.54     571.54        .00
+Alt.001171        .00     571.54     571.54        .00
+Alt.001172        .00     571.54     571.54        .00
+Alt.001173        .00     571.54     571.54        .00
+Alt.001174        .00     571.54     571.54        .00
+Alt.001175        .00     571.54     571.54        .00
+Alt.001176        .00     571.54     571.54        .00
+Alt.001177        .00     571.54     571.54        .00
+Alt.001178        .00     571.54     571.54        .00
+Alt.001179        .00     571.54     571.54        .00
+Alt.001180        .00     571.54     571.54        .00
+Alt.001181       2.24     569.30     571.54        .00
+Alt.001182        .00     571.54     571.54        .00
+Alt.001183        .51     571.03     571.54        .00
+Alt.001184        .00     571.54     571.54        .00
+Alt.001185        .00     571.54     571.54        .00
+Alt.001186        .00     571.54     571.54        .00
+Alt.001187        .00     571.54     571.54        .00
+Alt.001188        .00     571.54     571.54        .00
+Alt.001189        .00     571.54     571.54        .00
+Alt.001190        .00     571.54     571.54        .00
+Alt.001191        .00     571.54     571.54        .00
+Alt.001192        .00     571.54     571.54        .00
+Alt.001193        .00     571.54     571.54        .00
+Alt.001194        .00     571.54     571.54        .00
+Alt.001195        .00     571.54     571.54        .00
+Alt.001196        .00     571.54     571.54        .00
+Alt.001197        .00     571.54     571.54        .00
+Alt.001198        .00     571.54     571.54        .00
+Alt.001199        .00     571.54     571.54        .00
+Alt.001200        .00     571.54     571.54        .00
+Alt.001201        .00     571.54     571.54        .00
+Alt.001202        .00     571.54     571.54        .00
+Alt.001203        .00     571.54     571.54        .00
+Alt.001204        .00     571.54     571.54        .00
+Alt.001205        .00     571.54     571.54        .00
+Alt.001206        .00     571.54     571.54        .00
+Alt.001207        .00     571.54     571.54        .00
+Alt.001208        .00     571.54     571.54        .00
+Alt.001209        .00     571.54     571.54        .00
+Alt.001210        .00     571.54     571.54        .00
+Alt.001211        .00     571.54     571.54        .00
+Alt.001212        .00     571.54     571.54        .00
+Alt.001213        .00     571.54     571.54        .00
+Alt.001214        .00     571.54     571.54        .00
+Alt.001215        .00     571.54     571.54        .00
+Alt.001216        .00     571.54     571.54        .00
+Alt.001217        .00     571.54     571.54        .00
+Alt.001218        .00     571.54     571.54        .00
+Alt.001219        .00     571.54     571.54        .00
+Alt.001220        .00     571.54     571.54        .00
+Alt.001221        .00     571.54     571.54        .00
+Alt.001222        .00     571.54     571.54        .00
+Alt.001223        .00     571.54     571.54        .00
+Alt.001224        .00     571.54     571.54        .00
+Alt.001225        .00     571.54     571.54        .00
+Alt.001226        .00     571.54     571.54        .00
+Alt.001227        .00     571.54     571.54        .00
+Alt.001228        .00     571.54     571.54        .00
+Alt.001229        .00     571.54     571.54        .00
+Alt.001230        .00     571.54     571.54        .00
+Alt.001231        .65     570.89     571.54        .00
+Alt.001232        .00     571.54     571.54        .00
+Alt.001233        .00     571.54     571.54        .00
+Alt.001234        .00     571.54     571.54        .00
+Alt.001235        .00     571.54     571.54        .00
+Alt.001236        .00     571.54     571.54        .00
+Alt.001237        .00     571.54     571.54        .00
+Alt.001238        .00     571.54     571.54        .00
+Alt.001239        .00     571.54     571.54        .00
+Alt.001240        .00     571.54     571.54        .00
+Alt.001241        .00     571.54     571.54        .00
+Alt.001242        .00     571.54     571.54        .00
+Alt.001243        .00     571.54     571.54        .00
+Alt.001244        .00     571.54     571.54        .00
+Alt.001245        .00     571.54     571.54        .00
+Alt.001246        .00     571.54     571.54        .00
+Alt.001247        .00     571.54     571.54        .00
+Alt.001248        .00     571.54     571.54        .00
+Alt.001249        .00     571.54     571.54        .00
+Alt.001250        .00     571.54     571.54        .00
+Alt.001251        .00     571.54     571.54        .00
+Alt.001252        .00     571.54     571.54        .00
+Alt.001253        .00     571.54     571.54        .00
+Alt.001254        .00     571.54     571.54        .00
+Alt.001255        .00     571.54     571.54        .00
+Alt.001256        .00     571.54     571.54        .00
+Alt.001257        .00     571.54     571.54        .00
+Alt.001258        .00     571.54     571.54        .00
+Alt.001259        .00     571.54     571.54        .00
+Alt.001260        .00     571.54     571.54        .00
+Alt.001261        .00     571.54     571.54        .00
+Alt.001262        .00     571.54     571.54        .00
+Alt.001263        .00     571.54     571.54        .00
+Alt.001264        .00     571.54     571.54        .00
+Alt.001265        .00     571.54     571.54        .00
+Alt.001266        .00     571.54     571.54        .00
+Alt.001267        .00     571.54     571.54        .00
+Alt.001268        .00     571.54     571.54        .00
+Alt.001269        .00     571.54     571.54        .00
+Alt.001270        .00     571.54     571.54        .00
+Alt.001271        .00     571.54     571.54        .00
+Alt.001272        .00     571.54     571.54        .00
+Alt.001273        .00     571.54     571.54        .00
+Alt.001274        .00     571.54     571.54        .00
+Alt.001275        .00     571.54     571.54        .00
+Alt.001276        .00     571.54     571.54        .00
+Alt.001277        .69     570.85     571.54        .00
+Alt.001278        .00     571.54     571.54        .00
+Alt.001279        .00     571.54     571.54        .00
+Alt.001280        .53     571.01     571.54        .00
+Alt.001281        .00     571.54     571.54        .00
+Alt.001282        .00     571.54     571.54        .00
+Alt.001283        .00     571.54     571.54        .00
+Alt.001284        .00     571.54     571.54        .00
+Alt.001285        .00     571.54     571.54        .00
+Alt.001286        .00     571.54     571.54        .00
+Alt.001287        .00     571.54     571.54        .00
+Alt.001288        .00     571.54     571.54        .00
+Alt.001289       1.32     570.22     571.54        .00
+Alt.001290        .00     571.54     571.54        .00
+Alt.001291        .69     570.85     571.54        .00
+Alt.001292        .00     571.54     571.54        .00
+Alt.001293        .00     571.54     571.54        .00
+Alt.001294        .69     570.85     571.54        .00
+Alt.001295        .59     570.96     571.54        .00
+Alt.001296        .00     571.54     571.54        .00
+Alt.001297        .00     571.54     571.54        .00
+Alt.001298        .00     571.54     571.54        .00
+Alt.001299        .00     571.54     571.54        .00
+Alt.001300        .00     571.54     571.54        .00
+Alt.001301        .00     571.54     571.54        .00
+Alt.001302        .00     571.54     571.54        .00
+Alt.001303        .00     571.54     571.54        .00
+Alt.001304        .00     571.54     571.54        .00
+Alt.001305        .00     571.54     571.54        .00
+Alt.001306        .00     571.54     571.54        .00
+Alt.001307        .00     571.54     571.54        .00
+Alt.001308        .00     571.54     571.54        .00
+Alt.001309        .00     571.54     571.54        .00
+Alt.001310        .00     571.54     571.54        .00
+Alt.001311        .00     571.54     571.54        .00
+Alt.001312        .00     571.54     571.54        .00
+Alt.001313        .00     571.54     571.54        .00
+Alt.001314        .00     571.54     571.54        .00
+Alt.001315        .00     571.54     571.54        .00
+Alt.001316        .00     571.54     571.54        .00
+Alt.001317        .00     571.54     571.54        .00
+Alt.001318        .00     571.54     571.54        .00
+Alt.001319        .00     571.54     571.54        .00
+Alt.001320        .00     571.54     571.54        .00
+Alt.001321        .00     571.54     571.54        .00
+Alt.001322        .00     571.54     571.54        .00
+Alt.001323        .00     571.54     571.54        .00
+Alt.001324        .00     571.54     571.54        .00
+Alt.001325        .00     571.54     571.54        .00
+Alt.001326        .00     571.54     571.54        .00
+Alt.001327        .00     571.54     571.54        .00
+Alt.001328        .00     571.54     571.54        .00
+Alt.001329        .00     571.54     571.54        .00
+Alt.001330        .00     571.54     571.54        .00
+Alt.001331        .83     570.71     571.54        .00
+Alt.001332        .00     571.54     571.54        .00
+Alt.001333        .00     571.54     571.54        .00
+Alt.001334        .00     571.54     571.54        .00
+Alt.001335        .00     571.54     571.54        .00
+Alt.001336        .00     571.54     571.54        .00
+Alt.001337        .83     570.71     571.54        .00
+Alt.001338        .00     571.54     571.54        .00
+Alt.001339        .00     571.54     571.54        .00
+Alt.001340        .00     571.54     571.54        .00
+Alt.001341        .00     571.54     571.54        .00
+Alt.001342        .31     571.23     571.54        .00
+Alt.001343        .31     571.23     571.54        .00
+Alt.001344        .00     571.54     571.54        .00
+Alt.001345        .00     571.54     571.54        .00
+Alt.001346        .00     571.54     571.54        .00
+Alt.001347        .00     571.54     571.54        .00
+Alt.001348        .43     571.12     571.54        .00
+Alt.001349        .00     571.54     571.54        .00
+Alt.001350        .00     571.54     571.54        .00
+Alt.001351        .00     571.54     571.54        .00
+Alt.001352        .00     571.54     571.54        .00
+Alt.001353        .00     571.54     571.54        .00
+Alt.001354        .00     571.54     571.54        .00
+Alt.001355        .00     571.54     571.54        .00
+Alt.001356        .00     571.54     571.54        .00
+Alt.001357        .00     571.54     571.54        .00
+Alt.001358        .00     571.54     571.54        .00
+Alt.001359        .00     571.54     571.54        .00
+Alt.001360        .00     571.54     571.54        .00
+Alt.001361        .00     571.54     571.54        .00
+Alt.001362        .00     571.54     571.54        .00
+Alt.001363        .00     571.54     571.54        .00
+Alt.001364        .95     570.59     571.54        .00
+Alt.001365        .00     571.54     571.54        .00
+Alt.001366        .31     571.23     571.54        .00
+Alt.001367        .00     571.54     571.54        .00
+Alt.001368        .00     571.54     571.54        .00
+Alt.001369       1.70     569.85     571.54        .00
+Alt.001370        .00     571.54     571.54        .00
+Alt.001371        .00     571.54     571.54        .00
+Alt.001372        .00     571.54     571.54        .00
+Alt.001373       1.19     570.35     571.54        .00
+Alt.001374        .93     570.61     571.54        .00
+Alt.001375        .44     571.11     571.54        .00
+Alt.001376        .00     571.54     571.54        .00
+Alt.001377        .00     571.54     571.54        .00
+Alt.001378        .00     571.54     571.54        .00
+Alt.001379        .00     571.54     571.54        .00
+Alt.001380        .00        .00        .00     571.54
+Alt.001381        .00     571.54     571.54        .00
+Alt.001382        .44     571.11     571.54        .00
+Alt.001383        .33     571.21     571.54        .00
+Alt.001384        .00     571.54     571.54        .00
+Alt.001385        .00     571.54     571.54        .00
+Alt.001386        .55     571.00     571.54        .00
+Alt.001387        .00     571.54     571.54        .00
+Alt.001388        .00     571.54     571.54        .00
+Alt.001389        .55     571.00     571.54        .00
+Alt.001390        .37     571.17     571.54        .00
+Alt.001391       4.60     566.95     571.54        .00
+Alt.001392        .00        .00        .00     571.54
+Alt.001393        .55     571.00     571.54        .00
+Alt.001394        .00        .00        .00     571.54
+Alt.001395        .00     571.54     571.54        .00
+Alt.001396        .00     571.54     571.54        .00
+Alt.001397        .00     571.54     571.54        .00
+Alt.001398        .00     571.54     571.54        .00
+Alt.001399        .00     571.54     571.54        .00
+Alt.001400        .00     571.54     571.54        .00
+Alt.001401        .00     571.54     571.54        .00
+Alt.001402        .00     571.54     571.54        .00
+Alt.001403        .00     571.54     571.54        .00
+Alt.001404       2.18     569.36     571.54        .00
+Alt.001405        .00     571.54     571.54        .00
+Alt.001406        .00     571.54     571.54        .00
+Alt.001407        .00     571.54     571.54        .00
+Alt.001408        .00     571.54     571.54        .00
+Alt.001409        .00     571.54     571.54        .00
+Alt.001410       1.01     570.53     571.54        .00
+Alt.001411        .00     571.54     571.54        .00
+Alt.001412        .00     571.54     571.54        .00
+Alt.001413        .00     571.54     571.54        .00
+Alt.001414        .00     571.54     571.54        .00
+Alt.001415        .00     571.54     571.54        .00
+Alt.001416        .33     571.21     571.54        .00
+Alt.001417        .00     571.54     571.54        .00
+Alt.001418        .00     571.54     571.54        .00
+Alt.001419        .00     571.54     571.54        .00
+Alt.001420        .00     571.54     571.54        .00
+Alt.001421        .62     570.92     571.54        .00
+Alt.001422        .53     571.01     571.54        .00
+Alt.001423        .37     571.17     571.54        .00
+Alt.001424        .00     571.54     571.54        .00
+Alt.001425        .00     571.54     571.54        .00
+Alt.001426        .00     571.54     571.54        .00
+Alt.001427       1.15     570.40     571.54        .00
+Alt.001428        .00     571.54     571.54        .00
+Alt.001429        .00     571.54     571.54        .00
+Alt.001430        .00     571.54     571.54        .00
+Alt.001431        .62     570.92     571.54        .00
+Alt.001432        .00     571.54     571.54        .00
+Alt.001433        .00     571.54     571.54        .00
+Alt.001434        .00     571.54     571.54        .00
+Alt.001435        .00     571.54     571.54        .00
+Alt.001436        .00     571.54     571.54        .00
+Alt.001437        .00     571.54     571.54        .00
+Alt.001438        .00     571.54     571.54        .00
+Alt.001439        .00     571.54     571.54        .00
+Alt.001440        .00     571.54     571.54        .00
+Alt.001441        .00     571.54     571.54        .00
+Alt.001442        .00     571.54     571.54        .00
+Alt.001443        .00     571.54     571.54        .00
+Alt.001444        .00     571.54     571.54        .00
+Alt.001445        .00     571.54     571.54        .00
+Alt.001446        .00     571.54     571.54        .00
+Alt.001447        .00     571.54     571.54        .00
+Alt.001448        .00     571.54     571.54        .00
+Alt.001449        .00     571.54     571.54        .00
+Alt.001450        .00     571.54     571.54        .00
+Alt.001451        .00     571.54     571.54        .00
+Alt.001452        .00     571.54     571.54        .00
+Alt.001453        .00     571.54     571.54        .00
+Alt.001454        .00     571.54     571.54        .00
+Alt.001455        .00     571.54     571.54        .00
+Alt.001456        .00     571.54     571.54        .00
+Alt.001457        .00     571.54     571.54        .00
+Alt.001458        .00     571.54     571.54        .00
+Alt.001459        .00     571.54     571.54        .00
+Alt.001460        .00     571.54     571.54        .00
+Alt.001461        .00     571.54     571.54        .00
+Alt.001462        .00     571.54     571.54        .00
+Alt.001463        .00     571.54     571.54        .00
+Alt.001464        .00     571.54     571.54        .00
+Alt.001465        .00     571.54     571.54        .00
+Alt.001466        .00     571.54     571.54        .00
+Alt.001467        .00     571.54     571.54        .00
+Alt.001468        .00     571.54     571.54        .00
+Alt.001469        .00     571.54     571.54        .00
+Alt.001470        .00     571.54     571.54        .00
+Alt.001471        .00     571.54     571.54        .00
+Alt.001472        .00     571.54     571.54        .00
+Alt.001473        .00     571.54     571.54        .00
+Alt.001474        .00     571.54     571.54        .00
+Alt.001475        .00     571.54     571.54        .00
+Alt.001476        .00     571.54     571.54        .00
+Alt.001477        .00     571.54     571.54        .00
+Alt.001478        .28     571.27     571.54        .00
+Alt.001479        .38     571.16     571.54        .00
+Alt.001480        .00     571.54     571.54        .00
+Alt.001481        .00     571.54     571.54        .00
+Alt.001482        .00     571.54     571.54        .00
+Alt.001483        .19     571.35     571.54        .00
+Alt.001484        .00     571.54     571.54        .00
+Alt.001485        .00     571.54     571.54        .00
+Alt.001486        .00     571.54     571.54        .00
+Alt.001487        .00     571.54     571.54        .00
+Alt.001488        .00     571.54     571.54        .00
+Alt.001489        .00     571.54     571.54        .00
+Alt.001490        .00     571.54     571.54        .00
+Alt.001491        .00     571.54     571.54        .00
+Alt.001492        .00     571.54     571.54        .00
+Alt.001493        .00     571.54     571.54        .00
+Alt.001494        .00     571.54     571.54        .00
+Alt.001495        .00     571.54     571.54        .00
+Alt.001496        .00     571.54     571.54        .00
+Alt.001497        .00     571.54     571.54        .00
+Alt.001498        .00     571.54     571.54        .00
+Alt.001499        .00     571.54     571.54        .00
+Alt.001500        .00     571.54     571.54        .00
+Alt.001501        .00     571.54     571.54        .00
+Alt.001502        .00     571.54     571.54        .00
+Alt.001503        .00     571.54     571.54        .00
+Alt.001504        .00     571.54     571.54        .00
+Alt.001505        .00     571.54     571.54        .00
+Alt.001506        .00     571.54     571.54        .00
+Alt.001507        .00     571.54     571.54        .00
+Alt.001508        .00     571.54     571.54        .00
+Alt.001509        .00     571.54     571.54        .00
+Alt.001510        .00     571.54     571.54        .00
+Alt.001511        .00     571.54     571.54        .00
+Alt.001512        .00     571.54     571.54        .00
+Alt.001513        .00     571.54     571.54        .00
+Alt.001514        .55     570.99     571.54        .00
+Alt.001515        .00     571.54     571.54        .00
+Alt.001516        .00     571.54     571.54        .00
+Alt.001517        .00     571.54     571.54        .00
+Alt.001518        .00     571.54     571.54        .00
+Alt.001519        .00     571.54     571.54        .00
+Alt.001520        .00     571.54     571.54        .00
+Alt.001521        .00     571.54     571.54        .00
+Alt.001522        .00        .00        .00     571.54
+Alt.001523        .00     571.54     571.54        .00
+Alt.001524        .00     571.54     571.54        .00
+Alt.001525        .00     571.54     571.54        .00
+Alt.001526        .00     571.54     571.54        .00
+Alt.001527        .00     571.54     571.54        .00
+Alt.001528        .00     571.54     571.54        .00
+Alt.001529        .00     571.54     571.54        .00
+Alt.001530        .00     571.54     571.54        .00
+Alt.001531        .00     571.54     571.54        .00
+Alt.001532        .00     571.54     571.54        .00
+Alt.001533        .00     571.54     571.54        .00
+Alt.001534        .00     571.54     571.54        .00
+Alt.001535        .00     571.54     571.54        .00
+Alt.001536        .00     571.54     571.54        .00
+Alt.001537        .00     571.54     571.54        .00
+Alt.001538        .00     571.54     571.54        .00
+Alt.001539        .00     571.54     571.54        .00
+Alt.001540        .00     571.54     571.54        .00
+Alt.001541        .00     571.54     571.54        .00
+Alt.001542        .00     571.54     571.54        .00
+Alt.001543        .00     571.54     571.54        .00
+Alt.001544        .00     571.54     571.54        .00
+Alt.001545        .00     571.54     571.54        .00
+Alt.001546        .00     571.54     571.54        .00
+Alt.001547        .00     571.54     571.54        .00
+Alt.001548        .00     571.54     571.54        .00
+Alt.001549        .00     571.54     571.54        .00
+Alt.001550        .00     571.54     571.54        .00
+Alt.001551        .00     571.54     571.54        .00
+Alt.001552        .00     571.54     571.54        .00
+Alt.001553        .00     571.54     571.54        .00
+Alt.001554        .00     571.54     571.54        .00
+Alt.001555        .00     571.54     571.54        .00
+Alt.001556        .00     571.54     571.54        .00
+Alt.001557        .00     571.54     571.54        .00
+Alt.001558        .18     571.37     571.54        .00
+Alt.001559        .00     571.54     571.54        .00
+Alt.001560        .69     570.85     571.54        .00
+Alt.001561       1.80     569.74     571.54        .00
+Alt.001562        .27     571.28     571.54        .00
+Alt.001563        .00     571.54     571.54        .00
+Alt.001564        .00     571.54     571.54        .00
+Alt.001565        .00     571.54     571.54        .00
+Alt.001566        .00     571.54     571.54        .00
+Alt.001567        .00     571.54     571.54        .00
+Alt.001568        .00     571.54     571.54        .00
+Alt.001569        .00     571.54     571.54        .00
+Alt.001570        .42     571.12     571.54        .00
+Alt.001571        .00     571.54     571.54        .00
+Alt.001572        .00     571.54     571.54        .00
+Alt.001573        .00     571.54     571.54        .00
+Alt.001574        .00     571.54     571.54        .00
+Alt.001575        .00     571.54     571.54        .00
+Alt.001576        .00     571.54     571.54        .00
+Alt.001577        .00     571.54     571.54        .00
+Alt.001578        .00     571.54     571.54        .00
+Alt.001579        .00     571.54     571.54        .00
+Alt.001580        .00     571.54     571.54        .00
+Alt.001581        .00     571.54     571.54        .00
+Alt.001582        .00     571.54     571.54        .00
+Alt.001583        .00     571.54     571.54        .00
+Alt.001584        .00     571.54     571.54        .00
+Alt.001585        .00     571.54     571.54        .00
+Alt.001586        .00     571.54     571.54        .00
+Alt.001587        .00     571.54     571.54        .00
+Alt.001588        .00     571.54     571.54        .00
+Alt.001589        .00     571.54     571.54        .00
+Alt.001590        .00     571.54     571.54        .00
+Alt.001591        .00     571.54     571.54        .00
+Alt.001592        .00     571.54     571.54        .00
+Alt.001593        .00     571.54     571.54        .00
+Alt.001594        .00     571.54     571.54        .00
+Alt.001595        .00     571.54     571.54        .00
+Alt.001596        .00     571.54     571.54        .00
+Alt.001597        .00     571.54     571.54        .00
+Alt.001598        .00     571.54     571.54        .00
+Alt.001599        .00     571.54     571.54        .00
+Alt.001600        .00     571.54     571.54        .00
+Alt.001601        .00     571.54     571.54        .00
+Alt.001602        .00     571.54     571.54        .00
+Alt.001603        .00     571.54     571.54        .00
+Alt.001604        .00     571.54     571.54        .00
+Alt.001605        .00     571.54     571.54        .00
+Alt.001606        .00     571.54     571.54        .00
+Alt.001607        .00     571.54     571.54        .00
+Alt.001608        .00     571.54     571.54        .00
+Alt.001609        .00     571.54     571.54        .00
+Alt.001610        .00     571.54     571.54        .00
+Alt.001611        .00     571.54     571.54        .00
+Alt.001612        .00     571.54     571.54        .00
+Alt.001613        .00     571.54     571.54        .00
+Alt.001614        .00     571.54     571.54        .00
+Alt.001615        .00     571.54     571.54        .00
+Alt.001616        .00     571.54     571.54        .00
+Alt.001617        .41     571.14     571.54        .00
+Alt.001618        .60     570.95     571.54        .00
+Alt.001619        .00     571.54     571.54        .00
+Alt.001620       4.28     567.27     571.54        .00
+Alt.001621       1.25     570.29     571.54        .00
+Alt.001622        .00     571.54     571.54        .00
+Alt.001623        .00     571.54     571.54        .00
+Alt.001624        .00     571.54     571.54        .00
+Alt.001625        .00     571.54     571.54        .00
+Alt.001626        .00     571.54     571.54        .00
+Alt.001627        .00     571.54     571.54        .00
+Alt.001628        .00     571.54     571.54        .00
+Alt.001629        .81     570.73     571.54        .00
+Alt.001630        .00     571.54     571.54        .00
+Alt.001631        .00     571.54     571.54        .00
+Alt.001632        .00     571.54     571.54        .00
+Alt.001633        .00     571.54     571.54        .00
+Alt.001634       2.52     569.02     571.54        .00
+Alt.001635       1.42     570.12     571.54        .00
+Alt.001636        .00     571.54     571.54        .00
+Alt.001637        .00     571.54     571.54        .00
+Alt.001638        .00     571.54     571.54        .00
+Alt.001639        .00     571.54     571.54        .00
+Alt.001640        .00     571.54     571.54        .00
+Alt.001641        .00        .00        .00     571.54
+Alt.001642        .00     571.54     571.54        .00
+Alt.001643        .00     571.54     571.54        .00
+Alt.001644        .60     570.95     571.54        .00
+Alt.001645        .00     571.54     571.54        .00
+Alt.001646        .00     571.54     571.54        .00
+Alt.001647        .00     571.54     571.54        .00
+Alt.001648        .00     571.54     571.54        .00
+Alt.001649        .00     571.54     571.54        .00
+Alt.001650        .00     571.54     571.54        .00
+Alt.001651        .00     571.54     571.54        .00
+Alt.001652        .00     571.54     571.54        .00
+Alt.001653        .68     570.86     571.54        .00
+Alt.001654        .00     571.54     571.54        .00
+Alt.001655        .00     571.54     571.54        .00
+Alt.001656        .00     571.54     571.54        .00
+Alt.001657        .00     571.54     571.54        .00
+Alt.001658        .00     571.54     571.54        .00
+Alt.001659        .00     571.54     571.54        .00
+Alt.001660        .00     571.54     571.54        .00
+Alt.001661        .00     571.54     571.54        .00
+Alt.001662        .00     571.54     571.54        .00
+Alt.001663        .00     571.54     571.54        .00
+Alt.001664        .00     571.54     571.54        .00
+Alt.001665       1.79     569.75     571.54        .00
+Alt.001666        .00     571.54     571.54        .00
+Alt.001667        .00     571.54     571.54        .00
+Alt.001668        .00     571.54     571.54        .00
+Alt.001669        .00     571.54     571.54        .00
+Alt.001670        .00     571.54     571.54        .00
+Alt.001671        .00     571.54     571.54        .00
+Alt.001672        .00     571.54     571.54        .00
+Alt.001673        .00     571.54     571.54        .00
+Alt.001674        .00     571.54     571.54        .00
+Alt.001675        .00     571.54     571.54        .00
+Alt.001676        .00     571.54     571.54        .00
+Alt.001677        .00     571.54     571.54        .00
+Alt.001678        .00     571.54     571.54        .00
+Alt.001679        .00     571.54     571.54        .00
+Alt.001680        .00     571.54     571.54        .00
+Alt.001681        .00     571.54     571.54        .00
+Alt.001682        .00     571.54     571.54        .00
+Alt.001683        .00     571.54     571.54        .00
+Alt.001684        .00     571.54     571.54        .00
+Alt.001685        .00     571.54     571.54        .00
+Alt.001686        .00     571.54     571.54        .00
+Alt.001687        .00     571.54     571.54        .00
+Alt.001688        .00     571.54     571.54        .00
+Alt.001689        .00     571.54     571.54        .00
+Alt.001690        .00     571.54     571.54        .00
+Alt.001691        .00     571.54     571.54        .00
+Alt.001692        .00     571.54     571.54        .00
+Alt.001693        .00     571.54     571.54        .00
+Alt.001694        .00     571.54     571.54        .00
+Alt.001695        .00     571.54     571.54        .00
+Alt.001696        .00     571.54     571.54        .00
+Alt.001697        .00     571.54     571.54        .00
+Alt.001698        .00     571.54     571.54        .00
+Alt.001699        .00     571.54     571.54        .00
+Alt.001700        .00     571.54     571.54        .00
+Alt.001701        .00     571.54     571.54        .00
+Alt.001702        .00     571.54     571.54        .00
+Alt.001703        .00     571.54     571.54        .00
+Alt.001704        .00     571.54     571.54        .00
+Alt.001705        .00     571.54     571.54        .00
+Alt.001706        .00     571.54     571.54        .00
+Alt.001707        .00     571.54     571.54        .00
+Alt.001708        .00     571.54     571.54        .00
+Alt.001709        .00     571.54     571.54        .00
+Alt.001710        .00     571.54     571.54        .00
+Alt.001711        .00     571.54     571.54        .00
+Alt.001712        .00     571.54     571.54        .00
+Alt.001713        .00     571.54     571.54        .00
+Alt.001714        .00     571.54     571.54        .00
+Alt.001715        .00     571.54     571.54        .00
+Alt.001716        .00     571.54     571.54        .00
+Alt.001717        .00     571.54     571.54        .00
+Alt.001718        .00     571.54     571.54        .00
+Alt.001719        .00     571.54     571.54        .00
+Alt.001720        .00        .00        .00     571.54
+Alt.001721        .00     571.54     571.54        .00
+Alt.001722        .00     571.54     571.54        .00
+Alt.001723        .00     571.54     571.54        .00
+Alt.001724        .00     571.54     571.54        .00
+Alt.001725        .00     571.54     571.54        .00
+Alt.001726        .00     571.54     571.54        .00
+Alt.001727        .00     571.54     571.54        .00
+Alt.001728        .00     571.54     571.54        .00
+Alt.001729        .00     571.54     571.54        .00
+Alt.001730        .00     571.54     571.54        .00
+Alt.001731        .00     571.54     571.54        .00
+Alt.001732        .00     571.54     571.54        .00
+Alt.001733        .00     571.54     571.54        .00
+Alt.001734        .00     571.54     571.54        .00
+Alt.001735        .00     571.54     571.54        .00
+Alt.001736        .00     571.54     571.54        .00
+Alt.001737        .00     571.54     571.54        .00
+Alt.001738        .00     571.54     571.54        .00
+Alt.001739        .00     571.54     571.54        .00
+Alt.001740        .00     571.54     571.54        .00
+Alt.001741        .00     571.54     571.54        .00
+Alt.001742        .00     571.54     571.54        .00
+Alt.001743        .00     571.54     571.54        .00
+Alt.001744        .00     571.54     571.54        .00
+Alt.001745        .00     571.54     571.54        .00
+Alt.001746        .00     571.54     571.54        .00
+Alt.001747        .29     571.25     571.54        .00
+Alt.001748        .00     571.54     571.54        .00
+Alt.001749        .00     571.54     571.54        .00
+Alt.001750        .00     571.54     571.54        .00
+Alt.001751        .00     571.54     571.54        .00
+Alt.001752        .00     571.54     571.54        .00
+Alt.001753        .00     571.54     571.54        .00
+Alt.001754        .00     571.54     571.54        .00
+Alt.001755        .00     571.54     571.54        .00
+Alt.001756        .00     571.54     571.54        .00
+Alt.001757        .00     571.54     571.54        .00
+Alt.001758        .00     571.54     571.54        .00
+Alt.001759        .00     571.54     571.54        .00
+Alt.001760        .00     571.54     571.54        .00
+Alt.001761        .26     571.29     571.54        .00
+Alt.001762        .00     571.54     571.54        .00
+Alt.001763        .00     571.54     571.54        .00
+Alt.001764        .00     571.54     571.54        .00
+Alt.001765        .00     571.54     571.54        .00
+Alt.001766        .00     571.54     571.54        .00
+Alt.001767        .00     571.54     571.54        .00
+Alt.001768        .00     571.54     571.54        .00
+Alt.001769        .00     571.54     571.54        .00
+Alt.001770        .00     571.54     571.54        .00
+Alt.001771        .00     571.54     571.54        .00
+Alt.001772        .00     571.54     571.54        .00
+Alt.001773        .00     571.54     571.54        .00
+Alt.001774        .00     571.54     571.54        .00
+Alt.001775        .00     571.54     571.54        .00
+Alt.001776        .00     571.54     571.54        .00
+Alt.001777        .00     571.54     571.54        .00
+Alt.001778        .00     571.54     571.54        .00
+Alt.001779        .00     571.54     571.54        .00
+Alt.001780        .00     571.54     571.54        .00
+Alt.001781        .00     571.54     571.54        .00
+Alt.001782        .00     571.54     571.54        .00
+Alt.001783        .00     571.54     571.54        .00
+Alt.001784        .00     571.54     571.54        .00
+Alt.001785        .00     571.54     571.54        .00
+Alt.001786        .00     571.54     571.54        .00
+Alt.001787        .00     571.54     571.54        .00
+Alt.001788        .00     571.54     571.54        .00
+Alt.001789        .00     571.54     571.54        .00
+Alt.001790        .00     571.54     571.54        .00
+Alt.001791        .00     571.54     571.54        .00
+Alt.001792        .00     571.54     571.54        .00
+Alt.001793        .00     571.54     571.54        .00
+Alt.001794        .00     571.54     571.54        .00
+Alt.001795        .00     571.54     571.54        .00
+Alt.001796        .00     571.54     571.54        .00
+Alt.001797        .00     571.54     571.54        .00
+Alt.001798        .00     571.54     571.54        .00
+Alt.001799        .00     571.54     571.54        .00
+Alt.001800        .00     571.54     571.54        .00
+Alt.001801        .00     571.54     571.54        .00
+Alt.001802        .00     571.54     571.54        .00
+Alt.001803        .00     571.54     571.54        .00
+Alt.001804        .00     571.54     571.54        .00
+Alt.001805        .00     571.54     571.54        .00
+Alt.001806        .00     571.54     571.54        .00
+Alt.001807        .00     571.54     571.54        .00
+Alt.001808        .00     571.54     571.54        .00
+Alt.001809        .00     571.54     571.54        .00
+Alt.001810        .00     571.54     571.54        .00
+Alt.001811        .00     571.54     571.54        .00
+Alt.001812        .00     571.54     571.54        .00
+Alt.001813        .00     571.54     571.54        .00
+Alt.001814        .00     571.54     571.54        .00
+Alt.001815        .00     571.54     571.54        .00
+Alt.001816        .00     571.54     571.54        .00
+Alt.001817        .00     571.54     571.54        .00
+Alt.001818        .00     571.54     571.54        .00
+Alt.001819        .00     571.54     571.54        .00
+Alt.001820        .00        .00        .00     571.54
+Alt.001821        .00     571.54     571.54        .00
+Alt.001822        .00        .00        .00     571.54
+Alt.001823        .00     571.54     571.54        .00
+Alt.001824        .00     571.54     571.54        .00
+Alt.001825        .00     571.54     571.54        .00
+Alt.001826        .00     571.54     571.54        .00
+Alt.001827        .00     571.54     571.54        .00
+Alt.001828        .00     571.54     571.54        .00
+Alt.001829        .00     571.54     571.54        .00
+Alt.001830        .00     571.54     571.54        .00
+Alt.001831        .00     571.54     571.54        .00
+Alt.001832        .00     571.54     571.54        .00
+Alt.001833        .00     571.54     571.54        .00
+Alt.001834        .00     571.54     571.54        .00
+Alt.001835        .00     571.54     571.54        .00
+Alt.001836        .00     571.54     571.54        .00
+Alt.001837        .00     571.54     571.54        .00
+Alt.001838        .00     571.54     571.54        .00
+Alt.001839        .00     571.54     571.54        .00
+Alt.001840        .00     571.54     571.54        .00
+Alt.001841        .00     571.54     571.54        .00
+Alt.001842        .00     571.54     571.54        .00
+Alt.001843        .00     571.54     571.54        .00
+Alt.001844        .00     571.54     571.54        .00
+Alt.001845        .00     571.54     571.54        .00
+Alt.001846        .00     571.54     571.54        .00
+Alt.001847        .00     571.54     571.54        .00
+Alt.001848        .00     571.54     571.54        .00
+Alt.001849        .00     571.54     571.54        .00
+Alt.001850        .00     571.54     571.54        .00
+Alt.001851        .00     571.54     571.54        .00
+Alt.001852        .00     571.54     571.54        .00
+Alt.001853        .00     571.54     571.54        .00
+Alt.001854        .00     571.54     571.54        .00
+Alt.001855        .00     571.54     571.54        .00
+Alt.001856        .00     571.54     571.54        .00
+Alt.001857        .00     571.54     571.54        .00
+Alt.001858        .00     571.54     571.54        .00
+Alt.001859        .00     571.54     571.54        .00
+Alt.001860        .00     571.54     571.54        .00
+Alt.001861        .00     571.54     571.54        .00
+Alt.001862        .00     571.54     571.54        .00
+Alt.001863        .00     571.54     571.54        .00
+Alt.001864        .00     571.54     571.54        .00
+Alt.001865        .00     571.54     571.54        .00
+Alt.001866        .00     571.54     571.54        .00
+Alt.001867        .00     571.54     571.54        .00
+Alt.001868        .00     571.54     571.54        .00
+Alt.001869        .00     571.54     571.54        .00
+Alt.001870        .00     571.54     571.54        .00
+Alt.001871        .00     571.54     571.54        .00
+Alt.001872        .00     571.54     571.54        .00
+Alt.001873        .00     571.54     571.54        .00
+Alt.001874        .00     571.54     571.54        .00
+Alt.001875        .00     571.54     571.54        .00
+Alt.001876        .00     571.54     571.54        .00
+Alt.001877        .00     571.54     571.54        .00
+Alt.001878        .00     571.54     571.54        .00
+Alt.001879        .00     571.54     571.54        .00
+Alt.001880        .09     571.45     571.54        .00
+Alt.001881        .00     571.54     571.54        .00
+Alt.001882        .00     571.54     571.54        .00
+Alt.001883        .00     571.54     571.54        .00
+Alt.001884        .00     571.54     571.54        .00
+Alt.001885        .00     571.54     571.54        .00
+Alt.001886        .00     571.54     571.54        .00
+Alt.001887        .00     571.54     571.54        .00
+Alt.001888        .00     571.54     571.54        .00
+Alt.001889        .00     571.54     571.54        .00
+Alt.001890        .00     571.54     571.54        .00
+Alt.001891        .00     571.54     571.54        .00
+Alt.001892        .00     571.54     571.54        .00
+Alt.001893        .00     571.54     571.54        .00
+Alt.001894        .00     571.54     571.54        .00
+Alt.001895        .00     571.54     571.54        .00
+Alt.001896        .00     571.54     571.54        .00
+Alt.001897        .00     571.54     571.54        .00
+Alt.001898        .00     571.54     571.54        .00
+Alt.001899        .00     571.54     571.54        .00
+Alt.001900        .00     571.54     571.54        .00
+Alt.001901        .00     571.54     571.54        .00
+Alt.001902        .00     571.54     571.54        .00
+Alt.001903        .00     571.54     571.54        .00
+Alt.001904        .00     571.54     571.54        .00
+Alt.001905        .00     571.54     571.54        .00
+Alt.001906        .00     571.54     571.54        .00
+Alt.001907        .00     571.54     571.54        .00
+Alt.001908        .00     571.54     571.54        .00
+Alt.001909        .00     571.54     571.54        .00
+Alt.001910        .00     571.54     571.54        .00
+Alt.001911        .00     571.54     571.54        .00
+Alt.001912        .00     571.54     571.54        .00
+Alt.001913        .00     571.54     571.54        .00
+Alt.001914        .00     571.54     571.54        .00
+Alt.001915        .00     571.54     571.54        .00
+Alt.001916        .00     571.54     571.54        .00
+Alt.001917        .00     571.54     571.54        .00
+Alt.001918        .00     571.54     571.54        .00
+Alt.001919        .00     571.54     571.54        .00
+Alt.001920        .00     571.54     571.54        .00
+Alt.001921        .00     571.54     571.54        .00
+Alt.001922        .00     571.54     571.54        .00
+Alt.001923        .00     571.54     571.54        .00
+Alt.001924        .00     571.54     571.54        .00
+Alt.001925        .00     571.54     571.54        .00
+Alt.001926        .00     571.54     571.54        .00
+Alt.001927        .00     571.54     571.54        .00
+Alt.001928        .00     571.54     571.54        .00
+Alt.001929        .00     571.54     571.54        .00
+Alt.001930        .00     571.54     571.54        .00
+Alt.001931        .00     571.54     571.54        .00
+Alt.001932        .00     571.54     571.54        .00
+Alt.001933        .00     571.54     571.54        .00
+Alt.001934        .00     571.54     571.54        .00
+Alt.001935        .00     571.54     571.54        .00
+Alt.001936        .00     571.54     571.54        .00
+Alt.001937        .00     571.54     571.54        .00
+Alt.001938        .00     571.54     571.54        .00
+Alt.001939        .00     571.54     571.54        .00
+Alt.001940        .00     571.54     571.54        .00
+Alt.001941        .00     571.54     571.54        .00
+Alt.001942        .00     571.54     571.54        .00
+Alt.001943        .00     571.54     571.54        .00
+Alt.001944        .00     571.54     571.54        .00
+Alt.001945        .00     571.54     571.54        .00
+Alt.001946        .00     571.54     571.54        .00
+Alt.001947        .00     571.54     571.54        .00
+Alt.001948        .00     571.54     571.54        .00
+Alt.001949        .00     571.54     571.54        .00
+Alt.001950        .00     571.54     571.54        .00
+Alt.001951        .00     571.54     571.54        .00
+Alt.001952        .00     571.54     571.54        .00
+Alt.001953        .00     571.54     571.54        .00
+Alt.001954        .00     571.54     571.54        .00
+Alt.001955        .00     571.54     571.54        .00
+Alt.001956        .00     571.54     571.54        .00
+Alt.001957        .00     571.54     571.54        .00
+Alt.001958        .00     571.54     571.54        .00
+Alt.001959        .00     571.54     571.54        .00
+Alt.001960        .00     571.54     571.54        .00
+Alt.001961        .00     571.54     571.54        .00
+Alt.001962        .00     571.54     571.54        .00
+Alt.001963        .00     571.54     571.54        .00
+Alt.001964        .00     571.54     571.54        .00
+Alt.001965        .00     571.54     571.54        .00
+Alt.001966        .00     571.54     571.54        .00
+Alt.001967        .00     571.54     571.54        .00
+Alt.001968        .00     571.54     571.54        .00
+Alt.001969        .00     571.54     571.54        .00
+Alt.001970        .00     571.54     571.54        .00
+Alt.001971        .00     571.54     571.54        .00
+Alt.001972        .00     571.54     571.54        .00
+Alt.001973        .00     571.54     571.54        .00
+Alt.001974        .00     571.54     571.54        .00
+Alt.001975        .00     571.54     571.54        .00
+Alt.001976        .00     571.54     571.54        .00
+Alt.001977        .00     571.54     571.54        .00
+Alt.001978        .00     571.54     571.54        .00
+Alt.001979        .00     571.54     571.54        .00
+Alt.001980        .00     571.54     571.54        .00
+Alt.001981        .00     571.54     571.54        .00
+Alt.001982        .00     571.54     571.54        .00
+Alt.001983        .00     571.54     571.54        .00
+Alt.001984        .00     571.54     571.54        .00
+Alt.001985        .00     571.54     571.54        .00
+Alt.001986        .00     571.54     571.54        .00
+Alt.001987        .00     571.54     571.54        .00
+Alt.001988        .00     571.54     571.54        .00
+Alt.001989        .00     571.54     571.54        .00
+Alt.001990        .00     571.54     571.54        .00
+Alt.001991        .00     571.54     571.54        .00
+Alt.001992        .00     571.54     571.54        .00
+Alt.001993        .00     571.54     571.54        .00
+Alt.001994        .00     571.54     571.54        .00
+Alt.001995        .00     571.54     571.54        .00
+Alt.001996        .00     571.54     571.54        .00
+Alt.001997        .00     571.54     571.54        .00
+Alt.001998        .00     571.54     571.54        .00
+Alt.001999        .00     571.54     571.54        .00
+Alt.002000        .00     571.54     571.54        .00
+Alt.002001        .00     571.54     571.54        .00
+Alt.002002        .00     571.54     571.54        .00
+Alt.002003        .00     571.54     571.54        .00
+Alt.002004        .00     571.54     571.54        .00
+Alt.002005        .00     571.54     571.54        .00
+Alt.002006        .00     571.54     571.54        .00
+Alt.002007        .00     571.54     571.54        .00
+Alt.002008        .00     571.54     571.54        .00
+Alt.002009        .00     571.54     571.54        .00
+Alt.002010        .00     571.54     571.54        .00
+Alt.002011        .00     571.54     571.54        .00
+Alt.002012        .00     571.54     571.54        .00
+Alt.002013        .00     571.54     571.54        .00
+Alt.002014        .00     571.54     571.54        .00
+Alt.002015        .00     571.54     571.54        .00
+Alt.002016        .00     571.54     571.54        .00
+Alt.002017        .00     571.54     571.54        .00
+Alt.002018        .00     571.54     571.54        .00
+Alt.002019        .00     571.54     571.54        .00
+Alt.002020        .00     571.54     571.54        .00
+Alt.002021        .00     571.54     571.54        .00
+Alt.002022        .00     571.54     571.54        .00
+Alt.002023        .00     571.54     571.54        .00
+Alt.002024        .00     571.54     571.54        .00
+Alt.002025        .00     571.54     571.54        .00
+Alt.002026        .00     571.54     571.54        .00
+Alt.002027        .00     571.54     571.54        .00
+Alt.002028        .00     571.54     571.54        .00
+Alt.002029        .00     571.54     571.54        .00
+Alt.002030        .00     571.54     571.54        .00
+Alt.002031        .00     571.54     571.54        .00
+Alt.002032        .00     571.54     571.54        .00
+Alt.002033        .00     571.54     571.54        .00
+Alt.002034        .00     571.54     571.54        .00
+Alt.002035        .00     571.54     571.54        .00
+Alt.002036        .00     571.54     571.54        .00
+Alt.002037        .00     571.54     571.54        .00
+Alt.002038        .00     571.54     571.54        .00
+Alt.002039        .00     571.54     571.54        .00
+Alt.002040        .00     571.54     571.54        .00
+Alt.002041        .00     571.54     571.54        .00
+Alt.002042        .00     571.54     571.54        .00
+Alt.002043        .00     571.54     571.54        .00
+Alt.002044        .00     571.54     571.54        .00
+Alt.002045        .00     571.54     571.54        .00
+Alt.002046        .00     571.54     571.54        .00
+Alt.002047        .00     571.54     571.54        .00
+Alt.002048        .00     571.54     571.54        .00
+Alt.002049        .00     571.54     571.54        .00
+Alt.002050        .00     571.54     571.54        .00
+Alt.002051        .00     571.54     571.54        .00
+Alt.002052        .00     571.54     571.54        .00
+Alt.002053        .00     571.54     571.54        .00
+Alt.002054        .00     571.54     571.54        .00
+Alt.002055        .00     571.54     571.54        .00
+Alt.002056        .00     571.54     571.54        .00
+Alt.002057        .00     571.54     571.54        .00
+Alt.002058        .00     571.54     571.54        .00
+Alt.002059        .00     571.54     571.54        .00
+Alt.002060        .00     571.54     571.54        .00
+Alt.002061        .00     571.54     571.54        .00
+Alt.002062        .00     571.54     571.54        .00
+Alt.002063        .00     571.54     571.54        .00
+Alt.002064        .00     571.54     571.54        .00
+Alt.002065        .00     571.54     571.54        .00
+Alt.002066        .00     571.54     571.54        .00
+Alt.002067        .00     571.54     571.54        .00
+Alt.002068        .00     571.54     571.54        .00
+Alt.002069        .00     571.54     571.54        .00
+Alt.002070        .00     571.54     571.54        .00
+Alt.002071        .00     571.54     571.54        .00
+Alt.002072        .00     571.54     571.54        .00
+Alt.002073        .00     571.54     571.54        .00
+Alt.002074        .00     571.54     571.54        .00
+Alt.002075        .00     571.54     571.54        .00
+Alt.002076        .00     571.54     571.54        .00
+Alt.002077        .00     571.54     571.54        .00
+Alt.002078        .00     571.54     571.54        .00
+Alt.002079        .00     571.54     571.54        .00
+Alt.002080        .00     571.54     571.54        .00
+Alt.002081        .00     571.54     571.54        .00
+Alt.002082        .00     571.54     571.54        .00
+Alt.002083        .00     571.54     571.54        .00
+Alt.002084        .00     571.54     571.54        .00
+Alt.002085        .00     571.54     571.54        .00
+Alt.002086        .00     571.54     571.54        .00
+Alt.002087        .00     571.54     571.54        .00
+Alt.002088        .00     571.54     571.54        .00
+Alt.002089        .00     571.54     571.54        .00
+Alt.002090        .00     571.54     571.54        .00
+Alt.002091        .00     571.54     571.54        .00
+Alt.002092        .00     571.54     571.54        .00
+Alt.002093        .00     571.54     571.54        .00
+Alt.002094        .00     571.54     571.54        .00
+Alt.002095        .00     571.54     571.54        .00
+Alt.002096        .00     571.54     571.54        .00
+Alt.002097        .00     571.54     571.54        .00
+Alt.002098        .00     571.54     571.54        .00
+ 
+ 
+RANGES OF INDEPENDENT VARIABLES
+ 
+Coefficient   Chsn Min   Chsn Max   Diff Min   Diff Max
+-----------  ---------  ---------  ---------  ---------
+Wd_Len            .00      50.07     -50.07    1000.00
+L_S_M             .00   14150.00  -14150.00   26650.00
+S_shops           .00    1306.91   -1306.91    2361.61
+S_service         .00   11507.13  -11507.13   11507.13
+ 
+ 
+MEANS AND STANDARD DEVIATIONS OF INDEPENDENT VARIABLES
+ 
+Coefficient  Chsn Mean  Chsn S.D.  Diff Mean  Diff S.D.
+-----------  ---------  ---------  ---------  ---------
+Wd_Len           1.02       3.10      76.09      60.02
+L_S_M         2243.77    2096.13   -1232.84    2656.10
+S_shops        156.13     273.63    -124.25     294.17
+S_service     2152.06    2772.51   -1859.52    2932.69
+ 
+ 
+CORRELATION MATRIX of DIFFERENCES from CHOSEN VALUE
+ 
+Coefficient    Wd_Len     L_S_M      S_shops
+-----------    ---------  ---------  ---------
+L_S_M           .0344
+S_shops        -.0024     -.0108
+S_service       .0024     -.0335      .3010
+ 
+PRVEST allocating            .024 K bytes
+ 
+ 
+SELECTED STATISTICS
+ 
+Total weight of data is      571.54
+ 
+Data Item  % Non-Zero  Minimum  Maximum  Average  Std. Dev.
+---------  ----------  -------  -------  -------  ---------
+CHOICE         100.00     1.00  1880.00   390.02     432.07
+WEIGHT         100.00      .07     8.43     3.25       1.98
+xfactor        100.00     8.20   976.60   382.58     226.69
+ttype          100.00     1.00     7.00     3.84       1.72
+jzone          100.00     1.00  1884.00   382.09     435.27
+mode           100.00     1.00     1.00
+ 
+Free    INPUT (only)            .024 K bytes
+ 
+Free            DATA         167.860 K bytes
+ 
+INFORMATION 002: data processing time    30.08 secs.
+ 
+C:..elmet_estimation\ohjaus\HS15_SEC_W.F11   22.029 Mb Date:  5 Feb 25 at 15:06
+ 
+Free    INPUT (only)        9781.024 K bytes
+ 
+ESTIMATE allocating          21.078 K bytes
+ 
+Free     (pre-ESTIM)       22100.000 K bytes
+ 
+ALGOR+FUNC allocating         183.220 K bytes
+ 
+INFORMATION 605: tree algorithm being used
+ 
+Coeff.S_service  old   .0000    ,  change  .1950    ,  std. err.  .1248
+Iteration  1  Function =  -3894.0327   Conv.(3) = 20.7 approx. step
+ 
+Coeff.S_service  old   .1950    ,  change  .4872    ,  std. err.  .1253
+Iteration  2  Function =  -3508.0008   Conv.(3) = 20.7 approx. step
+ 
+Coeff.S_service  old   .6821    ,  change  .4774    ,  std. err.  .1372
+Iteration  3  Function =  -3134.2232   Conv.(3) = 20.7 approx. step
+ 
+Coeff.S_service  old   1.160    ,  change  .3342    ,  std. err.  .1545
+Iteration  4  Function =  -2786.0245   Conv.(3) = 20.6 approx. step
+ 
+Coeff. S_shops   old  -.6115    ,  change  .2916    ,  std. err.  1.430
+Coeff.S_service  old   1.494    ,  change  .1985    ,  std. err.  .1704
+Iteration  5  Function =  -2446.8113   Conv.(3) = 19.6 approx. step
+ 
+Coeff. S_shops   old  -.3200    ,  change  1.348    ,  std. err.  1.323
+Iteration  6  Function =  -2136.0681   Conv.(3) = 17.2 approx. step
+ 
+Coeff. S_shops   old   1.028    ,  change  1.307    ,  std. err.  .5561
+Iteration  7  Function =  -1892.1450   Conv.(3) = 12.8 approx. step
+ 
+Iteration  8  Function =  -1748.8635   Conv.(3) = 11.5
+ 
+Coeff. S_shops   old   2.073    ,  change  .1073    ,  std. err.  .2401
+Coeff.S_service  old   .4331    ,  change  .1367    ,  std. err.  .1949
+Iteration  9  Function =  -1669.2304   Conv.(3) = 4.76
+ 
+Iteration 10  Function =  -1656.7272   Conv.(3) = .924
+ 
+Iteration 11  Function =  -1656.2931   Conv.(3) = .360E-01
+ 
+Iteration 12  Function =  -1656.2925   Conv.(3) = .553E-04
+ 
+ 
+Convergence achieved after  12 iterations
+ 
+Analysis is based on    333 observations
+ 
+ 
+Log Likelihood with Zero Coefficients =   -4371.5878
+ 
+Log Likelihood with Constants only    =   -2787.2798
+ 
+Initial Log Likelihood                =   -3894.0327
+ 
+ 
+Final value of Log Likelihood         =   -1656.2925
+ 
+ 
+   "Rho-Squared" w.r.t. Zero      =  .6211
+ 
+   "Rho-Squared" w.r.t. Constants =  .4058
+ 
+ 
+ESTIMATES OBTAINED AT ITERATION 12
+ 
+Log Likelihood =   -1656.2925
+ 
+                            'Robust' errors
+ Coefficient   Estimate   Std. Error 't' ratio
+    Wd_Len    -.7872       .682E-01   -11.5
+    L_S_M      1.000         constrained
+   S_shops     2.197       .247         8.9
+  S_service    .5886       .220         2.7
+ 
+Linear conversion of size coefficients
+ 
+   S_shops     8.998       2.22
+  S_service    1.801       .397
+ 
+Convergence (option 3) value is    .5526E-04
+ 
+ 
+Correlations of robust errors (multiplied by 1000)
+ 
+            Wd_L L_S_ S_sh
+  L_S_M        0
+ S_shops      21    0
+S_service     68    0  360
+ 
+INFORMATION 004: main estimation time     6.95 secs.
+ 
+Overview of time used
+                         Seconds  (hr:min:sec)
+Control file time   :       7.14     0:00:07
+Data processing time:      30.10     0:00:30
+Estimation time     :       6.98     0:00:07
+ 
+Total processing    :      44.24     0:00:44

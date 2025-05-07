@@ -1,0 +1,2721 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+
+File not found: Alo45.EXE                                                       
+
+Run started at  9:40:00 on 21 Jan 25
+ 
+Allocating and deallocating memory
+ 
+INPUT allocating       36041.020 K bytes
+ 
+INFORMATION 352: reading coefficients from HS15_HBW.F12
+C:..t4\helmet_estimation\ohjaus\HS15_HBW.F12   2645 b. Date: 20 Jan 25 at 10:08
+ 
+WARNING 335: S_shops    is already unconstrained
+ 
+WARNING 335: Dcoeff     is already unconstrained
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..ineisto\\uudet2023\\havainnot23\\WSS.txt 254207 b. Date: 23 Sep 24 at 15:03
+ 
+INFORMATION 253:   FILE  2 : keyed file
+C:..sto\\uudet2023\\zonedata_base_folded.csv 344221 b. Date: 21 Aug 24 at  8:30
+ 
+INFORMATION 253:   FILE  3 : keyed file
+C:..to\\uudet2023\\zonedata_municipality.csv  16401 b. Date: 15 Jan 25 at 13:56
+ 
+INFORMATION 253:   FILE  4 : keyed file
+C:..t2023\\zonedata_accessibility_folded.csv 614126 b. Date: 20 Jan 25 at  9:55
+ 
+INFORMATION 253:   FILE  5 : common data
+C:..flatfiles\\folded_zones_municipality.csv   4947 b. Date: 15 Jan 25 at 13:59
+ 
+INFORMATION 253:   FILE  6 : keyed file
+C:..t2023\\vastukset\\new_hw_bike_dist.csv   35.256 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE  7 : keyed file
+C:..t2023\\vastukset\\new_hw_bike_time.csv   35.992 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE  8 : keyed file
+C:..astukset_20241104\\new_hw_car_dist.csv   35.951 Mb Date:  4 Nov 24 at 14:50
+ 
+INFORMATION 253:   FILE  9 : keyed file
+C:..astukset_20241104\\new_hw_car_time.csv   35.650 Mb Date:  4 Nov 24 at 14:50
+ 
+INFORMATION 253:   FILE 10 : keyed file
+C:..et2023\\vastukset\\new_hw_car_cost.csv   36.110 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE 11 : keyed file
+C:..23\\vastukset\\new_hw_transit_dist.csv   36.049 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE 12 : keyed file
+C:..23\\vastukset\\new_hw_transit_time.csv   36.055 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE 13 : keyed file
+C:..23\\vastukset\\new_hw_transit_cost.csv   35.484 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE 14 : keyed file
+C:..t2023\\vastukset\\new_hw_walk_dist.csv   35.018 Mb Date:  8 Jan 25 at 18:20
+ 
+INFORMATION 253:   FILE 15 : keyed file
+C:..t2023\\vastukset\\new_hw_walk_time.csv   26.540 Mb Date:  8 Jan 25 at 18:21
+ 
+INFORMATION 253:   FILE 16 : keyed file
+and_ride_utility_park_and_ride_utility.csv   72.382 Mb Date:  8 Jan 25 at 18:21
+ 
+INFORMATION 253:   FILE 17 : common data
+C:..\flatfiles\\folded_zones_car_density.csv  12200 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 18 : common data
+C:..det2023\\flatfiles\\folded_zones_cbd.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 19 : common data
+C:..et2023\\flatfiles\\folded_zones_high.csv   4406 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 20 : common data
+C:..\flatfiles\\folded_zones_job_density.csv  32301 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 21 : common data
+C:..et2023\\flatfiles\\folded_zones_jobs.csv   7096 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 22 : common data
+C:..tfiles\\folded_zones_cost_park_other.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 23 : common data
+C:..atfiles\\folded_zones_cost_park_work.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 24 : common data
+C:..det2023\\flatfiles\\folded_zones_pop.csv   8424 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 25 : common data
+C:..\flatfiles\\folded_zones_pop_density.csv  19566 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 26 : common data
+C:..023\\flatfiles\\folded_zones_primary.csv   5108 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 27 : common data
+C:..023\\flatfiles\\folded_zones_service.csv  14549 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 28 : common data
+C:..t2023\\flatfiles\\folded_zones_shops.csv  11470 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 29 : common data
+C:..23\\flatfiles\\folded_zones_singleHP.csv   7963 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 30 : common data
+C:..\\flatfiles\\folded_zones_university.csv   4269 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 31 : common data
+C:..et2023\\flatfiles\\folded_zones_area.csv  13941 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 32 : output
+ 
+INFORMATION 201: include control input from C:\Users\HajduPe\H4_estimointi\Helme
+C:..helmet_estimation\ohjaus\C_time_work.alo     12 b. Date: 13 Jun 24 at 16:00
+ 
+INFORMATION 125: control file completed:  119833 lines
+C:..ohjaus\HS15_HBW_apply_uncalibrated.alo    2.408 Mb Date: 21 Jan 25 at  9:28
+ 
+Function defined in control file: APPLY
+ 
+TEMP - ALTSRT allocating          60.000 K bytes
+ 
+Free   TEMP - ALTSRT          60.000 K bytes
+ 
+TEMP - COESRT allocating          39.996 K bytes
+ 
+WARNING 178: coefficient L_S_M      not used in model
+ 
+WARNING 178: coefficient CTK_gen    not used in model
+ 
+WARNING 178: coefficient CTP_gen    not used in model
+ 
+WARNING 178: coefficient T_downtown not used in model
+ 
+WARNING 178: coefficient TP_const   not used in model
+ 
+WARNING 178: coefficient TK_const   not used in model
+ 
+WARNING 178: coefficient CP_HAP     not used in model
+ 
+WARNING 178: coefficient CK_HAP     not used in model
+ 
+WARNING 178: coefficient CP_Ocdns   not used in model
+ 
+WARNING 178: coefficient CK_Ocdns   not used in model
+ 
+WARNING 178: coefficient WP_rad_sq  not used in model
+ 
+WARNING 178: coefficient WK_rad_sq  not used in model
+ 
+WARNING 178: coefficient WP_const   not used in model
+ 
+WARNING 178: coefficient WK_const   not used in model
+ 
+WARNING 178: coefficient W_singleHP not used in model
+ 
+WARNING 178: coefficient W_lgOpopd  not used in model
+ 
+WARNING 178: coefficient BP_Ln_Len  not used in model
+ 
+WARNING 178: coefficient BK_Ln_Len  not used in model
+ 
+WARNING 178: coefficient B_Ln_Len   not used in model
+ 
+WARNING 178: coefficient B_Badjmix  not used in model
+ 
+WARNING 178: coefficient B_Opopdns  not used in model
+ 
+WARNING 178: coefficient B_BadjLen  not used in model
+ 
+WARNING 178: coefficient B_BmixLen  not used in model
+ 
+WARNING 178: coefficient B_BsepLen  not used in model
+ 
+WARNING 178: coefficient BP_const   not used in model
+ 
+WARNING 178: coefficient BK_const   not used in model
+ 
+WARNING 178: coefficient B_radius   not used in model
+ 
+WARNING 178: coefficient SP_OMJ     not used in model
+ 
+WARNING 178: coefficient SK_OMJ     not used in model
+ 
+WARNING 178: coefficient SP_downtwn not used in model
+ 
+WARNING 178: coefficient SK_downtwn not used in model
+ 
+WARNING 178: coefficient S_service  not used in model
+ 
+WARNING 178: coefficient S_jobs     not used in model
+ 
+WARNING 178: coefficient So_jobs    not used in model
+ 
+WARNING 178: coefficient T_const    not used in model
+ 
+WARNING 178: coefficient S_area     not used in model
+ 
+WARNING 178: coefficient PR_dwntown not used in model
+ 
+WARNING 178: coefficient PR_HAP     not used in model
+ 
+WARNING 178: coefficient PR_Ocardns not used in model
+ 
+WARNING 178: coefficient B_wpark    not used in model
+ 
+WARNING 178: coefficient W_wpark    not used in model
+ 
+Free   TEMP - COESRT          39.996 K bytes
+ 
+ARRAYs increase data requirement    233492    302764
+Distinct data item names     21367
+ 
+INFORMATION 113: Log size multiplier is L_S_M
+ 
+INFORMATION 115: maximum number of table rows  30
+ 
+$PRINT controls
+ Matrix statistics print      =   2
+ Iteration print              =   2
+ Number of rej. obs. output   =  25
+ Transformations print        =   F
+ Probability test level       =   .000000
+ Reject observation is ERROR  =   F
+ Accepted range for choice    =   .100000
+ Out-of-range prints made     =     3
+ Print only chosen alts.      =   F
+ 
+$GEN.STATS controls
+  2104 total items selected
+ 
+$ESTIMATE controls
+ Control present = T
+ Estimation done = T
+ Linear first    = T
+ Estimate later  = F
+ Accept error    = F
+ Error print     = 1
+ 
+ 
+$ALGOR controls
+ Maximum iterations          =  60
+ Convergence level           =   .1000E-01
+ 1st derivative perp. test   =   .1000E-05
+ Function rate of increase   =  -999.9
+ Matrix inversion tolerance  =   .1000E-05
+ Step reduction factor       =   .1500
+ Cubic step adjustment will be used
+ Convergence option          =   3
+ Maximum step-reducing loops =   4
+ 
+$DIMENSION specification
+ mchoice
+ 
+$KEEP (and protected FILE) items
+ IZ        =   .210E+04; jMun      ; JCarDens  ; JCbd
+ JHigh     ; JJobDens  ; JJobs     ; JPCosOther; JPCosWork
+ JPop      ; JPopDens  ; JPrimary  ; JService  ; JShops
+ JSingleHP ; JUni      ; JArea     ; zone      ; pop
+ age7to17  ; age18to29 ; age30to49 ; age50to64 ; age64to99
+ age7to99  ; age18to99 ; female    ; male      ; popDens
+ workplaces; service   ; shops     ; logistics ; industry
+ parkCostW ; parkCostE ; schoolL1  ; schoolL2  ; schoolL3
+ area      ; detachS   ; detachSqrt; helsinki  ; cbd
+ lauttaS   ; helsOther ; espooVantK; surround  ; shopsCbd
+ shopsElse ; carDens   ; carsPer1K ; iMun      ; hw_c
+ hw_t      ; hw_b      ; hw_w      ; hw        ; hc_c
+ hc_t      ; hc_b      ; hc_w      ; hc        ; hu_c
+ hu_t      ; hu_b      ; hu_w      ; hu        ; hs_c
+ hs_t      ; hs_b      ; hs_w      ; hs        ; ho_c
+ ho_t      ; ho_b      ; ho_w      ; ho        ; wo_c
+ wo_t      ; wo_b      ; wo_w      ; wo        ; oo_c
+ oo_t      ; oo_b      ; oo_w      ; oo        ; wh_c
+ wh_t      ; wh_b      ; wh_w      ; wh
+ 
+$ARRAY items
+ impedance( 2098)   bikeDist( 2098)   bikeTime( 2098)   walkDist( 2098)
+ walkTime( 2098)   ptCost( 2098)   ptDist( 2098)   ptTime( 2098)
+ carCost( 2098)   carDist( 2098)   carTime( 2098)   pnrCost( 2098)
+ jMun( 2098)   JCarDens( 2098)   JCbd( 2098)   JHigh( 2098)
+ JJobDens( 2098)   JJobs( 2098)   JPCosOther( 2098)   JPCosWork( 2098)
+ JPop( 2098)   JPopDens( 2098)   JPrimary( 2098)   JService( 2098)
+ JShops( 2098)   JSingleHP( 2098)   JUni( 2098)   JArea( 2098)
+ 
+ 
+REPORT OF COEFFICIENTS
+ 
+Label      Con   Value      Type
+-------    ---   -----      -----
+CT_gen      T   -.1402      Utility
+T_time      T   -.1556E-01  Utility
+C_wpark     T   -.3399      Utility
+W_time      T   -.4603E-01  Utility
+C_Ocardns   T    .1151E-02  Utility
+C_HAP       T    4.252      Utility
+W_const     T    5.648      Utility
+B_time      T   -.3305E-01  Utility
+B_const     T    3.735      Utility
+W_logtime   T   -.1245      Utility
+B_logtime   T   -.9375E-02  Utility
+PR_const    T   -7.288      Utility
+PR_gen      T    .1656      Utility
+PR_wpark    T    .7489      Utility
+T_wpark     T    .1001      Utility
+T_acc       T    .3619      Utility
+L_S_M       T    1.000      Log Size
+S_shops     F   -1.000      Size
+Dcoeff      F    1.000      Tree
+ 
+Free     alpha array        4000.000 K bytes
+ 
+Report of main memory usage
+Storage ndata:     302.764 mdata:    1000.000
+Storage    np:        .019    mp:      10.000
+Storage    na:      10.495  malt:      15.000
+Storage   nut:      60.842   mut:     200.000
+Storage ntran:     328.155 mtran:    2000.000
+ 
+TREE allocating          83.968 K bytes
+ 
+INFORMATION 001: control file processing time    42.23 secs.
+ 
+DATA allocating        1126.824 K bytes
+ 
+INFORMATION 534: reached end of file   5 after        1 records
+ 
+INFORMATION 534: reached end of file  17 after        1 records
+ 
+INFORMATION 534: reached end of file  18 after        1 records
+ 
+INFORMATION 534: reached end of file  19 after        1 records
+ 
+INFORMATION 534: reached end of file  20 after        1 records
+ 
+INFORMATION 534: reached end of file  21 after        1 records
+ 
+INFORMATION 534: reached end of file  22 after        1 records
+ 
+INFORMATION 534: reached end of file  23 after        1 records
+ 
+INFORMATION 534: reached end of file  24 after        1 records
+ 
+INFORMATION 534: reached end of file  25 after        1 records
+ 
+INFORMATION 534: reached end of file  26 after        1 records
+ 
+INFORMATION 534: reached end of file  27 after        1 records
+ 
+INFORMATION 534: reached end of file  28 after        1 records
+ 
+INFORMATION 534: reached end of file  29 after        1 records
+ 
+INFORMATION 534: reached end of file  30 after        1 records
+ 
+INFORMATION 534: reached end of file  31 after        1 records
+ 
+OBSERVATION REJECTED 542: obs.       1288 size zero for chosen Alt.006928
+ 
+OBSERVATION REJECTED 542: obs.       1408 size zero for chosen Alt.007688
+ 
+OBSERVATION REJECTED 518:       1545: choice Alt.000373 unavailable
+ 
+OBSERVATION REJECTED 542: obs.       1554 size zero for chosen Alt.005590
+ 
+OBSERVATION REJECTED 542: obs.       1925 size zero for chosen Alt.007245
+ 
+OBSERVATION REJECTED 518:       1994: choice Alt.003966 unavailable
+ 
+OBSERVATION REJECTED 542: obs.       2307 size zero for chosen Alt.007450
+ 
+OBSERVATION REJECTED 542: obs.       2423 size zero for chosen Alt.007688
+ 
+OBSERVATION REJECTED 542: obs.       2495 size zero for chosen Alt.006576
+ 
+OBSERVATION REJECTED 542: obs.       2804 size zero for chosen Alt.003434
+ 
+OBSERVATION REJECTED 542: obs.       2834 size zero for chosen Alt.007674
+ 
+OBSERVATION REJECTED 542: obs.       2848 size zero for chosen Alt.005590
+ 
+OBSERVATION REJECTED 542: obs.       2860 size zero for chosen Alt.003478
+ 
+OBSERVATION REJECTED 542: obs.       2901 size zero for chosen Alt.001380
+ 
+OBSERVATION REJECTED 542: obs.       2973 size zero for chosen Alt.007674
+ 
+OBSERVATION REJECTED 542: obs.       2983 size zero for chosen Alt.001380
+ 
+OBSERVATION REJECTED 542: obs.       2988 size zero for chosen Alt.007674
+ 
+OBSERVATION REJECTED 542: obs.       2992 size zero for chosen Alt.007688
+ 
+OBSERVATION REJECTED 542: obs.       3001 size zero for chosen Alt.006867
+ 
+OBSERVATION REJECTED 542: obs.       3035 size zero for chosen Alt.003478
+ 
+OBSERVATION REJECTED 518:       3041: choice Alt.002118 unavailable
+ 
+OBSERVATION REJECTED 542: obs.       3046 size zero for chosen Alt.007674
+ 
+OBSERVATION REJECTED 542: obs.       3076 size zero for chosen Alt.007674
+ 
+OBSERVATION REJECTED 542: obs.       3166 size zero for chosen Alt.007758
+ 
+OBSERVATION REJECTED 542: obs.       3551 size zero for chosen Alt.008000
+ 
+INFORMATION 534: reached end of file   4 after     1771 records
+ 
+INFORMATION 534: reached end of file   6 after     1771 records
+ 
+INFORMATION 534: reached end of file   7 after     1771 records
+ 
+INFORMATION 534: reached end of file   8 after     1771 records
+ 
+INFORMATION 534: reached end of file   9 after     1771 records
+ 
+INFORMATION 534: reached end of file  10 after     1771 records
+ 
+INFORMATION 534: reached end of file  11 after     1771 records
+ 
+INFORMATION 534: reached end of file  12 after     1771 records
+ 
+INFORMATION 534: reached end of file  13 after     1771 records
+ 
+INFORMATION 534: reached end of file  14 after     1771 records
+ 
+INFORMATION 534: reached end of file  15 after     1771 records
+ 
+INFORMATION 534: reached end of file  16 after     1771 records
+ 
+INFORMATION 534: reached end of file   1 after     3954 records
+ 
+Data input completed after    3954 records
+ 
+Rejected     3 observations with unacceptable choices
+ 
+Rejected    25 observations with errors in size variables etc.
+ 
+Rejected on EXCLUDE(   1):  1182 observations
+ 
+PRVEST allocating           8.416 K bytes
+ 
+ 
+SELECTED STATISTICS
+ 
+Total weight of data is      449.85
+ 
+Data Item  % Non-Zero  Minimum  Maximum  Average  Std. Dev.
+---------  ----------  -------  -------  -------  ---------
+CHOICE         100.00     1.00 10269.00  5147.92    2062.76
+WEIGHT         100.00      .00     1.09      .34        .23
+xfactor        100.00     8.20  1266.00   405.07     272.05
+ttype          100.00     1.00     1.00
+mode           100.00     1.00     6.00     3.27        .97
+jzone          100.00     1.00  2095.00   455.97     489.35
+pnrCos0001     100.00   -45.49     -.04    -1.76       2.16
+pnrCos0002     100.00   -45.49     -.02    -1.72       2.15
+pnrCos0003     100.00   -45.49     -.34    -1.95       2.12
+pnrCos0004     100.00   -45.49     -.01    -1.84       2.19
+pnrCos0005     100.00   -45.49     -.26    -2.03       2.17
+pnrCos0006     100.00   -45.49     -.58    -2.32       2.19
+pnrCos0007     100.00   -45.49     -.35    -2.19       2.21
+pnrCos0008     100.00   -45.49     -.09    -1.91       2.21
+pnrCos0009     100.00   -45.49     -.28    -2.07       2.19
+pnrCos0010     100.00   -45.49     -.47    -2.22       2.18
+pnrCos0011     100.00   -45.49     -.35    -2.09       2.16
+pnrCos0012     100.00   -45.49     -.25    -1.99       2.16
+pnrCos0013     100.00   -45.49     -.19    -1.89       2.16
+pnrCos0014     100.00   -45.49     -.83    -2.56       2.17
+pnrCos0015     100.00   -45.49     -.82    -2.55       2.18
+pnrCos0016     100.00   -45.49     -.63    -2.37       2.17
+pnrCos0017     100.00   -45.49     -.63    -2.38       2.16
+pnrCos0018     100.00   -45.49     -.30    -2.03       2.16
+pnrCos0019     100.00   -45.49     -.48    -2.25       2.16
+pnrCos0020     100.00   -45.49     -.44    -2.20       2.17
+pnrCos0021     100.00   -45.49     -.44    -2.21       2.16
+pnrCos0022     100.00   -45.49     -.30    -2.12       2.18
+pnrCos0023     100.00   -45.49     -.66    -2.41       2.15
+pnrCos0024     100.00   -45.49     -.64    -2.38       2.17
+pnrCos0025     100.00   -45.49     -.72    -2.47       2.18
+pnrCos0026     100.00   -45.49    -1.11    -2.85       2.17
+pnrCos0027     100.00   -45.49     -.97    -2.71       2.17
+pnrCos0028     100.00   -45.49     -.89    -2.64       2.17
+pnrCos0029     100.00   -45.49     -.71    -2.46       2.17
+pnrCos0030     100.00   -45.49     -.79    -2.55       2.17
+pnrCos0031     100.00   -45.49    -1.23    -2.97       2.17
+pnrCos0032     100.00   -45.49    -1.02    -2.77       2.17
+pnrCos0033     100.00   -45.49     -.92    -2.67       2.18
+pnrCos0034     100.00   -45.49     -.95    -2.65       2.20
+pnrCos0035     100.00   -45.49     -.73    -2.45       2.21
+pnrCos0036     100.00   -45.49     -.83    -2.57       2.22
+pnrCos0037     100.00   -45.49     -.67    -2.46       2.24
+pnrCos0038     100.00   -45.49     -.44    -2.27       2.24
+pnrCos0039     100.00   -45.49     -.77    -2.48       2.21
+pnrCos0040     100.00   -45.49     -.73    -2.45       2.19
+pnrCos0041     100.00   -45.49     -.53    -2.36       2.25
+pnrCos0042     100.00   -45.49     -.67    -2.48       2.21
+pnrCos0043     100.00   -45.49     -.15    -1.99       2.24
+pnrCos0044     100.00   -45.49     -.88    -2.60       2.18
+pnrCos0045     100.00   -45.49     -.68    -2.41       2.17
+pnrCos0046     100.00   -45.49     -.38    -2.15       2.19
+pnrCos0047     100.00   -45.49     -.52    -2.22       2.15
+pnrCos0048     100.00   -45.49     -.54    -2.20       2.13
+pnrCos0049     100.00   -45.49    -1.13    -2.77       2.13
+pnrCos0050     100.00   -45.49     -.73    -2.47       2.18
+pnrCos0051     100.00   -45.49     -.68    -2.34       2.14
+pnrCos0052     100.00   -45.49     -.59    -2.34       2.18
+pnrCos0053     100.00   -45.49     -.81    -2.48       2.12
+pnrCos0054     100.00   -45.49    -2.20    -3.81       2.13
+pnrCos0055     100.00   -45.49    -1.21    -2.86       2.13
+pnrCos0056     100.00   -45.49     -.93    -2.60       2.15
+pnrCos0057     100.00   -45.49    -1.06    -2.65       2.11
+pnrCos0058     100.00   -45.49     -.87    -2.56       2.15
+pnrCos0059     100.00   -45.49     -.92    -2.48       2.09
+pnrCos0060     100.00   -45.49    -1.29    -2.78       2.09
+pnrCos0061     100.00   -45.49    -1.03    -2.69       2.14
+pnrCos0062     100.00   -45.49    -1.10    -2.76       2.15
+pnrCos0063     100.00   -45.49    -1.20    -2.75       2.15
+pnrCos0064     100.00   -45.49     -.83    -2.25       2.06
+pnrCos0065     100.00   -45.49    -1.01    -2.44       2.06
+pnrCos0066     100.00   -45.49     -.68    -2.22       2.11
+pnrCos0067     100.00   -45.49     -.76    -2.15       2.05
+pnrCos0068     100.00   -45.49     -.63    -2.02       2.05
+pnrCos0069     100.00   -45.49    -1.16    -2.70       2.10
+pnrCos0070     100.00   -45.49     -.63    -2.02       2.05
+pnrCos0071     100.00   -45.49     -.55    -2.16       2.10
+pnrCos0072     100.00   -45.49      .03    -1.95       2.25
+pnrCos0073     100.00   -45.49     -.20    -2.18       2.24
+pnrCos0074     100.00   -45.49     -.71    -2.50       2.16
+pnrCos0075     100.00   -45.49     -.29    -2.27       2.24
+pnrCos0076     100.00   -45.49     -.13    -2.11       2.25
+pnrCos0077     100.00   -45.49     -.21    -2.22       2.24
+pnrCos0078     100.00   -45.49     -.75    -2.92       2.30
+pnrCos0079     100.00   -45.49     -.44    -2.50       2.27
+pnrCos0080     100.00   -45.49     -.46    -2.64       2.30
+pnrCos0081     100.00   -45.49      .07    -2.12       2.30
+pnrCos0082     100.00   -45.49     -.20    -2.38       2.30
+pnrCos0083     100.00   -45.49      .07    -2.12       2.30
+pnrCos0084     100.00   -45.49      .05    -2.14       2.30
+pnrCos0085     100.00   -45.49     -.23    -2.42       2.30
+pnrCos0086     100.00   -45.49     -.39    -2.36       2.24
+pnrCos0087     100.00   -45.49     -.23    -2.20       2.24
+pnrCos0088     100.00   -45.49     -.05    -2.12       2.27
+pnrCos0089     100.00   -45.49     -.62    -2.44       2.16
+pnrCos0090     100.00   -45.49     -.58    -2.20       2.11
+pnrCos0091     100.00   -45.49     -.20    -2.16       2.22
+pnrCos0092     100.00   -45.49     -.32    -2.22       2.20
+pnrCos0093     100.00   -45.49     -.61    -2.25       2.12
+pnrCos0094     100.00   -45.49     -.47    -2.23       2.14
+pnrCos0095     100.00   -45.49     -.33    -2.28       2.21
+pnrCos0096     100.00   -45.49     -.31    -2.23       2.21
+pnrCos0097     100.00   -45.49     -.55    -2.36       2.16
+pnrCos0098     100.00   -45.49     -.26    -2.37       2.27
+pnrCos0099     100.00   -45.49     -.50    -2.49       2.24
+pnrCos0100     100.00   -45.49     -.55    -2.54       2.24
+pnrCos0101     100.00   -45.49     -.79    -2.91       2.28
+pnrCos0102     100.00   -45.49     -.47    -2.65       2.30
+pnrCos0103     100.00   -45.49     -.35    -2.53       2.31
+pnrCos0104     100.00   -45.49     -.66    -2.40       2.13
+pnrCos0105     100.00   -45.49     -.75    -2.70       2.23
+pnrCos0106     100.00   -45.49     -.81    -2.66       2.20
+pnrCos0107     100.00   -45.49     -.61    -2.57       2.25
+pnrCos0108     100.00   -45.49     -.79    -2.81       2.26
+pnrCos0109     100.00   -45.49     -.92    -2.87       2.24
+pnrCos0110     100.00   -45.49     -.98    -2.99       2.28
+pnrCos0111     100.00   -45.49     -.69    -2.85       2.27
+pnrCos0112     100.00   -45.49     -.74    -2.78       2.26
+pnrCos0113     100.00   -45.49     -.66    -2.41       2.16
+pnrCos0114     100.00   -45.49     -.73    -2.41       2.15
+pnrCos0115     100.00   -45.49     -.74    -2.33       2.11
+pnrCos0116     100.00   -45.49     -.84    -2.53       2.17
+pnrCos0117     100.00   -45.49    -1.20    -2.92       2.19
+pnrCos0118     100.00   -45.49     -.63    -2.40       2.16
+pnrCos0119     100.00   -45.49    -1.39    -3.19       2.24
+pnrCos0120     100.00   -45.49     -.95    -2.75       2.24
+pnrCos0121     100.00   -45.49    -1.05    -2.85       2.24
+pnrCos0122     100.00   -45.49     -.44    -2.24       2.25
+pnrCos0123     100.00   -45.49     -.54    -2.34       2.25
+pnrCos0124     100.00   -45.49    -1.08    -2.85       2.25
+pnrCos0125     100.00   -45.49     -.29    -2.06       2.26
+pnrCos0126     100.00   -45.49     -.70    -2.46       2.25
+pnrCos0127     100.00   -45.49     -.78    -2.57       2.25
+pnrCos0128     100.00   -45.49    -1.34    -3.11       2.25
+pnrCos0129     100.00   -45.49    -1.32    -3.14       2.19
+pnrCos0130     100.00   -45.49    -1.29    -3.06       2.16
+pnrCos0131     100.00   -45.49    -1.59    -3.29       2.15
+pnrCos0132     100.00   -45.49    -1.24    -2.85       2.15
+pnrCos0133     100.00   -45.49    -1.23    -2.92       2.15
+pnrCos0134     100.00   -45.49    -1.22    -2.76       2.14
+pnrCos0135     100.00   -45.49    -1.76    -3.35       2.12
+pnrCos0136     100.00   -45.49    -1.72    -3.29       2.14
+pnrCos0137     100.00   -45.49    -1.01    -2.62       2.20
+pnrCos0138     100.00   -45.49    -1.34    -2.88       2.14
+pnrCos0139     100.00   -45.49    -1.41    -3.00       2.12
+pnrCos0140     100.00   -45.49    -1.04    -2.57       2.12
+pnrCos0141     100.00   -45.49    -1.07    -2.65       2.12
+pnrCos0142     100.00   -45.49     -.75    -2.32       2.16
+pnrCos0143     100.00   -45.49     -.74    -2.30       2.16
+pnrCos0144     100.00   -45.49     -.64    -2.19       2.14
+pnrCos0145     100.00   -45.49    -1.24    -2.77       2.09
+pnrCos0146     100.00   -45.49     -.70    -2.26       2.14
+pnrCos0147     100.00   -45.49     -.65    -2.34       2.18
+pnrCos0148     100.00   -45.49     -.89    -2.50       2.19
+pnrCos0149     100.00   -45.49     -.86    -2.49       2.20
+pnrCos0150     100.00   -45.49    -1.01    -2.68       2.19
+pnrCos0151     100.00   -45.49     -.81    -2.38       2.20
+pnrCos0152     100.00   -45.49    -1.07    -2.62       2.16
+pnrCos0153     100.00   -45.49    -1.33    -2.93       2.20
+pnrCos0154     100.00   -45.49     -.95    -2.57       2.20
+pnrCos0155     100.00   -45.49     -.90    -2.51       2.19
+pnrCos0156     100.00   -45.49    -1.19    -2.89       2.20
+pnrCos0157     100.00   -45.49    -1.15    -2.83       2.20
+pnrCos0158     100.00   -45.49    -1.29    -3.02       2.22
+pnrCos0159     100.00   -45.49    -1.03    -2.75       2.20
+pnrCos0160     100.00   -45.49     -.77    -2.43       2.19
+pnrCos0161     100.00   -45.49     -.89    -2.50       2.19
+pnrCos0162     100.00   -45.49     -.70    -2.30       2.20
+pnrCos0163     100.00   -45.49    -1.61    -3.35       2.20
+pnrCos0164     100.00   -45.49    -1.55    -3.49       2.19
+pnrCos0165     100.00   -45.49    -1.61    -3.54       2.19
+pnrCos0166     100.00   -45.49    -1.48    -3.33       2.20
+pnrCos0167     100.00   -45.49    -1.67    -3.42       2.21
+pnrCos0168     100.00   -45.49    -1.13    -3.01       2.19
+pnrCos0169     100.00   -45.49     -.92    -2.78       2.15
+pnrCos0170     100.00   -45.49    -1.22    -3.19       2.14
+pnrCos0171     100.00   -45.49     -.66    -2.54       2.15
+pnrCos0172     100.00   -45.49     -.58    -2.37       2.19
+pnrCos0173     100.00   -45.49     -.69    -2.48       2.19
+pnrCos0174     100.00   -45.49     -.95    -2.74       2.19
+pnrCos0175     100.00   -45.49     -.96    -2.69       2.20
+pnrCos0176     100.00   -45.49    -1.70    -3.28       2.17
+pnrCos0177     100.00   -45.49    -1.49    -3.04       2.22
+pnrCos0178     100.00   -45.49    -1.51    -3.28       2.16
+pnrCos0179     100.00   -45.49    -1.76    -3.54       2.15
+pnrCos0180     100.00   -45.49    -1.73    -3.40       2.16
+pnrCos0181     100.00   -45.49    -1.26    -3.08       2.20
+pnrCos0182     100.00   -45.49    -1.51    -3.01       2.11
+pnrCos0183     100.00   -45.49    -1.15    -2.71       2.16
+pnrCos0184     100.00   -45.49     -.86    -2.47       2.20
+pnrCos0185     100.00   -45.49     -.82    -2.46       2.19
+pnrCos0186     100.00   -45.49     -.63    -2.33       2.19
+pnrCos0187     100.00   -45.49     -.94    -2.51       2.12
+pnrCos0188     100.00   -45.49     -.67    -2.26       2.11
+pnrCos0189     100.00   -45.49     -.93    -2.59       2.20
+pnrCos0190     100.00   -45.49     -.78    -2.47       2.14
+pnrCos0191     100.00   -45.49     -.94    -2.63       2.14
+pnrCos0192     100.00   -45.49     -.73    -2.49       2.18
+pnrCos0193     100.00   -45.49     -.77    -2.58       2.19
+pnrCos0194     100.00   -45.49     -.55    -2.24       2.18
+pnrCos0195     100.00   -45.49     -.80    -2.58       2.18
+pnrCos0196     100.00   -45.49     -.39    -2.08       2.17
+pnrCos0197     100.00   -45.49     -.65    -2.51       2.19
+pnrCos0198     100.00   -45.49     -.70    -2.38       2.17
+pnrCos0199     100.00   -45.49     -.60    -2.30       2.17
+pnrCos0200     100.00   -45.49    -1.07    -2.70       2.19
+pnrCos0201     100.00   -45.49    -1.38    -3.00       2.20
+pnrCos0202     100.00   -45.49    -1.33    -2.97       2.19
+pnrCos0203     100.00   -45.49    -1.21    -2.86       2.21
+pnrCos0204     100.00   -45.49    -2.14    -3.73       2.16
+pnrCos0205     100.00   -45.49    -1.53    -3.15       2.20
+pnrCos0206     100.00   -45.49    -1.64    -3.28       2.19
+pnrCos0207     100.00   -45.49    -1.59    -3.27       2.20
+pnrCos0208     100.00   -45.49    -1.65    -3.26       2.20
+pnrCos0209     100.00   -45.49    -1.21    -2.90       2.21
+pnrCos0210     100.00   -45.49    -1.18    -2.88       2.21
+pnrCos0211     100.00   -45.49    -1.48    -3.16       2.21
+pnrCos0212     100.00   -45.49    -1.33    -3.04       2.20
+pnrCos0213     100.00   -45.49    -1.14    -2.91       2.20
+pnrCos0214     100.00   -45.49     -.65    -2.34       2.14
+pnrCos0215     100.00   -45.49     -.80    -2.53       2.14
+pnrCos0216     100.00   -45.49     -.72    -2.44       2.14
+pnrCos0217     100.00   -45.49     -.62    -2.79       2.27
+pnrCos0218     100.00   -45.49     -.35    -2.46       2.26
+pnrCos0219     100.00   -45.49     -.19    -2.29       2.26
+pnrCos0220     100.00   -45.49     -.71    -2.85       2.27
+pnrCos0221     100.00   -45.49     -.78    -3.00       2.29
+pnrCos0222     100.00   -45.49     -.63    -3.04       2.36
+pnrCos0223     100.00   -45.49     -.72    -2.74       2.23
+pnrCos0224     100.00   -45.49     -.51    -2.53       2.23
+pnrCos0225     100.00   -45.49     -.69    -2.63       2.21
+pnrCos0226     100.00   -45.49     -.95    -2.74       2.20
+pnrCos0227     100.00   -45.49     -.62    -2.61       2.24
+pnrCos0228     100.00   -45.49     -.78    -2.58       2.15
+pnrCos0229     100.00   -45.49     -.69    -2.45       2.14
+pnrCos0230     100.00   -45.49     -.85    -2.64       2.14
+pnrCos0231     100.00   -45.49     -.64    -2.35       2.13
+pnrCos0232     100.00   -45.49     -.83    -2.57       2.13
+pnrCos0233     100.00   -45.49     -.75    -2.50       2.14
+pnrCos0234     100.00   -45.49     -.99    -2.83       2.20
+pnrCos0235     100.00   -45.49     -.89    -2.75       2.22
+pnrCos0236     100.00   -45.49    -1.45    -3.33       2.22
+pnrCos0237     100.00   -45.49    -1.34    -3.17       2.12
+pnrCos0238     100.00   -45.49    -1.13    -2.90       2.12
+pnrCos0239     100.00   -45.49    -1.22    -3.12       2.14
+pnrCos0240     100.00   -45.49    -1.29    -3.13       2.20
+pnrCos0241     100.00   -45.49    -1.45    -3.35       2.14
+pnrCos0242     100.00   -45.49    -1.77    -3.64       2.22
+pnrCos0243     100.00   -45.49    -1.51    -3.40       2.23
+pnrCos0244     100.00   -45.49    -1.01    -2.74       2.11
+pnrCos0245     100.00   -45.49     -.75    -2.47       2.12
+pnrCos0246     100.00   -45.49     -.58    -2.30       2.12
+pnrCos0247     100.00   -45.49    -1.16    -3.01       2.17
+pnrCos0248     100.00   -45.49    -1.01    -2.86       2.15
+pnrCos0249     100.00   -45.49    -1.04    -2.85       2.15
+pnrCos0250     100.00   -45.49    -1.30    -3.13       2.15
+pnrCos0251     100.00   -45.49    -1.10    -2.91       2.15
+pnrCos0252     100.00   -45.49    -1.43    -3.27       2.14
+pnrCos0253     100.00   -45.49    -1.34    -3.13       2.15
+pnrCos0254     100.00   -45.49    -1.12    -2.92       2.16
+pnrCos0255     100.00   -45.49    -1.54    -3.34       2.14
+pnrCos0256     100.00   -45.49    -1.53    -3.34       2.13
+pnrCos0257     100.00   -45.49    -1.58    -3.39       2.10
+pnrCos0258     100.00   -45.49    -1.65    -3.42       2.11
+pnrCos0259     100.00   -45.49     -.95    -2.69       2.11
+pnrCos0260     100.00   -45.49     -.67    -2.45       2.11
+pnrCos0261     100.00   -45.49     -.92    -2.72       2.08
+pnrCos0262     100.00   -45.49    -1.12    -2.90       2.01
+pnrCos0263     100.00   -45.49     -.43    -2.19       2.11
+pnrCos0264     100.00   -45.49    -1.11    -2.91       2.10
+pnrCos0265     100.00   -45.49    -1.45    -3.39       2.15
+pnrCos0266     100.00   -45.49    -1.45    -3.34       2.13
+pnrCos0267     100.00   -45.49    -1.65    -3.47       2.20
+pnrCos0268     100.00   -45.49    -1.72    -3.50       2.19
+pnrCos0269     100.00   -45.49    -1.47    -3.29       2.12
+pnrCos0270     100.00   -45.49    -1.42    -3.22       2.12
+pnrCos0271     100.00   -45.49    -1.27    -3.29       2.27
+pnrCos0272     100.00   -45.49    -1.83    -3.64       2.18
+pnrCos0273     100.00   -45.49    -1.02    -3.20       2.29
+pnrCos0274     100.00   -45.49     -.73    -3.00       2.32
+pnrCos0275     100.00   -45.49     -.18    -2.45       2.32
+pnrCos0276     100.00   -45.49     -.16    -2.43       2.32
+pnrCos0277     100.00   -45.49      .15    -2.12       2.32
+pnrCos0278     100.00   -45.49      .28    -1.99       2.32
+pnrCos0279     100.00   -45.49     -.61    -2.93       2.41
+pnrCos0280     100.00   -45.49    -3.12    -5.59       2.44
+pnrCos0281     100.00   -45.49    -2.13    -4.38       2.37
+pnrCos0282     100.00   -45.49    -1.93    -4.17       2.37
+pnrCos0283     100.00   -45.49    -1.92    -4.31       2.41
+pnrCos0284     100.00   -45.49    -1.71    -4.10       2.41
+pnrCos0285     100.00   -45.49    -1.43    -3.89       2.45
+pnrCos0286     100.00   -45.49    -2.07    -4.38       2.39
+pnrCos0287     100.00   -45.49    -1.94    -4.37       2.43
+pnrCos0288     100.00   -45.49    -1.62    -4.07       2.45
+pnrCos0289     100.00   -45.49    -1.78    -4.23       2.45
+pnrCos0290     100.00   -45.49    -1.74    -4.20       2.45
+pnrCos0291     100.00   -45.49    -2.26    -4.72       2.45
+pnrCos0292     100.00   -45.49    -2.41    -4.87       2.45
+pnrCos0293     100.00   -45.49    -2.97    -5.43       2.44
+pnrCos0294     100.00   -45.49     -.90    -3.33       2.44
+pnrCos0295     100.00   -45.49     -.20    -2.63       2.44
+pnrCos0296     100.00   -45.49     -.28    -2.81       2.45
+pnrCos0297     100.00   -45.49     -.40    -2.89       2.44
+pnrCos0298     100.00   -45.49     -.22    -2.64       2.44
+pnrCos0299     100.00   -45.49     -.08    -2.50       2.43
+pnrCos0300     100.00   -45.49     -.05    -2.53       2.44
+pnrCos0301     100.00   -45.49      .05    -2.35       2.43
+pnrCos0302     100.00   -45.49      .18    -2.22       2.44
+pnrCos0303     100.00   -45.49     -.22    -2.70       2.44
+pnrCos0304     100.00   -45.49      .30    -2.18       2.45
+pnrCos0305     100.00   -45.49     -.20    -2.58       2.40
+pnrCos0306     100.00   -45.49      .08    -2.29       2.36
+pnrCos0307     100.00   -45.49     -.37    -2.93       2.46
+pnrCos0308     100.00   -45.49     -.05    -2.59       2.46
+pnrCos0309     100.00   -45.49      .17    -2.36       2.46
+pnrCos0310     100.00   -45.49      .21    -2.27       2.44
+pnrCos0311     100.00   -45.49      .26    -2.24       2.44
+pnrCos0312     100.00   -45.49     -.13    -2.70       2.43
+pnrCos0313     100.00   -45.49     -.25    -2.61       2.36
+pnrCos0314     100.00   -45.49     -.15    -2.65       2.46
+pnrCos0315     100.00   -45.49     -.13    -2.41       2.32
+pnrCos0316     100.00   -45.49     -.09    -2.57       2.43
+pnrCos0317     100.00   -45.49      .22    -2.30       2.46
+pnrCos0318     100.00   -45.49     -.48    -2.77       2.32
+pnrCos0319     100.00   -45.49     -.84    -3.17       2.34
+pnrCos0320     100.00   -45.49     -.44    -2.90       2.38
+pnrCos0321     100.00   -45.49     -.43    -2.91       2.43
+pnrCos0322     100.00   -45.49     -.61    -3.11       2.43
+pnrCos0323     100.00   -45.49     -.37    -2.81       2.41
+pnrCos0324     100.00   -45.49     -.52    -3.09       2.45
+pnrCos0325     100.00   -45.49     -.04    -2.57       2.47
+pnrCos0326     100.00   -45.49      .00    -2.50       2.44
+pnrCos0327     100.00   -45.49     -.08    -2.60       2.46
+pnrCos0328     100.00   -45.49     -.53    -3.02       2.43
+pnrCos0329     100.00   -45.49     -.38    -2.95       2.43
+pnrCos0330     100.00   -45.49     -.03    -2.63       2.47
+pnrCos0331     100.00   -45.49     -.38    -3.00       2.45
+pnrCos0332     100.00   -45.49     -.59    -3.29       2.47
+pnrCos0333     100.00   -45.49     -.44    -3.17       2.49
+pnrCos0334     100.00   -45.49     -.48    -3.16       2.47
+pnrCos0335     100.00   -45.49     -.46    -3.02       2.45
+pnrCos0336     100.00   -45.49     -.46    -3.08       2.47
+pnrCos0337     100.00   -45.49     -.26    -2.77       2.44
+pnrCos0338     100.00   -45.49     -.07    -2.59       2.47
+pnrCos0339     100.00   -45.49     -.28    -2.78       2.43
+pnrCos0340     100.00   -45.49     -.62    -3.12       2.43
+pnrCos0341     100.00   -45.49     -.05    -2.56       2.45
+pnrCos0342     100.00   -45.49     -.99    -3.68       2.46
+pnrCos0343     100.00   -45.49      .16    -2.45       2.48
+pnrCos0344     100.00   -45.49     -.22    -2.84       2.48
+pnrCos0345     100.00   -45.49     -.75    -3.38       2.48
+pnrCos0346     100.00   -45.49     -.10    -2.72       2.48
+pnrCos0347     100.00   -45.49     -.62    -3.28       2.48
+pnrCos0348     100.00   -45.49     -.62    -3.26       2.46
+pnrCos0349     100.00   -45.49     -.86    -3.48       2.45
+pnrCos0350     100.00   -45.49     -.79    -3.43       2.46
+pnrCos0351     100.00   -45.49    -1.60    -4.24       2.45
+pnrCos0352     100.00   -45.49     -.36    -2.98       2.46
+pnrCos0353     100.00   -45.49     -.04    -2.64       2.47
+pnrCos0354     100.00   -45.49     -.13    -2.75       2.47
+pnrCos0355     100.00   -45.49     -.30    -2.90       2.47
+pnrCos0356     100.00   -45.49    -1.11    -3.75       2.47
+pnrCos0357     100.00   -45.49    -1.57    -4.23       2.48
+pnrCos0358     100.00   -45.49    -2.28    -4.03       2.16
+pnrCos0359     100.00   -45.49    -3.93    -6.39       2.43
+pnrCos0360     100.00   -45.49    -1.59    -4.05       2.45
+pnrCos0361     100.00   -45.49    -1.58    -4.03       2.45
+pnrCos0362     100.00   -45.49    -1.14    -3.59       2.45
+pnrCos0363     100.00   -45.49    -1.27    -3.72       2.45
+pnrCos0364     100.00   -45.49     -.99    -3.44       2.45
+pnrCos0365     100.00   -45.49     -.95    -3.41       2.45
+pnrCos0366     100.00   -45.49     -.67    -3.11       2.45
+pnrCos0367     100.00   -45.49     -.68    -3.12       2.45
+pnrCos0368     100.00   -45.49    -1.42    -4.04       2.46
+pnrCos0369     100.00   -45.49     -.49    -3.11       2.47
+pnrCos0370     100.00   -45.49     -.06    -2.66       2.47
+pnrCos0371     100.00   -45.49      .13    -2.47       2.47
+pnrCos0372     100.00   -45.49     -.49    -3.10       2.45
+pnrCos0373     100.00   -45.49    -1.53    -3.98       2.45
+pnrCos0374     100.00   -45.49    -1.64    -4.40       2.48
+pnrCos0375     100.00   -45.49    -2.64    -5.40       2.48
+pnrCos0376     100.00   -45.49    -1.29    -4.05       2.49
+pnrCos0377     100.00   -45.49    -1.85    -4.61       2.49
+pnrCos0378     100.00   -45.49    -2.47    -5.24       2.49
+pnrCos0379     100.00   -45.49    -3.87    -6.22       2.18
+pnrCos0380     100.00   -45.49    -2.74    -5.53       2.49
+pnrCos0381     100.00   -45.49    -4.46    -7.22       2.46
+pnrCos0382     100.00   -45.49    -1.86    -4.01       2.21
+pnrCos0383     100.00   -45.49    -1.97    -3.87       2.14
+pnrCos0384     100.00   -45.49    -1.83    -3.80       2.16
+pnrCos0385     100.00   -45.49    -1.85    -3.79       2.15
+pnrCos0386     100.00   -45.49    -1.69    -3.55       2.14
+pnrCos0387     100.00   -45.49    -1.86    -3.80       2.20
+pnrCos0388     100.00   -45.49    -1.93    -3.89       2.15
+pnrCos0389     100.00   -45.49    -2.09    -4.11       2.20
+pnrCos0390     100.00   -45.49    -1.53    -3.59       2.21
+pnrCos0391     100.00   -45.49    -1.67    -3.81       2.22
+pnrCos0392     100.00   -45.49    -1.35    -3.50       2.22
+pnrCos0393     100.00   -45.49    -1.15    -2.99       2.19
+pnrCos0394     100.00   -45.49    -1.00    -2.84       2.19
+pnrCos0395     100.00   -45.49    -1.24    -3.08       2.19
+pnrCos0396     100.00   -45.49     -.85    -2.65       2.20
+pnrCos0397     100.00   -45.49    -1.81    -3.74       2.22
+pnrCos0398     100.00   -45.49    -1.67    -3.67       2.22
+pnrCos0399     100.00   -45.49    -1.00    -2.78       2.20
+pnrCos0400     100.00   -45.49    -1.29    -3.05       2.19
+pnrCos0401     100.00   -45.49     -.88    -2.54       2.19
+pnrCos0402     100.00   -45.49    -1.74    -3.54       2.19
+pnrCos0403     100.00   -45.49    -1.80    -3.62       2.19
+pnrCos0404     100.00   -45.49    -2.03    -3.87       2.15
+pnrCos0405     100.00   -45.49    -1.47    -3.23       2.19
+pnrCos0406     100.00   -45.49    -1.26    -2.89       2.20
+pnrCos0407     100.00   -45.49     -.97    -2.67       2.20
+pnrCos0408     100.00   -45.49    -1.03    -2.65       2.22
+pnrCos0409     100.00   -45.49    -1.21    -2.87       2.24
+pnrCos0410     100.00   -45.49     -.78    -2.47       2.22
+pnrCos0411     100.00   -45.49     -.89    -2.59       2.20
+pnrCos0412     100.00   -45.49    -1.02    -2.82       2.26
+pnrCos0413     100.00   -45.49     -.73    -2.53       2.27
+pnrCos0414     100.00   -45.49    -1.07    -2.93       2.20
+pnrCos0415     100.00   -45.49    -1.21    -2.98       2.20
+pnrCos0416     100.00   -45.49     -.87    -2.68       2.19
+pnrCos0417     100.00   -45.49    -1.40    -3.42       2.23
+pnrCos0418     100.00   -45.49    -1.10    -2.96       2.21
+pnrCos0419     100.00   -45.49    -1.31    -3.35       2.22
+pnrCos0420     100.00   -45.49    -1.04    -3.11       2.23
+pnrCos0421     100.00   -45.49    -1.19    -3.37       2.32
+pnrCos0422     100.00   -45.49    -1.13    -3.35       2.31
+pnrCos0423     100.00   -45.49    -1.46    -3.57       2.31
+pnrCos0424     100.00   -45.49    -1.32    -3.28       2.30
+pnrCos0425     100.00   -45.49    -1.49    -3.29       2.21
+pnrCos0426     100.00   -45.49     -.84    -2.68       2.28
+pnrCos0427     100.00   -45.49    -1.07    -2.94       2.29
+pnrCos0428     100.00   -45.49    -1.34    -3.18       2.27
+pnrCos0429     100.00   -45.49     -.50    -2.55       2.36
+pnrCos0430     100.00   -45.49     -.42    -2.49       2.36
+pnrCos0431     100.00   -45.49    -1.12    -3.07       2.32
+pnrCos0432     100.00   -45.49     -.69    -3.05       2.38
+pnrCos0433     100.00   -45.49     -.84    -2.99       2.36
+pnrCos0434     100.00   -45.49    -1.09    -3.23       2.34
+pnrCos0435     100.00   -45.49    -1.37    -3.79       2.38
+pnrCos0436     100.00   -45.49     -.91    -3.24       2.37
+pnrCos0437     100.00   -45.49    -1.08    -3.46       2.38
+pnrCos0438     100.00   -45.49     -.47    -2.77       2.39
+pnrCos0439     100.00   -45.49     -.21    -2.61       2.40
+pnrCos0440     100.00   -45.49     -.44    -2.79       2.39
+pnrCos0441     100.00   -45.49     -.60    -3.01       2.40
+pnrCos0442     100.00   -45.49     -.44    -2.85       2.40
+pnrCos0443     100.00   -45.49     -.53    -2.76       2.37
+pnrCos0444     100.00   -45.49     -.53    -2.86       2.39
+pnrCos0445     100.00   -45.49     -.74    -2.95       2.36
+pnrCos0446     100.00   -45.49     -.60    -2.95       2.39
+pnrCos0447     100.00   -45.49     -.39    -2.55       2.37
+pnrCos0448     100.00   -45.49     -.44    -2.60       2.37
+pnrCos0449     100.00   -45.49     -.52    -2.44       2.35
+pnrCos0450     100.00   -45.49     -.52    -2.68       2.36
+pnrCos0451     100.00   -45.49     -.40    -2.31       2.35
+pnrCos0452     100.00   -45.49     -.39    -2.31       2.35
+pnrCos0453     100.00   -45.49     -.83    -3.04       2.37
+pnrCos0454     100.00   -45.49    -1.10    -3.37       2.38
+pnrCos0455     100.00   -45.49     -.77    -3.18       2.40
+pnrCos0456     100.00   -45.49     -.69    -3.11       2.40
+pnrCos0457     100.00   -45.49     -.90    -3.44       2.41
+pnrCos0458     100.00   -45.49    -3.39    -6.12       2.40
+pnrCos0459     100.00   -45.49    -1.06    -3.65       2.41
+pnrCos0460     100.00   -45.49     -.71    -3.20       2.41
+pnrCos0461     100.00   -45.49    -1.10    -3.66       2.41
+pnrCos0462     100.00   -45.49     -.62    -3.08       2.41
+pnrCos0463     100.00   -45.49     -.29    -2.76       2.42
+pnrCos0464     100.00   -45.49     -.66    -3.17       2.41
+pnrCos0465     100.00   -45.49     -.80    -3.29       2.41
+pnrCos0466     100.00   -45.49    -1.31    -3.88       2.40
+pnrCos0467     100.00   -45.49    -1.20    -3.77       2.40
+pnrCos0468     100.00   -45.49     -.97    -3.50       2.41
+pnrCos0469     100.00   -45.49     -.87    -3.41       2.40
+pnrCos0470     100.00   -45.49     -.67    -3.25       2.41
+pnrCos0471     100.00   -45.49     -.40    -2.93       2.41
+pnrCos0472     100.00   -45.49     -.75    -3.19       2.40
+pnrCos0473     100.00   -45.49     -.64    -3.10       2.41
+pnrCos0474     100.00   -45.49     -.66    -3.12       2.41
+pnrCos0475     100.00   -45.49     -.87    -3.30       2.40
+pnrCos0476     100.00   -45.49    -1.63    -3.76       2.26
+pnrCos0477     100.00   -45.49    -1.16    -3.69       2.40
+pnrCos0478     100.00   -45.49    -2.04    -4.51       2.37
+pnrCos0479     100.00   -45.49    -1.23    -3.77       2.40
+pnrCos0480     100.00   -45.49    -1.64    -4.07       2.34
+pnrCos0481     100.00   -45.49    -1.64    -4.03       2.27
+pnrCos0482     100.00   -45.49    -1.42    -3.94       2.32
+pnrCos0483     100.00   -45.49    -1.56    -4.13       2.32
+pnrCos0484     100.00   -45.49    -1.49    -3.89       2.28
+pnrCos0485     100.00   -45.49    -1.19    -4.05       2.41
+pnrCos0486     100.00   -45.49    -1.18    -4.03       2.41
+pnrCos0487     100.00   -45.49     -.97    -3.84       2.41
+pnrCos0488     100.00   -45.49    -1.17    -3.93       2.40
+pnrCos0489     100.00   -45.49    -1.31    -3.86       2.40
+pnrCos0490     100.00   -45.49    -1.01    -3.55       2.39
+pnrCos0491     100.00   -45.49     -.88    -3.40       2.39
+pnrCos0492     100.00   -45.49     -.39    -2.95       2.42
+pnrCos0493     100.00   -45.49     -.40    -2.90       2.40
+pnrCos0494     100.00   -45.49     -.43    -2.93       2.40
+pnrCos0495     100.00   -45.49     -.49    -3.00       2.41
+pnrCos0496     100.00   -45.49    -1.59    -4.26       2.41
+pnrCos0497     100.00   -45.49    -1.22    -3.88       2.41
+pnrCos0498     100.00   -45.49     -.94    -3.53       2.41
+pnrCos0499     100.00   -45.49     -.57    -3.14       2.41
+pnrCos0500     100.00   -45.49     -.37    -2.93       2.42
+pnrCos0501     100.00   -45.49    -1.08    -3.71       2.41
+pnrCos0502     100.00   -45.49     -.57    -3.14       2.41
+pnrCos0503     100.00   -45.49     -.62    -3.44       2.41
+pnrCos0504     100.00   -45.49     -.18    -2.84       2.42
+pnrCos0505     100.00   -45.49     -.57    -3.24       2.42
+pnrCos0506     100.00   -45.49     -.70    -3.43       2.42
+pnrCos0507     100.00   -45.49     -.05    -2.72       2.42
+pnrCos0508     100.00   -45.49     -.30    -2.95       2.42
+pnrCos0509     100.00   -45.49     -.17    -2.90       2.42
+pnrCos0510     100.00   -45.49     -.43    -3.17       2.42
+pnrCos0511     100.00   -45.49     -.49    -3.30       2.42
+pnrCos0512     100.00   -45.49     -.95    -3.69       2.41
+pnrCos0513     100.00   -45.49     -.51    -3.23       2.42
+pnrCos0514     100.00   -45.49    -1.56    -4.33       2.40
+pnrCos0515     100.00   -45.49    -1.28    -4.15       2.41
+pnrCos0516     100.00   -45.49     -.74    -3.54       2.41
+pnrCos0517     100.00   -45.49    -1.77    -4.08       2.26
+pnrCos0518     100.00   -45.49    -1.86    -4.13       2.20
+pnrCos0519     100.00   -45.49    -3.17    -5.37       2.18
+pnrCos0520     100.00   -45.49    -2.60    -4.79       2.19
+pnrCos0521     100.00   -45.49    -2.20    -4.43       2.20
+pnrCos0522     100.00   -45.49    -2.24    -4.55       2.20
+pnrCos0523     100.00   -45.49    -2.28    -4.55       2.21
+pnrCos0524     100.00   -45.49    -3.12    -5.42       2.19
+pnrCos0525     100.00   -45.49    -5.08    -7.38       2.17
+pnrCos0526     100.00   -45.49    -3.89    -6.19       2.18
+pnrCos0527     100.00   -45.49    -1.58    -3.79       2.19
+pnrCos0528     100.00   -45.49    -1.49    -3.79       2.20
+pnrCos0529     100.00   -45.49     -.79    -3.00       2.20
+pnrCos0530     100.00   -45.49    -1.02    -3.22       2.20
+pnrCos0531     100.00   -45.49    -1.58    -3.81       2.20
+pnrCos0532     100.00   -45.49    -1.70    -3.99       2.22
+pnrCos0533     100.00   -45.49    -1.78    -4.09       2.24
+pnrCos0534     100.00   -45.49     -.90    -3.09       2.21
+pnrCos0535     100.00   -45.49    -1.38    -3.72       2.20
+pnrCos0536     100.00   -45.49    -1.55    -3.94       2.24
+pnrCos0537     100.00   -45.49    -1.56    -3.88       2.22
+pnrCos0538     100.00   -45.49    -1.52    -3.73       2.30
+pnrCos0539     100.00   -45.49    -1.04    -2.97       2.20
+pnrCos0540     100.00   -45.49     -.68    -2.76       2.19
+pnrCos0541     100.00   -45.49     -.94    -3.07       2.20
+pnrCos0542     100.00   -45.49    -1.34    -3.47       2.22
+pnrCos0543     100.00   -45.49     -.60    -2.78       2.19
+pnrCos0544     100.00   -45.49     -.89    -3.06       2.19
+pnrCos0545     100.00   -45.49     -.95    -3.11       2.20
+pnrCos0546     100.00   -45.49    -1.25    -3.52       2.21
+pnrCos0547     100.00   -45.49     -.87    -3.22       2.22
+pnrCos0548     100.00   -45.49    -1.06    -3.39       2.18
+pnrCos0549     100.00   -45.49    -1.17    -3.44       2.19
+pnrCos0550     100.00   -45.49     -.74    -2.93       2.19
+pnrCos0551     100.00   -45.49    -1.27    -3.58       2.19
+pnrCos0552     100.00   -45.49    -1.44    -3.78       2.18
+pnrCos0553     100.00   -45.49    -1.17    -3.35       2.18
+pnrCos0554     100.00   -45.49    -1.51    -3.98       2.20
+pnrCos0555     100.00   -45.49    -1.72    -4.17       2.19
+pnrCos0556     100.00   -45.49    -2.92    -5.31       2.16
+pnrCos0557     100.00   -45.49    -2.32    -4.65       2.15
+pnrCos0558     100.00   -45.49    -2.00    -4.39       2.16
+pnrCos0559     100.00   -45.49    -1.87    -4.25       2.17
+pnrCos0560     100.00   -45.49    -3.08    -5.28       2.18
+pnrCos0561     100.00   -45.49    -3.62    -6.03       2.17
+pnrCos0562     100.00   -45.49    -2.78    -5.19       2.18
+pnrCos0563     100.00   -45.49    -2.71    -5.08       2.18
+pnrCos0564     100.00   -45.49    -1.92    -4.25       2.18
+pnrCos0565     100.00   -45.49    -2.12    -4.45       2.16
+pnrCos0566     100.00   -45.49    -1.19    -3.49       2.19
+pnrCos0567     100.00   -45.49    -1.78    -4.06       2.19
+pnrCos0568     100.00   -45.49    -2.55    -4.61       2.20
+pnrCos0569     100.00   -45.49    -2.32    -4.57       2.12
+pnrCos0570     100.00   -45.49    -1.74    -4.01       2.19
+pnrCos0571     100.00   -45.49    -3.55    -5.62       2.19
+pnrCos0572     100.00   -45.49    -3.00    -5.04       2.19
+pnrCos0573     100.00   -45.49    -3.28    -5.33       2.19
+pnrCos0574     100.00   -45.49    -2.17    -4.46       2.18
+pnrCos0575     100.00   -45.49    -2.75    -5.12       2.18
+pnrCos0576     100.00   -45.49    -3.79    -6.22       2.17
+pnrCos0577     100.00   -45.49    -3.03    -5.37       2.16
+pnrCos0578     100.00   -45.49    -2.45    -4.81       2.15
+pnrCos0579     100.00   -45.49    -2.47    -4.83       2.15
+pnrCos0580     100.00   -45.49    -4.20    -6.66       2.12
+pnrCos0581     100.00   -45.49    -2.91    -5.38       2.13
+pnrCos0582     100.00   -45.49    -3.58    -6.25       2.13
+pnrCos0583     100.00   -45.49    -4.06    -6.59       2.12
+pnrCos0584     100.00   -45.49    -6.51    -8.92       2.10
+pnrCos0585     100.00   -45.49    -4.92    -7.30       2.13
+pnrCos0586     100.00   -45.49    -4.09    -6.43       2.14
+pnrCos0587     100.00   -45.49    -3.70    -6.21       2.13
+pnrCos0588     100.00   -45.49    -3.47    -6.47       2.12
+pnrCos0589     100.00   -45.49    -2.78    -5.78       2.13
+pnrCos0590     100.00   -45.49    -3.37    -6.96       2.12
+pnrCos0591     100.00   -45.49    -5.14    -7.83       2.10
+pnrCos0592     100.00   -45.49    -4.43    -6.82       2.12
+pnrCos0593     100.00   -45.49    -4.21    -6.60       2.16
+pnrCos0594     100.00   -45.49    -3.86    -6.25       2.16
+pnrCos0595     100.00   -45.49    -5.20    -7.60       2.16
+pnrCos0596     100.00   -45.49    -7.70   -10.85       1.93
+pnrCos0597     100.00   -45.49    -7.54   -10.03       2.01
+pnrCos0598     100.00   -45.49    -8.86   -11.15       2.02
+pnrCos0599     100.00   -45.49    -7.60   -10.86       1.94
+pnrCos0600     100.00   -45.49    -6.65   -11.45       1.95
+pnrCos0601     100.00   -45.49    -8.33   -11.48       1.93
+pnrCos0602     100.00   -45.49    -4.68   -10.20       1.97
+pnrCos0603     100.00   -45.49    -3.53    -8.73       1.98
+pnrCos0604     100.00   -45.49    -4.16    -9.17       2.00
+pnrCos0605     100.00   -45.49    -3.83    -8.91       2.00
+pnrCos0606     100.00   -45.49    -4.07    -9.61       1.99
+pnrCos0607     100.00   -45.49    -5.90    -9.52       1.98
+pnrCos0608     100.00   -45.49    -4.68    -8.74       1.96
+pnrCos0609     100.00   -45.49    -6.90    -9.21       2.05
+pnrCos0610     100.00   -45.49    -5.91    -8.16       1.98
+pnrCos0611     100.00   -45.49    -4.71    -7.12       2.13
+pnrCos0612     100.00   -45.49    -4.78    -7.21       2.16
+pnrCos0613     100.00   -45.49    -5.37    -7.76       2.03
+pnrCos0614     100.00   -45.49    -5.53    -7.81       2.04
+pnrCos0615     100.00   -45.49    -4.96    -7.15       2.08
+pnrCos0616     100.00   -45.49    -4.57    -6.76       2.09
+pnrCos0617     100.00   -45.49    -4.73    -6.94       2.09
+pnrCos0618     100.00   -45.49    -4.57    -6.74       2.10
+pnrCos0619     100.00   -45.49    -4.27    -6.46       2.10
+pnrCos0620     100.00   -45.49    -3.77    -5.94       2.10
+pnrCos0621     100.00   -45.49    -4.14    -6.27       2.10
+pnrCos0622     100.00   -45.49    -4.06    -6.25       2.11
+pnrCos0623     100.00   -45.49    -5.14    -7.28       2.07
+pnrCos0624     100.00   -45.49    -5.64    -7.76       2.07
+pnrCos0625     100.00   -45.49    -5.55    -7.45       2.12
+pnrCos0626     100.00   -45.49    -4.63    -6.59       2.14
+pnrCos0627     100.00   -45.49    -4.21    -6.20       2.17
+pnrCos0628     100.00   -45.49    -4.62    -7.00       2.16
+pnrCos0629     100.00   -45.49    -3.79    -5.84       2.18
+pnrCos0630     100.00   -45.49    -4.14    -6.20       2.17
+pnrCos0631     100.00   -45.49    -4.56    -6.62       2.18
+pnrCos0632     100.00   -45.49    -3.44    -5.49       2.19
+pnrCos0633     100.00   -45.49    -4.35    -6.28       2.15
+pnrCos0634     100.00   -45.49    -3.71    -5.89       2.12
+pnrCos0635     100.00   -45.49    -1.50    -3.64       2.22
+pnrCos0636     100.00   -45.49    -1.08    -3.07       2.20
+pnrCos0637     100.00   -45.49     -.94    -2.94       2.21
+pnrCos0638     100.00   -45.49     -.76    -2.68       2.20
+pnrCos0639     100.00   -45.49     -.92    -2.90       2.21
+pnrCos0640     100.00   -45.49     -.81    -2.78       2.21
+pnrCos0641     100.00   -45.49     -.83    -2.82       2.21
+pnrCos0642     100.00   -45.49    -1.24    -3.18       2.20
+pnrCos0643     100.00   -45.49    -1.15    -3.20       2.21
+pnrCos0644     100.00   -45.49    -4.33    -6.52       2.11
+pnrCos0645     100.00   -45.49    -3.02    -5.07       2.08
+pnrCos0646     100.00   -45.49    -1.94    -4.00       2.13
+pnrCos0647     100.00   -45.49    -3.16    -5.35       2.12
+pnrCos0648     100.00   -45.49    -3.07    -5.28       2.12
+pnrCos0649     100.00   -45.49    -2.19    -4.34       2.09
+pnrCos0650     100.00   -45.49    -1.69    -3.79       2.12
+pnrCos0651     100.00   -45.49    -1.67    -3.61       2.13
+pnrCos0652     100.00   -45.49    -1.60    -3.59       2.13
+pnrCos0653     100.00   -45.49    -2.33    -4.23       2.12
+pnrCos0654     100.00   -45.49    -2.25    -4.10       2.20
+pnrCos0655     100.00   -45.49    -1.63    -3.53       2.14
+pnrCos0656     100.00   -45.49    -1.66    -3.77       2.13
+pnrCos0657     100.00   -45.49    -1.25    -3.24       2.13
+pnrCos0658     100.00   -45.49     -.88    -2.80       2.14
+pnrCos0659     100.00   -45.49     -.57    -2.47       2.15
+pnrCos0660     100.00   -45.49     -.64    -2.53       2.15
+pnrCos0661     100.00   -45.49     -.74    -2.65       2.14
+pnrCos0662     100.00   -45.49     -.53    -2.44       2.15
+pnrCos0663     100.00   -45.49     -.57    -2.48       2.15
+pnrCos0664     100.00   -45.49    -1.00    -2.98       2.14
+pnrCos0665     100.00   -45.49     -.71    -2.64       2.14
+pnrCos0666     100.00   -45.49     -.55    -2.46       2.15
+pnrCos0667     100.00   -45.49     -.56    -2.47       2.15
+pnrCos0668     100.00   -45.49     -.87    -2.82       2.14
+pnrCos0669     100.00   -45.49     -.73    -2.66       2.14
+pnrCos0670     100.00   -45.49     -.81    -2.72       2.14
+pnrCos0671     100.00   -45.49     -.82    -2.76       2.13
+pnrCos0672     100.00   -45.49    -1.45    -3.49       2.15
+pnrCos0673     100.00   -45.49    -1.53    -3.41       2.17
+pnrCos0674     100.00   -45.49    -1.11    -3.14       2.16
+pnrCos0675     100.00   -45.49    -1.03    -2.97       2.14
+pnrCos0676     100.00   -45.49     -.96    -2.86       2.15
+pnrCos0677     100.00   -45.49     -.91    -2.95       2.13
+pnrCos0678     100.00   -45.49     -.66    -2.63       2.13
+pnrCos0679     100.00   -45.49     -.45    -2.38       2.13
+pnrCos0680     100.00   -45.49     -.51    -2.44       2.13
+pnrCos0681     100.00   -45.49     -.79    -2.76       2.13
+pnrCos0682     100.00   -45.49    -1.47    -3.58       2.14
+pnrCos0683     100.00   -45.49    -1.48    -3.61       2.13
+pnrCos0684     100.00   -45.49     -.45    -2.43       2.16
+pnrCos0685     100.00   -45.49    -1.49    -3.66       2.14
+pnrCos0686     100.00   -45.49    -1.34    -3.39       2.11
+pnrCos0687     100.00   -45.49    -1.11    -3.21       2.13
+pnrCos0688     100.00   -45.49     -.54    -2.48       2.15
+pnrCos0689     100.00   -45.49     -.69    -2.56       2.05
+pnrCos0690     100.00   -45.49    -1.60    -3.56       2.03
+pnrCos0691     100.00   -45.49    -1.45    -3.36       2.02
+pnrCos0692     100.00   -45.49    -1.64    -3.55       2.02
+pnrCos0693     100.00   -45.49    -3.11    -5.00       1.99
+pnrCos0694     100.00   -45.49    -4.96    -6.84       1.93
+pnrCos0695     100.00   -45.49    -3.62    -6.62       1.90
+pnrCos0696     100.00   -45.49    -4.11    -6.13       1.91
+pnrCos0697     100.00   -45.49    -3.28    -5.56       1.92
+pnrCos0698     100.00   -45.49    -2.82    -5.55       1.92
+pnrCos0699     100.00   -45.49    -2.17    -4.07       2.00
+pnrCos0700     100.00   -45.49    -1.35    -3.25       2.03
+pnrCos0701     100.00   -45.49     -.81    -2.70       2.04
+pnrCos0702     100.00   -45.49     -.71    -2.60       2.03
+pnrCos0703     100.00   -45.49    -1.14    -3.04       2.03
+pnrCos0704     100.00   -45.49    -1.19    -3.15       2.04
+pnrCos0705     100.00   -45.49    -1.34    -3.23       2.03
+pnrCos0706     100.00   -45.49    -2.42    -4.32       2.01
+pnrCos0707     100.00   -45.49    -2.57    -4.48       2.01
+pnrCos0708     100.00   -45.49    -3.64    -5.55       1.99
+pnrCos0709     100.00   -45.49    -3.74    -5.64       2.00
+pnrCos0710     100.00   -45.49    -2.76    -4.66       2.01
+pnrCos0711     100.00   -45.49    -2.81    -4.71       2.01
+pnrCos0712     100.00   -45.49    -3.53    -5.42       1.97
+pnrCos0713     100.00   -45.49    -4.15    -6.04       1.97
+pnrCos0714     100.00   -45.49    -3.66    -5.55       1.97
+pnrCos0715     100.00   -45.49    -6.68    -8.49       1.91
+pnrCos0716     100.00   -45.49    -3.11    -4.98       2.00
+pnrCos0717     100.00   -45.49    -2.80    -4.65       2.00
+pnrCos0718     100.00   -45.49    -2.73    -4.58       2.01
+pnrCos0719     100.00   -45.49    -2.21    -4.06       2.01
+pnrCos0720     100.00   -45.49    -2.86    -4.70       2.00
+pnrCos0721     100.00   -45.49    -2.45    -4.44       2.02
+pnrCos0722     100.00   -45.49    -1.43    -3.19       2.04
+pnrCos0723     100.00   -45.49     -.62    -2.38       2.05
+pnrCos0724     100.00   -45.49    -1.02    -2.77       2.04
+pnrCos0725     100.00   -45.49    -1.11    -2.84       2.04
+pnrCos0726     100.00   -45.49    -1.36    -3.11       2.04
+pnrCos0727     100.00   -45.49    -1.42    -3.16       2.03
+pnrCos0728     100.00   -45.49     -.72    -2.46       2.04
+pnrCos0729     100.00   -45.49    -1.69    -3.43       2.03
+pnrCos0730     100.00   -45.49    -2.08    -3.71       2.04
+pnrCos0731     100.00   -45.49    -2.00    -3.71       2.02
+pnrCos0732     100.00   -45.49    -1.84    -3.57       2.02
+pnrCos0733     100.00   -45.49    -1.81    -3.52       2.02
+pnrCos0734     100.00   -45.49    -1.45    -3.20       2.06
+pnrCos0735     100.00   -45.49    -1.40    -3.14       2.03
+pnrCos0736     100.00   -45.49     -.69    -2.43       2.04
+pnrCos0737     100.00   -45.49     -.74    -2.48       2.04
+pnrCos0738     100.00   -45.49    -1.12    -2.86       2.04
+pnrCos0739     100.00   -45.49    -1.18    -2.91       2.04
+pnrCos0740     100.00   -45.49     -.82    -2.56       2.04
+pnrCos0741     100.00   -45.49    -1.26    -3.03       2.10
+pnrCos0742     100.00   -45.49    -1.33    -3.10       2.10
+pnrCos0743     100.00   -45.49    -1.11    -2.84       2.04
+pnrCos0744     100.00   -45.49    -1.43    -3.16       2.03
+pnrCos0745     100.00   -45.49     -.97    -2.72       2.04
+pnrCos0746     100.00   -45.49    -1.96    -3.70       2.02
+pnrCos0747     100.00   -45.49    -1.77    -3.52       2.06
+pnrCos0748     100.00   -45.49    -1.73    -3.46       2.03
+pnrCos0749     100.00   -45.49    -2.03    -3.88       2.02
+pnrCos0750     100.00   -45.49    -2.06    -4.16       2.11
+pnrCos0751     100.00   -45.49    -1.89    -3.98       2.12
+pnrCos0752     100.00   -45.49    -1.63    -3.73       2.13
+pnrCos0753     100.00   -45.49    -1.99    -4.05       2.10
+pnrCos0754     100.00   -45.49    -2.30    -4.33       2.08
+pnrCos0755     100.00   -45.49    -2.30    -4.30       2.13
+pnrCos0756     100.00   -45.49    -2.36    -4.41       2.11
+pnrCos0757     100.00   -45.49    -2.42    -4.31       2.09
+pnrCos0758     100.00   -45.49    -2.31    -4.13       2.09
+pnrCos0759     100.00   -45.49    -2.15    -3.91       2.09
+pnrCos0760     100.00   -45.49    -2.39    -4.15       2.08
+pnrCos0761     100.00   -45.49    -2.43    -4.17       2.09
+pnrCos0762     100.00   -45.49    -2.38    -4.18       2.07
+pnrCos0763     100.00   -45.49    -2.29    -4.27       2.08
+pnrCos0764     100.00   -45.49    -1.88    -3.98       2.12
+pnrCos0765     100.00   -45.49    -1.87    -3.64       2.09
+pnrCos0766     100.00   -45.49    -1.53    -3.29       2.09
+pnrCos0767     100.00   -45.49    -1.71    -3.47       2.09
+pnrCos0768     100.00   -45.49    -1.63    -3.38       2.10
+pnrCos0769     100.00   -45.49    -1.94    -3.58       2.12
+pnrCos0770     100.00   -45.49    -1.94    -3.54       2.12
+pnrCos0771     100.00   -45.49    -1.79    -3.45       2.14
+pnrCos0772     100.00   -45.49    -1.83    -3.54       2.13
+pnrCos0773     100.00   -45.49    -1.93    -3.61       2.11
+pnrCos0774     100.00   -45.49    -2.14    -3.87       2.10
+pnrCos0775     100.00   -45.49    -2.06    -3.76       2.12
+pnrCos0776     100.00   -45.49    -1.76    -3.48       2.14
+pnrCos0777     100.00   -45.49    -2.19    -3.77       2.16
+pnrCos0778     100.00   -45.49    -1.84    -3.51       2.20
+pnrCos0779     100.00   -45.49    -1.51    -3.25       2.15
+pnrCos0780     100.00   -45.49    -1.66    -3.41       2.16
+pnrCos0781     100.00   -45.49    -1.47    -3.20       2.15
+pnrCos0782     100.00   -45.49    -1.46    -3.21       2.16
+pnrCos0783     100.00   -45.49    -1.42    -3.16       2.18
+pnrCos0784     100.00   -45.49    -1.93    -3.58       2.11
+pnrCos0785     100.00   -45.49    -2.07    -3.88       2.01
+pnrCos0786     100.00   -45.49    -1.75    -3.58       2.02
+pnrCos0787     100.00   -45.49    -1.78    -3.61       2.08
+pnrCos0788     100.00   -45.49    -2.09    -3.94       2.01
+pnrCos0789     100.00   -45.49    -1.53    -3.45       2.01
+pnrCos0790     100.00   -45.49    -1.60    -3.49       2.00
+pnrCos0791     100.00   -45.49    -1.61    -3.53       2.04
+pnrCos0792     100.00   -45.49    -1.13    -3.10       2.02
+pnrCos0793     100.00   -45.49    -1.23    -3.12       2.01
+pnrCos0794     100.00   -45.49     -.94    -2.72       2.01
+pnrCos0795     100.00   -45.49    -1.20    -3.09       2.01
+pnrCos0796     100.00   -45.49     -.97    -2.75       2.00
+pnrCos0797     100.00   -45.49    -1.36    -3.25       2.01
+pnrCos0798     100.00   -45.49    -1.06    -2.83       2.01
+pnrCos0799     100.00   -45.49     -.70    -2.54       2.01
+pnrCos0800     100.00   -45.49     -.36    -2.13       2.01
+pnrCos0801     100.00   -45.49     -.45    -2.21       2.01
+pnrCos0802     100.00   -45.49     -.63    -2.38       2.01
+pnrCos0803     100.00   -45.49     -.81    -2.58       2.00
+pnrCos0804     100.00   -45.49     -.82    -2.60       2.01
+pnrCos0805     100.00   -45.49     -.71    -2.48       2.01
+pnrCos0806     100.00   -45.49     -.64    -2.42       2.01
+pnrCos0807     100.00   -45.49     -.67    -2.45       2.01
+pnrCos0808     100.00   -45.49     -.58    -2.36       2.01
+pnrCos0809     100.00   -45.49     -.73    -2.56       2.01
+pnrCos0810     100.00   -45.49     -.83    -2.74       2.02
+pnrCos0811     100.00   -45.49     -.76    -2.59       2.01
+pnrCos0812     100.00   -45.49     -.65    -2.42       2.01
+pnrCos0813     100.00   -45.49    -1.30    -3.10       2.01
+pnrCos0814     100.00   -45.49    -1.70    -3.46       2.08
+pnrCos0815     100.00   -45.49    -1.54    -3.45       2.09
+pnrCos0816     100.00   -45.49    -2.02    -3.93       2.03
+pnrCos0817     100.00   -45.49    -1.19    -3.16       2.01
+pnrCos0818     100.00   -45.49    -1.41    -3.42       2.03
+pnrCos0819     100.00   -45.49    -1.54    -3.52       2.05
+pnrCos0820     100.00   -45.49    -1.38    -3.38       2.03
+pnrCos0821     100.00   -45.49     -.86    -2.73       2.04
+pnrCos0822     100.00   -45.49     -.37    -2.24       2.05
+pnrCos0823     100.00   -45.49    -1.00    -2.90       2.04
+pnrCos0824     100.00   -45.49     -.88    -2.75       2.04
+pnrCos0825     100.00   -45.49     -.61    -2.51       2.04
+pnrCos0826     100.00   -45.49     -.96    -2.94       2.05
+pnrCos0827     100.00   -45.49     -.98    -2.94       2.03
+pnrCos0828     100.00   -45.49    -1.79    -3.74       2.03
+pnrCos0829     100.00   -45.49    -1.43    -3.33       2.04
+pnrCos0830     100.00   -45.49    -1.62    -3.60       2.02
+pnrCos0831     100.00   -45.49    -1.94    -3.88       2.04
+pnrCos0832     100.00   -45.49    -2.34    -4.31       2.03
+pnrCos0833     100.00   -45.49    -2.04    -4.02       2.02
+pnrCos0834     100.00   -45.49    -1.97    -3.96       2.03
+pnrCos0835     100.00   -45.49    -2.13    -4.12       2.02
+pnrCos0836     100.00   -45.49    -1.86    -3.83       2.04
+pnrCos0837     100.00   -45.49    -1.85    -3.90       2.03
+pnrCos0838     100.00   -45.49    -1.46    -3.51       2.04
+pnrCos0839     100.00   -45.49    -1.08    -3.08       2.05
+pnrCos0840     100.00   -45.49    -1.26    -3.21       2.04
+pnrCos0841     100.00   -45.49    -1.79    -3.76       2.03
+pnrCos0842     100.00   -45.49     -.50    -2.32       2.05
+pnrCos0843     100.00   -45.49     -.57    -2.47       2.05
+pnrCos0844     100.00   -45.49     -.51    -2.56       2.05
+pnrCos0845     100.00   -45.49     -.52    -2.33       2.05
+pnrCos0846     100.00   -45.49     -.90    -2.97       2.05
+pnrCos0847     100.00   -45.49    -1.32    -3.46       2.03
+pnrCos0848     100.00   -45.49    -1.39    -3.68       2.05
+pnrCos0849     100.00   -45.49    -1.53    -3.79       2.05
+pnrCos0850     100.00   -45.49    -1.72    -3.88       2.08
+pnrCos0851     100.00   -45.49     -.81    -2.91       2.05
+pnrCos0852     100.00   -45.49     -.79    -2.76       2.04
+pnrCos0853     100.00   -45.49     -.50    -2.55       2.06
+pnrCos0854     100.00   -45.49    -1.32    -3.44       2.05
+pnrCos0855     100.00   -45.49     -.66    -2.75       2.06
+pnrCos0856     100.00   -45.49     -.94    -3.04       2.04
+pnrCos0857     100.00   -45.49     -.56    -2.65       2.04
+pnrCos0858     100.00   -45.49    -1.06    -3.18       2.04
+pnrCos0859     100.00   -45.49    -1.20    -3.31       2.04
+pnrCos0860     100.00   -45.49    -1.39    -3.53       2.04
+pnrCos0861     100.00   -45.49    -1.37    -3.55       2.04
+pnrCos0862     100.00   -45.49    -1.71    -3.87       2.04
+pnrCos0863     100.00   -45.49    -1.96    -4.16       2.04
+pnrCos0864     100.00   -45.49    -1.72    -3.91       2.03
+pnrCos0865     100.00   -45.49    -1.59    -3.70       2.03
+pnrCos0866     100.00   -45.49     -.44    -2.52       2.04
+pnrCos0867     100.00   -45.49     -.73    -2.82       2.04
+pnrCos0868     100.00   -45.49    -1.35    -3.49       2.03
+pnrCos0869     100.00   -45.49    -1.14    -3.27       2.05
+pnrCos0870     100.00   -45.49    -1.46    -3.61       2.03
+pnrCos0871     100.00   -45.49    -2.02    -4.17       2.03
+pnrCos0872     100.00   -45.49    -1.99    -4.12       2.04
+pnrCos0873     100.00   -45.49    -2.69    -4.78       2.03
+pnrCos0874     100.00   -45.49    -2.87    -4.89       2.03
+pnrCos0875     100.00   -45.49    -2.96    -4.99       2.05
+pnrCos0876     100.00   -45.49    -2.08    -4.38       2.05
+pnrCos0877     100.00   -45.49    -2.60    -4.53       2.13
+pnrCos0878     100.00   -45.49    -3.66    -5.49       2.09
+pnrCos0879     100.00   -45.49    -4.41    -6.42       2.12
+pnrCos0880     100.00   -45.49    -3.41    -5.41       2.13
+pnrCos0881     100.00   -45.49    -2.22    -4.56       2.26
+pnrCos0882     100.00   -45.49    -1.54    -4.26       2.44
+pnrCos0883     100.00   -45.49     -.65    -3.16       2.44
+pnrCos0884     100.00   -45.49    -1.50    -4.23       2.48
+pnrCos0885     100.00   -45.49    -1.08    -3.47       2.36
+pnrCos0886     100.00   -45.49     -.92    -3.37       2.38
+pnrCos0887     100.00   -45.49    -1.74    -3.75       2.21
+pnrCos0888     100.00   -45.49    -1.42    -3.59       2.26
+pnrCos0889     100.00   -45.49    -1.11    -3.30       2.27
+pnrCos0890     100.00   -45.49    -1.73    -3.61       2.08
+pnrCos0891     100.00   -45.49    -1.55    -3.45       2.09
+pnrCos0892     100.00   -45.49    -1.52    -3.40       2.09
+pnrCos0893     100.00   -45.49    -1.47    -3.38       2.09
+pnrCos0894     100.00   -45.49    -1.71    -3.51       2.08
+pnrCos0895     100.00   -45.49    -1.30    -3.30       2.15
+pnrCos0896     100.00   -45.49    -1.48    -3.44       2.14
+pnrCos0897     100.00   -45.49    -1.46    -3.37       2.13
+pnrCos0898     100.00   -45.49    -1.46    -3.36       2.12
+pnrCos0899     100.00   -45.49    -1.62    -3.55       2.13
+pnrCos0900     100.00   -45.49    -2.00    -3.98       2.14
+pnrCos0901     100.00   -45.49    -2.12    -3.98       2.12
+pnrCos0902     100.00   -45.49    -3.89    -7.55       2.21
+pnrCos0903     100.00   -45.49    -2.50    -6.04       2.22
+pnrCos0904     100.00   -45.49    -1.40    -4.89       2.23
+pnrCos0905     100.00   -45.49    -1.01    -4.12       2.22
+pnrCos0906     100.00   -45.49    -1.37    -4.58       2.22
+pnrCos0907     100.00   -45.49    -1.64    -5.19       2.23
+pnrCos0908     100.00   -45.49    -1.31    -4.45       2.22
+pnrCos0909     100.00   -45.49    -1.27    -4.63       2.23
+pnrCos0910     100.00   -45.49    -2.30    -5.86       2.23
+pnrCos0911     100.00   -45.49    -2.10    -5.14       2.23
+pnrCos0912     100.00   -45.49    -1.37    -4.75       2.23
+pnrCos0913     100.00   -45.49     -.74    -3.81       2.23
+pnrCos0914     100.00   -45.49     -.79    -3.73       2.22
+pnrCos0915     100.00   -45.49     -.98    -3.96       2.22
+pnrCos0916     100.00   -45.49     -.93    -3.76       2.22
+pnrCos0917     100.00   -45.49    -1.44    -4.27       2.22
+pnrCos0918     100.00   -45.49    -1.50    -4.44       2.22
+pnrCos0919     100.00   -45.49    -1.22    -4.32       2.22
+pnrCos0920     100.00   -45.49    -2.05    -5.56       2.22
+pnrCos0921     100.00   -45.49    -1.22    -4.41       2.22
+pnrCos0922     100.00   -45.49    -2.72    -6.35       2.23
+pnrCos0923     100.00   -45.49    -4.34    -7.91       2.22
+pnrCos0924     100.00   -45.49    -6.33   -10.09       2.21
+pnrCos0925     100.00   -45.49    -8.61   -12.25       2.19
+pnrCos0926     100.00   -45.49    -7.63   -11.69       2.22
+pnrCos0927     100.00   -45.49    -9.68   -13.75       2.21
+pnrCos0928     100.00   -45.49    -4.57    -8.23       2.23
+pnrCos0929     100.00   -45.49    -6.01   -10.06       2.23
+pnrCos0930     100.00   -45.49    -8.25   -11.39       2.32
+pnrCos0931     100.00   -45.49    -8.28   -11.82       2.32
+pnrCos0932     100.00   -45.49    -9.06   -12.63       2.31
+pnrCos0933     100.00   -45.49    -2.79    -5.95       2.38
+pnrCos0934     100.00   -45.49    -5.66    -8.74       2.34
+pnrCos0935     100.00   -45.49    -1.57    -4.59       2.38
+pnrCos0936     100.00   -45.49     -.86    -3.62       2.24
+pnrCos0937     100.00   -45.49    -3.41    -6.06       2.21
+pnrCos0938     100.00   -45.49    -1.95    -4.47       2.20
+pnrCos0939     100.00   -45.49    -3.19    -5.91       2.21
+pnrCos0940     100.00   -45.49    -2.36    -5.07       2.22
+pnrCos0941     100.00   -45.49    -2.04    -4.74       2.22
+pnrCos0942     100.00   -45.49    -5.81    -9.05       2.15
+pnrCos0943     100.00   -45.49    -5.47    -9.23       2.17
+pnrCos0944     100.00   -45.49    -4.68    -7.62       2.18
+pnrCos0945     100.00   -45.49    -4.22    -9.67       2.20
+pnrCos0946     100.00   -45.49    -6.34    -9.76       2.09
+pnrCos0947     100.00   -45.49    -4.91    -7.26       2.15
+pnrCos0948     100.00   -45.49    -5.86    -8.81       2.11
+pnrCos0949     100.00   -45.49    -6.16   -10.88       2.12
+pnrCos0950     100.00   -45.49    -6.91   -10.67       2.14
+pnrCos0951     100.00   -45.49    -5.81    -9.60       2.18
+pnrCos0952     100.00   -45.49    -7.36   -11.49       2.12
+pnrCos0953     100.00   -45.49    -7.01   -10.76       2.13
+pnrCos0954     100.00   -45.49    -9.20   -12.92       2.11
+pnrCos0955     100.00   -45.49    -4.09    -9.87       2.23
+pnrCos0956     100.00   -45.49    -5.50   -11.12       2.21
+pnrCos0957     100.00   -45.49    -2.12    -6.85       2.14
+pnrCos0958     100.00   -45.49    -2.55    -7.13       2.13
+pnrCos0959     100.00   -45.49    -2.58    -7.81       2.18
+pnrCos0960     100.00   -45.49    -1.96    -7.20       2.19
+pnrCos0961     100.00   -45.49    -1.67    -6.85       2.19
+pnrCos0962     100.00   -45.49    -1.84    -6.92       2.17
+pnrCos0963     100.00   -45.49    -1.94    -6.99       2.17
+pnrCos0964     100.00   -45.49    -1.76    -6.96       2.19
+pnrCos0965     100.00   -45.49    -2.63    -7.77       2.18
+pnrCos0966     100.00   -45.49    -1.83    -7.01       2.19
+pnrCos0967     100.00   -45.49    -2.78    -7.98       2.18
+pnrCos0968     100.00   -45.49    -2.90    -8.14       2.18
+pnrCos0969     100.00   -45.49    -6.23    -8.96       2.09
+pnrCos0970     100.00   -45.49    -9.36   -24.08       3.10
+pnrCos0971     100.00   -45.49    -9.00   -23.71       3.10
+pnrCos0972     100.00   -45.49    -9.56   -24.27       3.09
+pnrCos0973     100.00   -45.49    -8.73   -23.37       3.06
+pnrCos0974     100.00   -45.49    -4.63   -19.29       3.08
+pnrCos0975     100.00   -45.49    -5.96   -20.59       3.04
+pnrCos0976     100.00   -45.49    -4.05   -18.67       3.06
+pnrCos0977     100.00   -45.49    -9.02   -21.81       2.17
+pnrCos0978     100.00   -45.49    -6.43   -20.25       2.59
+pnrCos0979     100.00   -45.49    -3.97   -18.43       2.99
+pnrCos0980     100.00   -45.49    -2.06   -16.67       3.07
+pnrCos0981     100.00   -45.49    -2.09   -16.75       3.09
+pnrCos0982     100.00   -45.49    -1.66   -16.31       3.08
+pnrCos0983     100.00   -45.49    -1.57   -16.18       3.07
+pnrCos0984     100.00   -45.49    -1.60   -16.06       3.01
+pnrCos0985     100.00   -45.49    -1.50   -16.10       3.06
+pnrCos0986     100.00   -45.49    -2.67   -16.66       2.87
+pnrCos0987     100.00   -45.49    -2.25   -16.06       2.84
+pnrCos0988     100.00   -45.49    -3.36   -18.03       3.09
+pnrCos0989     100.00   -45.49    -5.59   -20.28       3.10
+pnrCos0990     100.00   -45.49    -9.73   -24.44       3.09
+pnrCos0991     100.00   -45.49   -10.46   -25.18       3.09
+pnrCos0992     100.00   -45.49    -5.86   -20.52       3.07
+pnrCos0993     100.00   -45.49    -2.87   -15.13       2.65
+pnrCos0994     100.00   -45.49    -7.03   -21.68       3.07
+pnrCos0995     100.00   -45.49    -6.31   -15.73       2.50
+pnrCos0996     100.00   -45.49    -4.23   -11.74       2.33
+pnrCos0997     100.00   -45.49    -3.29   -12.34       2.51
+pnrCos0998     100.00   -45.49    -3.49   -13.34       2.60
+pnrCos0999     100.00   -45.49    -3.06   -13.09       2.64
+pnrCos1000     100.00   -45.49    -3.42   -13.58       2.66
+pnrCos1001     100.00   -45.49    -3.21   -13.46       2.67
+pnrCos1002     100.00   -45.49    -4.16   -14.23       2.63
+pnrCos1003     100.00   -45.49    -3.86   -14.16       2.68
+pnrCos1004     100.00   -45.49    -2.50   -12.60       2.65
+pnrCos1005     100.00   -45.49    -2.46   -12.58       2.65
+pnrCos1006     100.00   -45.49    -2.78   -12.43       2.59
+pnrCos1007     100.00   -45.49    -2.09   -12.08       2.64
+pnrCos1008     100.00   -45.49    -2.55   -12.24       2.60
+pnrCos1009     100.00   -45.49    -2.76   -12.24       2.57
+pnrCos1010     100.00   -45.49    -3.19   -12.13       2.49
+pnrCos1011     100.00   -45.49    -5.85   -12.84       2.33
+pnrCos1012     100.00   -45.49    -3.39   -13.03       2.59
+pnrCos1013     100.00   -45.49    -1.77   -11.71       2.61
+pnrCos1014     100.00   -45.49    -2.28   -12.13       2.59
+pnrCos1015     100.00   -45.49    -2.00   -11.63       2.57
+pnrCos1016     100.00   -45.49    -2.52   -11.47       2.49
+pnrCos1017     100.00   -45.49    -3.09   -10.09       2.36
+pnrCos1018     100.00   -45.49    -6.01   -13.01       2.33
+pnrCos1019     100.00   -45.49    -3.62    -8.96       2.23
+pnrCos1020     100.00   -45.49    -4.98   -13.93       2.47
+pnrCos1021     100.00   -45.49    -4.81   -15.47       2.67
+pnrCos1022     100.00   -45.49    -4.77   -15.09       2.68
+pnrCos1023     100.00   -45.49    -4.32   -17.41       2.73
+pnrCos1024     100.00   -45.49    -6.99   -17.25       2.52
+pnrCos1025     100.00   -45.49    -5.78   -16.03       2.61
+pnrCos1026     100.00   -45.49    -6.36   -15.36       2.43
+pnrCos1027     100.00   -45.49    -6.38   -14.78       2.39
+pnrCos1028     100.00   -45.49    -7.17   -15.27       2.37
+pnrCos1029     100.00   -45.49    -5.68   -11.08       2.26
+pnrCos1030     100.00   -45.49    -8.45   -13.83       2.24
+pnrCos1031     100.00   -45.49    -4.77   -10.31       2.21
+pnrCos1032     100.00   -45.49    -6.81    -9.38       2.15
+pnrCos1033     100.00   -45.49    -9.99   -13.44       1.87
+pnrCos1034     100.00   -45.49   -12.42   -16.32       1.81
+pnrCos1035     100.00   -45.49   -12.09   -16.42       1.80
+pnrCos1036     100.00   -45.49   -10.21   -16.96       1.88
+pnrCos1037     100.00   -45.49    -7.57   -13.41       1.94
+pnrCos1038     100.00   -45.49   -10.73   -17.54       1.89
+pnrCos1039     100.00   -45.49    -8.05   -18.50       2.01
+pnrCos1040     100.00   -45.49    -8.79   -17.90       1.93
+pnrCos1041     100.00   -45.49    -8.23   -17.80       1.99
+pnrCos1042     100.00   -45.49    -8.60   -17.16       1.94
+pnrCos1043     100.00   -45.49    -8.66   -17.23       1.94
+pnrCos1044     100.00   -45.49    -9.26   -16.31       1.90
+pnrCos1045     100.00   -45.49    -8.00   -18.15       2.34
+pnrCos1046     100.00   -45.49    -5.65   -19.47       2.64
+pnrCos1047     100.00   -45.49    -8.33   -18.44       1.95
+pnrCos1048     100.00   -45.49   -10.10   -15.90       1.86
+pnrCos1049     100.00   -45.49    -8.12   -14.02       1.90
+pnrCos1050     100.00   -45.49   -11.12   -17.29       1.81
+pnrCos1051     100.00   -45.49    -9.99   -15.44       1.79
+pnrCos1052     100.00   -45.49   -10.04   -20.25       1.86
+pnrCos1053     100.00   -45.49   -10.31   -18.43       1.86
+pnrCos1054     100.00   -45.49    -8.19   -19.53       1.93
+pnrCos1055     100.00   -45.49   -12.46   -20.22       1.82
+pnrCos1056     100.00   -45.49   -15.68   -22.02       1.79
+pnrCos1057     100.00   -45.49   -13.26   -19.63       1.82
+pnrCos1058     100.00   -45.49   -13.99   -20.32       1.80
+pnrCos1059     100.00   -45.49   -14.50   -19.41       1.58
+pnrCos1060     100.00   -45.49   -10.30   -16.53       1.86
+pnrCos1061     100.00   -45.49    -4.26    -9.26       1.86
+pnrCos1062     100.00   -45.49    -3.68    -8.72       1.86
+pnrCos1063     100.00   -45.49    -4.14    -9.13       1.86
+pnrCos1064     100.00   -45.49    -3.55    -9.57       1.95
+pnrCos1065     100.00   -45.49    -3.23    -9.10       1.95
+pnrCos1066     100.00   -45.49    -3.72    -9.84       1.96
+pnrCos1067     100.00   -45.49    -4.77   -10.32       1.87
+pnrCos1068     100.00   -45.49    -3.33   -10.01       2.03
+pnrCos1069     100.00   -45.49    -4.02   -11.34       2.18
+pnrCos1070     100.00   -45.49    -3.13    -9.98       2.05
+pnrCos1071     100.00   -45.49    -2.72    -9.56       2.05
+pnrCos1072     100.00   -45.49    -2.51    -9.89       2.14
+pnrCos1073     100.00   -45.49    -2.63   -10.01       2.14
+pnrCos1074     100.00   -45.49    -2.58    -9.79       2.21
+pnrCos1075     100.00   -45.49    -2.43    -9.47       2.09
+pnrCos1076     100.00   -45.49    -2.62    -9.96       2.18
+pnrCos1077     100.00   -45.49    -3.12   -10.45       2.19
+pnrCos1078     100.00   -45.49    -2.19    -9.49       2.14
+pnrCos1079     100.00   -45.49    -2.11    -9.36       2.14
+pnrCos1080     100.00   -45.49    -2.19    -9.52       2.19
+pnrCos1081     100.00   -45.49    -2.60    -9.91       2.20
+pnrCos1082     100.00   -45.49    -3.54   -10.87       2.18
+pnrCos1083     100.00   -45.49    -2.35    -9.56       2.22
+pnrCos1084     100.00   -45.49    -2.92   -10.30       2.25
+pnrCos1085     100.00   -45.49    -4.22   -11.56       2.21
+pnrCos1086     100.00   -45.49    -2.95   -10.39       2.26
+pnrCos1087     100.00   -45.49    -6.01   -13.32       2.22
+pnrCos1088     100.00   -45.49    -4.78   -12.37       2.16
+pnrCos1089     100.00   -45.49    -3.40   -10.84       2.14
+pnrCos1090     100.00   -45.49    -7.86   -14.18       2.01
+pnrCos1091     100.00   -45.49    -9.20   -15.48       1.91
+pnrCos1092     100.00   -45.49    -7.87   -14.21       1.96
+pnrCos1093     100.00   -45.49    -6.29   -12.66       2.04
+pnrCos1094     100.00   -45.49    -5.85   -12.71       2.09
+pnrCos1095     100.00   -45.49    -5.79   -12.63       2.09
+pnrCos1096     100.00   -45.49    -6.59   -12.14       2.00
+pnrCos1097     100.00   -45.49    -7.13   -12.66       2.00
+pnrCos1098     100.00   -45.49    -6.63   -12.35       2.01
+pnrCos1099     100.00   -45.49    -6.47   -12.10       2.01
+pnrCos1100     100.00   -45.49    -6.56   -12.11       2.00
+pnrCos1101     100.00   -45.49    -5.21   -12.94       2.20
+pnrCos1102     100.00   -45.49    -7.45   -13.00       1.99
+pnrCos1103     100.00   -45.49    -5.72   -11.22       1.98
+pnrCos1104     100.00   -45.49    -9.07   -14.85       1.91
+pnrCos1105     100.00   -45.49    -7.99   -13.52       1.98
+pnrCos1106     100.00   -45.49    -8.95   -14.37       1.90
+pnrCos1107     100.00   -45.49    -8.72   -14.11       1.92
+pnrCos1108     100.00   -45.49    -8.20   -13.65       1.90
+pnrCos1109     100.00   -45.49    -8.70   -14.16       1.90
+pnrCos1110     100.00   -45.49    -5.40   -10.88       1.99
+pnrCos1111     100.00   -45.49    -5.33   -10.82       1.97
+pnrCos1112     100.00   -45.49    -4.63   -11.11       2.07
+pnrCos1113     100.00   -45.49    -3.79   -10.90       2.16
+pnrCos1114     100.00   -45.49    -4.69   -10.14       2.00
+pnrCos1115     100.00   -45.49    -4.30    -9.78       2.00
+pnrCos1116     100.00   -45.49    -3.94    -9.33       2.00
+pnrCos1117     100.00   -45.49    -4.20    -9.62       1.99
+pnrCos1118     100.00   -45.49    -3.55    -9.04       2.00
+pnrCos1119     100.00   -45.49    -3.90    -9.38       2.00
+pnrCos1120     100.00   -45.49    -4.41    -9.90       2.00
+pnrCos1121     100.00   -45.49    -4.83   -10.33       1.99
+pnrCos1122     100.00   -45.49    -4.22    -9.71       2.00
+pnrCos1123     100.00   -45.49    -6.40   -11.93       1.98
+pnrCos1124     100.00   -45.49    -5.51   -11.40       2.07
+pnrCos1125     100.00   -45.49    -5.90   -11.78       2.03
+pnrCos1126     100.00   -45.49    -4.26   -10.16       2.09
+pnrCos1127     100.00   -45.49    -3.83    -9.73       2.09
+pnrCos1128     100.00   -45.49    -4.72   -10.61       2.06
+pnrCos1129     100.00   -45.49    -4.75   -10.53       2.05
+pnrCos1130     100.00   -45.49    -4.04    -9.94       2.08
+pnrCos1131     100.00   -45.49    -3.05    -8.93       2.09
+pnrCos1132     100.00   -45.49    -3.22    -9.07       2.08
+pnrCos1133     100.00   -45.49    -4.34   -10.19       2.08
+pnrCos1134     100.00   -45.49    -4.38    -9.89       2.04
+pnrCos1135     100.00   -45.49    -3.81    -9.64       2.07
+pnrCos1136     100.00   -45.49    -3.43    -9.25       2.06
+pnrCos1137     100.00   -45.49    -3.10    -8.92       2.07
+pnrCos1138     100.00   -45.49    -4.82   -10.59       2.03
+pnrCos1139     100.00   -45.49    -4.64   -10.16       2.00
+pnrCos1140     100.00   -45.49    -4.69   -10.40       2.02
+pnrCos1141     100.00   -45.49    -2.92    -8.48       2.03
+pnrCos1142     100.00   -45.49    -4.47    -9.99       2.00
+pnrCos1143     100.00   -45.49    -5.07   -10.59       2.00
+pnrCos1144     100.00   -45.49    -3.48    -8.94       2.02
+pnrCos1145     100.00   -45.49    -2.86    -8.33       2.03
+pnrCos1146     100.00   -45.49    -2.52    -7.99       2.04
+pnrCos1147     100.00   -45.49    -2.44    -7.92       2.04
+pnrCos1148     100.00   -45.49    -2.24    -7.73       2.04
+pnrCos1149     100.00   -45.49    -2.02    -7.49       2.05
+pnrCos1150     100.00   -45.49    -2.76    -8.19       2.03
+pnrCos1151     100.00   -45.49    -1.54    -6.96       2.05
+pnrCos1152     100.00   -45.49    -3.05    -8.48       2.04
+pnrCos1153     100.00   -45.49    -2.61    -7.53       2.02
+pnrCos1154     100.00   -45.49    -3.00    -8.03       2.02
+pnrCos1155     100.00   -45.49    -2.90    -8.30       2.02
+pnrCos1156     100.00   -45.49    -3.70    -7.00       1.92
+pnrCos1157     100.00   -45.49    -1.83    -6.44       2.02
+pnrCos1158     100.00   -45.49    -2.20    -6.39       2.02
+pnrCos1159     100.00   -45.49    -2.63    -6.47       2.02
+pnrCos1160     100.00   -45.49    -4.55    -9.82       1.99
+pnrCos1161     100.00   -45.49    -4.65    -9.07       1.88
+pnrCos1162     100.00   -45.49    -5.01    -8.87       1.91
+pnrCos1163     100.00   -45.49    -4.80    -6.75       1.93
+pnrCos1164     100.00   -45.49    -5.02    -7.70       1.91
+pnrCos1165     100.00   -45.49    -4.29    -9.75       1.99
+pnrCos1166     100.00   -45.49    -6.02    -8.07       1.88
+pnrCos1167     100.00   -45.49    -4.30    -9.26       2.00
+pnrCos1168     100.00   -45.49    -4.81    -9.76       1.99
+pnrCos1169     100.00   -45.49    -4.47    -8.78       1.98
+pnrCos1170     100.00   -45.49    -5.10    -8.37       1.88
+pnrCos1171     100.00   -45.49    -4.75    -8.89       2.05
+pnrCos1172     100.00   -45.49    -4.33   -10.14       1.94
+pnrCos1173     100.00   -45.49    -3.91    -9.74       1.94
+pnrCos1174     100.00   -45.49    -2.63    -8.74       1.98
+pnrCos1175     100.00   -45.49    -2.55    -8.35       1.95
+pnrCos1176     100.00   -45.49    -2.57    -8.43       1.96
+pnrCos1177     100.00   -45.49    -4.21   -10.56       2.00
+pnrCos1178     100.00   -45.49    -2.74   -10.23       2.25
+pnrCos1179     100.00   -45.49    -2.71   -10.02       2.20
+pnrCos1180     100.00   -45.49    -1.95    -9.25       2.20
+pnrCos1181     100.00   -45.49    -2.19    -9.15       2.12
+pnrCos1182     100.00   -45.49    -1.99    -8.46       2.03
+pnrCos1183     100.00   -45.49    -1.85    -9.14       2.20
+pnrCos1184     100.00   -45.49    -1.96    -9.16       2.18
+pnrCos1185     100.00   -45.49    -1.85    -8.96       2.15
+pnrCos1186     100.00   -45.49    -1.95    -8.55       2.05
+pnrCos1187     100.00   -45.49    -2.85    -9.88       2.12
+pnrCos1188     100.00   -45.49    -2.60    -9.61       2.12
+pnrCos1189     100.00   -45.49    -2.38    -9.46       2.14
+pnrCos1190     100.00   -45.49    -2.48    -9.07       2.04
+pnrCos1191     100.00   -45.49    -2.13    -9.70       2.28
+pnrCos1192     100.00   -45.49    -1.85    -9.43       2.28
+pnrCos1193     100.00   -45.49    -2.21    -9.78       2.27
+pnrCos1194     100.00   -45.49    -4.03   -10.98       2.09
+pnrCos1195     100.00   -45.49    -4.45   -11.00       2.01
+pnrCos1196     100.00   -45.49    -4.94   -10.97       1.94
+pnrCos1197     100.00   -45.49    -6.93   -11.54       1.89
+pnrCos1198     100.00   -45.49    -7.15    -9.88       1.86
+pnrCos1199     100.00   -45.49    -7.02   -10.09       1.89
+pnrCos1200     100.00   -45.49    -7.23    -9.80       1.89
+pnrCos1201     100.00   -45.49    -7.10    -9.66       1.88
+pnrCos1202     100.00   -45.49    -7.17    -9.64       1.85
+pnrCos1203     100.00   -45.49    -5.31    -7.97       1.88
+pnrCos1204     100.00   -45.49    -5.02    -7.63       1.90
+pnrCos1205     100.00   -45.49    -3.00    -5.12       1.88
+pnrCos1206     100.00   -45.49    -2.74    -4.86       1.88
+pnrCos1207     100.00   -45.49    -3.07    -5.18       1.88
+pnrCos1208     100.00   -45.49    -3.25    -5.37       1.87
+pnrCos1209     100.00   -45.49    -1.87    -3.99       1.89
+pnrCos1210     100.00   -45.49    -2.53    -4.65       1.88
+pnrCos1211     100.00   -45.49    -2.27    -4.38       1.89
+pnrCos1212     100.00   -45.49    -2.51    -4.62       1.88
+pnrCos1213     100.00   -45.49    -3.59    -5.71       1.87
+pnrCos1214     100.00   -45.49    -4.74    -7.53       1.96
+pnrCos1215     100.00   -45.49    -3.75    -5.87       1.87
+pnrCos1216     100.00   -45.49    -5.13    -7.32       1.86
+pnrCos1217     100.00   -45.49    -3.50    -5.64       1.87
+pnrCos1218     100.00   -45.49    -3.78    -5.92       1.87
+pnrCos1219     100.00   -45.49    -3.90    -6.01       1.87
+pnrCos1220     100.00   -45.49    -6.56    -8.69       1.84
+pnrCos1221     100.00   -45.49    -5.67    -9.30       1.92
+pnrCos1222     100.00   -45.49    -4.81    -7.01       1.86
+pnrCos1223     100.00   -45.49    -5.64    -7.79       1.85
+pnrCos1224     100.00   -45.49    -4.90    -7.88       1.86
+pnrCos1225     100.00   -45.49    -3.98    -8.10       2.02
+pnrCos1226     100.00   -45.49    -3.42    -7.56       2.02
+pnrCos1227     100.00   -45.49    -3.72    -7.85       2.01
+pnrCos1228     100.00   -45.49    -3.11    -7.10       2.00
+pnrCos1229     100.00   -45.49    -3.19    -7.27       2.01
+pnrCos1230     100.00   -45.49    -3.47    -7.61       2.01
+pnrCos1231     100.00   -45.49    -3.93    -8.06       2.01
+pnrCos1232     100.00   -45.49    -4.27    -8.40       2.00
+pnrCos1233     100.00   -45.49    -3.44    -7.57       2.01
+pnrCos1234     100.00   -45.49    -5.26    -8.17       1.93
+pnrCos1235     100.00   -45.49    -3.25    -6.52       1.90
+pnrCos1236     100.00   -45.49    -3.95    -7.36       1.96
+pnrCos1237     100.00   -45.49    -3.91    -6.13       1.87
+pnrCos1238     100.00   -45.49    -4.48    -6.70       1.86
+pnrCos1239     100.00   -45.49    -4.65    -7.89       1.89
+pnrCos1240     100.00   -45.49    -5.82    -7.99       1.84
+pnrCos1241     100.00   -45.49    -4.23    -6.57       1.87
+pnrCos1242     100.00   -45.49    -4.10    -6.73       1.86
+pnrCos1243     100.00   -45.49    -4.22    -6.85       1.86
+pnrCos1244     100.00   -45.49    -3.38    -6.15       1.91
+pnrCos1245     100.00   -45.49    -5.24    -7.51       1.86
+pnrCos1246     100.00   -45.49    -3.86    -6.46       1.92
+pnrCos1247     100.00   -45.49    -6.83    -9.38       1.85
+pnrCos1248     100.00   -45.49    -6.56   -10.51       2.06
+pnrCos1249     100.00   -45.49    -5.73    -9.40       1.98
+pnrCos1250     100.00   -45.49    -6.24    -9.91       1.96
+pnrCos1251     100.00   -45.49    -6.55   -10.25       1.96
+pnrCos1252     100.00   -45.49    -5.23    -8.96       2.01
+pnrCos1253     100.00   -45.49    -3.58    -7.25       2.03
+pnrCos1254     100.00   -45.49    -4.55    -8.28       2.02
+pnrCos1255     100.00   -45.49    -4.41    -8.09       2.02
+pnrCos1256     100.00   -45.49    -4.20    -7.67       1.99
+pnrCos1257     100.00   -45.49    -2.87    -6.39       2.01
+pnrCos1258     100.00   -45.49    -2.04    -5.36       2.01
+pnrCos1259     100.00   -45.49    -3.01    -6.04       1.95
+pnrCos1260     100.00   -45.49    -2.94    -6.06       1.96
+pnrCos1261     100.00   -45.49    -2.69    -5.59       2.00
+pnrCos1262     100.00   -45.49    -4.34    -6.48       1.92
+pnrCos1263     100.00   -45.49    -2.91    -5.08       1.93
+pnrCos1264     100.00   -45.49    -2.46    -4.50       1.93
+pnrCos1265     100.00   -45.49    -2.35    -4.37       1.92
+pnrCos1266     100.00   -45.49    -2.61    -4.92       1.94
+pnrCos1267     100.00   -45.49    -2.34    -4.66       1.94
+pnrCos1268     100.00   -45.49    -2.76    -5.03       1.93
+pnrCos1269     100.00   -45.49    -2.61    -4.87       1.94
+pnrCos1270     100.00   -45.49    -2.16    -5.04       1.97
+pnrCos1271     100.00   -45.49    -2.08    -4.80       1.96
+pnrCos1272     100.00   -45.49    -1.91    -4.86       1.99
+pnrCos1273     100.00   -45.49    -2.55    -4.92       1.94
+pnrCos1274     100.00   -45.49    -2.57    -4.57       1.92
+pnrCos1275     100.00   -45.49    -1.64    -5.01       2.04
+pnrCos1276     100.00   -45.49    -1.90    -4.84       1.99
+pnrCos1277     100.00   -45.49    -2.50    -5.87       2.03
+pnrCos1278     100.00   -45.49    -1.87    -5.13       2.05
+pnrCos1279     100.00   -45.49    -1.70    -5.01       2.04
+pnrCos1280     100.00   -45.49    -1.67    -4.97       2.03
+pnrCos1281     100.00   -45.49    -2.68    -5.16       1.94
+pnrCos1282     100.00   -45.49    -1.50    -3.58       1.97
+pnrCos1283     100.00   -45.49    -1.93    -5.01       2.05
+pnrCos1284     100.00   -45.49    -2.40    -4.76       1.99
+pnrCos1285     100.00   -45.49    -1.71    -4.56       2.04
+pnrCos1286     100.00   -45.49    -2.24    -5.02       2.02
+pnrCos1287     100.00   -45.49    -1.74    -5.22       2.05
+pnrCos1288     100.00   -45.49    -1.62    -4.89       2.07
+pnrCos1289     100.00   -45.49    -1.47    -4.86       2.05
+pnrCos1290     100.00   -45.49    -2.11    -5.52       2.05
+pnrCos1291     100.00   -45.49    -1.93    -4.78       2.04
+pnrCos1292     100.00   -45.49    -3.03    -6.42       2.01
+pnrCos1293     100.00   -45.49    -2.57    -6.01       2.02
+pnrCos1294     100.00   -45.49    -2.67    -6.35       2.04
+pnrCos1295     100.00   -45.49    -1.92    -5.48       2.07
+pnrCos1296     100.00   -45.49    -2.48    -5.99       2.02
+pnrCos1297     100.00   -45.49    -2.10    -5.58       2.03
+pnrCos1298     100.00   -45.49    -2.04    -5.60       2.04
+pnrCos1299     100.00   -45.49    -2.69    -6.40       2.05
+pnrCos1300     100.00   -45.49    -3.48    -7.23       2.03
+pnrCos1301     100.00   -45.49    -3.09    -6.80       2.04
+pnrCos1302     100.00   -45.49    -5.30    -9.17       2.03
+pnrCos1303     100.00   -45.49    -4.48    -8.35       2.03
+pnrCos1304     100.00   -45.49    -5.24    -9.09       2.02
+pnrCos1305     100.00   -45.49    -5.58    -8.23       1.88
+pnrCos1306     100.00   -45.49    -4.36    -7.99       1.99
+pnrCos1307     100.00   -45.49    -4.91    -7.45       1.98
+pnrCos1308     100.00   -45.49    -4.20    -6.20       1.99
+pnrCos1309     100.00   -45.49    -3.95    -5.95       1.99
+pnrCos1310     100.00   -45.49    -3.21    -5.30       2.04
+pnrCos1311     100.00   -45.49    -2.01    -4.15       2.05
+pnrCos1312     100.00   -45.49    -2.76    -4.85       2.03
+pnrCos1313     100.00   -45.49    -2.20    -4.47       2.02
+pnrCos1314     100.00   -45.49    -1.97    -4.57       2.03
+pnrCos1315     100.00   -45.49    -3.00    -5.54       2.01
+pnrCos1316     100.00   -45.49    -3.38    -5.94       2.00
+pnrCos1317     100.00   -45.49    -1.70    -3.68       1.92
+pnrCos1318     100.00   -45.49    -2.10    -4.09       1.92
+pnrCos1319     100.00   -45.49    -2.71    -4.69       1.92
+pnrCos1320     100.00   -45.49    -2.85    -4.84       1.91
+pnrCos1321     100.00   -45.49    -2.42    -4.41       1.91
+pnrCos1322     100.00   -45.49    -2.29    -4.27       1.92
+pnrCos1323     100.00   -45.49    -2.13    -4.11       1.92
+pnrCos1324     100.00   -45.49    -2.15    -4.13       1.92
+pnrCos1325     100.00   -45.49    -2.33    -4.31       1.92
+pnrCos1326     100.00   -45.49    -2.94    -4.92       1.91
+pnrCos1327     100.00   -45.49    -3.62    -5.60       1.90
+pnrCos1328     100.00   -45.49    -4.11    -6.09       1.89
+pnrCos1329     100.00   -45.49    -2.69    -4.67       1.91
+pnrCos1330     100.00   -45.49    -1.45    -3.43       1.93
+pnrCos1331     100.00   -45.49    -1.30    -3.28       1.93
+pnrCos1332     100.00   -45.49    -1.89    -3.87       1.92
+pnrCos1333     100.00   -45.49    -1.72    -3.71       1.92
+pnrCos1334     100.00   -45.49    -2.76    -4.75       1.91
+pnrCos1335     100.00   -45.49    -2.95    -4.93       1.91
+pnrCos1336     100.00   -45.49    -2.18    -4.16       1.92
+pnrCos1337     100.00   -45.49    -2.09    -4.07       1.92
+pnrCos1338     100.00   -45.49    -2.53    -4.53       1.92
+pnrCos1339     100.00   -45.49    -2.53    -4.52       1.92
+pnrCos1340     100.00   -45.49    -2.11    -4.10       1.92
+pnrCos1341     100.00   -45.49    -2.01    -4.01       1.92
+pnrCos1342     100.00   -45.49    -1.45    -3.44       1.93
+pnrCos1343     100.00   -45.49    -1.18    -3.17       1.93
+pnrCos1344     100.00   -45.49    -1.50    -3.49       1.93
+pnrCos1345     100.00   -45.49    -1.18    -3.17       1.93
+pnrCos1346     100.00   -45.49    -1.50    -3.49       1.93
+pnrCos1347     100.00   -45.49    -1.09    -3.07       1.93
+pnrCos1348     100.00   -45.49    -1.13    -3.12       1.93
+pnrCos1349     100.00   -45.49    -1.60    -3.68       1.96
+pnrCos1350     100.00   -45.49    -1.47    -3.50       1.94
+pnrCos1351     100.00   -45.49    -1.07    -3.14       1.97
+pnrCos1352     100.00   -45.49    -1.27    -3.36       1.97
+pnrCos1353     100.00   -45.49     -.75    -2.82       1.98
+pnrCos1354     100.00   -45.49    -1.10    -3.18       1.97
+pnrCos1355     100.00   -45.49    -1.30    -3.37       1.97
+pnrCos1356     100.00   -45.49    -1.97    -4.00       1.93
+pnrCos1357     100.00   -45.49    -1.35    -3.42       1.97
+pnrCos1358     100.00   -45.49    -1.68    -3.75       1.97
+pnrCos1359     100.00   -45.49     -.65    -2.71       1.98
+pnrCos1360     100.00   -45.49    -3.50    -5.52       1.91
+pnrCos1361     100.00   -45.49    -2.70    -4.89       2.01
+pnrCos1362     100.00   -45.49    -2.41    -4.40       1.91
+pnrCos1363     100.00   -45.49    -2.63    -4.62       1.91
+pnrCos1364     100.00   -45.49    -3.02    -5.00       1.91
+pnrCos1365     100.00   -45.49    -1.78    -3.78       1.92
+pnrCos1366     100.00   -45.49    -1.28    -3.27       1.93
+pnrCos1367     100.00   -45.49    -1.15    -3.13       1.93
+pnrCos1368     100.00   -45.49    -1.15    -3.14       1.93
+pnrCos1369     100.00   -45.49     -.77    -2.76       1.93
+pnrCos1370     100.00   -45.49     -.70    -2.69       1.93
+pnrCos1371     100.00   -45.49     -.74    -2.72       1.93
+pnrCos1372     100.00   -45.49     -.78    -2.76       1.93
+pnrCos1373     100.00   -45.49     -.71    -2.70       1.93
+pnrCos1374     100.00   -45.49     -.85    -2.84       1.93
+pnrCos1375     100.00   -45.49    -1.70    -4.95       2.00
+pnrCos1376     100.00   -45.49    -1.84    -4.99       2.00
+pnrCos1377     100.00   -45.49    -1.57    -4.52       2.00
+pnrCos1378     100.00   -45.49    -1.34    -4.44       2.01
+pnrCos1379     100.00   -45.49    -1.64    -4.51       2.00
+pnrCos1380     100.00   -45.49    -1.64    -4.57       2.00
+pnrCos1381     100.00   -45.49    -1.66    -4.51       2.00
+pnrCos1382     100.00   -45.49    -1.28    -4.12       2.01
+pnrCos1383     100.00   -45.49    -1.26    -4.14       2.01
+pnrCos1384     100.00   -45.49    -1.50    -4.38       2.00
+pnrCos1385     100.00   -45.49    -1.96    -4.60       1.99
+pnrCos1386     100.00   -45.49    -1.76    -4.61       2.00
+pnrCos1387     100.00   -45.49    -2.03    -4.88       1.99
+pnrCos1388     100.00   -45.49    -2.10    -4.71       1.99
+pnrCos1389     100.00   -45.49    -1.51    -4.42       2.01
+pnrCos1390     100.00   -45.49    -1.48    -4.33       2.00
+pnrCos1391     100.00   -45.49    -1.39    -4.29       2.01
+pnrCos1392     100.00   -45.49    -1.07    -3.92       2.01
+pnrCos1393     100.00   -45.49    -1.07    -3.80       2.01
+pnrCos1394     100.00   -45.49    -1.06    -3.85       2.01
+pnrCos1395     100.00   -45.49    -1.20    -4.03       2.01
+pnrCos1396     100.00   -45.49    -1.62    -4.45       2.00
+pnrCos1397     100.00   -45.49    -1.63    -4.46       2.00
+pnrCos1398     100.00   -45.49    -1.42    -4.26       2.00
+pnrCos1399     100.00   -45.49    -1.58    -4.46       2.00
+pnrCos1400     100.00   -45.49    -2.21    -4.90       1.99
+pnrCos1401     100.00   -45.49    -1.58    -4.22       2.00
+pnrCos1402     100.00   -45.49    -1.37    -4.06       2.00
+pnrCos1403     100.00   -45.49    -2.15    -4.83       1.99
+pnrCos1404     100.00   -45.49    -1.99    -4.77       2.00
+pnrCos1405     100.00   -45.49    -1.80    -4.57       2.00
+pnrCos1406     100.00   -45.49    -2.23    -4.91       1.99
+pnrCos1407     100.00   -45.49    -1.86    -4.53       2.00
+pnrCos1408     100.00   -45.49    -3.02    -5.83       1.98
+pnrCos1409     100.00   -45.49    -2.48    -5.48       1.99
+pnrCos1410     100.00   -45.49    -2.97    -6.26       1.99
+pnrCos1411     100.00   -45.49    -2.75    -5.81       1.97
+pnrCos1412     100.00   -45.49    -2.00    -4.86       1.99
+pnrCos1413     100.00   -45.49    -1.96    -5.03       1.99
+pnrCos1414     100.00   -45.49    -2.25    -5.26       1.98
+pnrCos1415     100.00   -45.49    -2.90    -4.94       1.96
+pnrCos1416     100.00   -45.49    -2.47    -4.56       1.97
+pnrCos1417     100.00   -45.49    -3.01    -5.05       1.98
+pnrCos1418     100.00   -45.49    -4.02    -5.98       1.99
+pnrCos1419     100.00   -45.49    -3.71    -5.68       1.99
+pnrCos1420     100.00   -45.49    -3.63    -5.75       1.98
+pnrCos1421     100.00   -45.49    -2.33    -5.22       1.97
+pnrCos1422     100.00   -45.49    -2.75    -5.69       1.98
+pnrCos1423     100.00   -45.49    -2.35    -5.26       1.99
+pnrCos1424     100.00   -45.49    -3.21    -5.95       2.01
+pnrCos1425     100.00   -45.49    -2.97    -5.90       2.01
+pnrCos1426     100.00   -45.49    -2.47    -5.07       1.99
+pnrCos1427     100.00   -45.49    -1.55    -4.01       1.99
+pnrCos1428     100.00   -45.49    -2.10    -4.71       1.99
+pnrCos1429     100.00   -45.49    -1.59    -4.09       1.99
+pnrCos1430     100.00   -45.49    -1.71    -4.37       2.00
+pnrCos1431     100.00   -45.49    -1.59    -4.02       1.99
+pnrCos1432     100.00   -45.49    -1.49    -3.94       1.99
+pnrCos1433     100.00   -45.49    -2.57    -5.46       2.01
+pnrCos1434     100.00   -45.49    -1.84    -4.34       1.99
+pnrCos1435     100.00   -45.49    -2.14    -5.02       1.99
+pnrCos1436     100.00   -45.49    -2.92    -5.80       1.99
+pnrCos1437     100.00   -45.49    -2.13    -5.01       2.00
+pnrCos1438     100.00   -45.49    -4.36    -7.12       2.46
+pnrCos1439     100.00   -45.49    -2.58    -5.34       2.47
+pnrCos1440     100.00   -45.49    -2.49    -5.24       2.45
+pnrCos1441     100.00   -45.49    -2.97    -5.72       2.45
+pnrCos1442     100.00   -45.49    -3.37    -6.12       2.45
+pnrCos1443     100.00   -45.49    -2.53    -5.28       2.45
+pnrCos1444     100.00   -45.49    -2.11    -4.86       2.47
+pnrCos1445     100.00   -45.49    -2.55    -5.33       2.37
+pnrCos1446     100.00   -45.49    -3.12    -5.93       2.38
+pnrCos1447     100.00   -45.49    -3.55    -6.41       2.38
+pnrCos1448     100.00   -45.49    -7.14   -10.49       2.21
+pnrCos1449     100.00   -45.49    -4.00    -7.37       2.23
+pnrCos1450     100.00   -45.49    -2.98    -6.79       2.26
+pnrCos1451     100.00   -45.49    -3.27    -7.09       2.26
+pnrCos1452     100.00   -45.49    -3.85    -7.67       2.26
+pnrCos1453     100.00   -45.49    -3.69    -7.51       2.26
+pnrCos1454     100.00   -45.49    -3.26    -7.07       2.26
+pnrCos1455     100.00   -45.49    -2.89    -6.70       2.26
+pnrCos1456     100.00   -45.49    -2.07    -6.29       2.24
+pnrCos1457     100.00   -45.49    -2.92    -7.19       2.24
+pnrCos1458     100.00   -45.49    -3.03    -7.33       2.24
+pnrCos1459     100.00   -45.49    -4.58    -9.10       2.24
+pnrCos1460     100.00   -45.49    -4.69    -9.21       2.24
+pnrCos1461     100.00   -45.49    -5.35    -9.87       2.24
+pnrCos1462     100.00   -45.49   -11.68   -16.35       2.21
+pnrCos1463     100.00   -45.49    -8.80   -13.53       2.24
+pnrCos1464     100.00   -45.49    -5.09    -9.56       2.23
+pnrCos1465     100.00   -45.49    -5.17    -9.64       2.23
+pnrCos1466     100.00   -45.49    -2.74    -7.00       2.27
+pnrCos1467     100.00   -45.49    -2.46    -6.70       2.27
+pnrCos1468     100.00   -45.49    -3.96    -8.01       2.25
+pnrCos1469     100.00   -45.49    -4.10    -8.40       2.22
+pnrCos1470     100.00   -45.49    -3.82    -7.99       2.14
+pnrCos1471     100.00   -45.49    -3.29    -7.41       2.27
+pnrCos1472     100.00   -45.49    -2.34    -6.57       2.28
+pnrCos1473     100.00   -45.49    -2.92    -6.67       2.24
+pnrCos1474     100.00   -45.49    -2.91    -6.86       2.27
+pnrCos1475     100.00   -45.49    -2.46    -6.21       2.25
+pnrCos1476     100.00   -45.49    -2.24    -6.00       2.25
+pnrCos1477     100.00   -45.49    -2.16    -5.98       2.26
+pnrCos1478     100.00   -45.49    -1.56    -5.53       2.28
+pnrCos1479     100.00   -45.49    -1.69    -5.92       2.27
+pnrCos1480     100.00   -45.49    -2.17    -6.38       2.25
+pnrCos1481     100.00   -45.49    -1.71    -5.93       2.25
+pnrCos1482     100.00   -45.49    -1.52    -5.37       2.27
+pnrCos1483     100.00   -45.49    -1.38    -5.46       2.28
+pnrCos1484     100.00   -45.49    -1.48    -5.70       2.26
+pnrCos1485     100.00   -45.49    -1.66    -5.88       2.24
+pnrCos1486     100.00   -45.49    -3.12    -6.93       2.25
+pnrCos1487     100.00   -45.49    -2.09    -5.86       2.26
+pnrCos1488     100.00   -45.49    -2.23    -6.00       2.26
+pnrCos1489     100.00   -45.49    -2.43    -5.59       2.25
+pnrCos1490     100.00   -45.49    -2.21    -5.57       2.25
+pnrCos1491     100.00   -45.49    -4.60    -8.18       2.21
+pnrCos1492     100.00   -45.49    -4.45    -7.16       2.38
+pnrCos1493     100.00   -45.49    -5.95    -8.59       2.28
+pnrCos1494     100.00   -45.49    -4.78    -9.48       2.06
+pnrCos1495     100.00   -45.49    -5.14    -9.66       2.04
+pnrCos1496     100.00   -45.49    -6.30    -8.39       2.00
+pnrCos1497     100.00   -45.49    -5.87    -8.32       1.98
+pnrCos1498     100.00   -45.49    -2.87    -5.48       2.02
+pnrCos1499     100.00   -45.49    -3.18    -5.80       2.04
+pnrCos1500     100.00   -45.49    -3.09    -5.32       2.05
+pnrCos1501     100.00   -45.49    -3.14    -6.60       2.03
+pnrCos1502     100.00   -45.49    -2.75    -7.06       2.02
+pnrCos1503     100.00   -45.49    -4.60    -9.52       2.14
+pnrCos1504     100.00   -45.49    -5.38    -9.94       2.12
+pnrCos1505     100.00   -45.49    -3.19    -8.52       2.16
+pnrCos1506     100.00   -45.49    -4.69    -9.91       2.09
+pnrCos1507     100.00   -45.49    -5.16   -10.37       2.09
+pnrCos1508     100.00   -45.49    -3.29    -8.39       2.07
+pnrCos1509     100.00   -45.49    -4.37    -9.55       2.08
+pnrCos1510     100.00   -45.49    -1.75    -6.85       2.09
+pnrCos1511     100.00   -45.49    -1.33    -6.49       2.10
+pnrCos1512     100.00   -45.49    -1.85    -6.98       2.09
+pnrCos1513     100.00   -45.49    -1.50    -6.29       2.04
+pnrCos1514     100.00   -45.49    -1.25    -6.28       2.08
+pnrCos1515     100.00   -45.49    -1.19    -6.35       2.10
+pnrCos1516     100.00   -45.49    -1.76    -6.29       2.01
+pnrCos1517     100.00   -45.49    -1.67    -6.47       2.05
+pnrCos1518     100.00   -45.49    -2.38    -6.43       1.95
+pnrCos1519     100.00   -45.49    -2.98    -7.39       1.99
+pnrCos1520     100.00   -45.49    -3.50    -5.50       1.90
+pnrCos1521     100.00   -45.49    -3.80    -6.38       1.90
+pnrCos1522     100.00   -45.49    -4.20    -6.45       1.90
+pnrCos1523     100.00   -45.49    -3.87    -5.86       1.90
+pnrCos1524     100.00   -45.49    -2.59    -5.08       1.92
+pnrCos1525     100.00   -45.49    -3.23    -5.94       1.91
+pnrCos1526     100.00   -45.49    -4.65    -6.63       1.89
+pnrCos1527     100.00   -45.49    -4.02    -6.50       1.90
+pnrCos1528     100.00   -45.49    -2.97    -7.01       1.95
+pnrCos1529     100.00   -45.49    -2.59    -6.93       1.97
+pnrCos1530     100.00   -45.49    -2.17    -7.28       2.08
+pnrCos1531     100.00   -45.49    -2.14    -7.31       2.08
+pnrCos1532     100.00   -45.49    -2.45    -7.53       2.07
+pnrCos1533     100.00   -45.49    -2.89    -8.03       2.07
+pnrCos1534     100.00   -45.49    -3.01    -8.24       2.09
+pnrCos1535     100.00   -45.49    -5.00   -10.74       2.23
+pnrCos1536     100.00   -45.49    -5.30   -10.74       2.08
+pnrCos1537     100.00   -45.49    -5.13   -10.50       2.09
+pnrCos1538     100.00   -45.49    -7.48   -10.64       1.88
+pnrCos1539     100.00   -45.49    -7.15   -11.28       1.96
+pnrCos1540     100.00   -45.49    -5.89   -11.16       2.06
+pnrCos1541     100.00   -45.49    -4.95   -10.14       2.06
+pnrCos1542     100.00   -45.49    -8.22   -12.74       1.91
+pnrCos1543     100.00   -45.49    -6.90   -11.46       1.93
+pnrCos1544     100.00   -45.49    -5.97   -11.06       2.01
+pnrCos1545     100.00   -45.49    -5.06    -8.23       1.95
+pnrCos1546     100.00   -45.49    -6.15    -9.26       1.90
+pnrCos1547     100.00   -45.49    -6.48    -9.29       1.86
+pnrCos1548     100.00   -45.49    -6.72    -9.89       1.89
+pnrCos1549     100.00   -45.49    -3.61    -7.17       2.00
+pnrCos1550     100.00   -45.49    -4.71    -9.56       1.97
+pnrCos1551     100.00   -45.49    -3.51    -8.60       1.99
+pnrCos1552     100.00   -45.49    -2.47    -7.08       2.00
+pnrCos1553     100.00   -45.49    -2.04    -6.58       2.00
+pnrCos1554     100.00   -45.49    -2.48    -7.19       1.99
+pnrCos1555     100.00   -45.49    -2.70    -7.47       1.99
+pnrCos1556     100.00   -45.49    -2.55    -7.23       2.01
+pnrCos1557     100.00   -45.49    -3.35    -8.07       2.01
+pnrCos1558     100.00   -45.49    -3.09    -7.76       2.00
+pnrCos1559     100.00   -45.49    -2.24    -5.95       1.99
+pnrCos1560     100.00   -45.49    -2.24    -6.53       2.00
+pnrCos1561     100.00   -45.49    -2.00    -6.42       2.02
+pnrCos1562     100.00   -45.49    -1.93    -5.84       2.00
+pnrCos1563     100.00   -45.49    -3.35    -6.17       1.97
+pnrCos1564     100.00   -45.49    -3.95    -6.77       1.96
+pnrCos1565     100.00   -45.49    -3.54    -6.49       1.98
+pnrCos1566     100.00   -45.49    -3.10    -6.84       2.00
+pnrCos1567     100.00   -45.49    -2.97    -6.87       2.00
+pnrCos1568     100.00   -45.49    -3.36    -7.89       2.01
+pnrCos1569     100.00   -45.49    -6.64   -11.47       1.99
+pnrCos1570     100.00   -45.49    -7.85   -13.05       1.94
+pnrCos1571     100.00   -45.49    -8.33   -13.55       1.94
+pnrCos1572     100.00   -45.49   -10.03   -14.89       1.92
+pnrCos1573     100.00   -45.49    -7.00   -12.63       1.95
+pnrCos1574     100.00   -45.49    -5.92   -10.72       1.99
+pnrCos1575     100.00   -45.49    -4.46    -9.51       1.97
+pnrCos1576     100.00   -45.49    -4.76   -10.20       1.98
+pnrCos1577     100.00   -45.49    -5.57   -11.05       1.97
+pnrCos1578     100.00   -45.49    -7.16   -11.26       1.96
+pnrCos1579     100.00   -45.49    -7.70   -10.56       1.94
+pnrCos1580     100.00   -45.49    -5.48    -8.94       1.98
+pnrCos1581     100.00   -45.49    -5.87    -8.14       1.94
+pnrCos1582     100.00   -45.49    -4.91    -9.03       2.00
+pnrCos1583     100.00   -45.49    -3.76    -7.97       2.02
+pnrCos1584     100.00   -45.49    -4.53    -8.74       2.01
+pnrCos1585     100.00   -45.49    -3.90    -8.06       2.02
+pnrCos1586     100.00   -45.49    -3.47    -7.63       2.02
+pnrCos1587     100.00   -45.49    -5.97   -10.18       1.99
+pnrCos1588     100.00   -45.49    -7.08   -10.90       2.00
+pnrCos1589     100.00   -45.49    -8.42   -12.63       1.97
+pnrCos1590     100.00   -45.49    -8.30   -12.54       2.07
+pnrCos1591     100.00   -45.49    -8.30   -13.17       2.01
+pnrCos1592     100.00   -45.49    -8.70   -12.97       2.05
+pnrCos1593     100.00   -45.49    -7.83   -13.15       1.98
+pnrCos1594     100.00   -45.49    -6.25   -11.38       1.98
+pnrCos1595     100.00   -45.49    -6.49   -11.81       1.99
+pnrCos1596     100.00   -45.49   -12.03   -15.82       1.91
+pnrCos1597     100.00   -45.49   -10.88   -14.69       1.92
+pnrCos1598     100.00   -45.49   -10.51   -14.35       1.93
+pnrCos1599     100.00   -45.49    -8.15   -12.00       1.96
+pnrCos1600     100.00   -45.49    -6.51    -9.85       1.94
+pnrCos1601     100.00   -45.49    -7.36   -10.90       1.97
+pnrCos1602     100.00   -45.49    -5.53    -8.63       1.96
+pnrCos1603     100.00   -45.49   -10.99   -14.83       1.93
+pnrCos1604     100.00   -45.49   -11.63   -14.49       1.84
+pnrCos1605     100.00   -45.49   -11.99   -14.58       1.96
+pnrCos1606     100.00   -45.49   -14.64   -17.44       1.92
+pnrCos1607     100.00   -45.49   -11.68   -14.48       1.83
+pnrCos1608     100.00   -45.49    -6.81    -9.87       1.97
+pnrCos1609     100.00   -45.49    -8.25   -10.99       1.99
+pnrCos1610     100.00   -45.49    -8.35   -11.09       1.99
+pnrCos1611     100.00   -45.49   -10.27   -15.44       2.04
+pnrCos1612     100.00   -45.49    -8.11   -12.12       1.98
+pnrCos1613     100.00   -45.49   -10.26   -14.85       1.96
+pnrCos1614     100.00   -45.49    -7.34   -12.32       1.97
+pnrCos1615     100.00   -45.49    -8.07   -13.13       1.99
+pnrCos1616     100.00   -45.49    -4.67    -8.62       1.99
+pnrCos1617     100.00   -45.49    -2.56    -5.47       2.02
+pnrCos1618     100.00   -45.49    -2.98    -5.89       2.02
+pnrCos1619     100.00   -45.49    -2.85    -5.76       2.02
+pnrCos1620     100.00   -45.49    -2.21    -5.12       2.03
+pnrCos1621     100.00   -45.49    -2.48    -5.38       2.02
+pnrCos1622     100.00   -45.49    -2.20    -5.11       2.02
+pnrCos1623     100.00   -45.49    -2.74    -5.64       2.02
+pnrCos1624     100.00   -45.49    -3.04    -5.94       2.02
+pnrCos1625     100.00   -45.49    -2.65    -5.55       2.02
+pnrCos1626     100.00   -45.49    -3.05    -5.96       2.01
+pnrCos1627     100.00   -45.49    -2.64    -5.56       2.02
+pnrCos1628     100.00   -45.49    -2.55    -5.46       2.02
+pnrCos1629     100.00   -45.49    -2.14    -5.06       2.03
+pnrCos1630     100.00   -45.49    -3.16    -6.06       2.01
+pnrCos1631     100.00   -45.49    -3.06    -5.96       2.01
+pnrCos1632     100.00   -45.49    -3.12    -6.03       2.01
+pnrCos1633     100.00   -45.49    -3.21    -6.11       2.02
+pnrCos1634     100.00   -45.49    -2.90    -5.81       2.02
+pnrCos1635     100.00   -45.49    -2.46    -5.37       2.02
+pnrCos1636     100.00   -45.49    -2.31    -5.22       2.02
+pnrCos1637     100.00   -45.49    -4.37    -7.29       2.01
+pnrCos1638     100.00   -45.49    -4.59    -7.52       2.01
+pnrCos1639     100.00   -45.49    -3.61    -6.51       2.01
+pnrCos1640     100.00   -45.49    -3.54    -6.44       2.01
+pnrCos1641     100.00   -45.49    -5.29    -8.82       2.02
+pnrCos1642     100.00   -45.49    -4.51    -7.84       2.02
+pnrCos1643     100.00   -45.49    -4.48    -7.99       2.02
+pnrCos1644     100.00   -45.49    -3.50    -6.47       2.02
+pnrCos1645     100.00   -45.49    -3.46    -6.45       2.02
+pnrCos1646     100.00   -45.49    -3.92    -6.83       2.01
+pnrCos1647     100.00   -45.49    -3.01    -5.91       2.02
+pnrCos1648     100.00   -45.49    -2.97    -5.87       2.02
+pnrCos1649     100.00   -45.49    -2.92    -5.83       2.02
+pnrCos1650     100.00   -45.49    -2.95    -5.85       2.02
+pnrCos1651     100.00   -45.49    -3.98    -7.28       2.02
+pnrCos1652     100.00   -45.49    -3.55    -7.06       2.03
+pnrCos1653     100.00   -45.49    -3.12    -6.52       2.03
+pnrCos1654     100.00   -45.49    -2.89    -6.10       2.03
+pnrCos1655     100.00   -45.49    -3.52    -6.42       2.02
+pnrCos1656     100.00   -45.49    -2.86    -5.99       2.02
+pnrCos1657     100.00   -45.49    -3.04    -6.35       2.03
+pnrCos1658     100.00   -45.49    -3.73    -7.05       2.02
+pnrCos1659     100.00   -45.49    -3.43    -6.77       2.02
+pnrCos1660     100.00   -45.49    -3.35    -6.44       2.01
+pnrCos1661     100.00   -45.49    -4.55    -7.67       1.99
+pnrCos1662     100.00   -45.49    -3.79    -7.30       2.02
+pnrCos1663     100.00   -45.49    -4.41    -7.93       2.01
+pnrCos1664     100.00   -45.49    -5.02    -8.50       1.91
+pnrCos1665     100.00   -45.49    -3.28    -6.71       1.94
+pnrCos1666     100.00   -45.49    -3.59    -6.82       1.93
+pnrCos1667     100.00   -45.49    -4.28    -7.28       1.92
+pnrCos1668     100.00   -45.49    -3.72    -7.27       1.93
+pnrCos1669     100.00   -45.49    -3.88    -7.46       1.89
+pnrCos1670     100.00   -45.49    -3.64    -7.10       1.89
+pnrCos1671     100.00   -45.49    -3.71    -7.37       1.93
+pnrCos1672     100.00   -45.49    -3.98    -7.63       1.92
+pnrCos1673     100.00   -45.49    -3.98    -7.61       1.88
+pnrCos1674     100.00   -45.49    -3.23    -6.09       2.00
+pnrCos1675     100.00   -45.49    -3.12    -6.05       1.93
+pnrCos1676     100.00   -45.49    -3.42    -6.83       1.90
+pnrCos1677     100.00   -45.49    -4.01    -6.77       1.89
+pnrCos1678     100.00   -45.49    -4.42    -7.45       1.88
+pnrCos1679     100.00   -45.49    -3.87    -6.69       1.99
+pnrCos1680     100.00   -45.49    -3.97    -6.61       1.93
+pnrCos1681     100.00   -45.49    -3.54    -6.38       2.00
+pnrCos1682     100.00   -45.49    -5.13    -7.82       1.92
+pnrCos1683     100.00   -45.49    -4.21    -7.12       2.00
+pnrCos1684     100.00   -45.49    -4.02    -6.92       2.01
+pnrCos1685     100.00   -45.49    -3.57    -6.48       2.01
+pnrCos1686     100.00   -45.49    -3.47    -6.38       2.01
+pnrCos1687     100.00   -45.49    -5.43    -8.36       2.00
+pnrCos1688     100.00   -45.49    -4.67    -7.59       2.00
+pnrCos1689     100.00   -45.49    -6.22    -9.06       1.97
+pnrCos1690     100.00   -45.49    -5.84    -8.64       1.97
+pnrCos1691     100.00   -45.49   -13.91   -16.60       1.91
+pnrCos1692     100.00   -45.49   -12.48   -17.18       1.97
+pnrCos1693     100.00   -45.49    -9.86   -13.47       1.97
+pnrCos1694     100.00   -45.49    -9.01   -14.12       2.00
+pnrCos1695     100.00   -45.49   -10.71   -16.20       1.99
+pnrCos1696     100.00   -45.49    -5.96   -12.49       1.98
+pnrCos1697     100.00   -45.49    -4.26   -11.99       2.17
+pnrCos1698     100.00   -45.49    -5.75   -10.77       1.85
+pnrCos1699     100.00   -45.49    -7.97   -10.66       1.89
+pnrCos1700     100.00   -45.49    -6.31    -9.00       1.91
+pnrCos1701     100.00   -45.49    -6.52    -9.21       1.91
+pnrCos1702     100.00   -45.49    -3.98    -8.04       1.88
+pnrCos1703     100.00   -45.49    -5.21    -9.20       1.86
+pnrCos1704     100.00   -45.49    -7.82   -11.58       1.83
+pnrCos1705     100.00   -45.49    -6.30   -10.20       1.85
+pnrCos1706     100.00   -45.49    -5.86   -10.58       1.85
+pnrCos1707     100.00   -45.49    -7.70   -11.86       1.83
+pnrCos1708     100.00   -45.49    -5.04    -8.68       1.87
+pnrCos1709     100.00   -45.49    -4.53    -7.95       1.92
+pnrCos1710     100.00   -45.49    -6.03    -9.55       1.98
+pnrCos1711     100.00   -45.49    -4.75    -8.40       2.02
+pnrCos1712     100.00   -45.49    -4.22    -7.66       2.01
+pnrCos1713     100.00   -45.49    -3.97    -7.41       2.02
+pnrCos1714     100.00   -45.49    -5.16    -8.68       1.99
+pnrCos1715     100.00   -45.49    -7.15   -10.41       1.89
+pnrCos1716     100.00   -45.49    -4.38    -7.45       2.01
+pnrCos1717     100.00   -45.49    -4.33    -7.43       2.01
+pnrCos1718     100.00   -45.49    -3.91    -6.38       1.92
+pnrCos1719     100.00   -45.49    -3.77    -6.38       1.92
+pnrCos1720     100.00   -45.49    -8.51   -11.16       1.88
+pnrCos1721     100.00   -45.49    -4.35    -6.82       1.91
+pnrCos1722     100.00   -45.49    -4.68    -7.61       2.00
+pnrCos1723     100.00   -45.49    -6.57    -9.66       2.03
+pnrCos1724     100.00   -45.49    -5.98    -9.06       2.02
+pnrCos1725     100.00   -45.49    -6.79    -9.88       2.02
+pnrCos1726     100.00   -45.49    -7.21   -10.24       2.01
+pnrCos1727     100.00   -45.49    -7.96   -10.95       2.01
+pnrCos1728     100.00   -45.49    -7.95   -11.71       2.02
+pnrCos1729     100.00   -45.49   -11.71   -15.65       1.98
+pnrCos1730     100.00   -45.49    -8.83   -12.78       2.00
+pnrCos1731     100.00   -45.49    -4.69    -7.60       2.00
+pnrCos1732     100.00   -45.49    -6.18    -9.12       2.00
+pnrCos1733     100.00   -45.49    -6.24   -10.12       2.02
+pnrCos1734     100.00   -45.49    -5.58    -9.41       2.02
+pnrCos1735     100.00   -45.49    -5.91    -8.90       2.01
+pnrCos1736     100.00   -45.49    -4.70    -8.32       2.03
+pnrCos1737     100.00   -45.49    -6.01    -9.84       2.02
+pnrCos1738     100.00   -45.49    -6.78   -10.49       2.01
+pnrCos1739     100.00   -45.49    -4.77    -8.10       2.02
+pnrCos1740     100.00   -45.49    -5.20    -8.93       2.02
+pnrCos1741     100.00   -45.49    -7.79   -11.86       2.03
+pnrCos1742     100.00   -45.49    -8.53   -12.57       2.05
+pnrCos1743     100.00   -45.49    -9.47   -13.55       2.01
+pnrCos1744     100.00   -45.49    -7.67   -13.67       2.29
+pnrCos1745     100.00   -45.49    -7.61   -13.78       2.34
+pnrCos1746     100.00   -45.49   -10.96   -16.69       2.18
+pnrCos1747     100.00   -45.49    -9.02   -14.44       2.13
+pnrCos1748     100.00   -45.49   -11.26   -16.51       2.09
+pnrCos1749     100.00   -45.49   -10.18   -13.92       1.99
+pnrCos1750     100.00   -45.49   -11.29   -15.03       1.92
+pnrCos1751     100.00   -45.49   -10.24   -13.76       1.91
+pnrCos1752     100.00   -45.49   -11.95   -15.37       1.87
+pnrCos1753     100.00   -45.49    -7.83   -10.51       1.90
+pnrCos1754     100.00   -45.49    -8.37   -13.00       2.24
+pnrCos1755     100.00   -45.49    -7.34   -12.05       2.12
+pnrCos1756     100.00   -45.49    -8.69   -14.63       2.13
+pnrCos1757     100.00   -45.49    -7.36   -11.82       2.14
+pnrCos1758     100.00   -45.49    -4.57    -8.98       2.28
+pnrCos1759     100.00   -45.49    -3.66    -7.02       2.29
+pnrCos1760     100.00   -45.49    -2.97    -6.33       2.30
+pnrCos1761     100.00   -45.49    -2.57    -5.79       2.31
+pnrCos1762     100.00   -45.49    -5.65    -8.69       2.22
+pnrCos1763     100.00   -45.49    -3.39    -7.29       2.24
+pnrCos1764     100.00   -45.49    -4.83    -8.77       2.20
+pnrCos1765     100.00   -45.49    -4.98    -8.87       2.20
+pnrCos1766     100.00   -45.49    -5.12    -8.68       2.21
+pnrCos1767     100.00   -45.49    -5.14    -8.72       2.21
+pnrCos1768     100.00   -45.49    -4.30    -8.08       2.22
+pnrCos1769     100.00   -45.49    -4.80    -8.37       2.21
+pnrCos1770     100.00   -45.49    -7.28   -10.94       2.20
+pnrCos1771     100.00   -45.49    -3.49    -7.27       2.22
+pnrCos1772     100.00   -45.49   -28.98   -30.91       1.98
+pnrCos1773     100.00   -45.49   -12.49   -14.43       2.08
+pnrCos1774     100.00   -45.49   -10.82   -12.75       2.10
+pnrCos1775     100.00   -45.49    -5.88    -7.85       2.13
+pnrCos1776     100.00   -45.49    -5.02    -6.99       2.14
+pnrCos1777     100.00   -45.49    -6.36    -8.32       2.13
+pnrCos1778     100.00   -45.49    -5.53    -7.49       2.14
+pnrCos1779     100.00   -45.49    -6.86    -8.79       2.13
+pnrCos1780     100.00   -45.49    -6.08    -8.02       2.14
+pnrCos1781     100.00   -45.49   -32.89   -34.81       1.94
+pnrCos1782     100.00   -45.49   -28.03   -29.96       1.98
+pnrCos1783     100.00   -45.49   -19.03   -20.96       2.03
+pnrCos1784     100.00   -45.49   -20.49   -22.42       2.02
+pnrCos1785     100.00   -45.49    -9.94   -11.90       2.10
+pnrCos1786     100.00   -45.49   -12.89   -14.83       2.08
+pnrCos1787     100.00   -45.49   -17.13   -19.07       2.05
+pnrCos1788     100.00   -45.49   -13.96   -15.89       2.07
+pnrCos1789     100.00   -45.49   -17.12   -19.07       2.04
+pnrCos1790     100.00   -45.49   -12.19   -14.12       2.09
+pnrCos1791     100.00   -45.49    -9.24   -11.18       2.11
+pnrCos1792     100.00   -45.49    -6.86    -8.82       2.13
+pnrCos1793     100.00   -45.49   -16.59   -18.53       2.05
+pnrCos1794     100.00   -45.49   -12.06   -14.00       2.09
+pnrCos1795     100.00   -45.49    -5.63    -7.57       2.14
+pnrCos1796     100.00   -45.49   -14.20   -16.05       2.04
+pnrCos1797     100.00   -45.49   -12.11   -14.06       2.08
+pnrCos1798     100.00   -45.49   -11.24   -13.14       2.10
+pnrCos1799     100.00   -45.49   -11.17   -12.97       2.12
+pnrCos1800     100.00   -45.49    -9.19   -11.12       2.11
+pnrCos1801     100.00   -45.49   -14.45   -16.39       2.07
+pnrCos1802     100.00   -45.49   -13.23   -15.15       2.08
+pnrCos1803     100.00   -45.49   -11.03   -12.97       2.09
+pnrCos1804     100.00   -45.49   -10.58   -12.52       2.10
+pnrCos1805     100.00   -45.49    -9.25   -11.20       2.11
+pnrCos1806     100.00   -45.49    -9.39   -11.33       2.11
+pnrCos1807     100.00   -45.49    -8.77   -10.71       2.11
+pnrCos1808     100.00   -45.49   -11.26   -13.20       2.09
+pnrCos1809     100.00   -45.49    -9.87   -11.81       2.10
+pnrCos1810     100.00   -45.49    -9.23   -11.18       2.11
+pnrCos1811     100.00   -45.49    -9.34   -11.28       2.11
+pnrCos1812     100.00   -45.49   -10.81   -12.75       2.10
+pnrCos1813     100.00   -45.49   -18.25   -20.18       2.04
+pnrCos1814     100.00   -45.49   -11.40   -13.34       2.09
+pnrCos1815     100.00   -45.49   -10.10   -12.04       2.10
+pnrCos1816     100.00   -45.49   -11.68   -13.64       2.08
+pnrCos1817     100.00   -45.49   -14.30   -16.25       2.06
+pnrCos1818     100.00   -45.49   -10.85   -12.81       2.09
+pnrCos1819     100.00   -45.49   -13.03   -14.99       2.07
+pnrCos1820     100.00   -45.49   -12.55   -14.50       2.08
+pnrCos1821     100.00   -45.49   -10.40   -12.36       2.09
+pnrCos1822     100.00   -45.49   -11.74   -13.70       2.08
+pnrCos1823     100.00   -45.49   -17.18   -19.13       2.04
+pnrCos1824     100.00   -45.49   -10.48   -12.44       2.09
+pnrCos1825     100.00   -45.49   -11.89   -13.85       2.08
+pnrCos1826     100.00   -45.49   -11.36   -13.32       2.08
+pnrCos1827     100.00   -45.49   -11.27   -13.23       2.08
+pnrCos1828     100.00   -45.49   -11.76   -13.72       2.08
+pnrCos1829     100.00   -45.49   -12.70   -14.65       2.08
+pnrCos1830     100.00   -45.49   -15.74   -17.63       2.03
+pnrCos1831     100.00   -45.49   -13.70   -15.52       2.08
+pnrCos1832     100.00   -45.49   -17.86   -19.72       2.06
+pnrCos1833     100.00   -45.49   -22.25   -24.11       2.03
+pnrCos1834     100.00   -45.49   -15.97   -17.80       2.06
+pnrCos1835     100.00   -45.49   -13.17   -17.06       2.16
+pnrCos1836     100.00   -45.49   -14.00   -17.44       2.11
+pnrCos1837     100.00   -45.49   -12.39   -16.34       2.18
+pnrCos1838     100.00   -45.49   -11.70   -15.68       2.18
+pnrCos1839     100.00   -45.49   -11.28   -15.26       2.18
+pnrCos1840     100.00   -45.49    -9.44   -13.40       2.20
+pnrCos1841     100.00   -45.49    -7.24   -11.23       2.22
+pnrCos1842     100.00   -45.49    -7.47   -11.48       2.22
+pnrCos1843     100.00   -45.49   -12.75   -16.77       2.19
+pnrCos1844     100.00   -45.49   -12.05   -16.21       2.19
+pnrCos1845     100.00   -45.49   -10.82   -14.79       2.19
+pnrCos1846     100.00   -45.49    -5.80   -10.68       2.20
+pnrCos1847     100.00   -45.49   -18.45   -32.99       2.95
+pnrCos1848     100.00   -45.49   -12.52   -27.08       2.99
+pnrCos1849     100.00   -45.49   -12.04   -26.58       2.99
+pnrCos1850     100.00   -45.49   -13.13   -27.63       2.96
+pnrCos1851     100.00   -45.49   -11.24   -25.79       2.99
+pnrCos1852     100.00   -45.49   -10.51   -25.06       3.00
+pnrCos1853     100.00   -45.49   -10.06   -24.60       2.99
+pnrCos1854     100.00   -45.49   -10.83   -25.34       2.94
+pnrCos1855     100.00   -45.49   -10.10   -24.65       2.98
+pnrCos1856     100.00   -45.49   -16.58   -27.34       1.49
+pnrCos1857     100.00   -45.49   -11.03   -24.41       2.36
+pnrCos1858     100.00   -45.49   -22.09   -24.84       1.97
+pnrCos1859     100.00   -45.49   -24.84   -26.71       1.85
+pnrCos1860     100.00   -45.49   -20.99   -22.90       1.97
+pnrCos1861     100.00   -45.49   -22.64   -24.52       1.88
+pnrCos1862     100.00   -45.49   -23.59   -25.54       1.90
+pnrCos1863     100.00   -45.49   -22.93   -27.06       1.84
+pnrCos1864     100.00   -45.49   -18.53   -22.66       1.87
+pnrCos1865     100.00   -45.49   -13.18   -19.71       2.06
+pnrCos1866     100.00   -45.49   -13.92   -18.18       1.91
+pnrCos1867     100.00   -45.49   -13.97   -18.86       1.97
+pnrCos1868     100.00   -45.49   -10.77   -17.63       2.12
+pnrCos1869     100.00   -45.49   -10.52   -17.68       2.16
+pnrCos1870     100.00   -45.49   -11.66   -17.94       2.05
+pnrCos1871     100.00   -45.49   -13.20   -18.57       2.00
+pnrCos1872     100.00   -45.49   -12.95   -17.77       1.99
+pnrCos1873     100.00   -45.49   -15.21   -22.01       2.06
+pnrCos1874     100.00   -45.49   -11.38   -19.81       2.32
+pnrCos1875     100.00   -45.49    -9.93   -17.70       2.22
+pnrCos1876     100.00   -45.49    -7.48   -14.74       2.18
+pnrCos1877     100.00   -45.49   -11.60   -18.94       2.16
+pnrCos1878     100.00   -45.49    -7.69   -15.49       2.24
+pnrCos1879     100.00   -45.49   -10.49   -17.58       2.14
+pnrCos1880     100.00   -45.49    -8.57   -15.73       2.16
+pnrCos1881     100.00   -45.49    -9.27   -16.46       2.16
+pnrCos1882     100.00   -45.49    -9.33   -16.62       2.17
+pnrCos1883     100.00   -45.49    -7.70   -14.91       2.17
+pnrCos1884     100.00   -45.49    -8.40   -15.60       2.17
+pnrCos1885     100.00   -45.49    -8.36   -15.55       2.17
+pnrCos1886     100.00   -45.49    -6.77   -14.03       2.18
+pnrCos1887     100.00   -45.49    -6.13   -13.43       2.19
+pnrCos1888     100.00   -45.49    -6.69   -13.98       2.19
+pnrCos1889     100.00   -45.49    -5.43   -12.73       2.20
+pnrCos1890     100.00   -45.49    -3.82   -11.19       2.22
+pnrCos1891     100.00   -45.49    -7.34   -14.30       2.13
+pnrCos1892     100.00   -45.49    -5.00   -12.70       2.25
+pnrCos1893     100.00   -45.49   -16.47   -18.56       1.99
+pnrCos1894     100.00   -45.49   -15.13   -17.63       2.01
+pnrCos1895     100.00   -45.49   -15.03   -17.62       2.02
+pnrCos1896     100.00   -45.49   -16.68   -19.20       1.99
+pnrCos1897     100.00   -45.49   -14.32   -16.89       2.03
+pnrCos1898     100.00   -45.49   -23.18   -37.69       2.85
+pnrCos1899     100.00   -45.49   -20.99   -34.92       2.56
+pnrCos1900     100.00   -45.49   -21.94   -32.10       2.27
+pnrCos1901     100.00   -45.49   -25.66   -28.14       1.91
+pnrCos1902     100.00   -45.49   -26.93   -29.41       1.90
+pnrCos1903     100.00   -45.49   -21.21   -28.35       2.21
+pnrCos1904     100.00   -45.49   -20.20   -29.31       2.30
+pnrCos1905     100.00   -45.49   -14.21   -28.54       2.81
+pnrCos1906     100.00   -45.49   -13.84   -28.46       2.99
+pnrCos1907     100.00   -45.49   -18.07   -20.56       1.95
+pnrCos1908     100.00   -45.49   -17.96   -22.20       2.04
+pnrCos1909     100.00   -45.49   -15.93   -21.50       2.12
+pnrCos1910     100.00   -45.49   -15.35   -20.65       2.12
+pnrCos1911     100.00   -45.49   -12.78   -23.54       2.48
+pnrCos1912     100.00   -45.49   -14.93   -23.36       2.42
+pnrCos1913     100.00   -45.49    -8.66   -14.25       2.22
+pnrCos1914     100.00   -45.49   -11.28   -15.40       2.11
+pnrCos1915     100.00   -45.49    -8.53   -12.04       2.14
+pnrCos1916     100.00   -45.49   -16.40   -21.08       2.14
+pnrCos1917     100.00   -45.49    -5.42    -9.37       2.26
+pnrCos1918     100.00   -45.49    -4.59    -8.63       2.27
+pnrCos1919     100.00   -45.49    -6.43   -10.39       2.20
+pnrCos1920     100.00   -45.49    -7.63   -11.58       2.18
+pnrCos1921     100.00   -45.49    -7.82   -12.06       2.19
+pnrCos1922     100.00   -45.49    -6.11   -10.42       2.21
+pnrCos1923     100.00   -45.49    -6.86   -10.91       2.23
+pnrCos1924     100.00   -45.49    -7.31   -10.81       2.16
+pnrCos1925     100.00   -45.49   -10.53   -14.83       2.17
+pnrCos1926     100.00   -45.49    -8.87   -13.08       2.23
+pnrCos1927     100.00   -45.49    -7.15   -11.37       2.24
+pnrCos1928     100.00   -45.49    -7.10   -10.94       2.24
+pnrCos1929     100.00   -45.49    -7.28   -10.78       2.20
+pnrCos1930     100.00   -45.49    -6.55   -10.15       2.23
+pnrCos1931     100.00   -45.49    -6.41   -10.25       2.19
+pnrCos1932     100.00   -45.49    -7.33   -11.17       2.23
+pnrCos1933     100.00   -45.49    -7.64   -11.58       2.18
+pnrCos1934     100.00   -45.49   -11.71   -16.09       2.01
+pnrCos1935     100.00   -45.49    -8.74   -12.51       2.18
+pnrCos1936     100.00   -45.49   -16.08   -20.54       2.13
+pnrCos1937     100.00   -45.49    -8.74   -12.68       2.13
+pnrCos1938     100.00   -45.49   -12.15   -16.69       2.16
+pnrCos1939     100.00   -45.49   -11.26   -15.83       2.12
+pnrCos1940     100.00   -45.49    -9.06   -12.92       2.18
+pnrCos1941     100.00   -45.49   -11.64   -16.10       2.16
+pnrCos1942     100.00   -45.49    -5.79    -9.63       2.20
+pnrCos1943     100.00   -45.49    -6.62   -10.38       2.19
+pnrCos1944     100.00   -45.49    -7.92   -11.76       2.19
+pnrCos1945     100.00   -45.49    -7.97   -11.75       2.18
+pnrCos1946     100.00   -45.49    -7.22   -11.06       2.19
+pnrCos1947     100.00   -45.49    -6.03    -9.82       2.19
+pnrCos1948     100.00   -45.49    -8.16   -12.04       2.17
+pnrCos1949     100.00   -45.49    -6.17    -9.64       2.19
+pnrCos1950     100.00   -45.49   -12.44   -16.88       2.16
+pnrCos1951     100.00   -45.49   -14.23   -18.91       2.15
+pnrCos1952     100.00   -45.49   -15.23   -19.93       2.14
+pnrCos1953     100.00   -45.49   -15.04   -19.42       2.14
+pnrCos1954     100.00   -45.49    -8.60   -12.44       2.18
+pnrCos1955     100.00   -45.49    -8.84   -12.84       2.18
+pnrCos1956     100.00   -45.49   -14.01   -18.40       2.14
+pnrCos1957     100.00   -45.49   -21.61   -26.07       2.10
+pnrCos1958     100.00   -45.49    -8.31   -12.43       2.18
+pnrCos1959     100.00   -45.49    -8.09   -12.18       2.18
+pnrCos1960     100.00   -45.49    -9.08   -13.65       2.18
+pnrCos1961     100.00   -45.49    -6.74   -10.79       2.19
+pnrCos1962     100.00   -45.49    -7.33   -11.23       2.18
+pnrCos1963     100.00   -45.49   -14.46   -19.39       2.23
+pnrCos1964     100.00   -45.49    -5.69    -9.06       2.20
+pnrCos1965     100.00   -45.49    -5.92    -9.38       2.19
+pnrCos1966     100.00   -45.49    -5.59    -9.07       2.20
+pnrCos1967     100.00   -45.49    -6.79   -10.60       2.18
+pnrCos1968     100.00   -45.49    -7.81   -11.66       2.18
+pnrCos1969     100.00   -45.49    -6.63   -10.46       2.19
+pnrCos1970     100.00   -45.49    -7.27   -11.10       2.19
+pnrCos1971     100.00   -45.49    -7.36   -11.19       2.18
+pnrCos1972     100.00   -45.49    -7.55   -11.36       2.19
+pnrCos1973     100.00   -45.49    -6.33   -10.16       2.19
+pnrCos1974     100.00   -45.49   -18.36   -23.89       1.79
+pnrCos1975     100.00   -45.49   -11.45   -16.90       1.84
+pnrCos1976     100.00   -45.49   -14.68   -20.50       1.82
+pnrCos1977     100.00   -45.49   -15.44   -20.98       1.81
+pnrCos1978     100.00   -45.49   -14.07   -19.62       1.82
+pnrCos1979     100.00   -45.49   -11.27   -16.95       1.82
+pnrCos1980     100.00   -45.49   -17.54   -22.99       1.81
+pnrCos1981     100.00   -45.49   -15.11   -19.63       2.12
+pnrCos1982     100.00   -45.49   -12.73   -17.21       1.91
+pnrCos1983     100.00   -45.49   -15.58   -20.34       1.85
+pnrCos1984     100.00   -45.49   -18.52   -23.10       2.08
+pnrCos1985     100.00   -45.49   -23.71   -26.97       2.10
+pnrCos1986     100.00   -45.49   -26.58   -29.27       1.72
+pnrCos1987     100.00   -45.49   -27.06   -30.33       1.83
+pnrCos1988     100.00   -45.49   -24.61   -29.08       1.99
+pnrCos1989     100.00   -45.49   -23.96   -27.93       1.85
+pnrCos1990     100.00   -45.49   -29.84   -32.93       1.82
+pnrCos1991     100.00   -45.49   -31.93   -34.53       1.93
+pnrCos1992     100.00   -45.49   -39.85   -42.38       1.10
+pnrCos1993     100.00   -45.49   -28.50   -31.34       2.05
+pnrCos1994     100.00   -45.49   -29.26   -32.17       2.04
+pnrCos1995     100.00   -45.49   -24.69   -27.79       2.07
+pnrCos1996     100.00   -45.49   -25.17   -27.85       2.07
+pnrCos1997     100.00   -45.49   -26.11   -28.79       2.07
+pnrCos1998     100.00   -45.49   -21.26   -24.47       2.09
+pnrCos1999     100.00   -45.49   -18.28   -22.68       2.11
+pnrCos2000     100.00   -45.49   -18.07   -22.41       2.12
+pnrCos2001     100.00   -45.49   -12.47   -16.06       2.15
+pnrCos2002     100.00   -45.49   -18.73   -21.93       2.10
+pnrCos2003     100.00   -45.49   -14.48   -17.90       2.13
+pnrCos2004     100.00   -45.49   -18.39   -22.74       2.11
+pnrCos2005     100.00   -45.49   -24.28   -26.83       2.07
+pnrCos2006     100.00   -45.49   -23.80   -26.50       2.08
+pnrCos2007     100.00   -45.49   -23.97   -28.18       2.08
+pnrCos2008     100.00   -45.49   -20.12   -23.27       2.09
+pnrCos2009     100.00   -45.49   -21.61   -24.13       2.09
+pnrCos2010     100.00   -45.49   -30.40   -35.20       2.05
+pnrCos2011     100.00   -45.49   -23.05   -26.99       2.08
+pnrCos2012     100.00   -45.49   -24.78   -29.59       2.11
+pnrCos2013     100.00   -45.49   -22.10   -26.94       2.15
+pnrCos2014     100.00   -45.49   -20.84   -24.33       2.09
+pnrCos2015     100.00   -45.49   -24.38   -27.96       2.07
+pnrCos2016     100.00   -45.49   -25.94   -30.14       2.07
+pnrCos2017     100.00   -45.49   -17.70   -21.72       2.11
+pnrCos2018     100.00   -45.49   -20.36   -24.70       2.10
+pnrCos2019     100.00   -45.49   -18.07   -22.01       2.11
+pnrCos2020     100.00   -45.49   -16.92   -20.94       2.12
+pnrCos2021     100.00   -45.49   -15.95   -20.29       2.13
+pnrCos2022     100.00   -45.49   -19.89   -21.82       2.04
+pnrCos2023     100.00   -45.49   -24.39   -26.35       1.98
+pnrCos2024     100.00   -45.49   -18.78   -20.74       2.02
+pnrCos2025     100.00   -45.49   -13.82   -15.75       2.07
+pnrCos2026     100.00   -45.49   -17.58   -19.55       2.05
+pnrCos2027     100.00   -45.49   -12.19   -14.16       2.09
+pnrCos2028     100.00   -45.49   -17.06   -19.02       2.05
+pnrCos2029     100.00   -45.49   -19.44   -21.38       1.97
+pnrCos2030     100.00   -45.49   -22.32   -24.28       2.02
+pnrCos2031     100.00   -45.49   -15.39   -17.41       2.10
+pnrCos2032     100.00   -45.49   -11.44   -13.39       2.10
+pnrCos2033     100.00   -45.49   -13.44   -15.41       2.08
+pnrCos2034     100.00   -45.49    -7.99    -9.96       2.12
+pnrCos2035     100.00   -45.49    -8.76   -10.72       2.12
+pnrCos2036     100.00   -45.49   -10.81   -12.78       2.10
+pnrCos2037     100.00   -45.49   -15.34   -17.31       2.06
+pnrCos2038     100.00   -45.49   -23.70   -25.66       2.01
+pnrCos2039     100.00   -45.49   -30.16   -32.00       2.00
+pnrCos2040     100.00   -45.49   -38.50   -40.26       1.68
+pnrCos2041     100.00   -45.49   -37.29   -39.40       1.68
+pnrCos2042     100.00   -45.49   -20.39   -22.31       1.76
+pnrCos2043     100.00   -45.49   -29.26   -31.17       1.68
+pnrCos2044     100.00   -45.49    -9.80   -11.73       1.86
+pnrCos2045     100.00   -45.49    -9.97   -11.89       1.86
+pnrCos2046     100.00   -45.49   -16.99   -18.91       1.81
+pnrCos2047     100.00   -45.49   -10.72   -12.65       1.86
+pnrCos2048     100.00   -45.49   -10.90   -12.76       1.85
+pnrCos2049     100.00   -45.49    -6.94    -8.85       1.89
+pnrCos2050     100.00   -45.49   -26.70   -28.65       1.73
+pnrCos2051     100.00   -45.49    -9.38   -11.29       1.87
+pnrCos2052     100.00   -45.49   -20.45   -22.33       1.77
+pnrCos2053     100.00   -45.49   -14.99   -17.64       1.79
+pnrCos2054     100.00   -45.49   -16.63   -18.25       1.76
+pnrCos2055     100.00   -45.49   -10.73   -12.72       1.86
+pnrCos2056     100.00   -45.49   -15.24   -17.14       1.81
+pnrCos2057     100.00   -45.49    -9.45   -11.35       1.86
+pnrCos2058     100.00   -45.49   -32.44   -35.15       1.39
+pnrCos2059     100.00   -45.49   -17.68   -21.80       1.51
+pnrCos2060     100.00   -45.49   -14.87   -17.64       1.82
+pnrCos2061     100.00   -45.49    -9.81   -12.61       1.87
+pnrCos2062     100.00   -45.49   -28.66   -42.48       2.23
+pnrCos2063     100.00   -45.49   -34.82   -36.38       1.57
+pnrCos2064     100.00   -45.49    -7.77   -10.54       1.88
+pnrCos2065     100.00   -45.49    -6.80    -9.76       1.89
+pnrCos2066     100.00   -45.49    -7.23   -10.02       1.90
+pnrCos2067     100.00   -45.49    -7.29   -10.08       1.90
+pnrCos2068     100.00   -45.49    -5.19    -7.99       1.92
+pnrCos2069     100.00   -45.49    -4.93    -7.72       1.92
+pnrCos2070     100.00   -45.49    -4.94    -7.73       1.92
+pnrCos2071     100.00   -45.49    -3.20    -5.99       1.94
+pnrCos2072     100.00   -45.49    -4.69    -7.47       1.92
+pnrCos2073     100.00   -45.49    -6.26    -9.04       1.90
+pnrCos2074     100.00   -45.49   -10.76   -12.61       1.85
+pnrCos2075     100.00   -45.49    -6.31    -9.18       1.90
+pnrCos2076     100.00   -45.49    -7.00    -9.77       1.89
+pnrCos2077     100.00   -45.49   -10.41   -13.58       1.87
+pnrCos2078     100.00   -45.49    -6.24    -8.92       1.87
+pnrCos2079     100.00   -45.49    -7.45   -10.13       1.86
+pnrCos2080     100.00   -45.49   -28.52   -31.72       1.72
+pnrCos2081     100.00   -45.49   -14.79   -17.05       1.82
+pnrCos2082     100.00   -45.49   -18.42   -21.58       1.78
+pnrCos2083     100.00   -45.49    -7.38   -10.53       1.89
+pnrCos2084     100.00   -45.49   -22.98   -24.94       1.70
+pnrCos2085     100.00   -45.49   -12.41   -14.66       1.84
+pnrCos2086     100.00   -45.49   -10.85   -13.10       1.85
+pnrCos2087     100.00   -45.49    -8.32   -10.45       1.83
+pnrCos2088     100.00   -45.49   -17.65   -19.89       1.79
+pnrCos2089     100.00   -45.49    -8.16   -10.58       1.88
+pnrCos2090     100.00   -45.49    -9.31   -11.73       1.87
+pnrCos2091     100.00   -45.49    -8.20   -10.62       1.88
+pnrCos2092     100.00   -45.49    -5.63    -8.07       1.90
+pnrCos2093     100.00   -45.49    -7.26    -9.67       1.88
+pnrCos2094     100.00   -45.49   -10.21   -12.63       1.86
+pnrCos2095     100.00   -45.49    -6.75    -9.18       1.89
+pnrCos2096     100.00   -45.49    -9.09   -11.51       1.87
+pnrCos2097     100.00   -45.49   -17.36   -19.60       1.79
+pnrCos2098     100.00   -45.49   -16.13   -18.32       1.79
+ 
+Free    INPUT (only)           8.416 K bytes
+ 
+INFORMATION 567: weight of data in tables     449.848
+ 
+WARNING 568: total log likelihood  -2916.4666  in estimation was -29134.9070
+ 
+Table for mchoice
+ 
+-------------------------------------------
+Choice     |    1 |   2 |   3 |   4 | Total
+-----------+-------------------------------
+  No. Chsn |  13.6   1.8    .0    .0  15.4
+  SD. Chsn |   2.1    .8    .0    .0   2.3
+Row 000001 |    -    *-                 -
+  No. Pred |  12.4    .9    .0    .0  13.3
+-----------+-------------------------------
+  No. Chsn |    .0   2.3    .0    .0   2.3
+  SD. Chsn |    .2   1.5    .2    .0   1.6
+Row 000002 |    +    *+     +          *+
+  No. Pred |    .2   3.8    .2    .0   4.2
+-----------+-------------------------------
+  No. Chsn |    .0    .4   8.8    .1   9.3
+  SD. Chsn |    .0    .4   1.2    .0   1.3
+Row 000003 |              **-         **-
+  No. Pred |    .0    .3   5.4    .0   5.8
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0   5.5   5.5
+  SD. Chsn |    .0    .0    .1    .6    .6
+Row 000004 |                     *-    *-
+  No. Pred |    .0    .0    .0   4.4   4.4
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .0    .0
+  SD. Chsn |    .0    .0    .0    .0    .0
+Row 000005 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn |   7.9   8.2   1.3    .0  17.4
+  SD. Chsn |   1.8   2.0    .8    .0   2.8
+Row 000006 |    +    *-    *+
+  No. Pred |   9.2   6.2   2.1    .0  17.4
+-----------+-------------------------------
+  No. Chsn |   1.8   3.9    .7    .0   6.4
+  SD. Chsn |    .6   1.6    .6    .1   1.9
+Row 000007 |   *-     +    *+           +
+  No. Pred |   1.1   4.3   1.7    .0   7.1
+-----------+-------------------------------
+  No. Chsn |    .0   3.7   9.6    .4  13.6
+  SD. Chsn |    .4   1.1   1.4    .1   1.8
+Row 000008 |   *+    *-    *-         **-
+  No. Pred |    .5   2.1   6.9    .3   9.8
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .3   5.7   6.0
+  SD. Chsn |    .0    .2    .3    .4    .5
+Row 000009 |                   ***-  ***-
+  No. Pred |    .0    .0    .3   2.4   2.8
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .0    .0
+  SD. Chsn |    .0    .0    .0    .0    .0
+Row 000010 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn |  19.9  42.3  30.0   5.4  97.7
+  SD. Chsn |   2.9   5.0   2.9    .6   6.5
+Row 000011 |   *+     -     +           +
+  No. Pred |  23.4  40.2  30.3   5.4  99.3
+-----------+-------------------------------
+  No. Chsn |   5.6  12.1   6.3    .9  24.9
+  SD. Chsn |   1.2   2.6   1.5    .3   3.3
+Row 000012 |   *-     -    *+     +
+  No. Pred |   4.2  11.4   8.2   1.2  25.0
+-----------+-------------------------------
+  No. Chsn |   6.0  12.3  17.2   2.2  37.7
+  SD. Chsn |   1.3   2.7   2.2    .4   3.7
+Row 000013 |   *-     -     +     +     -
+  No. Pred |   4.6  11.4  18.3   2.5  36.8
+-----------+-------------------------------
+  No. Chsn |    .3    .0   1.5   1.8   3.6
+  SD. Chsn |    .4    .8    .7    .5   1.2
+Row 000014 |    +    *+     +    *+    *+
+  No. Pred |    .5   1.0   1.7   2.6   5.8
+-----------+-------------------------------
+  No. Chsn |    .3    .0    .1    .3    .7
+  SD. Chsn |    .2    .4    .3    .2    .6
+Row 000015 |    -     +     +           +
+  No. Pred |    .1    .3    .3    .3   1.1
+-----------+-------------------------------
+  No. Chsn |   5.3   9.6  13.7   7.5  36.2
+  SD. Chsn |   1.3   3.0   2.1    .8   4.0
+Row 000016 |         *+    *+    *+   **+
+  No. Pred |   5.2  15.4  17.6   8.8  47.0
+-----------+-------------------------------
+  No. Chsn |   2.7   9.0  12.1   5.9  29.8
+  SD. Chsn |   1.0   3.0   2.1    .8   3.8
+Row 000017 |    +   **+   **+  ***+  ***+
+  No. Pred |   3.0  15.1  16.8   9.3  44.2
+-----------+-------------------------------
+  No. Chsn |   4.5  20.8  49.1  32.0 106.4
+  SD. Chsn |   1.1   3.2   3.3   1.5   5.0
+Row 000018 |    -     -   **-   **-   **-
+  No. Pred |   3.9  18.1  42.0  28.6  92.6
+-----------+-------------------------------
+  No. Chsn |    .4   3.9   3.6  15.3  23.2
+  SD. Chsn |    .3   1.0    .9   1.1   1.8
+Row 000019 |         *-     -    *+     -
+  No. Pred |    .3   1.9   3.5  16.8  22.4
+-----------+-------------------------------
+  No. Chsn |    .3   2.0   2.1   4.5   9.0
+  SD. Chsn |    .2    .6    .5    .6   1.0
+Row 000020 |   *-   **-   **-   **+    *-
+  No. Pred |    .1    .6   1.0   5.9   7.6
+-----------+-------------------------------
+  No. Chsn |    .0   1.3   1.0   2.2   4.5
+  SD. Chsn |    .2    .6    .5    .3    .8
+Row 000021 |    +    *-        ***-   **-
+  No. Pred |    .1    .6    .9   1.2   2.8
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .1    .1
+  SD. Chsn |    .0    .1    .1    .1    .2
+Row 000022 |
+  No. Pred |    .0    .0    .0    .0    .1
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .3    .0    .3
+  SD. Chsn |    .0    .1    .1    .1    .2
+Row 000023 |               *-           -
+  No. Pred |    .0    .0    .1    .1    .2
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .1    .1
+  SD. Chsn |    .0    .1    .1    .1    .1
+Row 000024 |
+  No. Pred |    .0    .0    .0    .0    .1
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .1    .1
+  SD. Chsn |    .0    .1    .1    .0    .1
+Row 000025 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn |  68.7 133.7 157.6  90.0 449.8
+Total      |
+  No. Pred |  68.7 133.7 157.6  90.0 449.8
+-------------------------------------------
+ 
+INFORMATION 571: Root-Mean-Square error is    1.237
+ 
+INFORMATION 572: number of **stars** in table is 69
+ 
+Distribution of Values of (Chosen-Pred.)/SD Chosen
+ .-----------------------------------------------.
+ | <-3 | <-2 | <-1 | < 0 | < 1 | < 2 | < 3 | > 3 |
+ |-----+-----+-----+-----+-----+-----+-----+-----|
+ |   1 |   3 |  12 |  40 |  25 |  12 |   5 |   2 |
+ .-----------------------------------------------.
+ 
+Chi-Squared value is         16.61
+Exceeds 99% confidence rejection value
+ 
+Free            DATA         579.120 K bytes
+ 
+INFORMATION 002: data processing time    49.08 secs.
+ 
+Overview of time used
+                         Seconds  (hr:min:sec)
+Control file time   :      42.23     0:00:42
+Data processing time:      49.10     0:00:49
+Estimation time     :        .00     0:00:00
+ 
+Total processing    :      91.33     0:01:31

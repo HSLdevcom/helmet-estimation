@@ -1,0 +1,533 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+
+File not found: Alo45.EXE                                                       
+
+Run started at 15:30:17 on 26 Feb 25
+ 
+Allocating and deallocating memory
+ 
+INPUT allocating       36041.020 K bytes
+ 
+INFORMATION 352: reading coefficients from HS15_HBO.F12
+C:..t4\helmet_estimation\ohjaus\HS15_HBO.F12   2645 b. Date: 26 Feb 25 at 10:29
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..ineisto\\uudet2023\\havainnot23\\OTH.txt 212929 b. Date: 24 Feb 25 at 10:47
+ 
+INFORMATION 253:   FILE  2 : keyed file
+C:..sto\\uudet2023\\zonedata_base_folded.csv 425853 b. Date: 19 Feb 25 at 15:46
+ 
+INFORMATION 253:   FILE  3 : keyed file
+C:..to\\uudet2023\\zonedata_municipality.csv  16401 b. Date: 15 Jan 25 at 13:56
+ 
+INFORMATION 253:   FILE  4 : keyed file
+C:..t2023\\zonedata_accessibility_folded.csv 614126 b. Date: 20 Jan 25 at  9:55
+ 
+INFORMATION 253:   FILE  5 : common data
+C:..flatfiles\\folded_zones_municipality.csv   4947 b. Date: 15 Jan 25 at 13:59
+ 
+INFORMATION 253:   FILE  6 : keyed file
+C:..t2023\\vastukset\\new_ho_bike_dist.csv   35.277 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE  7 : keyed file
+C:..t2023\\vastukset\\new_ho_bike_time.csv   35.979 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE  8 : keyed file
+C:..et2023\\vastukset\\new_ho_car_dist.csv   35.948 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE  9 : keyed file
+C:..et2023\\vastukset\\new_ho_car_time.csv   35.674 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 10 : keyed file
+C:..et2023\\vastukset\\new_ho_car_cost.csv   36.101 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 11 : keyed file
+C:..23\\vastukset\\new_ho_transit_dist.csv   36.074 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 12 : keyed file
+C:..23\\vastukset\\new_ho_transit_time.csv   36.042 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 13 : keyed file
+C:..23\\vastukset\\new_ho_transit_cost.csv   36.086 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 14 : keyed file
+C:..t2023\\vastukset\\new_ho_walk_dist.csv   35.011 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 15 : keyed file
+C:..t2023\\vastukset\\new_ho_walk_time.csv   29.985 Mb Date: 26 Feb 25 at 10:06
+ 
+INFORMATION 253:   FILE 16 : common data
+C:..\flatfiles\\folded_zones_car_density.csv  18359 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 17 : common data
+C:..det2023\\flatfiles\\folded_zones_cbd.csv   4220 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 18 : common data
+C:..et2023\\flatfiles\\folded_zones_high.csv   8762 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 19 : common data
+C:..\flatfiles\\folded_zones_job_density.csv  32297 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 20 : common data
+C:..et2023\\flatfiles\\folded_zones_jobs.csv   7096 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 21 : common data
+C:..tfiles\\folded_zones_cost_park_other.csv   8439 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 22 : common data
+C:..atfiles\\folded_zones_cost_park_work.csv   8439 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 23 : common data
+C:..det2023\\flatfiles\\folded_zones_pop.csv  12644 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 24 : common data
+C:..\flatfiles\\folded_zones_pop_density.csv  19814 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 25 : common data
+C:..023\\flatfiles\\folded_zones_primary.csv   9345 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 26 : common data
+C:..023\\flatfiles\\folded_zones_service.csv  15154 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 27 : common data
+C:..t2023\\flatfiles\\folded_zones_shops.csv  13314 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 28 : common data
+C:..23\\flatfiles\\folded_zones_singleHP.csv  11630 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 29 : common data
+C:..\\flatfiles\\folded_zones_university.csv   8538 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 30 : common data
+C:..et2023\\flatfiles\\folded_zones_area.csv  13928 b. Date: 19 Feb 25 at 15:52
+ 
+INFORMATION 253:   FILE 31 : output
+ 
+INFORMATION 201: include control input from C:\Users\HajduPe\H4_estimointi\Helme
+C:..elmet_estimation\ohjaus\C_time_other.alo     13 b. Date: 13 Jun 24 at 16:00
+ 
+INFORMATION 125: control file completed:  121492 lines
+C:..t_estimation\ohjaus\HS15_HBO_apply.alo    3.235 Mb Date: 26 Feb 25 at 15:30
+ 
+Function defined in control file: APPLY
+ 
+TEMP - ALTSRT allocating          60.000 K bytes
+ 
+Free   TEMP - ALTSRT          60.000 K bytes
+ 
+TEMP - COESRT allocating          39.996 K bytes
+ 
+WARNING 178: coefficient L_S_M      not used in model
+ 
+WARNING 178: coefficient CTP_cost   not used in model
+ 
+WARNING 178: coefficient W_ODpopd   not used in model
+ 
+WARNING 178: coefficient T_gen      not used in model
+ 
+WARNING 178: coefficient C_sameOz   not used in model
+ 
+WARNING 178: coefficient S_OMP      not used in model
+ 
+WARNING 178: coefficient S_area     not used in model
+ 
+WARNING 178: coefficient S_Oserv    not used in model
+ 
+WARNING 178: coefficient S_dwntwn   not used in model
+ 
+WARNING 178: coefficient S_jobs     not used in model
+ 
+WARNING 178: coefficient T_acc      not used in model
+ 
+Free   TEMP - COESRT          39.996 K bytes
+ 
+ARRAYs increase data requirement    428617    493692
+Distinct data item names     17152
+ 
+INFORMATION 113: Log size multiplier is L_S_M
+ 
+INFORMATION 115: maximum number of table rows  24
+ 
+$PRINT controls
+ Matrix statistics print      =   2
+ Iteration print              =   6
+ Number of rej. obs. output   =  25
+ Transformations print        =   F
+ Probability test level       =   .000000
+ Reject observation is ERROR  =   F
+ Accepted range for choice    =   .100000
+ Out-of-range prints made     =     3
+ Print only chosen alts.      =   F
+ 
+$GEN.STATS controls
+    10 total items selected
+ 
+$ESTIMATE controls
+ Control present = T
+ Estimation done = T
+ Linear first    = T
+ Estimate later  = F
+ Accept error    = F
+ Error print     = 1
+ 
+ 
+$ALGOR controls
+ Maximum iterations          = 150
+ Convergence level           =   .1000E-01
+ 1st derivative perp. test   =   .1000E-05
+ Function rate of increase   =  -999.9
+ Matrix inversion tolerance  =   .1000E-05
+ Step reduction factor       =   .1500
+ Cubic step adjustment will be used
+ Convergence option          =   3
+ Maximum step-reducing loops =  50
+ 
+$DIMENSION specification
+ origin
+ 
+$KEEP (and protected FILE) items
+ IZ        =   .210E+04; jMun      ; JCarDens  ; JCbd
+ JHigh     ; JJobDens  ; JJobs     ; JPCosOther; JPCosWork
+ JPop      ; JPopDens  ; JPrimary  ; JService  ; JShops
+ JSingleHP ; JUni      ; JArea     ; zone      ; pop
+ age7to17  ; age18to29 ; age30to49 ; age50to64 ; age64to99
+ age7to99  ; age18to99 ; female    ; male      ; popDens
+ workplaces; service   ; shops     ; logistics ; industry
+ parkCostW ; parkCostE ; schoolL1  ; schoolL2  ; schoolL3
+ area      ; detachS   ; detachSqrt; helsinki  ; cbd
+ lauttaS   ; helsOther ; espooVantK; surround  ; shopsCbd
+ shopsElse ; carDens   ; carsPer1K ; iMun      ; hw_c
+ hw_t      ; hw_b      ; hw_w      ; hw        ; hc_c
+ hc_t      ; hc_b      ; hc_w      ; hc        ; hu_c
+ hu_t      ; hu_b      ; hu_w      ; hu        ; hs_c
+ hs_t      ; hs_b      ; hs_w      ; hs        ; ho_c
+ ho_t      ; ho_b      ; ho_w      ; ho        ; wo_c
+ wo_t      ; wo_b      ; wo_w      ; wo        ; oo_c
+ oo_t      ; oo_b      ; oo_w      ; oo        ; wh_c
+ wh_t      ; wh_b      ; wh_w      ; wh
+ 
+$ARRAY items
+ impedance( 2098)   bikeDist( 2098)   bikeTime( 2098)   walkDist( 2098)
+ walkTime( 2098)   ptCost( 2098)   ptDist( 2098)   ptTime( 2098)
+ carCost( 2098)   carDist( 2098)   carTime( 2098)   jMun( 2098)
+ JCarDens( 2098)   JCbd( 2098)   JHigh( 2098)   JJobDens( 2098)
+ JJobs( 2098)   JPCosOther( 2098)   JPCosWork( 2098)   JPop( 2098)
+ JPopDens( 2098)   JPrimary( 2098)   JService( 2098)   JShops( 2098)
+ JSingleHP( 2098)   JUni( 2098)   JArea( 2098)
+ 
+ 
+REPORT OF COEFFICIENTS
+ 
+Label      Con   Value      Type
+-------    ---   -----      -----
+W_time      T   -.5881E-01  Utility
+W_const     T    6.751      Utility
+B_time      T   -.8303E-01  Utility
+B_const     T    2.275      Utility
+W_logtime   T    .4696E-01  Utility
+B_logtime   T    .5663      Utility
+CT_gen      T   -.2589      Utility
+T_time      T   -.2137E-01  Utility
+T_const     T    4.463      Utility
+T_downtown  T    .9612      Utility
+T_sameOz    T   -7.571      Utility
+C_HAP       T    2.924      Utility
+C_Ocardns   T    .9957E-02  Utility
+C_opark     T   -.1887      Utility
+L_S_M       T    1.000      Log Size
+S_shops     T   -.2724      Size
+Sm_service  T   -1.436      Size
+S_pop       T   -2.785      Size
+Dcoeff      T    .3935      Tree
+ 
+Free     alpha array        4000.000 K bytes
+ 
+Report of main memory usage
+Storage ndata:     493.692 mdata:    1000.000
+Storage    np:        .019    mp:      10.000
+Storage    na:       8.396  malt:      15.000
+Storage   nut:      98.614   mut:     200.000
+Storage ntran:     814.951 mtran:    2000.000
+ 
+TREE allocating          67.176 K bytes
+ 
+INFORMATION 001: control file processing time    53.10 secs.
+ 
+DATA allocating        1216.240 K bytes
+ 
+INFORMATION 534: reached end of file   5 after        1 records
+ 
+INFORMATION 534: reached end of file  16 after        1 records
+ 
+INFORMATION 534: reached end of file  17 after        1 records
+ 
+INFORMATION 534: reached end of file  18 after        1 records
+ 
+INFORMATION 534: reached end of file  19 after        1 records
+ 
+INFORMATION 534: reached end of file  20 after        1 records
+ 
+INFORMATION 534: reached end of file  21 after        1 records
+ 
+INFORMATION 534: reached end of file  22 after        1 records
+ 
+INFORMATION 534: reached end of file  23 after        1 records
+ 
+INFORMATION 534: reached end of file  24 after        1 records
+ 
+INFORMATION 534: reached end of file  25 after        1 records
+ 
+INFORMATION 534: reached end of file  26 after        1 records
+ 
+INFORMATION 534: reached end of file  27 after        1 records
+ 
+INFORMATION 534: reached end of file  28 after        1 records
+ 
+INFORMATION 534: reached end of file  29 after        1 records
+ 
+INFORMATION 534: reached end of file  30 after        1 records
+ 
+OBSERVATION REJECTED 542: obs.        272 size zero for chosen Alt.006573
+ 
+OBSERVATION REJECTED 518:        277: choice Alt.002095 unavailable
+ 
+OBSERVATION REJECTED 518:        466: choice Alt.000357 unavailable
+ 
+OBSERVATION REJECTED 518:        508: choice Alt.002154 unavailable
+ 
+OBSERVATION REJECTED 518:        509: choice Alt.002173 unavailable
+ 
+OBSERVATION REJECTED 542: obs.        627 size zero for chosen Alt.000424
+ 
+OBSERVATION REJECTED 517:        749: choice indicator -2090 not an alternative
+ 
+OBSERVATION REJECTED 518:       1229: choice Alt.000311 unavailable
+ 
+OBSERVATION REJECTED 542: obs.       1251 size zero for chosen Alt.000821
+ 
+OBSERVATION REJECTED 517:       1252: choice indicator -2080 not an alternative
+ 
+OBSERVATION REJECTED 517:       1276: choice indicator -2045 not an alternative
+ 
+OBSERVATION REJECTED 542: obs.       1277 size zero for chosen Alt.000832
+ 
+OBSERVATION REJECTED 518:       1297: choice Alt.000229 unavailable
+ 
+OBSERVATION REJECTED 517:       1326: choice indicator -1397 not an alternative
+ 
+OBSERVATION REJECTED 517:       1377: choice indicator -2045 not an alternative
+ 
+OBSERVATION REJECTED 517:       1432: choice indicator -2096 not an alternative
+ 
+OBSERVATION REJECTED 517:       1481: choice indicator -2024 not an alternative
+ 
+OBSERVATION REJECTED 518:       1608: choice Alt.000595 unavailable
+ 
+OBSERVATION REJECTED 517:       1625: choice indicator -2068 not an alternative
+ 
+OBSERVATION REJECTED 518:       1626: choice Alt.000982 unavailable
+ 
+OBSERVATION REJECTED 518:       1655: choice Alt.001009 unavailable
+ 
+OBSERVATION REJECTED 542: obs.       2288 size zero for chosen Alt.007688
+ 
+OBSERVATION REJECTED 517:       2297: choice indicator -2023 not an alternative
+ 
+OBSERVATION REJECTED 517:       2333: choice indicator  -887 not an alternative
+ 
+OBSERVATION REJECTED 542: obs.       2371 size zero for chosen Alt.003478
+ 
+INFORMATION 534: reached end of file   4 after     1771 records
+ 
+INFORMATION 534: reached end of file   6 after     1771 records
+ 
+INFORMATION 534: reached end of file   7 after     1771 records
+ 
+INFORMATION 534: reached end of file   8 after     1771 records
+ 
+INFORMATION 534: reached end of file   9 after     1771 records
+ 
+INFORMATION 534: reached end of file  10 after     1771 records
+ 
+INFORMATION 534: reached end of file  11 after     1771 records
+ 
+INFORMATION 534: reached end of file  12 after     1771 records
+ 
+INFORMATION 534: reached end of file  13 after     1771 records
+ 
+INFORMATION 534: reached end of file  14 after     1771 records
+ 
+INFORMATION 534: reached end of file  15 after     1771 records
+ 
+INFORMATION 534: reached end of file   1 after     3299 records
+ 
+Data input completed after    3299 records
+ 
+Rejected    30 observations with unacceptable choices
+ 
+Rejected    13 observations with errors in size variables etc.
+ 
+Rejected on EXCLUDE(   2):     7 observations
+ 
+PRVEST allocating            .040 K bytes
+ 
+ 
+SELECTED STATISTICS
+ 
+Total weight of data is     4783.26
+ 
+Data Item  % Non-Zero  Minimum  Maximum  Average  Std. Dev.
+---------  ----------  -------  -------  -------  ---------
+CHOICE         100.00     1.00  8392.00  4422.06    2781.53
+WEIGHT         100.00      .04    12.66     3.45       2.53
+xfactor        100.00     8.20  1266.00   360.32     257.16
+ttype          100.00     5.00     5.00
+mode           100.00     1.00     5.00     3.01       1.46
+jzone          100.00     1.00  2098.00   555.65     509.67
+iswalk          26.60     1.00     1.00
+isbike           9.61     1.00     1.00
+istransit       16.68     1.00     1.00
+iscar           47.11     1.00     2.00     1.36        .48
+ 
+Free    INPUT (only)            .040 K bytes
+ 
+INFORMATION 567: weight of data in tables    4783.256
+ 
+WARNING 568: total log likelihood -29266.7717  in estimation was -29281.6474
+ 
+Table for origin
+ 
+-------------------------------------------
+Choice     |    1 |   2 |   3 |   4 | Total
+-----------+-------------------------------
+  No. Chsn | 285.7   8.7    .0    .0 294.4
+  SD. Chsn |  32.6  12.6    .3    .0  35.0
+Row 000001 |    +    *+                 +
+  No. Pred | 303.2  24.5    .0    .0 327.7
+-----------+-------------------------------
+  No. Chsn |  18.6 350.4   7.6    .0 376.6
+  SD. Chsn |   5.0  43.0   3.6    .0  43.4
+Row 000002 |  **-     -     -          *-
+  No. Pred |   6.8 314.0   4.7    .0 325.5
+-----------+-------------------------------
+  No. Chsn |    .0    .0 366.1    .0 366.1
+  SD. Chsn |    .1   7.5  25.5    .5  26.6
+Row 000003 |         *+  ***-     +  ***-
+  No. Pred |    .0   8.3 249.9    .3 258.5
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0 235.4 235.4
+  SD. Chsn |    .0    .2    .6  12.5  12.5
+Row 000004 |                +     -     -
+  No. Pred |    .0    .0    .2 227.2 227.4
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .0    .0
+  SD. Chsn |    .0    .0    .0    .0    .0
+Row 000005 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn |  45.3  21.1    .0    .0  66.4
+  SD. Chsn |  16.8  15.0   2.1    .0  22.6
+Row 000006 |   *+     +     +         **+
+  No. Pred |  77.8  34.7   1.4    .0 113.9
+-----------+-------------------------------
+  No. Chsn |   3.9 117.4   1.0    .0 122.3
+  SD. Chsn |   4.9  25.2   5.2    .1  26.2
+Row 000007 |    +     -   **+           -
+  No. Pred |   6.7 101.8  11.5    .0 120.0
+-----------+-------------------------------
+  No. Chsn |    .0  14.4 156.0    .0 170.3
+  SD. Chsn |    .9   8.6  20.7   1.0  22.4
+Row 000008 |    +     -          *+     -
+  No. Pred |    .2  11.0 156.0   1.4 168.5
+-----------+-------------------------------
+  No. Chsn |    .0    .0   2.0  98.6 100.6
+  SD. Chsn |    .0    .3   1.2   7.4   7.5
+Row 000009 |                -  ***-  ***-
+  No. Pred |    .0    .0    .8  72.3  73.1
+-----------+-------------------------------
+  No. Chsn |    .0    .0    .0    .0    .0
+  SD. Chsn |    .0    .0    .0    .1    .1
+Row 000010 |
+  No. Pred |    .0    .0    .0    .0    .0
+-----------+-------------------------------
+  No. Chsn | 190.9 200.8  80.4  16.8 488.9
+  SD. Chsn |  24.9  35.8  15.5   3.0  46.4
+Row 000011 |    -     +     +    *-     -
+  No. Pred | 168.4 201.2  86.7  11.7 467.9
+-----------+-------------------------------
+  No. Chsn |  47.5  81.6   8.4   1.9 139.3
+  SD. Chsn |   9.2  19.8   9.0   1.6  23.7
+Row 000012 |  **-    *-   **+     +     -
+  No. Pred |  23.3  61.3  31.0   3.3 118.9
+-----------+-------------------------------
+  No. Chsn |   6.8  23.3 108.0   3.6 141.7
+  SD. Chsn |   5.4  11.3  19.0   2.4  22.9
+Row 000013 |    +     -     +    *+     +
+  No. Pred |   8.0  19.4 125.9   7.5 160.9
+-----------+-------------------------------
+  No. Chsn |    .0    .0   4.1  17.5  21.7
+  SD. Chsn |   1.3   2.5   2.8   5.3   6.6
+Row 000014 |    +     +     -  ***+   **+
+  No. Pred |    .4    .9   3.4  35.3  40.1
+-----------+-------------------------------
+  No. Chsn |   1.0   2.9   1.2   1.1   6.3
+  SD. Chsn |    .3    .4    .5   1.4   1.5
+Row 000015 | ***-  ***-   **-    *+   **-
+  No. Pred |    .0    .0    .1   2.8   2.9
+-----------+-------------------------------
+  No. Chsn |  79.4 105.7  73.5  13.9 272.6
+  SD. Chsn |  16.9  33.5  15.2   4.2  40.7
+Row 000016 |    +   **+     +   **+   **+
+  No. Pred |  81.7 185.3  88.6  24.8 380.4
+-----------+-------------------------------
+  No. Chsn |  41.5 325.3  85.7  25.3 477.8
+  SD. Chsn |  13.6  42.5  20.7   6.7  49.6
+Row 000017 |    +     -  ***+  ***+   **+
+  No. Pred |  53.1 299.3 176.9  64.9 594.1
+-----------+-------------------------------
+  No. Chsn |  25.7 103.0 688.3 281.91098.8
+  SD. Chsn |   9.0  27.3  42.4  14.1  53.1
+Row 000018 |    -     +     -     +     +
+  No. Pred |  23.0 121.9 674.2 282.61101.6
+-----------+-------------------------------
+  No. Chsn |    .0  24.1  23.8 273.7 321.6
+  SD. Chsn |   1.6   6.6   6.1  13.3  16.2
+Row 000019 |    +   **-     -   **-  ***-
+  No. Pred |    .8   7.1  18.8 243.3 269.9
+-----------+-------------------------------
+  No. Chsn |   7.1  12.8  25.9  36.5  82.4
+  SD. Chsn |    .6   2.2   2.1   4.2   5.2
+Row 000020 | ***-  ***-  ***-    *-  ***-
+  No. Pred |    .1    .8   1.8  29.2  31.9
+-----------+-------------------------------
+  No. Chsn | 753.51391.51631.81006.54783.3
+Total      |
+  No. Pred | 753.51391.51631.81006.54783.3
+-------------------------------------------
+ 
+INFORMATION 571: Root-Mean-Square error is   10.124
+ 
+INFORMATION 572: number of **stars** in table is 80
+ 
+Distribution of Values of (Chosen-Pred.)/SD Chosen
+ .-----------------------------------------------.
+ | <-3 | <-2 | <-1 | < 0 | < 1 | < 2 | < 3 | > 3 |
+ |-----+-----+-----+-----+-----+-----+-----+-----|
+ |   3 |   4 |   6 |  33 |  19 |   3 |   5 |   7 |
+ .-----------------------------------------------.
+ 
+Chi-Squared value is         80.39
+Exceeds 99% confidence rejection value
+ 
+Free            DATA         864.504 K bytes
+ 
+INFORMATION 002: data processing time    77.10 secs.
+ 
+Overview of time used
+                         Seconds  (hr:min:sec)
+Control file time   :      53.10     0:00:53
+Data processing time:      77.12     0:01:17
+Estimation time     :        .00     0:00:00
+ 
+Total processing    :     130.22     0:02:10

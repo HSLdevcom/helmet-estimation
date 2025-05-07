@@ -1,0 +1,8 @@
+*.xlsx
+*.txt
+*.csv
+*.lnk
+*.pdf
+Aineisto/*
+biogeme/*
+ohjaus_*/*

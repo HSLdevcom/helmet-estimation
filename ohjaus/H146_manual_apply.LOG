@@ -1,0 +1,5594 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+
+File not found: Alo45.EXE                                                       
+
+Run started at 10:56:07 on  2 May 25
+ 
+Allocating and deallocating memory
+ 
+INPUT allocating       36041.020 K bytes
+ 
+INFORMATION 352: reading coefficients from H146_manual.F12
+C:..helmet_estimation\ohjaus\H146_manual.F12  15655 b. Date:  2 May 25 at  9:33
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..neisto\\uudet2023\\havainnot23\\ACCM.txt 447621 b. Date:  5 Feb 25 at 12:05
+ 
+INFORMATION 253:   FILE  2 : keyed file
+C:..sto\\uudet2023\\zonedata_base_folded.csv 487782 b. Date: 30 Apr 25 at 16:14
+ 
+INFORMATION 253:   FILE  3 : keyed file
+C:..t2023\\accessibility_example_reduced.csv  36558 b. Date:  2 May 25 at 10:32
+ 
+INFORMATION 125: control file completed:     740 lines
+C:.._estimation\ohjaus\H146_manual_apply.alo  11823 b. Date:  2 May 25 at 10:55
+ 
+Function defined in control file: APPLY
+ 
+WARNING 156: redundant alternative: Alt.000039
+ 
+TEMP - ALTSRT allocating          60.000 K bytes
+ 
+Free   TEMP - ALTSRT          60.000 K bytes
+ 
+TEMP - COESRT allocating          39.996 K bytes
+ 
+WARNING 178: coefficient C20TAAX    not used in model
+ 
+WARNING 178: coefficient K_7_17     not used in model
+ 
+WARNING 178: coefficient M_7_17     not used in model
+ 
+WARNING 178: coefficient C2TXXX     not used in model
+ 
+WARNING 178: coefficient C4OXXX     not used in model
+ 
+WARNING 178: coefficient C5AXXX     not used in model
+ 
+WARNING 178: coefficient C24KMMX    not used in model
+ 
+WARNING 178: coefficient T1hw_t     not used in model
+ 
+WARNING 178: coefficient M1ho_w     not used in model
+ 
+WARNING 178: coefficient O_18_29    not used in model
+ 
+WARNING 178: coefficient M_18_29    not used in model
+ 
+WARNING 178: coefficient M_30_49    not used in model
+ 
+WARNING 178: coefficient M_50_64    not used in model
+ 
+WARNING 178: coefficient T2hw_t     not used in model
+ 
+WARNING 178: coefficient H2erpi     not used in model
+ 
+WARNING 178: coefficient T3hw_t     not used in model
+ 
+WARNING 178: coefficient M4ho_w     not used in model
+ 
+WARNING 178: coefficient H4asti     not used in model
+ 
+WARNING 178: coefficient H1kanta    not used in model
+ 
+WARNING 178: coefficient T4hw_w     not used in model
+ 
+WARNING 178: coefficient M0ho_w     not used in model
+ 
+Free   TEMP - COESRT          39.996 K bytes
+ 
+ARRAYs increase data requirement      1156      1210
+Distinct data item names       482
+ 
+INFORMATION 115: maximum number of table rows  44
+ 
+$PRINT controls
+ Matrix statistics print      =   0
+ Iteration print              =   2
+ Number of rej. obs. output   =  25
+ Transformations print        =   F
+ Probability test level       =   .000000
+ Reject observation is ERROR  =   F
+ Accepted range for choice    =   .100000
+ Out-of-range prints made     =     3
+ Print only chosen alts.      =   F
+ 
+$GEN.STATS controls
+     5 total items selected
+ 
+$ESTIMATE controls
+ Control present = T
+ Estimation done = T
+ Linear first    = T
+ Estimate later  = F
+ Accept error    = F
+ Error print     = 1
+ 
+ 
+$ALGOR controls
+ Maximum iterations          =  60
+ Convergence level           =   .1000E-01
+ 1st derivative perp. test   =   .1000E-05
+ Function rate of increase   =  -999.9
+ Matrix inversion tolerance  =   .1000E-05
+ Step reduction factor       =   .1500
+ Cubic step adjustment will be used
+ Convergence option          =   3
+ Maximum step-reducing loops =   4
+ 
+$DIMENSION specification
+ age
+ 
+$KEEP (and protected FILE) items
+ zone      ; pop       ; age7to17  ; age18to29 ; age30to49
+ age50to64 ; age64to99 ; age7to99  ; age18to99 ; female
+ male      ; popDens   ; workplaces; service   ; shops
+ logistics ; industry  ; parkCostW ; parkCostE ; schoolL1
+ schoolL2  ; schoolL3  ; area      ; detachS   ; detachSqrt
+ helsinki  ; cbd       ; lauttaS   ; helsOther ; espooVantK
+ surround  ; shopsCbd  ; shopsElse ; carDens   ; carsPer1K
+ saav_hu_t ; saav_ho_w
+ 
+ 
+REPORT OF COEFFICIENTS
+ 
+Label      Con   Value      Type
+-------    ---   -----      -----
+C3KXXX      T    3.121      Utility
+C6MXXX      T   -.3987E-01  Utility
+C7TTXX      T   -5.710      Utility
+C8TOXX      T   -6.416      Utility
+C9TAXX      T   -3.674      Utility
+C10TMXX     T   -3.377      Utility
+C11KKXX     T   -1.448      Utility
+C12KAXX     T   -.1214      Utility
+C13KMXX     T    1.779      Utility
+C14OAXX     T   -4.267      Utility
+C15OMXX     T   -3.813      Utility
+C16AAXX     T   -3.075      Utility
+C17AMXX     T   -2.726      Utility
+C18MMXX     T   -3.382      Utility
+C19TTMX     T   -6.029      Utility
+C21TAMX     T   -5.260      Utility
+C22TMMX     T   -5.478      Utility
+C23KAMX     T   -.6407      Utility
+C25OAMX     T   -14.43      Utility
+C26OMMX     T   -15.19      Utility
+C27AAAX     T   -4.060      Utility
+C28AAMX     T   -3.072      Utility
+C29AMMX     T   -3.185      Utility
+C30MMMX     T   -3.972      Utility
+C31TAAM     T   -9.188      Utility
+C32TAMM     T   -9.583      Utility
+C33TMMM     T   -10.01      Utility
+C34AAAA     T   -8.585      Utility
+C35AAAM     T   -6.791      Utility
+C36AAMM     T   -6.557      Utility
+C37AMMM     T   -8.117      Utility
+C38MMMM     T   -8.111      Utility
+H2HAP       T    .5692      Utility
+H3HAP       T    .7831      Utility
+H4HAP       T    1.786      Utility
+I01_5064    T    .1591E-01  Utility
+I01_65      T    .1418      Utility
+H1erpi      T   -.1114      Utility
+T_18_29     T    1.236      Utility
+T_30_49     T    1.588      Utility
+T_50_64     T    1.170      Utility
+T_65v       T   -2.059      Utility
+O1hu_t      T    .4361E-01  Utility
+O_30_49     T   -2.205      Utility
+O_50_64     T   -3.595      Utility
+O_65v       T   -4.267      Utility
+A_18_29     T   -.4513E-01  Utility
+A_30_49     T    .4537      Utility
+A_50_64     T   -.3141      Utility
+A_65v       T    .1705      Utility
+M_65v       T   -.5999E-01  Utility
+M2ho_w      T    .1403      Utility
+M3ho_w      T   -.1291      Utility
+H4erpi      T    .3440      Utility
+O2hu_t      T    .1204      Utility
+O3hu_t      T    1.160      Utility
+ncoeff      F    .7405      Tree
+ 
+Free     alpha array        4000.000 K bytes
+ 
+Report of main memory usage
+Storage ndata:       1.210 mdata:    1000.000
+Storage    np:        .057    mp:      10.000
+Storage    na:        .043  malt:      15.000
+Storage   nut:        .293   mut:     200.000
+Storage ntran:        .513 mtran:    2000.000
+ 
+TREE allocating            .352 K bytes
+ 
+INFORMATION 001: control file processing time      .64 secs.
+ 
+DATA allocating          31.840 K bytes
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         2
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         3
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         4
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         5
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         6
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         7
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         8
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID         9
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID        10
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 6.000000000
+ 
+OBSERVATION REJECTED 512: as above, ID        11
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        29
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        30
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        31
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        32
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        33
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        34
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        35
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        36
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        37
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        38
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        39
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 14.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID        40
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 32.00000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 32.00000000
+ 
+OBSERVATION REJECTED 512: as above, ID       125
+ 
+OBSERVATION REJECTED 518:        145: choice Alt.000009 unavailable
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 151.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 151.0000000
+ 
+OBSERVATION REJECTED 512: as above, ID       692
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 151.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 151.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 151.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 151.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 154.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 154.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 154.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 154.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 154.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 154.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 156.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 156.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 156.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 156.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 156.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 156.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 156.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 156.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 157.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 157.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 161.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 161.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 161.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 161.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 161.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 161.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 162.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 162.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 163.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 163.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 164.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 164.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 164.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 164.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 164.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 164.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 166.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 166.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 166.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 166.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 166.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 166.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 167.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 167.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 167.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 167.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 167.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 167.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 167.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 167.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 168.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 168.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 169.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 169.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 169.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 169.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 169.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 169.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 170.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 170.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 171.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 171.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 171.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 171.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 171.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 171.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 172.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 172.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 173.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 173.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 174.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 174.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 175.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 175.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 176.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 176.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 177.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 177.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 177.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 177.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 177.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 177.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 177.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 177.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 178.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 178.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 178.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 178.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 182.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 182.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 182.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 182.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 182.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 182.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 182.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 182.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 182.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 182.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 182.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 182.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 185.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 185.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 185.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 185.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 187.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 187.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 189.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 189.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 190.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 190.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 190.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 190.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 190.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 190.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 190.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 190.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 190.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 190.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 191.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 191.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 192.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 192.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 192.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 192.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 192.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 192.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 192.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 192.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 192.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 192.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 193.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 193.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 193.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 193.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 193.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 193.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 193.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 193.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 193.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 193.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 193.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 193.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 194.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 194.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 194.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 194.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 194.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 194.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 194.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 194.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 196.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 196.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 197.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 197.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 197.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 197.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 197.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 197.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 198.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 198.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 198.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 198.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 198.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 198.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 199.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 199.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 200.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 200.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 200.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 200.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 200.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 200.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 200.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 200.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 201.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 201.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 202.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 202.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 202.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 202.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 203.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 203.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 203.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 203.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 203.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 203.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 203.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 203.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 203.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 203.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 203.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 203.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 204.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 204.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 204.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 204.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 205.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 205.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 205.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 205.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 205.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 205.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 205.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 205.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 205.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 205.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 205.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 205.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 206.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 206.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 207.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 207.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 207.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 207.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 207.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 207.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 208.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 208.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 208.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 208.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 208.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 208.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 208.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 208.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 209.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 209.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 211.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 211.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 214.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 214.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 215.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 215.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 216.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 216.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 217.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 217.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 217.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 217.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 217.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 217.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 217.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 217.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 217.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 217.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 218.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 218.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 218.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 218.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 220.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 220.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 220.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 220.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 220.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 220.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 220.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 220.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 220.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 220.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 221.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 221.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 221.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 221.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 221.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 221.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 221.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 221.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 222.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 222.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 223.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 223.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 223.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 223.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 223.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 223.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 223.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 223.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 223.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 223.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 223.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 223.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 224.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 224.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 224.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 224.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 225.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 225.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 226.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 226.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 228.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 228.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 228.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 228.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 228.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 228.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 229.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 229.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 229.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 229.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 229.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 229.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 230.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 230.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 231.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 231.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 232.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 232.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 233.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 233.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 233.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 233.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 234.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 234.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 234.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 234.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 234.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 234.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 238.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 238.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 238.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 238.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 238.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 238.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 238.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 238.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 238.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 238.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 238.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 238.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 244.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 244.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 245.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 245.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 246.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 246.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 246.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 246.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 247.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 247.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 247.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 247.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 247.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 247.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 248.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 248.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 248.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 248.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 248.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 248.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 249.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 249.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 249.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 249.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 250.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 250.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 250.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 250.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 251.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 251.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 252.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 252.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 255.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 255.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 255.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 255.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 255.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 255.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 358.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 358.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 358.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 358.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 358.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 358.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 358.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 358.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 375.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 375.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 426.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 426.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 442.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 442.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 442.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 442.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 442.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 442.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 442.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 442.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 442.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 442.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 442.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 442.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 453.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 453.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 492.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 492.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 492.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 492.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 494.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 494.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 494.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 494.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 527.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 527.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 527.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 527.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 527.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 527.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 527.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 527.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 527.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 527.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 558.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 558.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 558.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 558.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 558.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 558.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 558.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 558.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 558.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 558.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 558.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 558.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 672.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 672.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 683.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 683.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 704.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 704.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 704.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 704.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 704.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 704.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 704.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 704.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 734.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 734.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 734.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 734.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 734.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 734.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 762.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 762.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 762.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 762.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 767.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 767.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 767.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 767.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 767.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 767.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 767.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 767.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 767.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 767.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 772.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 772.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 774.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 774.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 776.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 776.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 777.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 777.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 778.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 778.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 779.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 779.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 783.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 783.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 783.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 783.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 783.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 783.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 783.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 783.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 783.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 783.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 789.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 789.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 790.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 790.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 790.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 790.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 790.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 790.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 790.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 790.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 790.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 790.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 791.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 791.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 792.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 792.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 792.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 792.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 792.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 792.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 792.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 792.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 792.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 792.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 792.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 792.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 793.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 793.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 794.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 794.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 795.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 795.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 795.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 795.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 796.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 796.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 796.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 796.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 796.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 796.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 796.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 796.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 796.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 796.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 797.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 797.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 797.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 797.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 797.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 797.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 797.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 797.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 797.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 797.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 797.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 797.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 798.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 798.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 799.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 799.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 799.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 799.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 799.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 799.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 800.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 800.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 801.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 801.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 801.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 801.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 803.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 803.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 804.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 804.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 804.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 804.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 804.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 804.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 804.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 804.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 804.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 804.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 805.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 805.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 805.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 805.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 805.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 805.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 805.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 805.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 805.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 805.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 806.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 806.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 807.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 807.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 807.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 807.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 807.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 807.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 808.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 808.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 808.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 808.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 808.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 808.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 808.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 808.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 809.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 809.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 810.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 810.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 810.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 810.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 810.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 810.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 810.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 810.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 810.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 810.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 810.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 810.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 811.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 811.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 811.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 811.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 812.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 812.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 813.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 813.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 814.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 814.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 815.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 815.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 817.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 817.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 817.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 817.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 820.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 820.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 824.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 824.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 825.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 825.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 851.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 851.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 883.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 883.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 887.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 887.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 887.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 887.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 887.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 887.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 887.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 887.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 887.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 887.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 887.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 887.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 917.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 917.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 917.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 917.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 955.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 955.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 958.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 958.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 958.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 958.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 958.0000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 958.0000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1033.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1033.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1035.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1035.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1035.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1035.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1035.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1035.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1035.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1035.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1036.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1036.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1036.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1036.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1037.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1037.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1037.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1037.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1037.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1037.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1037.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1037.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1037.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1037.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1038.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1038.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1039.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1039.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1039.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1039.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1039.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1039.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1041.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1041.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1041.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1041.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1042.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1042.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1042.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1042.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1065.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1065.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1065.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1065.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1114.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1114.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1114.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1114.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1114.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1114.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1114.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1114.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1129.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1129.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1160.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1160.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1161.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1161.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1161.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1161.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1161.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1161.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1177.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1177.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1177.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1177.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1177.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1177.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1183.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1183.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1215.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1215.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1225.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1225.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1225.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1225.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1256.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1256.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1256.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1256.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1256.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1256.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1256.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1256.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1257.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1257.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1257.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1257.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1257.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1257.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1257.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1257.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1260.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1260.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1260.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1260.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1260.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1260.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1260.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1260.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1260.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1260.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1260.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1260.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1305.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1305.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1305.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1305.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1305.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1305.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1323.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1323.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1331.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1331.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1337.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1337.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1363.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1363.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1363.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1363.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1363.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1363.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1363.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1363.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1363.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1363.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1363.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1363.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1384.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1384.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1444.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1444.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1445.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1445.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1445.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1445.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1445.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1445.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1487.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1487.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1518.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1518.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1518.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1518.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1518.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1518.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1518.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1518.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1524.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1524.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1550.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1550.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1643.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1643.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 537: File  2 rewound at keys:
+ 1644.000000
+ 
+OBSERVATION REJECTED 536: file  2 cannot match keys:
+ 1644.000000
+ 
+INFORMATION 534: reached end of file   1 after     8863 records
+ 
+Data input completed after    8863 records
+ 
+Rejected     9 observations with unacceptable choices
+ 
+Rejected   846 observations with transformation errors
+ 
+Rejected on EXCLUDE(   1):    84 observations
+ 
+Rejected on EXCLUDE(   4):     2 observations
+ 
+PRVEST allocating            .020 K bytes
+ 
+ 
+SELECTED STATISTICS
+ 
+Total weight of data is     9623.29
+ 
+Data Item  % Non-Zero  Minimum  Maximum  Average  Std. Dev.
+---------  ----------  -------  -------  -------  ---------
+CHOICE         100.00     1.00    38.00     6.77       6.82
+WEIGHT         100.00      .07    10.13     2.76       2.04
+xfactor        100.00     8.20  1266.00   345.50     254.60
+ttype          100.00     1.00    38.00     6.77       6.82
+saav_hu_t      100.00     -.70    11.19     9.40       1.60
+ 
+Free    INPUT (only)            .020 K bytes
+ 
+INFORMATION 567: weight of data in tables    9623.290
+ 
+WARNING 568: total log likelihood -19888.6151  in estimation was -19932.0716
+ 
+Table for age
+ 
+-------------------------------------------------
+Choice     |    1 |   2 |   3 |   4 |   5 | Total
+-----------+-------------------------------------
+  No. Chsn |  56.8 236.8 407.4 346.1 526.01573.3
+  SD. Chsn |  12.4  27.4  32.1  24.9  26.3  57.0
+Row 000001 |    +    *-     -     +    *+     -
+  No. Pred |  58.8 205.9 396.9 346.6 561.71570.0
+-----------+-------------------------------------
+  No. Chsn |    .0 467.81064.8 712.1  47.02291.8
+  SD. Chsn |    .0  37.8  45.8  31.0   8.7  67.6
+Row 000002 |         *+     +     -     -     +
+  No. Pred |    .0 510.71087.2 687.4  43.32328.6
+-----------+-------------------------------------
+  No. Chsn | 529.9    .0    .0    .0    .0 529.9
+  SD. Chsn |  28.7    .0    .0    .0    .0  28.7
+Row 000003 |   *+                            *+
+  No. Pred | 558.7    .0    .0    .0    .0 558.7
+-----------+-------------------------------------
+  No. Chsn |    .0 188.2  40.2  10.6   9.6 248.6
+  SD. Chsn |    .0  27.4  11.6   4.8   4.0  30.4
+Row 000004 |          +     +           -     +
+  No. Pred |    .0 203.3  44.9  10.6   8.7 267.4
+-----------+-------------------------------------
+  No. Chsn |   6.6 137.4 312.6 164.9 468.71090.1
+  SD. Chsn |   4.1  21.1  29.0  18.3  24.4  47.2
+Row 000005 |    -    *-     +     +    *-     -
+  No. Pred |   6.1 115.0 313.2 170.4 440.51045.2
+-----------+-------------------------------------
+  No. Chsn |  25.0 133.0 221.8 200.2 333.0 912.9
+  SD. Chsn |   8.4  21.1  25.4  20.7  22.1  45.6
+Row 000006 |    +     -     +    *+     +     +
+  No. Pred |  26.2 115.6 233.5 224.2 336.1 935.6
+-----------+-------------------------------------
+  No. Chsn |    .0   6.1  28.1   9.2   2.9  46.2
+  SD. Chsn |    .0   5.4   7.6   5.4   1.2  10.8
+Row 000007 |          +    *-     +    *-     -
+  No. Pred |    .0   6.9  19.1  13.3    .8  40.1
+-----------+-------------------------------------
+  No. Chsn |    .0  10.5   6.8    .6    .0  17.9
+  SD. Chsn |    .0   7.0   3.3   1.2    .2   7.8
+Row 000008 |          +    *-                 -
+  No. Pred |    .0  11.2   3.3    .6    .0  15.1
+-----------+-------------------------------------
+  No. Chsn |    .0  72.6 247.2  92.4   3.9 416.1
+  SD. Chsn |    .0  15.1  26.6  13.2   3.8  33.5
+Row 000009 |         *-     +     -    *+     -
+  No. Pred |    .0  55.9 255.0  82.0   7.8 400.7
+-----------+-------------------------------------
+  No. Chsn |    .0  76.1 225.9 168.1   5.5 475.6
+  SD. Chsn |    .0  18.2  25.3  18.0   4.0  36.2
+Row 000010 |          +     +     -     +     +
+  No. Pred |    .0  82.7 229.2 158.8   8.8 479.5
+-----------+-------------------------------------
+  No. Chsn |  17.0    .0    .0    .0    .0  17.0
+  SD. Chsn |   6.8    .0    .0    .0    .0   6.8
+Row 000011 |    -                             -
+  No. Pred |  16.1    .0    .0    .0    .0  16.1
+-----------+-------------------------------------
+  No. Chsn |  64.1    .0    .0    .0    .0  64.1
+  SD. Chsn |  12.9    .0    .0    .0    .0  12.9
+Row 000012 |    -                             -
+  No. Pred |  60.6    .0    .0    .0    .0  60.6
+-----------+-------------------------------------
+  No. Chsn | 428.5    .0    .0    .0    .0 428.5
+  SD. Chsn |  27.5    .0    .0    .0    .0  27.5
+Row 000013 |    -                             -
+  No. Pred | 405.1    .0    .0    .0    .0 405.1
+-----------+-------------------------------------
+  No. Chsn |    .0  35.6   6.8   2.5    .4  45.3
+  SD. Chsn |    .0  10.8   5.4   1.6   1.6  12.3
+Row 000014 |          -     +     -     +     -
+  No. Pred |    .0  26.7   9.2   1.1   1.4  38.4
+-----------+-------------------------------------
+  No. Chsn |    .0  57.8   8.7    .6    .7  67.9
+  SD. Chsn |    .0  13.8   5.4   2.4   1.8  15.1
+Row 000015 |         *-     +     +     +     -
+  No. Pred |    .0  44.0   9.2   2.4   1.7  57.3
+-----------+-------------------------------------
+  No. Chsn |    .0  27.1 131.4  37.0 105.6 301.0
+  SD. Chsn |   3.1  10.8  18.8   9.8  13.5  27.5
+Row 000016 |   *+     +     -     +     +     +
+  No. Pred |   3.3  28.2 121.8  44.1 106.6 303.9
+-----------+-------------------------------------
+  No. Chsn |  10.4  32.1 141.2  74.4 158.5 416.5
+  SD. Chsn |   3.8  13.2  19.7  11.9  15.7  31.0
+Row 000017 |   *-     +     -     -     -     -
+  No. Pred |   4.9  41.9 134.4  65.6 149.5 396.3
+-----------+-------------------------------------
+  No. Chsn |  18.2  15.9  21.5  56.8  78.9 191.3
+  SD. Chsn |   6.6  10.3   7.4  10.6  11.2  21.0
+Row 000018 |    -     +     -     -     -     -
+  No. Pred |  15.5  25.2  18.0  51.5  72.3 182.6
+-----------+-------------------------------------
+  No. Chsn |    .0    .0  19.2   4.0    .1  23.3
+  SD. Chsn |    .0   4.1   8.4   4.3    .9  10.3
+Row 000019 |         *+     +    *+     +    *+
+  No. Pred |    .0   4.1  24.2   8.5    .4  37.2
+-----------+-------------------------------------
+  No. Chsn |    .0   3.2  30.6   4.3    .0  38.1
+  SD. Chsn |    .0   2.8  10.5   3.3    .7  11.4
+Row 000020 |          -     +     +     +     +
+  No. Pred |    .0   2.0  38.6   5.1    .3  45.9
+-----------+-------------------------------------
+  No. Chsn |    .0    .0  44.0   6.7   9.5  60.2
+  SD. Chsn |    .0   4.8  10.8   5.6   1.7  13.2
+Row 000021 |         *+     -    *+  ***-     +
+  No. Pred |    .0   5.7  40.9  14.8   1.6  62.9
+-----------+-------------------------------------
+  No. Chsn |    .0    .0  29.3  10.9    .3  40.4
+  SD. Chsn |    .0   5.1   7.0   5.3   1.1  10.3
+Row 000022 |         *+    *-     +     +     -
+  No. Pred |    .0   6.4  17.1  13.3    .7  37.5
+-----------+-------------------------------------
+  No. Chsn |  12.2    .0    .0    .0    .0  12.2
+  SD. Chsn |   5.8    .0    .0    .0    .0   5.8
+Row 000023 |    +                             +
+  No. Pred |  13.0    .0    .0    .0    .0  13.0
+-----------+-------------------------------------
+  No. Chsn |  17.9    .0    .0    .0    .0  17.9
+  SD. Chsn |   6.9    .0    .0    .0    .0   6.9
+Row 000024 |    +                             +
+  No. Pred |  18.3    .0    .0    .0    .0  18.3
+-----------+-------------------------------------
+  No. Chsn |    .0  11.0   3.9    .0    .0  14.9
+  SD. Chsn |    .0   6.9   3.2   1.0    .9   7.7
+Row 000025 |          -     -     +     +     -
+  No. Pred |    .0   9.4   2.8    .3    .4  13.0
+-----------+-------------------------------------
+  No. Chsn |    .0   4.7    .3    .0   1.7   6.6
+  SD. Chsn |    .0   4.8   1.7    .8    .6   5.2
+Row 000026 |                +     +   **-     -
+  No. Pred |    .0   4.6    .8    .2    .2   5.8
+-----------+-------------------------------------
+  No. Chsn |    .0   1.3  12.1   6.8   8.8  28.9
+  SD. Chsn |    .0   3.7   5.6   3.6   4.7   9.0
+Row 000027 |          +     -     -    *+     +
+  No. Pred |    .0   3.6  11.4   6.5  13.7  35.2
+-----------+-------------------------------------
+  No. Chsn |    .0   4.2  27.9  13.8  30.1  75.9
+  SD. Chsn |    .0   5.8   8.7   5.6   7.1  13.9
+Row 000028 |          +           +     +     +
+  No. Pred |    .0   8.7  27.8  15.7  31.4  83.6
+-----------+-------------------------------------
+  No. Chsn |    .0   9.9  24.8  11.5  21.6  67.8
+  SD. Chsn |    .0   5.5   8.3   5.3   6.8  13.1
+Row 000029 |          -           +     +     +
+  No. Pred |    .0   7.8  24.8  14.0  28.0  74.6
+-----------+-------------------------------------
+  No. Chsn |    .0   1.0   8.4   7.4  10.3  27.1
+  SD. Chsn |    .0   3.3   3.8   3.6   3.6   7.2
+Row 000030 |          +     -     -     -     -
+  No. Pred |    .0   2.7   5.3   6.5   8.0  22.5
+-----------+-------------------------------------
+  No. Chsn |    .0    .7   2.5   2.2    .2   5.6
+  SD. Chsn |    .0   1.6   3.0   1.5    .4   3.7
+Row 000031 |                +     -     -     -
+  No. Pred |    .0    .6   3.1   1.1    .1   4.8
+-----------+-------------------------------------
+  No. Chsn |    .0    .0   3.5    .0    .3   3.7
+  SD. Chsn |    .0   1.3   2.4   1.3    .3   3.1
+Row 000032 |          +     -     +     -     -
+  No. Pred |    .0    .4   2.1    .7    .1   3.3
+-----------+-------------------------------------
+  No. Chsn |    .0    .0    .9   1.2    .0   2.1
+  SD. Chsn |    .0   1.1   1.6   1.2    .2   2.3
+Row 000033 |          +           -           -
+  No. Pred |    .0    .3    .9    .6    .0   1.8
+-----------+-------------------------------------
+  No. Chsn |    .0   2.0    .4   1.0    .3   3.7
+  SD. Chsn |    .0   1.2   1.8   1.2   1.4   2.8
+Row 000034 |         *-     +     -     +     -
+  No. Pred |    .0    .3   1.1    .6   1.1   3.2
+-----------+-------------------------------------
+  No. Chsn |    .0    .0   8.7   4.0   9.3  22.0
+  SD. Chsn |    .0   3.3   5.2   3.3   3.8   7.9
+Row 000035 |          +     +     +     -     +
+  No. Pred |    .0   2.7   9.3   5.0   8.6  25.6
+-----------+-------------------------------------
+  No. Chsn |    .0   1.3  15.8   5.0   5.7  27.8
+  SD. Chsn |    .0   3.2   5.0   3.2   3.7   7.7
+Row 000036 |          +    *-     -     +     -
+  No. Pred |    .0   2.5   8.7   4.7   8.1  24.0
+-----------+-------------------------------------
+  No. Chsn |    .0    .0    .5   1.2   4.1   5.9
+  SD. Chsn |    .0   1.5   2.3   1.5   1.7   3.5
+Row 000037 |          +     +     -    *-     -
+  No. Pred |    .0    .5   1.8   1.0   1.7   5.0
+-----------+-------------------------------------
+  No. Chsn |    .0    .0    .0   3.1   2.1   5.2
+  SD. Chsn |    .0   1.5   1.8   1.7   1.6   3.3
+Row 000038 |          +     +    *-     -     -
+  No. Pred |    .0    .6   1.2   1.3   1.4   4.5
+-----------+-------------------------------------
+  No. Chsn |1186.61536.33097.01958.41845.09623.3
+Total      |
+  No. Pred |1186.61536.33097.01958.41845.09623.3
+-------------------------------------------------
+ 
+INFORMATION 571: Root-Mean-Square error is    4.299
+ 
+INFORMATION 572: number of **stars** in table is 33
+ 
+Distribution of Values of (Chosen-Pred.)/SD Chosen
+ .-----------------------------------------------.
+ | <-3 | <-2 | <-1 | < 0 | < 1 | < 2 | < 3 | > 3 |
+ |-----+-----+-----+-----+-----+-----+-----+-----|
+ |   0 |   0 |  12 |  66 |  96 |  14 |   1 |   1 |
+ .-----------------------------------------------.
+ 
+Chi-Squared value is         42.10
+Exceeds 99% confidence rejection value
+ 
+Free            DATA           2.860 K bytes
+ 
+INFORMATION 002: data processing time    29.61 secs.
+ 
+Overview of time used
+                         Seconds  (hr:min:sec)
+Control file time   :        .64     0:00:01
+Data processing time:      29.63     0:00:30
+Estimation time     :        .00     0:00:00
+ 
+Total processing    :      30.27     0:00:30

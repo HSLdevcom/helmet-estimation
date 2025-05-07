@@ -1,0 +1,111 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+
+C:..am Files (x86)\ALOGIT\ALOGIT 4\Alo45.exe 561152 b. Date: 27 Feb 24 at  9:57 
+
+Run started at 12:39:21 on  5 Feb 25
+ 
+Allocating and deallocating memory
+ 
+INPUT allocating       32041.020 K bytes
+ 
+INFORMATION 352: reading coefficients from HS15_HBSH.F12
+File not found: HS15_HBSH.F12
+ 
+USER ERROR 353: reading problem in COEFFS file 6413
+ 
+Message(s) above caused by main control file line     4.  Line is:
+$estimate  model=HS15_HBSH done
+ 
+WARNING 335: Dcoeff     is already unconstrained
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..ineisto\\uudet2023\\havainnot23\\SPB.txt 206778 b. Date:  5 Feb 25 at 11:05
+ 
+INFORMATION 253:   FILE  2 : keyed file
+C:..sto\\uudet2023\\zonedata_base_folded.csv      0 b. Date:  5 Feb 25 at 11:15
+ 
+INFORMATION 253:   FILE  3 : keyed file
+C:..to\\uudet2023\\zonedata_municipality.csv  16401 b. Date: 15 Jan 25 at 13:56
+ 
+INFORMATION 253:   FILE  4 : common data
+C:..flatfiles\\folded_zones_municipality.csv   4947 b. Date: 15 Jan 25 at 13:59
+ 
+INFORMATION 253:   FILE  5 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE  6 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE  7 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE  8 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE  9 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE 10 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE 11 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE 12 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE 13 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE 14 : keyed file
+File not found: C:\\Users\\HajduPe\\H4_estimointi\\Helme
+ 
+INFORMATION 253:   FILE 15 : common data
+C:..\flatfiles\\folded_zones_car_density.csv  12200 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 16 : common data
+C:..det2023\\flatfiles\\folded_zones_cbd.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 17 : common data
+C:..et2023\\flatfiles\\folded_zones_high.csv   4406 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 18 : common data
+C:..\flatfiles\\folded_zones_job_density.csv  32301 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 19 : common data
+C:..et2023\\flatfiles\\folded_zones_jobs.csv   7096 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 20 : common data
+C:..tfiles\\folded_zones_cost_park_other.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 21 : common data
+C:..atfiles\\folded_zones_cost_park_work.csv   4220 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 22 : common data
+C:..det2023\\flatfiles\\folded_zones_pop.csv   8424 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 23 : common data
+C:..\flatfiles\\folded_zones_pop_density.csv  19566 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 24 : common data
+C:..023\\flatfiles\\folded_zones_primary.csv   5108 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 25 : common data
+C:..023\\flatfiles\\folded_zones_service.csv  14549 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 26 : common data
+C:..t2023\\flatfiles\\folded_zones_shops.csv  11470 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 27 : common data
+C:..23\\flatfiles\\folded_zones_singleHP.csv   7963 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 28 : common data
+C:..\\flatfiles\\folded_zones_university.csv   4269 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 29 : common data
+C:..et2023\\flatfiles\\folded_zones_area.csv  13941 b. Date: 22 Aug 24 at 10:01
+ 
+INFORMATION 253:   FILE 30 : output
+ 
+INFORMATION 201: include control input from C:\Users\HajduPe\H4_estimointi\Helme
