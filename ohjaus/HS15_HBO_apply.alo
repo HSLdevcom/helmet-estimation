@@ -1800,9 +1800,11 @@ espooVantK surround shopsCbd shopsElse carDens carsPer1K
 FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\zonedata_municipality.csv,key=izone)
 izone iMun 
 FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\zonedata_accessibility_folded.csv,key=zone)
-zone hw_c hw_t hw_b hw_w hw hc_c hc_t hc_b hc_w hc hu_c hu_t hu_b hu_w hu hs_c hs_t hs_b hs_w hs ho_c ho_t ho_b ho_w 
-ho wo_c wo_t wo_b wo_w wo oo_c oo_t oo_b oo_w oo wh_c 
-wh_t wh_b wh_w wh
+zone hw_c hw_t hw_b hw_w hw hc_c hc_t hc_b hc_w
+hc hu_c hu_t hu_b hu_w hu hs_c hs_t hs_b hs_w 
+hs ho_c ho_t ho_b ho_w ho wo_c wo_t wo_b wo_w 
+wo oo_c oo_t oo_b oo_w oo wh_c wh_t wh_b wh_w 
+wh
 FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\flatfiles\\folded_zones_municipality.csv)
 jMun
 FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\vastukset\\new_ho_bike_dist.csv,key=izone)

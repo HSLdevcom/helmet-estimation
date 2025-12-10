@@ -165,8 +165,8 @@ for period in ["aht","pt","iht","vrk"]:
 
         with open(f"analyysit/od_flows_{chosen}_{period}.txt","w") as file:
             file.writelines(["from,to,helmet_volume,heha_volume\n"])
-            for m1 in muns:
-                for m2 in muns:
+            for m1 in muns: # type: ignore
+                for m2 in muns: # type: ignore
                     volume = volumes[(m1,m2)]
                     heha_volume = heha_suodattu.query(f'(aloitus_sij23 > {municipalities[m1][0]})&(aloitus_sij23 < {municipalities[m1][1]})&(maaranpaa_sij23 > {municipalities[m2][0]})&(maaranpaa_sij23 < {municipalities[m2][1]})')["kerroin_arki"].sum()
                     file.writelines([f"{m1},{m2},{volume},{heha_volume}\n"])

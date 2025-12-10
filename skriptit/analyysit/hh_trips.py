@@ -97,7 +97,7 @@ i_series = [0 for _ in range(len(age_groups))]
 t_series = [0 for _ in range(len(age_groups))]
 chosen = "bike"
 for e,(ab,af) in enumerate(age_groups):
-    i_count = heha.query(f"ika>{ab} & ika<={af} & LENKKI == 1 & pktapa2_luok=={modes[chosen]}")["kerroin_vkl_x"].sum()
+    i_count = heha.query(f"ika>{ab} & ika<={af} & LENKKI == 1 & lahtopaikka!=1")["kerroin_vkl_x"].sum()
     t_count = taustat.query(f"ika>{ab} & ika<={af}")["kerroin_arki"].sum()
     print(ab,af, i_count/t_count)
     i_series[e] = i_count

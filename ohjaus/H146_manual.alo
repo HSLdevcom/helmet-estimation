@@ -115,6 +115,8 @@ $coeff K_7_17
 + H4HAP
 + I01_5064
 + I01_65
++ I01_7_17
++ I01_1829
 + T1hw_t
 + H1erpi
 + T_18_29
@@ -163,8 +165,12 @@ female male popDens workplaces service shops logistics industry parkCostW parkCo
 schoolL1 schoolL2 schoolL3 area detachS detachSqrt helsinki cbd lauttaS helsOther
 espooVantK surround shopsCbd shopsElse carDens carsPer1K 
 
-FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\accessibility_example_reduced.csv,key=rzone)
-rzone saav_hu_t saav_ho_w
+FILE (name= C:\\Users\\HajduPe\\H4_estimointi\\Helmet4\\helmet_estimation\\Aineisto\\uudet2023\\zonedata_accessibility_folded.csv,key=zone)
+zone hw_c hw_t hw_b hw_w hw hc_c hc_t hc_b hc_w
+hc hu_c saav_hu_t hu_b hu_w hu hs_c hs_t hs_b hs_w 
+hs ho_c ho_t ho_b saav_ho_w ho wo_c wo_t wo_b wo_w 
+wo oo_c oo_t oo_b oo_w oo wh_c wh_t wh_b wh_w 
+wh
 
 choice= ttype
 
@@ -322,7 +328,7 @@ exclude(8)= ifeq(is_female,9)
     
 
 Util(01)=0
-
++I01_1829*age_18_29
 +I01_5064*age_50_64
 +I01_65*age_65
 

@@ -873,277 +873,454 @@ modes_beginning="""
 from typing import Any, Dict, Optional
 
 """
-mode_choice: Dict[str, Optional[Dict[str, Dict[str, Any]]]] = {
+mode_choice = {
     "hw": {
         "car": {
-            "constant": (0.830938747727 * (0 + 0.278), 
-                         0.830938747727 * (0 + 0.251)),
             "generation": {
-                "car_density": (0.830938747727 * 1000 * 0.00282859274412, 0.830938747727 * 1000 * 0.00453019737785),
-            },
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.830938747727,
+                "car_density": (1.7898027723112746, 1.7898027723112746),
+                "cbd": -0.037008413632491285,
+                "helsinki_other": 0.03490177595970353,
+                "espoo_vant_kau": 0.010947261419875204
             },
             "individual_dummy": {
-                "car_users": (0.830938747727 * 3.03999716806, 0.830938747727 * 2.95110380739),
+                "car_users": (3.6091937349063166, 3.6091937349063166)
             },
+            "log": {
+                "logsum": 0.848444967824
+            },
+            "constant": (0.0, 0.04866918037693277),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            }
+        },
+        "park_and_ride": {
+            "generation": {
+                "car_density": (1.7898027723112746, 1.7898027723112746)
+            },
+            "individual_dummy": {
+                "car_users": (3.6091937349063166, 3.6091937349063166)
+            },
+            "constant": (-7.161631577312682, -7.161631577312682),
+            "log": {
+                "logsum": 0.848444967824
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            }
         },
         "transit": {
-            "constant": (0.830938747727 * (3.35620148087 - 0.107), 
-                         0.830938747727 * (3.35324641782 - 0.527)),
-            "generation": {
-                "cbd": 0.40,
-                "helsinki_other": -0.10,
-                "espoo_vant_kau": -0.30,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (3.8830650314912134, 3.8537541331889713),
             "log": {
-                "logsum": 0.830938747727,
+                "logsum": 0.848444967824
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": 0.01565395640683194,
+                "helsinki_other": 0.10277273111315371,
+                "espoo_vant_kau": 0.004518509760761004
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (0.830938747727 * (3.80657808148 - 0.017), 
-                         0.830938747727 * (4.31992749379 + 0.033)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (3.2167179590315493, 3.106974003364469),
             "log": {
-                "logsum": 0.830938747727,
+                "logsum": 0.848444967824
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": -0.02089260731091727,
+                "helsinki_other": 0.03636642628817646,
+                "espoo_vant_kau": -0.03708688092318881
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "walk": {
-            "constant": (0.830938747727 * (6.19979345573 + 0.040),
-                         0.830938747727 * (6.52578316385 - 0.421)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (4.844449835047745, 4.9236995156619905),
             "log": {
-                "logsum": 0.830938747727,
+                "logsum": 0.848444967824
             },
-            "individual_dummy": {},
-        },
+            "generation": {
+                "cbd": -0.04319871497962407,
+                "helsinki_other": 0.03453667897018747,
+                "espoo_vant_kau": -0.02609202241344582
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "hc": {
         "car": {
-            "constant": (0.272803753976 * (0 + 0.684),
-                         0.272803753976 * (0 - 0.697)),
             "generation": {
-                "car_density": 0.272803753976 * 1000 * 0.201094997058e-01,
+                "car_density": (2.343248935046031, 2.343248935046031),
+                "cbd": -0.11628385085360328,
+                "helsinki_other": 0.004864861004898668,
+                "espoo_vant_kau": 0.02454837834992644
             },
-            "attraction": {},
-            "impedance": {},
             "log": {
-                "logsum": 0.272803753976, # Dcoeff
+                "logsum": 0.326164428873
             },
-            "individual_dummy": {},
+            "constant": (0.0, -0.024316482463758265),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (0.272803753976 * (13.2817160786 + 0.077),
-                         0.272803753976 * (13.2817160786 - 0.734)),
-            "generation": {
-                "cbd": 0.3,
-                "helsinki_other": 0.3,
-                "espoo_vant_kau": -0.3,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (2.23179604883763, 2.2075220599898606),
             "log": {
-                "logsum": 0.272803753976, # Dcoeff
+                "logsum": 0.326164428873
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": -0.11004471008796977,
+                "helsinki_other": 0.007876362087636417,
+                "espoo_vant_kau": 0.02361602479340828
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (0.272803753976 * (11.3490028510 + 0.163),
-                         0.272803753976 * (11.3490028510 + 2.018)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (1.4820957990801067, 1.3632079059181381),
             "log": {
-                "logsum": 0.272803753976, # Dcoeff
+                "logsum": 0.326164428873
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": -0.1337538745278452,
+                "helsinki_other": -0.019882013497229997,
+                "espoo_vant_kau": 0.001094503013325565
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "walk": {
-            "constant": (0.272803753976 * (17.7784859496 + 0.033),
-                         0.272803753976 * (17.7784859496 - 1.254)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (2.6104495735108393, 2.6192330167065974),
             "log": {
-                "logsum": 0.272803753976, # Dcoeff
+                "logsum": 0.326164428873
             },
-            "individual_dummy": {},
-        },
+            "generation": {
+                "cbd": -0.13281194694118229,
+                "helsinki_other": -0.01118902271557439,
+                "espoo_vant_kau": 0.012383238692490441
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "hu": {
         "car": {
-            "constant": (0 - 0.315, 0 + 0.675),
             "generation": {
-                "car_density": 1000 * 0.504851816443e-2,
+                "car_density": (5.236065716890001, 5.236065716890001),
+                "cbd": 0.05344417309440747,
+                "helsinki_other": 0.04019126525706993,
+                "espoo_vant_kau": 0.10173612554855303
             },
-            "attraction": {},
-            "impedance": {},
             "log": {
-                "logsum": 1.00000000000, # Dcoeff
+                "logsum": 1.0
             },
-            "individual_dummy": {},
+            "constant": (0.0, -0.21943436500609237),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (3.12509878421 + 0.053, 3.12509878421 + 0.468),
-            "generation": {
-                "cbd": 0.5,
-                "helsinki_other": 0.1,
-                "espoo_vant_kau": -0.7,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (3.55407315155, 3.273901169121045),
             "log": {
-                "logsum": 1.00000000000,
+                "logsum": 1.0
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": 0.06123613527848611,
+                "helsinki_other": 0.08452337057787536,
+                "espoo_vant_kau": 0.0911353884682568
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (3.24451960342 + 0.379, 3.24451960342 + 1.910),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (1.51681381373, 1.0536949091086338),
             "log": {
-                "logsum": 1.00000000000,
+                "logsum": 1.0
             },
-            "individual_dummy": {},
-        }, 
-        "walk": {
-            "constant": (6.16685830247 + 0.493, 6.16685830247 + 1.253), 
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 1.00000000000,
+            "generation": {
+                "cbd": -0.012794476332995287,
+                "helsinki_other": -0.003197914905620915,
+                "espoo_vant_kau": 0.08067138878721908
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
+        "walk": {
+            "constant": (3.73925008614, 3.5091095644132047),
+            "log": {
+                "logsum": 1.0
+            },
+            "generation": {
+                "cbd": -0.01593087763350792,
+                "helsinki_other": 0.0,
+                "espoo_vant_kau": 0.13654043098155427
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "hs": {
         "car": {
-            "constant": (0.522036062262 * (0 + 0.323), 
-                         0.522036062262 * (0 + 0.189)),
             "generation": {
-                "car_density": (0.522036062262 * 1000 * 0.00996637488914, 0.522036062262 * 1000 * 0.0166093327868),
-            },
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.522036062262, # Dcoeff
+                "car_density": (5.978400838845634, 5.978400838845634),
+                "cbd": -0.11136462966235525,
+                "helsinki_other": -0.1555274224828754,
+                "espoo_vant_kau": -0.10817107756903314
             },
             "individual_dummy": {
-                "car_users": (0.522036062262 * 4.50826448347, 0.522036062262 * 3.60490124299),
+                "car_users": (1.9069069532920093, 1.9069069532920093)
             },
+            "log": {
+                "logsum": 0.566271563066
+            },
+            "constant": (0.0, -0.31382109916287226),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            }
         },
         "transit": {
-            "constant": (0.522036062262 * (6.72180796903 + 0.158), 
-                         0.522036062262 * (6.67197643351 - 0.399)),
-            "generation": {
-                "espoo_vant_kau": -0.3,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (3.846394306037391, 3.7112535932191384),
             "log": {
-                "logsum": 0.522036062262,
+                "logsum": 0.566271563066
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": -0.10534153053669418,
+                "helsinki_other": -0.06330930494258853,
+                "espoo_vant_kau": -0.05543873475975054
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (0.522036062262 * (4.3562332376 + 0.307), 
-                         0.522036062262 * (7.8358175344 + 0.210)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (2.2139830946764185, 2.4078708088676164),
             "log": {
-                "logsum": 0.522036062262,
+                "logsum": 0.566271563066
             },
-            "individual_dummy": {},
-        }, 
-        "walk": {
-            "constant": (0.522036062262 * (11.3353754845 + 0.065),
-                         0.522036062262 * (13.3431291443 + 0.068)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.522036062262,
+            "generation": {
+                "cbd": -0.30024446634581825,
+                "helsinki_other": -0.10584166976230419,
+                "espoo_vant_kau": -0.2019781903690947
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
+        "walk": {
+            "constant": (4.570099600398595, 4.417913201690682),
+            "log": {
+                "logsum": 0.566271563066
+            },
+            "generation": {
+                "cbd": -0.07259048650400303,
+                "helsinki_other": -0.11086296082665595,
+                "espoo_vant_kau": -0.0746335469712121
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "ho": {
         "car": {
-            "constant": (0.157371648547 * (0 - 0.280),
-                         0.157371648547 * (0 - 0.130)),
             "generation": {
-                "car_density": (0.157371648547 * 1000 * 0.0275157057103, 0.157371648547 * 1000 * 0.00903883238252),
-            },
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.157371648547,
+                "car_density": (3.6822581920944355, 3.6822581920944355),
+                "cbd": 0.00787007668775943,
+                "helsinki_other": -0.07086567355695766,
+                "espoo_vant_kau": -0.15032710078495565
             },
             "individual_dummy": {
-                "car_users": (0.157371648547 * 4.43378318532, 0.157371648547 * 2.98838274317),
+                "car_users": (1.1587085900464564, 1.1587085900464564)
             },
+            "log": {
+                "logsum": 0.379991080528
+            },
+            "constant": (0.0, -0.07068006671719264),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            }
         },
         "transit": {
-            "constant": (0.157371648547 * (8.33856436370 - 0.380), 
-                         0.157371648547 * (-9.21721208402 - 0.258)),
-            "generation": {
-                "cbd": 0.2,
-                "espoo_vant_kau": -0.8,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (1.6907671490795977, 1.6126983366170327),
             "log": {
-                "logsum": 0.157371648547,
+                "logsum": 0.379991080528
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": 0.015387551491846809,
+                "helsinki_other": -0.07268844604078,
+                "espoo_vant_kau": -0.1641784361843387
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (0.157371648547 * (5.65570738596 - 0.113), 
-                         0.157371648547 * (-.549035575271 + 0.374)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (0.8759342178056636, 0.6804250136598654),
             "log": {
-                "logsum": 0.157371648547,
+                "logsum": 0.379991080528
             },
-            "individual_dummy": {},
-        }, 
-        "walk": {
-            "constant": (0.157371648547 * (20.8216972704 - 0.450), 
-                         0.157371648547 * (12.5696379434 - 0.134)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.157371648547,
+            "generation": {
+                "cbd": -0.014659239564495257,
+                "helsinki_other": -0.10632388880059432,
+                "espoo_vant_kau": -0.18882439916902494
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
+        "walk": {
+            "constant": (2.6828511778748703, 2.6190973605926207),
+            "log": {
+                "logsum": 0.379991080528
+            },
+            "generation": {
+                "cbd": -0.0152844405609704,
+                "helsinki_other": -0.0961873329959448,
+                "espoo_vant_kau": -0.1810075956766916
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "hh": {
         "car": {
             "constant": -4.193566283037721,
             "generation": {
+
             },
             "individual_dummy": {
+
             },
             "log": {
-            },
 
+            },
             "attraction": {
+
             },
             "impedance": {
 
@@ -1152,11 +1329,13 @@ mode_choice: Dict[str, Optional[Dict[str, Dict[str, Any]]]] = {
         "transit": {
             "constant": -6.219339088071782,
             "log": {
+
             },
             "generation": {
+
             },
             "attraction": {
-                #left empty on purpose
+
             },
             "impedance": {
 
@@ -1168,10 +1347,13 @@ mode_choice: Dict[str, Optional[Dict[str, Dict[str, Any]]]] = {
         "bike": {
             "constant": -3.557848140624303,
             "log": {
+
             },
             "generation": {
+
             },
             "attraction": {
+
             },
             "impedance": {
 
@@ -1183,11 +1365,13 @@ mode_choice: Dict[str, Optional[Dict[str, Dict[str, Any]]]] = {
         "walk": {
             "constant": -0.06238631413467127,
             "log": {
+
             },
             "generation": {
 
             },
             "attraction": {
+
             },
             "impedance": {
 
@@ -1199,250 +1383,400 @@ mode_choice: Dict[str, Optional[Dict[str, Dict[str, Any]]]] = {
     },
     "hoo": None,
     "wo": {
-       "car": {
-            "constant": (.718153936654 * (0 + 0.520),
-                         .718153936654 * (0 + 1.112)),
+        "car": {
             "generation": {
-                "car_density": (.718153936654 * 1000 * .00281255180930, .718153936654 * 1000 * .00306776772245),
+                "car_density": (4.4900540445078025, 4.4900540445078025),
+                "cbd": 0.06905329678479916,
+                "helsinki_other": -0.2920627819825779,
+                "espoo_vant_kau": 0.0569225212269937
             },
-            "attraction": {},
-            "impedance": {},
             "log": {
-                "logsum": .718153936654,
+                "logsum": 1.11333581055
             },
-            "individual_dummy": {},
+            "constant": (0.0, 0.12090020571672967),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (.718153936654 * (1.47963675807 - 0.168),
-                         .718153936654 * (1.47963675807 - 3.635)),
-            "generation": {
-                "cbd": 0.9,
-                "helsinki_other": -0.1,
-                "espoo_vant_kau": -0.9,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (2.580336404612475, 2.568561179626103),
             "log": {
-                "logsum": .718153936654,
+                "logsum": 1.11333581055
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": 0.1005875215437466,
+                "helsinki_other": -0.21616711735439376,
+                "espoo_vant_kau": 0.05430207639257846
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (.718153936654 * (-.346070374291 + 1.601),
-                         .718153936654 * (.0632569112049 - 0.280)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (0.25675679866725687, -0.0037172776931688745),
             "log": {
-                "logsum": .718153936654,
+                "logsum": 1.11333581055
             },
-            "individual_dummy": {},
-        }, 
-        "walk": {
-            "constant": (.718153936654 * (5.72318117910 + 0.522),
-                         .718153936654 * (5.72318117910 - 0.368)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": .718153936654,
+            "generation": {
+                "cbd": 0.0752779460259763,
+                "helsinki_other": 0.0,
+                "espoo_vant_kau": 0.005486601802273943
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
+        "walk": {
+            "constant": (4.502206471590505, 4.470502464113907),
+            "log": {
+                "logsum": 1.11333581055
+            },
+            "generation": {
+                "cbd": 0.11582835969442296,
+                "helsinki_other": -0.16134569277670274,
+                "espoo_vant_kau": 0.05710843373943807
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "oo": {
         "car": {
-            "constant": (.718153936654 * (0 - 0.094),
-                         .718153936654 * (0 + 0.030)),
             "generation": {
-                "car_density": (.718153936654 * 1000 * .00281255180930, .718153936654 * 1000 * .00306776772245),
+                "car_density": (4.4900540445078025, 4.4900540445078025),
+                "cbd": 0.22347652021946596,
+                "helsinki_other": -0.2244318166542487,
+                "espoo_vant_kau": -0.4107621931244809
             },
-            "attraction": {},
-            "impedance": {},
             "log": {
-                "logsum": .718153936654,
+                "logsum": 1.11333581055
             },
-            "individual_dummy": {},
+            "constant": (0.0, -0.17160645389541532),
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (.718153936654 * (1.47963675807 + 0.894),
-                         .718153936654 * (1.47963675807 + 0.242)),
-            "generation": {
-                "cbd": 0.2,
-                "helsinki_other": -0.4,
-                "espoo_vant_kau": -0.4,
-            },
-            "attraction": {},
-            "impedance": {},
+            "constant": (2.580336404612475, 2.468317103768018),
             "log": {
-                "logsum": .718153936654,
+                "logsum": 1.11333581055
             },
-            "individual_dummy": {},
+            "generation": {
+                "cbd": 0.2661954064810847,
+                "helsinki_other": -0.17517190432496774,
+                "espoo_vant_kau": -0.3750648475153083
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (.718153936654 * (-.346070374291 - 0.323),
-                         .718153936654 * (.0632569112049 + 1.241)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
+            "constant": (0.25675679866725687, -0.1256947722703901),
             "log": {
-                "logsum": .718153936654,
+                "logsum": 1.11333581055
             },
-            "individual_dummy": {},
-        }, 
-        "walk": {
-            "constant": (.718153936654 * (5.72318117910 + 0.464),
-                         .718153936654 * (5.72318117910 + 0.867)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": .718153936654,
+            "generation": {
+                "cbd": 0.23660613769179764,
+                "helsinki_other": -0.23763567971481775,
+                "espoo_vant_kau": 0.0
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
+        "walk": {
+            "constant": (4.502206471590505, 4.344647707407288),
+            "log": {
+                "logsum": 1.11333581055
+            },
+            "generation": {
+                "cbd": 0.2835877604448049,
+                "helsinki_other": -0.2187236622860091,
+                "espoo_vant_kau": -0.36535902148657545
+            },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "wh": {
         "car": {
-            "constant": (0.830938747727 * (0 + 0.278), 
-                         0.830938747727 * (0 + 0.251)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.830938747727,
+            "constant": (0.23100097186810603, 0.208565625679477),
+            "generation": {
+
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 0.830938747727
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (0.830938747727 * (3.35620148087 - 0.107), 
-                         0.830938747727 * (3.35324641782 - 0.527)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.830938747727,
+            "constant": (2.6998874096268315, 2.3484376591912706),
+            "generation": {
+
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 0.830938747727
+            },
+            "individual_dummy": {
+
+            }
         },
         "bike": {
-            "constant": (0.830938747727 * (3.80657808148 - 0.017), 
-                         0.830938747727 * (4.31992749379 + 0.033)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.830938747727,
+            "constant": (3.148907265438679, 3.6170161206362916),
+            "generation": {
+
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 0.830938747727
+            },
+            "individual_dummy": {
+
+            }
         },
         "walk": {
-            "constant": (0.830938747727 * (6.19979345573 + 0.040),
-                         0.830938747727 * (6.52578316385 - 0.421)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.830938747727,
+            "constant": (5.184886160179416, 5.072700877314392),
+            "generation": {
+
             },
-            "individual_dummy": {},
-        },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 0.830938747727
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "hwp": {
         "car": {
-            "constant": (0 + 0.024),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 1.00000000000, # Dcoeff
+            "constant": 0.024,
+            "generation": {
+
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 1.0
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (-1.83293849298 - 0.199), # T_const
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 1.00000000000, # Dcoeff
+            "constant": -2.0319384929799997,
+            "generation": {
+
             },
-            "individual_dummy": {},
-        },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 1.0
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "hop": {
         "car": {
-            "constant": (0 + 0.075),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 1.00000000000,
+            "constant": 0.075,
+            "generation": {
+
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 1.0
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (-1.02607987269 - 0.075),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 1.00000000000,
+            "constant": -1.10107987269,
+            "generation": {
+
             },
-            "individual_dummy": {},
-        },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 1.0
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "sop": {
         "car": {
             "constant": 0.0,
-            "generation": {},
+            "generation": {
+
+            },
             "attraction": {
                 "own_zone_area": -0.01478815,
-                "parking_cost_work": -0.154340268,
+                "parking_cost_work": -0.154340268
             },
             "impedance": {
                 "time": -0.021262374,
-                "cost": -0.154340268,
+                "cost": -0.154340268
             },
-            "log": {},
-            "individual_dummy": {},
+            "log": {
+
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
             "constant": -2.060141017,
-            "generation": {},
+            "generation": {
+
+            },
             "attraction": {
-                "own_zone_area": -0.115937409151,
+                "own_zone_area": -0.115937409151
             },
             "impedance": {
                 "time": -0.007909217,
-                "cost": -0.154340268 / 30.0,
+                "cost": -0.0051446756
             },
-            "log": {},
-            "individual_dummy": {},
-        },
+            "log": {
+
+            },
+            "individual_dummy": {
+
+            }
+        }
     },
     "oop": {
         "car": {
-            "constant": (0.715272183645 * (0 + 0.135)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.715272183645,
+            "constant": 0.09656174479207501,
+            "generation": {
+
             },
-            "individual_dummy": {},
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 0.715272183645
+            },
+            "individual_dummy": {
+
+            }
         },
         "transit": {
-            "constant": (0.715272183645 * (-3.44371464477 + 0.243)),
-            "generation": {},
-            "attraction": {},
-            "impedance": {},
-            "log": {
-                "logsum": 0.715272183645,
+            "constant": -2.2893821531891683,
+            "generation": {
+
             },
-            "individual_dummy": {},
-        },
-    },
+            "attraction": {
+
+            },
+            "impedance": {
+
+            },
+            "log": {
+                "logsum": 0.715272183645
+            },
+            "individual_dummy": {
+
+            }
+        }
+    }
 }
 
 def insert_param(tdict, param, map, model_system_ttype, universal=""):
@@ -1485,7 +1819,8 @@ def insert_param(tdict, param, map, model_system_ttype, universal=""):
 def get_mode_param_map(mpa):
     param_map_mode = {}
     dcoeff = mpa["Dcoeff"]
-    if "C_const" in mpa: param_map_mode[("car","constant")]=(mpa["C_const"]*dcoeff,mpa["C_const"]*dcoeff)
+    if "C_const" in mpa: 
+        param_map_mode[("car","constant")]=(mpa["C_const"]*dcoeff,mpa["C_const"]*dcoeff)
     if "C_Ocardns" in mpa: 
         param_map_mode[("car","generation", "car_density")]=(mpa['C_Ocardns']*1000*dcoeff,mpa['C_Ocardns']*1000*dcoeff)
         if "PR_const" in mpa:
@@ -1569,8 +1904,10 @@ def get_dest_param_map(mpa, c_time):
     if "C_opark" in mpa: param_map_dest[("car","attraction","parking_cost_errand")]=(mpa["C_opark"],mpa["C_opark"])
     if "CT_gen" in mpa and "C_time" not in mpa:
         param_map_dest[("car","impedance","time")]=(c_time*mpa["CT_gen"],c_time*mpa["CT_gen"])
+        param_map_dest[("car","attraction","parking_time")]=(c_time*mpa["CT_gen"],c_time*mpa["CT_gen"])
     elif "C_time" in mpa:
         param_map_dest[("car","impedance","time")]=(mpa["C_time"],mpa["C_time"])
+        param_map_dest[("car","attraction","parking_time")]=(mpa["C_time"],mpa["C_time"])
     if "CT_gen" in mpa: param_map_dest[("ct","impedance","cost")]=(mpa["CT_gen"],mpa["CT_gen"])
     if "CT_lnCosPO" in mpa: 
         param_map_dest[("ct","log","transform")] = mpa["CT_lnCosPO"]
@@ -1644,6 +1981,7 @@ def get_dest_param_map(mpa, c_time):
     if "Cd_Time" in mpa: param_map_dest[("car","impedance","time")]=mpa["Cd_Time"]
     if "Cd_park" in mpa: param_map_dest[("car","attraction","parking_cost_errand")]=mpa["Cd_park"]
     if "Td_time" in mpa: param_map_dest[("transit","impedance","time")]=mpa["Td_time"]
+    if "Bd_Time" in mpa: param_map_dest[("bike","impedance","time")]=mpa["Bd_Time"]
     if "Bd_Len" in mpa: param_map_dest[("bike","impedance","dist")]=mpa["Bd_Len"]
     if "Wd_Len" in mpa: param_map_dest[("walk","impedance","dist")]=mpa["Wd_Len"] #not in use
 
@@ -1661,8 +1999,8 @@ def get_dest_param_map(mpa, c_time):
     return param_map_dest
 
 #manually copied from alo files in ohjaus
-c_time_work = 0.132
-c_time_other = 0.0895
+c_time_work = 0.162444 #2023 hintataso
+c_time_other = 0.110065 #2023 hintataso
 c_time_map = {
     "hw": c_time_work,
     "hc": c_time_work, #actually has its own
@@ -1691,10 +2029,10 @@ if __name__ == "__main__":
         "HS15 Koti-muu": "ho",
         "HS15 EKP": "oo",
         "HS15 EKP2": "wo",
-        "HS15 2ST": "hoo",
-        #"HS15 2SW": "hoo", #not in use
-        "HS15 2SB": "hoo",
-        "HS15 2SC": "hoo",
+        "HS15 2ST": "hoo_transit",
+        #"HS15 2SW": "hoo_walk", #not in use
+        "HS15 2SB": "hoo_bike",
+        "HS15 2SC": "hoo_car",
     }
 
     model_params_alogit = {}
@@ -1727,19 +2065,25 @@ if __name__ == "__main__":
 
     for mpx in model_params_alogit:
         mx = model_map[mpx]
-        dcx = destination_choice[mx]
-        mcx = mode_choice[mx]
+        dcx = destination_choice[mx[:3]]
+        mcx = mode_choice[mx[:3]]
         model_system_ttype = model_params_alogit[mpx]
-        if mx!="hoo": #not secondary destination model
+
+        # print(mcx)
+        # dcx.clear()
+        # mcx.clear()
+        # print(mcx)
+        if mx[:3]!="hoo": #not secondary destination model
             dcx.clear()
             mcx.clear()
-        if mpx=="HS15 2ST": #first secondary destination only
+        elif mpx == "HS15 2ST": #first secondary destination only
             dcx.clear()
 
         
-        param_map_dest = get_dest_param_map(model_system_ttype, c_time_map[mx])
+        param_map_dest = get_dest_param_map(model_system_ttype, c_time_map[mx[:3]])
         print("Model: ",mpx)
-        if mx!="hoo":
+        # print(dcx)
+        if mx[:3]!="hoo":
             param_map_mode = get_mode_param_map(model_system_ttype)
             print("model: ",mx, len(model_system_ttype),"=",len(param_map_mode),"(mode) + ",len(param_map_dest), "(dest)")
             #insert mode params
@@ -1749,8 +2093,18 @@ if __name__ == "__main__":
                 insert_param(mcx, pmm, param_map_mode, model_system_ttype)
         #insert destination params
         for pmd in param_map_dest:
-            print("-->",pmd)
-            insert_param(dcx,pmd, param_map_dest, model_system_ttype)
+            # print("-->",pmd, param_map_dest[pmd])
+            params_copy = param_map_dest.copy()
+            param_new = pmd
+            #sizes in hoo model are not in fact universal
+            if mx[:3]=="hoo":
+                if pmd[1] == "size":
+                    param_new = (mx.split("_")[1],pmd[1],pmd[2])
+                    params_copy[param_new]=param_map_dest[pmd]
+                    params_copy.pop(pmd, None)
+            print("-->",param_new, params_copy[param_new])
+            insert_param(dcx,param_new, params_copy, model_system_ttype)
+        # print(dcx)
             
         #mode_choice[mx] = {}
         

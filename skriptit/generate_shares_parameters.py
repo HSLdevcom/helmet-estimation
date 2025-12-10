@@ -7,6 +7,11 @@ import operator
 from typing import Any, Dict, Optional
 import numpy # type: ignore
 
+# adding Folder_2 to the system path
+sys.path.insert(0, 'C:\\Users\\HajduPe\\helmet-model-system-olusanya\\Scripts')
+
+from parameters.assignment import volume_factors,assignment_classes
+
 def getFromDict(dataDict, mapList):
     return reduce(operator.getitem, mapList, dataDict)
 
@@ -413,12 +418,16 @@ divided_classes = (
 df = pd.read_csv("C:/Users/HajduPe/helmet-data-preprocessing/shares/shares.csv", sep=";",decimal=",")
 
 print(df.head())
-models = {"hw":"hw","hc":"hc","hu":"hu","hs":"hs","ho":"ho","wo":"wo","oo":"oo","hoo_leg2":"hoo"}
+models = {"hw":"hw","hc":"hc","hu":"hu","hs":"hs","ho":"ho","wo":"wo","oo":"oo","hoo_leg2":"hoo",
+          "hwp":"hwp","hop":"hop","oop":"oop",
+          }
 
 print(demand_share["hw"]["car"]["aht"])
 for model,h5model in models.items():
     for h5mode,mode in zip(["car","transit","bike","walk","park_and_ride"],["car","transit","bike","walk","pnr"]):
         if "park_and_ride" not in demand_share[h5model] and mode=="pnr": continue
+        if "bike" not in demand_share[h5model] and mode=="bike": continue
+        if "walk" not in demand_share[h5model] and mode=="walk": continue
         for period in ["aht","pt","iht"]:
             if h5model=="hoo":
                 forward1 = df.query(f"model_type=='hoo_leg2' & mode_name=='{mode}' & scenario=='{period}'")["share_forward"].item()
@@ -427,11 +436,63 @@ for model,h5model in models.items():
                 backward2 = df.query(f"model_type=='hoo_leg3' & mode_name=='{mode}' & scenario=='{period}'")["share_backward"].item()
                 demand_share[h5model][h5mode][period] = ((float(forward1),float(backward1)),
                                                      (float(forward2),float(backward2)))
+            elif model[-1] == "p":
+                if period[-1] == "t":continue
+                expansion_factor = volume_factors[h5mode+"_"+assignment_classes[h5model]][period+"t"]
+                demand_share[h5model][h5mode][period] = (demand_share[h5model][h5mode][period+"t"][0]*expansion_factor,
+                                                         demand_share[h5model][h5mode][period+"t"][1]*expansion_factor)
             else:
                 
                 forward = df.query(f"model_type=='{model}' & mode_name=='{mode}' & scenario=='{period}'")["share_forward"].item()
                 backward = df.query(f"model_type=='{model}' & mode_name=='{mode}' & scenario=='{period}'")["share_backward"].item()
                 demand_share[h5model][h5mode][period] = (float(forward),float(backward))
+# #normalize shares
+# for model,h5model in models.items():
+#     for h5mode,mode in zip(["car","transit","bike","walk","park_and_ride"],["car","transit","bike","walk","pnr"]):
+#         if "park_and_ride" not in demand_share[h5model] and mode=="pnr": continue
+#         if model in ["hw","hc","hu","hs","ho","wo","oo"]:
+#             demand_share_vrk_f = sum([demand_share[h5model][h5mode][period][0] for period in ["ah","p","ih"]])
+#             demand_share_vrk_b = sum([demand_share[h5model][h5mode][period][1] for period in ["ah","p","ih"]])
+#             for period in ["ah","p","ih"]:
+#                 f = demand_share[h5model][h5mode][period][0]
+#                 b = demand_share[h5model][h5mode][period][1]
+#                 demand_share[h5model][h5mode][period] = (f/demand_share_vrk_f,b/demand_share_vrk_b)
+            
+#FREIGHT
+for h5mode in ["truck","trailer_truck"]:
+    for period in ["aht","pt","iht"]:
+        if period[-1] == "t":continue
+        expansion_factor = volume_factors[h5mode][period+"t"]
+        demand_share["freight"][h5mode][period] = (demand_share["freight"][h5mode][period+"t"][0]*expansion_factor,
+                                                    demand_share["freight"][h5mode][period+"t"][1]*expansion_factor)
+#VAN
+h5mode = "van"
+for period in ["aht","pt","iht"]:
+    if period[-1] == "t":continue
+    demand_share["freight"][h5mode][period] = (demand_share["freight"][h5mode][period+"t"][0],
+                                                demand_share["freight"][h5mode][period+"t"][1])     
+#EXTERNAL
+for h5mode in ["transit","truck","trailer_truck"]:
+    for period in ["aht","pt","iht"]:
+        if period[-1] == "t":continue
+        expansion_factor = volume_factors[h5mode][period+"t"]
+        demand_share["external"][h5mode][period] = (demand_share["external"][h5mode][period+"t"][0]*expansion_factor,
+                                                    demand_share["external"][h5mode][period+"t"][1]*expansion_factor)
+h5mode = "car"
+for period in ["aht","pt","iht"]:
+    if period[-1] == "t":continue
+    expansion_factor = volume_factors["car_leisure"][period+"t"]
+    if period == "p":
+        demand_share["external"][h5mode][period] = (demand_share["external"][h5mode][period+"t"][0]*expansion_factor,
+                                                    demand_share["external"][h5mode][period+"t"][1]*expansion_factor)   
+    else:
+        p1 = []
+        p2 = []
+        for k in demand_share["external"][h5mode][period+"t"][0]:
+            p1.append([k[0]*expansion_factor])
+        for k in demand_share["external"][h5mode][period+"t"][1]:
+            p2.append(k)
+        demand_share["external"][h5mode][period] = (p1,p2)
 
 demand_file = [demand_start,
                 demand_share,

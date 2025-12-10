@@ -1,0 +1,295 @@
+ASA Ltd.     (C) ALOGIT 4.5 serial 4514
+Licensed to: Peter Hajduk, HSL                                           
+ 
+suuntautumismalli koti-tyo laitoksen valintamalli                               
+240527                                                                          
+
+File not found: Alo45.EXE                                                       
+
+Run started at 16:26:44 on 21 Aug 25
+ 
+INFORMATION 253:   FILE  1 : first main file
+C:..23\\havainnot23\\HBW_park_and_ride.txt    1.949 Mb Date: 21 Aug 25 at 14:17
+ 
+INFORMATION 125: control file completed:     911 lines
+C:..mation\ohjaus\HS15_HBW_park_and_ride.alo  12853 b. Date: 21 Aug 25 at 12:11
+ 
+Function defined in control file: PREP & ESTIM
+ 
+WARNING 178: coefficient PR_service not used in model
+ 
+INFORMATION 113: Log size multiplier is L_S_M
+ 
+$PRINT controls
+ Matrix statistics print      =   2
+ Iteration print              =   2
+ Number of rej. obs. output   =  25
+ Transformations print        =   F
+ Probability test level       =   .000000
+ Reject observation is ERROR  =   F
+ Accepted range for choice    =   .100000
+ Out-of-range prints made     =     3
+ Print only chosen alts.      =   F
+ 
+$GEN.STATS controls
+     3 total items selected
+ 
+$ESTIMATE controls
+ Control present = T
+ Estimation done = F
+ Linear first    = T
+ Estimate later  = F
+ Accept error    = F
+ Error print     = 1
+ 
+ 
+$ALGOR controls
+ Maximum iterations          =  60
+ Convergence level           =   .1000E-01
+ 1st derivative perp. test   =   .1000E-05
+ Function rate of increase   =  -999.9
+ Matrix inversion tolerance  =   .1000E-05
+ Step reduction factor       =   .1500
+ Cubic step adjustment will be used
+ Convergence option          =   3
+ Maximum step-reducing loops =   4
+ 
+$KEEP (and protected FILE) items
+ IZ        =   97.0
+ 
+$ARRAY items
+ impedance(   97)   shops(   97)   service(   97)
+ 
+ 
+REPORT OF COEFFICIENTS
+ 
+Label      Con   Value      Type
+-------    ---   -----      -----
+PR_shops    F    .0000      Utility
+PR_imp      F    .0000      Utility
+PR_const    F    .0000      Utility
+L_S_M       T    1.000      Log Size
+ 
+INFORMATION 001: control file processing time      .38 secs.
+ 
+INFORMATION 534: reached end of file   1 after      617 records
+ 
+Data input completed after     617 records
+ 
+ 
+FREQUENCY DISTRIBUTION OF ALTERNATIVE AVAILABILITY
+(Total weight is    2568.38 )
+ 
+Alternative    Chosen    Unchosen    Avail.    Unavail.
+-----------  ---------  ---------  ---------  ---------
+Alt.000001        .00    2568.38    2568.38        .00
+Alt.000002     119.94    2448.44    2568.38        .00
+Alt.000003      12.00    2556.38    2568.38        .00
+Alt.000004      17.50    2550.88    2568.38        .00
+Alt.000005      43.24    2525.14    2568.38        .00
+Alt.000006        .00    2568.38    2568.38        .00
+Alt.000007        .00    2568.38    2568.38        .00
+Alt.000008      60.76    2507.62    2568.38        .00
+Alt.000009      37.50    2530.88    2568.38        .00
+Alt.000010       9.90    2558.48    2568.38        .00
+Alt.000011      46.20    2522.18    2568.38        .00
+Alt.000012      35.25    2533.13    2568.38        .00
+Alt.000013        .00    2568.38    2568.38        .00
+Alt.000014      68.72    2499.66    2568.38        .00
+Alt.000015        .00    2568.38    2568.38        .00
+Alt.000016        .00    2568.38    2568.38        .00
+Alt.000017        .00    2568.38    2568.38        .00
+Alt.000018      15.88    2552.50    2568.38        .00
+Alt.000019      15.00    2553.38    2568.38        .00
+Alt.000020      52.63    2515.75    2568.38        .00
+Alt.000021       7.00    2561.38    2568.38        .00
+Alt.000022        .00    2568.38    2568.38        .00
+Alt.000023        .00    2568.38    2568.38        .00
+Alt.000024      20.15    2548.23    2568.38        .00
+Alt.000025      16.79    2551.59    2568.38        .00
+Alt.000026      67.41    2500.97    2568.38        .00
+Alt.000027        .00    2568.38    2568.38        .00
+Alt.000028        .00    2568.38    2568.38        .00
+Alt.000029      16.71    2551.67    2568.38        .00
+Alt.000030      91.56    2476.82    2568.38        .00
+Alt.000031        .00    2568.38    2568.38        .00
+Alt.000032        .00    2568.38    2568.38        .00
+Alt.000033      38.00    2530.38    2568.38        .00
+Alt.000034        .00    2568.38    2568.38        .00
+Alt.000035      43.00    2525.38    2568.38        .00
+Alt.000036      44.00    2524.38    2568.38        .00
+Alt.000037        .00    2568.38    2568.38        .00
+Alt.000038        .00    2568.38    2568.38        .00
+Alt.000039       9.40    2558.98    2568.38        .00
+Alt.000040     188.03    2380.35    2568.38        .00
+Alt.000041        .00    2568.38    2568.38        .00
+Alt.000042       9.00    2559.38    2568.38        .00
+Alt.000043      22.00    2546.38    2568.38        .00
+Alt.000044     125.49    2442.89    2568.38        .00
+Alt.000045        .00    2568.38    2568.38        .00
+Alt.000046      22.00    2546.38    2568.38        .00
+Alt.000047        .00    2568.38    2568.38        .00
+Alt.000048        .00    2568.38    2568.38        .00
+Alt.000049      17.00    2551.38    2568.38        .00
+Alt.000050       6.00    2562.38    2568.38        .00
+Alt.000051      26.83    2541.55    2568.38        .00
+Alt.000052      85.15    2483.23    2568.38        .00
+Alt.000053      84.78    2483.60    2568.38        .00
+Alt.000054       9.50    2558.88    2568.38        .00
+Alt.000055        .00    2568.38    2568.38        .00
+Alt.000056      38.26    2530.12    2568.38        .00
+Alt.000057        .00    2568.38    2568.38        .00
+Alt.000058      72.75    2495.63    2568.38        .00
+Alt.000059        .00    2568.38    2568.38        .00
+Alt.000060      20.00    2548.38    2568.38        .00
+Alt.000061        .00    2568.38    2568.38        .00
+Alt.000062       9.50    2558.88    2568.38        .00
+Alt.000063      20.00    2548.38    2568.38        .00
+Alt.000064        .00    2568.38    2568.38        .00
+Alt.000065       3.50    2564.88    2568.38        .00
+Alt.000066        .00    2568.38    2568.38        .00
+Alt.000067       6.75    2561.63    2568.38        .00
+Alt.000068     117.13    2451.25    2568.38        .00
+Alt.000069     112.93    2455.45    2568.38        .00
+Alt.000070      47.25    2521.13    2568.38        .00
+Alt.000071        .00    2568.38    2568.38        .00
+Alt.000072      21.00    2547.38    2568.38        .00
+Alt.000073      38.56    2529.82    2568.38        .00
+Alt.000074       8.00    2560.38    2568.38        .00
+Alt.000075       5.67    2562.71    2568.38        .00
+Alt.000076        .00    2568.38    2568.38        .00
+Alt.000077       7.67    2560.71    2568.38        .00
+Alt.000078      29.00    2539.38    2568.38        .00
+Alt.000079      20.40    2547.98    2568.38        .00
+Alt.000080        .00    2568.38    2568.38        .00
+Alt.000081      14.80    2553.58    2568.38        .00
+Alt.000082        .00    2568.38    2568.38        .00
+Alt.000083        .00    2568.38    2568.38        .00
+Alt.000084      73.07    2495.31    2568.38        .00
+Alt.000085     143.96    2424.42    2568.38        .00
+Alt.000086      40.83    2527.55    2568.38        .00
+Alt.000087      82.20    2486.18    2568.38        .00
+Alt.000088      15.00    2553.38    2568.38        .00
+Alt.000089      43.65    2524.73    2568.38        .00
+Alt.000090        .00    2568.38    2568.38        .00
+Alt.000091        .00    2568.38    2568.38        .00
+Alt.000092        .00    2568.38    2568.38        .00
+Alt.000093       6.75    2561.63    2568.38        .00
+Alt.000094        .00    2568.38    2568.38        .00
+Alt.000095      48.01    2520.37    2568.38        .00
+Alt.000096        .00    2568.38    2568.38        .00
+Alt.000097      37.41    2530.97    2568.38        .00
+ 
+ 
+RANGES OF INDEPENDENT VARIABLES
+ 
+Coefficient   Chsn Min   Chsn Max   Diff Min   Diff Max
+-----------  ---------  ---------  ---------  ---------
+PR_shops          .00    2234.67   -2234.67    2234.67
+PR_imp          -5.50     282.53    -139.99     270.16
+PR_const         1.00       1.00        .00        .00  constant: eliminated
+L_S_M            1.00       1.00        .00        .00
+ 
+WARNING 546:   1 coefficients eliminated
+ 
+ 
+MEANS AND STANDARD DEVIATIONS OF INDEPENDENT VARIABLES
+ 
+Coefficient  Chsn Mean  Chsn S.D.  Diff Mean  Diff S.D.
+-----------  ---------  ---------  ---------  ---------
+PR_shops       462.84     483.16     -24.24     699.92
+PR_imp           5.77      17.60      35.19      38.99
+PR_const         1.00        .00        .00        .00
+L_S_M            1.00        .00        .00        .00
+ 
+ 
+CORRELATION MATRIX of DIFFERENCES from CHOSEN VALUE
+ 
+Coefficient    PR_shops   PR_imp     PR_const
+-----------    ---------  ---------  ---------
+PR_imp          .0710
+PR_const        .0000      .0000
+L_S_M           .0000      .0000      .0000
+ 
+ 
+SELECTED STATISTICS
+ 
+Total weight of data is     2568.38
+ 
+Data Item  % Non-Zero  Minimum  Maximum  Average  Std. Dev.
+---------  ----------  -------  -------  -------  ---------
+CHOICE         100.00     2.00    97.00    49.17      27.82
+WEIGHT         100.00     1.00    21.00     5.05       2.76
+xfactor        100.00     1.00    21.00     5.05       2.76
+ 
+INFORMATION 002: data processing time      .21 secs.
+ 
+C:..tion\ohjaus\HS15_HBW_park_and_ride.F11    1.958 Mb Date: 21 Aug 25 at 16:26
+ 
+INFORMATION 603: linear ("Quick") algorithm being used
+ 
+Coeff. PR_shops  old   .0000    ,  change  .2213E-03,  std. err.  .3943E-04
+Iteration  1  Function = -11749.5993   Conv.(3) = 51.5
+ 
+Iteration  2  Function =  -9994.9848   Conv.(3) = 40.1
+ 
+Coeff. PR_shops  old   .1242E-03,  change  .8226E-05,  std. err.  .3899E-04
+Iteration  3  Function =  -8950.7325   Conv.(3) = 28.1
+ 
+Iteration  4  Function =  -8452.5373   Conv.(3) = 15.7
+ 
+Iteration  5  Function =  -8306.8663   Conv.(3) = 5.13
+ 
+Iteration  6  Function =  -8292.8322   Conv.(3) = .549
+ 
+Iteration  7  Function =  -8292.6805   Conv.(3) = .628E-02
+ 
+ 
+Convergence achieved after   7 iterations
+ 
+Analysis is based on    617 observations
+ 
+ 
+Log Likelihood with Zero Coefficients =  -11749.5993
+ 
+Log Likelihood with Constants only    =   -9616.8915
+ 
+Initial Log Likelihood                =  -11749.5993
+ 
+ 
+Final value of Log Likelihood         =   -8292.6805
+ 
+ 
+   "Rho-Squared" w.r.t. Zero      =  .2942
+ 
+   "Rho-Squared" w.r.t. Constants =  .1377
+ 
+ 
+ESTIMATES OBTAINED AT ITERATION  7
+ 
+Log Likelihood =   -8292.6805
+ 
+                            'Robust' errors
+ Coefficient   Estimate   Std. Error 't' ratio
+   PR_shops    .1358E-03   .388E-04     3.5
+    PR_imp    -.1814       .999E-02   -18.2
+   PR_const    .0000         constrained
+ 
+Convergence (option 3) value is    .6278E-02
+ 
+ 
+Correlations of robust errors (multiplied by 1000)
+ 
+            PR_s PR_i
+  PR_imp      57
+ PR_const      0    0
+ 
+INFORMATION 004: main estimation time      .36 secs.
+ 
+Overview of time used
+                         Seconds  (hr:min:sec)
+Control file time   :        .38     0:00:00
+Data processing time:      11.94     0:00:12
+Estimation time     :        .40     0:00:00
+ 
+Total processing    :      12.72     0:00:13

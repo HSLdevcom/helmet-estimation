@@ -1,0 +1,16 @@
+Ymparyskunnat ALO4 kiertomatkat koti-muu                                       
+Created by ALOGIT version 4                             17:10:09 on 17 Jun 24
+END
+   0 C_Dcardns  F    .000000000000    
+   0 CT_gen     F    .000000000000    
+   0 T_const    F    .000000000000    
+   0 T_Time     F    .000000000000    
+   0 L_S_M      T    1.00000000000    
+   0 S_primary  F    .000000000000    
+   0 S_jobs     F    .000000000000    
+   0 S_serv     F    .000000000000    
+   0 S_shop     F    .000000000000    
+   0 Dcoeff     T    1.00000000000    
+  -1
+     263  -820.989060552      -2255.72387945       1.00000000000    
+   0   017:10:09 on 17 Jun 24

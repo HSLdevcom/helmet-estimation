@@ -608,7 +608,7 @@ for mode in volume_factors:
         if "work" in mode or "leisure" in mode:
             print(df_tr_class.query(f"transport_class=='{mode}' & scenario=='{period}'"))
             share = df_tr_class.query(f"transport_class=='{mode}' & scenario=='{period}'")["share"].item()
-            volume_factors[mode][period] = 1 / share
+            volume_factors[mode][period] = share
         else:
             print(df_mode.query(f"mode_name=='{mode}' & scenario=='{period}'"))
             share = df_mode.query(f"mode_name=='{mode}' & scenario=='{period}'")["share"].item()

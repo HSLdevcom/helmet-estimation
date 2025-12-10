@@ -1,7 +1,7 @@
 $TITLE HS15 ALO4 kakkoskohteen maarapaikka
 $subtitle 240527
 $print iter = 2, mat.stat = 2
-$estimate  
+$estimate  LIN.FIRST=FALSE
 $algor MAXIT = 60
 $nest root ()
 

@@ -12,7 +12,7 @@ def getFromDict(dataDict, mapList):
     return reduce(operator.getitem, mapList, dataDict)
 
 def setInDict(dataDict, mapList, value):
-    getFromDict(dataDict, mapList[:-1])[mapList[-1]] = value 
+    getFromDict(dataDict, mapList[:-1])[mapList[-1]] = value  # type: ignore
 
 # Convert the dataframe to a dictionary
 
@@ -75,6 +75,7 @@ def adjust_dict(mcdict, data):
             if calibration_row.empty: continue
             cbd,other,evk,surround = [calibration_row[source].item() for source in ["helsinki_cbd","helsinki_other","espoo_vant_kau","surround"]]
             print("cbd",cbd,"other",other,"evk",evk,"surround",surround)
+            print(modedict["generation"].keys())
             modedict["constant"] = (modedict["constant"][0],surround + modedict["constant"][1])
             if "cbd" in modedict["generation"]:
                 modedict["generation"]["cbd"] += cbd

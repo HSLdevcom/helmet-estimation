@@ -72,8 +72,8 @@ for chosen in ["walk","bike","car","transit"]:
         
     with open(f"analyysit/demand_flows_{chosen}.txt","w") as file:
         file.writelines(["from,to,helmet_volume,heha_volume\n"])
-        for m1 in muns:
-            for m2 in muns:
+        for m1 in muns: # type: ignore
+            for m2 in muns: # type: ignore
                 volume = volumes[(m1,m2)]
                 heha_volume = heha_suodattu.query(f'(zone_origin > {municipalities[m1][0]})&(zone_origin < {municipalities[m1][1]})&(zone_destination > {municipalities[m2][0]})&(zone_destination < {municipalities[m2][1]})')["xfactor"].sum()
                 print(m1,m2)

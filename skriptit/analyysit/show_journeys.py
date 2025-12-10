@@ -13,6 +13,6 @@ df = pd.merge(df,gdf, how="left", left_on=['izone'], right_on=['izone'])
 df = pd.merge(df,gdf, how="left", left_on=['jzone_x'], right_on=['jzone'])
 #df = df.join(gdf,"izone","left",lsuffix="",rsuffix="iz")
 #df = df.join(gdf,"jzone","right",lsuffix="",rsuffix="jz")
-df["geom"] = df.apply(lambda row: LineString([row['geometry_x'], row['geometry_y']]), axis=1) #Create a linestring column
+df["geom"] = df.apply(lambda row: LineString([row['geometry_x'], row['geometry_y']]), axis=1) # type: ignore #Create a linestring column
 df = df[["izone_x","SIJ2023_x","jzone_x","SIJ2023_y","cost","geom"]]
 df.to_csv("weird_points_HBO.csv")
